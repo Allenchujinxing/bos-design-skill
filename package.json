@@ -1,0 +1,17 @@
+{
+  "name": "bos-design-skill",
+  "version": "1.0.0",
+  "description": "Agent Skill for BOS mobile product page design across Kiro and Claude Code.",
+  "private": true,
+  "bin": {
+    "bos-design-skill": "bin/bos-design-skill.js"
+  },
+  "files": [
+    "bos-design",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
