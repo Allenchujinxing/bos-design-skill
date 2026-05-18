@@ -9,20 +9,20 @@ It is packaged as a portable Agent Skill and can be used in Kiro and Claude Code
 Install globally for Claude Code:
 
 ```bash
-npx github:Allenchujinxing/bos-design-skill install claude
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude
 ```
 
 Install globally for Kiro:
 
 ```bash
-npx github:Allenchujinxing/bos-design-skill install kiro
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install kiro
 ```
 
 Install into the current project only:
 
 ```bash
-npx github:Allenchujinxing/bos-design-skill install claude-project
-npx github:Allenchujinxing/bos-design-skill install kiro-project
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude-project
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install kiro-project
 ```
 
 ## Update
@@ -30,11 +30,11 @@ npx github:Allenchujinxing/bos-design-skill install kiro-project
 Run the same package from GitHub and use `update`:
 
 ```bash
-npx github:Allenchujinxing/bos-design-skill update claude
-npx github:Allenchujinxing/bos-design-skill update kiro
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update claude
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update kiro
 ```
 
-Because `npx github:...` resolves the current GitHub repository contents, users get your latest pushed version when they update.
+Because the `npx` command installs from the current `main` branch tarball, users get your latest pushed version when they update. This HTTPS tarball form avoids npm rewriting GitHub shortcuts to SSH on machines without GitHub SSH keys.
 
 ## Kiro GitHub Import
 
@@ -97,8 +97,8 @@ git push
 Users can update with:
 
 ```bash
-npx github:Allenchujinxing/bos-design-skill update claude
-npx github:Allenchujinxing/bos-design-skill update kiro
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update claude
+npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update kiro
 ```
 
 ## License
