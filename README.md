@@ -33,15 +33,36 @@
 
 ## 安装
 
+如果你已经配置过 GitHub SSH key，推荐使用短命令：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install claude
+npx github:Allenchujinxing/bos-design-skill install kiro
+```
+
+如果短命令失败，通常是因为本机没有配置 GitHub SSH key。可以使用下面的 HTTPS 兼容命令。
+
 ### 安装到 Claude Code
 
-全局安装：
+全局安装，SSH 短命令：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install claude
+```
+
+全局安装，HTTPS 兼容命令：
 
 ```bash
 npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude
 ```
 
-安装到当前项目：
+安装到当前项目，SSH 短命令：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install claude-project
+```
+
+安装到当前项目，HTTPS 兼容命令：
 
 ```bash
 npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude-project
@@ -61,13 +82,25 @@ Use bos-design to design a mobile operations personnel entry page.
 
 ### 安装到 Kiro
 
-全局安装：
+全局安装，SSH 短命令：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install kiro
+```
+
+全局安装，HTTPS 兼容命令：
 
 ```bash
 npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install kiro
 ```
 
-安装到当前项目：
+安装到当前项目，SSH 短命令：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install kiro-project
+```
+
+安装到当前项目，HTTPS 兼容命令：
 
 ```bash
 npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install kiro-project
@@ -89,7 +122,16 @@ https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
 
 ## 更新
 
-用户可以用下面的命令获取 GitHub 上最新版本：
+用户可以用下面的命令获取 GitHub 上最新版本。
+
+SSH 短命令：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill update claude
+npx github:Allenchujinxing/bos-design-skill update kiro
+```
+
+HTTPS 兼容命令：
 
 ```bash
 npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update claude
@@ -97,13 +139,6 @@ npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill
 ```
 
 这个命令会从当前 GitHub `main` 分支下载最新 tarball，并覆盖安装到对应的 skills 目录。
-
-这里故意使用 HTTPS tarball URL，因为它不要求用户提前配置 GitHub SSH key。对于已经配置 GitHub SSH 的用户，也可以尝试更短的形式：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install claude
-npx github:Allenchujinxing/bos-design-skill update claude
-```
 
 ## 使用示例
 
