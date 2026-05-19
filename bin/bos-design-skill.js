@@ -30,8 +30,8 @@ Targets:
   kiro-project    ./.kiro/skills/bos-design
 
 Examples:
-  npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude
-  npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update kiro
+  npx github:Allenchujinxing/bos-design-skill install claude
+  npx github:Allenchujinxing/bos-design-skill update kiro
 `);
 }
 

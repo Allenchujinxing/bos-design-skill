@@ -33,34 +33,35 @@
 
 ## 安装
 
+`bos-design` 的主分发方式是 GitHub。大多数 IDE 或 Agent 工具会读取 GitHub 上的 skill 目录，或者读取本机的 skills 目录。
+
+Skill 目录链接：
+
+```text
+https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
+```
+
 ### Claude Code
 
-如果你已经配置过 GitHub SSH key，推荐使用短命令。
+Claude Code 读取本机 skills 目录。你可以用 GitHub npx 辅助安装器把 `bos-design/` 复制到对应目录。
 
-全局安装，SSH 短命令：
+全局安装：
 
 ```bash
 npx github:Allenchujinxing/bos-design-skill install claude
 ```
 
-安装到当前项目，SSH 短命令：
+安装到当前项目：
 
 ```bash
 npx github:Allenchujinxing/bos-design-skill install claude-project
 ```
 
-如果短命令失败，通常是因为本机没有配置 GitHub SSH key。可以改用 HTTPS 兼容命令。
+也可以手动复制：
 
-全局安装，HTTPS 兼容命令：
-
-```bash
-npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude
-```
-
-安装到当前项目，HTTPS 兼容命令：
-
-```bash
-npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install claude-project
+```text
+bos-design/ -> ~/.claude/skills/bos-design
+bos-design/ -> ./.claude/skills/bos-design
 ```
 
 安装后可以这样使用：
@@ -77,35 +78,7 @@ Use bos-design to design a mobile operations personnel entry page.
 
 ### Kiro
 
-如果你已经配置过 GitHub SSH key，推荐使用短命令。
-
-全局安装，SSH 短命令：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install kiro
-```
-
-安装到当前项目，SSH 短命令：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install kiro-project
-```
-
-如果短命令失败，通常是因为本机没有配置 GitHub SSH key。可以改用 HTTPS 兼容命令。
-
-全局安装，HTTPS 兼容命令：
-
-```bash
-npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install kiro
-```
-
-安装到当前项目，HTTPS 兼容命令：
-
-```bash
-npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill install kiro-project
-```
-
-Kiro 也可以直接从 GitHub 导入这个 skill：
+Kiro 推荐直接从 GitHub 导入这个 skill：
 
 ```text
 https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
@@ -119,9 +92,42 @@ https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
 4. 选择 GitHub
 5. 粘贴上面的 URL
 
+如果你想用命令行安装到本机 Kiro skills 目录，也可以用 GitHub npx 辅助安装器。
+
+全局安装：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install kiro
+```
+
+安装到当前项目：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install kiro-project
+```
+
+也可以手动复制：
+
+```text
+bos-design/ -> ~/.kiro/skills/bos-design
+bos-design/ -> ./.kiro/skills/bos-design
+```
+
+### Codex
+
+Codex 读取本机 skills 目录。把 `bos-design/` 复制到：
+
+```text
+~/.codex/skills/bos-design
+```
+
+### Trae、Cursor 和其他 IDE
+
+如果工具支持从 GitHub 导入 Agent Skill，优先使用 skill 目录链接。如果工具使用 rules、agents、memories 或 prompt library，可以把 `bos-design/SKILL.md` 作为主说明，把 `bos-design/references/` 作为规则参考目录迁移进去。
+
 ## 更新
 
-用户可以用下面的命令获取 GitHub 上最新版本。更新命令会从当前 GitHub `main` 分支下载最新内容，并覆盖安装到对应的 skills 目录。
+更新 GitHub 仓库后，用户可以重新导入 GitHub skill，或重新运行下面的 GitHub npx 命令覆盖本地 skills 目录。
 
 ### 更新 Claude Code
 
@@ -129,22 +135,10 @@ https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
 npx github:Allenchujinxing/bos-design-skill update claude
 ```
 
-如果短命令失败，使用 HTTPS 兼容命令：
-
-```bash
-npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update claude
-```
-
 ### 更新 Kiro
 
 ```bash
 npx github:Allenchujinxing/bos-design-skill update kiro
-```
-
-如果短命令失败，使用 HTTPS 兼容命令：
-
-```bash
-npx --yes --package https://codeload.github.com/Allenchujinxing/bos-design-skill/tar.gz/refs/heads/main -- bos-design-skill update kiro
 ```
 
 ## 使用示例
@@ -228,7 +222,7 @@ git commit -m "Update bos-design skill package"
 git push
 ```
 
-推送后，用户重新运行 update 命令即可拿到最新版本。
+推送后，用户重新导入 GitHub skill，或重新运行 update 命令即可拿到最新版本。
 
 ## 要求
 

@@ -6,6 +6,22 @@
   "bin": {
     "bos-design-skill": "bin/bos-design-skill.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Allenchujinxing/bos-design-skill.git"
+  },
+  "homepage": "https://github.com/Allenchujinxing/bos-design-skill#readme",
+  "bugs": {
+    "url": "https://github.com/Allenchujinxing/bos-design-skill/issues"
+  },
+  "keywords": [
+    "agent-skill",
+    "claude-code",
+    "kiro",
+    "bos",
+    "mobile-design",
+    "ux"
+  ],
   "files": [
     "bos-design",
     "bin"
