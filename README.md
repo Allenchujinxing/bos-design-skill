@@ -33,7 +33,7 @@
 
 ## 安装
 
-推荐直接使用 GitHub skill 目录链接：
+这个仓库的核心安装对象是 `bos-design/` 目录。支持从 GitHub 导入 Agent Skill 的工具可以直接使用下面的目录链接：
 
 ```text
 https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
@@ -60,7 +60,7 @@ Codex:       ~/.codex/skills/bos-design
 
 ### Trae、Cursor 和其他 IDE
 
-如果工具支持从 GitHub 导入 Agent Skill，优先使用上面的 skill 目录链接。如果工具使用 rules、agents、memories 或 prompt library，可以把 `bos-design/SKILL.md` 作为主说明，把 `bos-design/references/` 作为规则参考目录迁移进去。
+如果工具不支持 Agent Skill 目录导入，但支持 rules、agents、memories 或 prompt library，可以把 `bos-design/SKILL.md` 作为主说明，把 `bos-design/references/` 作为规则参考目录迁移进去。
 
 ## 更新
 
