@@ -9,7 +9,7 @@
 在 HTML 的 `<head>` 中引入：
 
 ```html
-<script src="https://at.alicdn.com/t/c/font_5036208_3i59m71kenq.js"></script>
+<script src="https://at.alicdn.com/t/c/font_5036208_q8zonb2do6.js"></script>
 ```
 
 ### 通用样式
