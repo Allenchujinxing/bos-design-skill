@@ -33,56 +33,13 @@
 
 ## 安装
 
-`bos-design` 的主分发方式是 GitHub。大多数 IDE 或 Agent 工具会读取 GitHub 上的 skill 目录，或者读取本机的 skills 目录。
-
-Skill 目录链接：
+推荐直接使用 GitHub skill 目录链接：
 
 ```text
 https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
-```
-
-### Claude Code
-
-Claude Code 读取本机 skills 目录。你可以用 GitHub npx 辅助安装器把 `bos-design/` 复制到对应目录。
-
-全局安装：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install claude
-```
-
-安装到当前项目：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install claude-project
-```
-
-也可以手动复制：
-
-```text
-bos-design/ -> ~/.claude/skills/bos-design
-bos-design/ -> ./.claude/skills/bos-design
-```
-
-安装后可以这样使用：
-
-```text
-Use bos-design to design a mobile operations personnel entry page.
-```
-
-也可以直接中文描述：
-
-```text
-使用 bos-design 帮我设计一个运维人员信息录入页，输出可交互 H5 原型。
 ```
 
 ### Kiro
-
-Kiro 推荐直接从 GitHub 导入这个 skill：
-
-```text
-https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
-```
 
 在 Kiro 中：
 
@@ -90,56 +47,24 @@ https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
 2. 点击 `+`
 3. 选择 `Import a skill`
 4. 选择 GitHub
-5. 粘贴上面的 URL
+5. 粘贴上面的 skill 目录链接
 
-如果你想用命令行安装到本机 Kiro skills 目录，也可以用 GitHub npx 辅助安装器。
+### Claude Code / Codex
 
-全局安装：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install kiro
-```
-
-安装到当前项目：
-
-```bash
-npx github:Allenchujinxing/bos-design-skill install kiro-project
-```
-
-也可以手动复制：
+把仓库里的 `bos-design/` 文件夹复制到对应的 skills 目录：
 
 ```text
-bos-design/ -> ~/.kiro/skills/bos-design
-bos-design/ -> ./.kiro/skills/bos-design
-```
-
-### Codex
-
-Codex 读取本机 skills 目录。把 `bos-design/` 复制到：
-
-```text
-~/.codex/skills/bos-design
+Claude Code: ~/.claude/skills/bos-design
+Codex:       ~/.codex/skills/bos-design
 ```
 
 ### Trae、Cursor 和其他 IDE
 
-如果工具支持从 GitHub 导入 Agent Skill，优先使用 skill 目录链接。如果工具使用 rules、agents、memories 或 prompt library，可以把 `bos-design/SKILL.md` 作为主说明，把 `bos-design/references/` 作为规则参考目录迁移进去。
+如果工具支持从 GitHub 导入 Agent Skill，优先使用上面的 skill 目录链接。如果工具使用 rules、agents、memories 或 prompt library，可以把 `bos-design/SKILL.md` 作为主说明，把 `bos-design/references/` 作为规则参考目录迁移进去。
 
 ## 更新
 
-更新 GitHub 仓库后，用户可以重新导入 GitHub skill，或重新运行下面的 GitHub npx 命令覆盖本地 skills 目录。
-
-### 更新 Claude Code
-
-```bash
-npx github:Allenchujinxing/bos-design-skill update claude
-```
-
-### 更新 Kiro
-
-```bash
-npx github:Allenchujinxing/bos-design-skill update kiro
-```
+更新 GitHub 仓库后，重新导入 GitHub skill，或重新复制 `bos-design/` 文件夹即可。
 
 ## 使用示例
 
@@ -195,9 +120,6 @@ bos-design-skill/
 │   ├── agents/
 │   │   └── openai.yaml
 │   └── references/
-├── bin/
-│   └── bos-design-skill.js
-├── package.json
 ├── README.md
 └── LICENSE
 ```
@@ -214,19 +136,18 @@ git commit -m "Update bos-design skill"
 git push
 ```
 
-如果修改了安装器或 README，也一起提交：
+如果修改了 README，也一起提交：
 
 ```bash
-git add bos-design bin package.json README.md
-git commit -m "Update bos-design skill package"
+git add README.md
+git commit -m "Update README"
 git push
 ```
 
-推送后，用户重新导入 GitHub skill，或重新运行 update 命令即可拿到最新版本。
+推送后，用户重新导入 GitHub skill，或重新复制 `bos-design/` 文件夹即可拿到最新版本。
 
 ## 要求
 
-- Node.js，用于运行 `npx` 安装器
 - Claude Code、Kiro，或其他兼容 Agent Skills 的工具
 
 ## License
