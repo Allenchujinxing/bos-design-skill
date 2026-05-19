@@ -79,6 +79,8 @@ npx github:Allenchujinxing/bos-design-skill install codex-project
 
 更新 GitHub 仓库后，Kiro 重新导入 GitHub skill；Claude Code / Codex 重新运行对应安装命令即可。
 
+历史变更见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 使用示例
 
 生成交互式 H5 原型：
