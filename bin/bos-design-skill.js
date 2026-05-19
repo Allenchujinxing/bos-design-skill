@@ -11,6 +11,8 @@ const sourceDir = path.join(repoRoot, SKILL_NAME);
 const targets = {
   claude: path.join(os.homedir(), ".claude", "skills"),
   "claude-project": path.join(process.cwd(), ".claude", "skills"),
+  codex: path.join(os.homedir(), ".codex", "skills"),
+  "codex-project": path.join(process.cwd(), ".codex", "skills"),
   kiro: path.join(os.homedir(), ".kiro", "skills"),
   "kiro-project": path.join(process.cwd(), ".kiro", "skills")
 };
@@ -26,11 +28,14 @@ Usage:
 Targets:
   claude          ~/.claude/skills/bos-design
   claude-project  ./.claude/skills/bos-design
+  codex           ~/.codex/skills/bos-design
+  codex-project   ./.codex/skills/bos-design
   kiro            ~/.kiro/skills/bos-design
   kiro-project    ./.kiro/skills/bos-design
 
 Examples:
   npx github:Allenchujinxing/bos-design-skill install claude
+  npx github:Allenchujinxing/bos-design-skill install codex
   npx github:Allenchujinxing/bos-design-skill update kiro
 `);
 }

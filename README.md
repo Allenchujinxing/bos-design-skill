@@ -33,11 +33,17 @@
 
 ## 安装
 
-这个仓库的核心安装对象是 `bos-design/` 目录。支持从 GitHub 导入 Agent Skill 的工具可以直接使用下面的目录链接：
+这个仓库的核心安装对象是 `bos-design/` 目录。
 
 ```text
 https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
 ```
+
+| 工具 | 确定安装方式 |
+| --- | --- |
+| Kiro | 在 `Agent Steering & Skills` 中从 GitHub 导入上面的 skill 目录链接 |
+| Claude Code | 运行 `npx github:Allenchujinxing/bos-design-skill install claude` |
+| Codex | 运行 `npx github:Allenchujinxing/bos-design-skill install codex` |
 
 ### Kiro
 
@@ -51,11 +57,18 @@ https://github.com/Allenchujinxing/bos-design-skill/tree/main/bos-design
 
 ### Claude Code / Codex
 
-把仓库里的 `bos-design/` 文件夹复制到对应的 skills 目录：
+命令行安装会把 `bos-design/` 文件夹复制到对应的 skills 目录：
 
 ```text
 Claude Code: ~/.claude/skills/bos-design
 Codex:       ~/.codex/skills/bos-design
+```
+
+如果要安装到当前项目：
+
+```bash
+npx github:Allenchujinxing/bos-design-skill install claude-project
+npx github:Allenchujinxing/bos-design-skill install codex-project
 ```
 
 ### Trae、Cursor 和其他 IDE
@@ -64,7 +77,7 @@ Codex:       ~/.codex/skills/bos-design
 
 ## 更新
 
-更新 GitHub 仓库后，重新导入 GitHub skill，或重新复制 `bos-design/` 文件夹即可。
+更新 GitHub 仓库后，Kiro 重新导入 GitHub skill；Claude Code / Codex 重新运行对应安装命令即可。
 
 ## 使用示例
 
