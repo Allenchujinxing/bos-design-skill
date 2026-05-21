@@ -58,7 +58,7 @@ The input field area.
 
 | Property | Value |
 |---|---|
-| Icon | `ic_search_line`, 16×16px (`svg width="16" height="16"`) |
+| Icon | iconfont `ic_search_line`, 16×16px |
 | Color | `gray3` `gray3` |
 | Position | Left side of input, 12px from left edge, vertically centered |
 
@@ -75,7 +75,7 @@ The input field area.
 
 | Property | Value |
 |---|---|
-| Icon | `ic_clear_fill`, 16×16px (`svg width="16" height="16"`) |
+| Icon | iconfont `ic_clear_fill`, 16×16px |
 | Color (gray input bg) | `gray3` `gray3` |
 | Color (white input bg) | `gray4` `gray4` |
 | Position | Right side of input, 12px from right edge, vertically centered |
@@ -93,7 +93,7 @@ The input field area.
 
 | Property | Value |
 |---|---|
-| Icon | `ic_left_line`, 24×24px (`svg width="24" height="24"`) |
+| Icon | iconfont `ic_left_line`, 24×24px |
 | Color | `gray1` `gray1` |
 | Position | Left of search input |
 | Visibility | Only in navigation bar scene (`leftarrow=on`) |

@@ -25,7 +25,7 @@ TabBar supports three content modes for its items:
 | Icon & Text | `item/tabBar-tag-horizontal/content&icon` | Icon above text label |
 | Icon | `item/tabBar-tag-horizontal/icon` | Icon only, no text |
 
-The icon slot is a 24×24px placeholder area. In production, replace with actual SVG icons from the icon system. The icon area has a fixed 24×24 background; the icon itself can be sized within that area (e.g. 24×24 or 20×20).
+The icon slot is a 24×24px placeholder area. Use iconfont icons from `basic/icon.md` inside that slot. The icon area has a fixed 24×24 background; the iconfont icon itself can be sized within that area (e.g. 24×24 or 20×20).
 
 ## Tab Count
 
@@ -181,6 +181,6 @@ From the Figma spec:
 
 - Do not override this component with default Taroify TabBar visual styles.
 - Do not invent additional TabBar heights outside 56px (Filled) or 56–64px (Capsule).
-- Do not use emoji or text characters as icon placeholders; use proper SVG icons.
+- Do not use emoji, text characters, custom SVG, or external icon libraries as icon placeholders; use iconfont icons only.
 - Do not mix content types within the same TabBar (all items should be the same type).
 - Do not add borders to individual tab items; use the bar-level top divider or shadow only.

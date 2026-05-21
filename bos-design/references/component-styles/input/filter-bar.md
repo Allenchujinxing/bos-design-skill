@@ -15,7 +15,7 @@
 1. 支持通栏模式（等分宽度）和地图模式（自适应宽度）
 2. 筛选项支持默认态、选中态、已选回显数字
 3. 筛选项数量支持 2–4 个
-4. 图标使用 `ic_caret_down_fill`（展开时可切换为 `ic_caret_up_fill` 方向，如无此图标则旋转 180°）
+4. 图标使用 `ic_caret_down_fill`（展开时旋转 180°）
 
 This file records the Figma visual style only.
 

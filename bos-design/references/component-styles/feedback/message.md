@@ -43,7 +43,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 布局 | flex 水平，gap 8px，items-center |
-| 图标 | 20×20px，可自定义图标和颜色 |
+| 图标 | 20×20px，可从 iconfont 选择图标并自定义颜色 |
 | 文字 | 14px / line-height 22px / gray1 `#111111` |
 | 字重 | 可 regular 400 或 semibold 600，根据业务场景决定 |
 

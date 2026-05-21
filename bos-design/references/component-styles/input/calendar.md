@@ -173,7 +173,7 @@ Cells can show text above and below the date number:
 ## Popup Structure (Bottom Sheet)
 
 From top to bottom:
-1. **Title bar** (50px) — Title text + close icon (24×24px, `svg width="24" height="24"`, right-aligned)
+1. **Title bar** (50px) — Title text + iconfont close icon (24×24px, right-aligned)
 2. **Optional tab switcher** — e.g. "时租/日租" capsule tabs
 3. **Week header** (52px) — 7 day labels
 4. **Scrollable date area** — Multiple months, each with month header + date grid

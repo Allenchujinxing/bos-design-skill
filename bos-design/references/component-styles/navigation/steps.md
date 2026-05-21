@@ -229,7 +229,7 @@ Same as Layout 2.
 ## Customization Notes
 
 From the Figma spec:
-- Step icons are customizable — replace number icons with custom SVG icons, but keep icon styles consistent within the same Steps component.
+- Step icons are customizable within iconfont — replace number icons with semantic iconfont icons only, and keep icon styles consistent within the same Steps component.
 - Completed step icons can be customized (e.g. checkmark).
 - Theme color is customizable — update active icon, title, and connector colors together.
 - Layout 3 supports custom background colors on the icon circle.

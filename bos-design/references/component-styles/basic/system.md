@@ -36,7 +36,7 @@ This file records the Figma visual style only.
 | 元素 | 位置 | 样式 |
 |---|---|---|
 | 时间 | 左侧 16px，垂直底部对齐 | 16px / Semibold 600 / line-height 24px / letter-spacing -0.3px |
-| 系统图标（信号、WiFi、电量） | 右侧 16px | 使用 `assets/system/status.svg` 资源文件，高度 12px，宽度自适应 |
+| 系统图标（信号、WiFi、电量） | 右侧 16px | 使用 `assets/system/status.svg` 系统状态栏资产，高度 12px，宽度自适应 |
 
 ### 主题
 
@@ -164,7 +164,7 @@ This file records the Figma visual style only.
 .status-bar .sys-icons img { height: 12px; width: auto; }
 ```
 
-系统图标（信号、WiFi、电池）使用 `assets/system/status.svg` 资源文件，不要用 CSS 手绘。
+系统图标（信号、WiFi、电池）使用 `assets/system/status.svg` 系统状态栏资产，不要用 CSS 手绘。该资产是系统控件例外，不适用于业务组件图标。
 
 ### 底部安全区模拟
 

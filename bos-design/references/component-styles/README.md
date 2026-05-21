@@ -86,13 +86,15 @@ Each component file is a strict implementation specification for the generated H
 - Colors: token or exact value.
 - Radius, border, divider, and shadow.
 - States: default, active, selected, disabled, error, loading, success when available.
-- Icon slots: allowed icons, size, stroke, color, alignment.
+- Icon slots: allowed iconfont icons, size, color, alignment.
 - Component-level motion and interaction shape when documented.
 - Notes: anything that should not be inferred from Taroify.
 
 Use a binary fidelity standard: `matches spec` or `does not match spec`. Do not accept "close enough" component approximations.
 
 Do not approximate component internals with hand-written substitutes. If a component file defines iconfont icons, roller picker behavior, fade masks, selection indicators, divider placement, title bars, or safe-area behavior, implement those details directly.
+
+All component icon slots must use the iconfont source in `basic/icon.md`. Do not use external icon libraries, custom SVG assets, inline SVG paths, hand-drawn CSS icons, emoji, or text glyphs as component icons. If iconfont has no exact match, use the closest semantic iconfont placeholder and document the substitution. The `basic/system.md` status bar asset is the only documented system-control exception.
 
 Do not put generic Taroify interaction behavior here. Use `component-library/taroify.md` for common mobile control behavior.
 

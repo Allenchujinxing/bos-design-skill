@@ -54,7 +54,7 @@ Implementation note: use a pseudo-element or inner divider for the bottom border
 |---|---|
 | Layout | Flex row, 4px gap, items start |
 | Min width | 140px |
-| Icon (optional) | 20×20px (`svg width="20" height="20"`), `gray1` `gray1` |
+| Icon (optional) | 20×20px iconfont icon, `gray1` `gray1` |
 | Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `gray1` `gray1` |
 | Label max width | 96px, `white-space: nowrap` |
 | Required indicator | `*`, 16px regular, `error-1` `Error-1`, after label text |
@@ -66,7 +66,7 @@ Used in the vertical (上下) layout variant. Label is above the input content.
 | Property | Value |
 |---|---|
 | Layout | Flex row, 4px gap, items center |
-| Icon (optional) | 16×16px (`svg width="16" height="16"`), `gray1` `gray1` |
+| Icon (optional) | 16×16px iconfont icon, `gray1` `gray1` |
 | Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` `gray1` |
 | Required indicator | `*`, 14px regular, `error-1` `Error-1` |
 
@@ -125,7 +125,7 @@ Optional right-side element. Shrink 0, does not flex.
 
 | Property | Value |
 |---|---|
-| Size | 20×20px (`svg width="20" height="20"`) |
+| Size | 20×20px iconfont icon |
 | Color | `gray3` (default) |
 
 #### Clear Icon (输入清空)
@@ -134,8 +134,8 @@ When the input has content and is focused, a clear icon appears on the right to 
 
 | Property | Value |
 |---|---|
-| Size | 20×20px (`svg width="20" height="20"`) |
-| Icon | `ic_close_circle_fill` or similar clear icon |
+| Size | 20×20px iconfont icon |
+| Icon | iconfont `ic_clear_fill` |
 | Color | `gray3` `gray3` |
 | Behavior | Tap to clear input value |
 
@@ -187,7 +187,7 @@ A separate input style where the label is outside and above a bordered input box
 | Property | Value |
 |---|---|
 | Layout | Flex row, 4px gap, items center |
-| Icon (optional) | 16×16px (`svg width="16" height="16"`) |
+| Icon (optional) | 16×16px iconfont icon |
 | Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` `gray1` |
 | Required indicator | `*`, 14px regular, `error-1` `Error-1` |
 
@@ -258,7 +258,7 @@ Same as full-width horizontal but wrapped in a card container.
 
 ### Label with Icon
 
-Label area can include a 20×20px icon before the label text (horizontal) or a 16×16px icon (vertical). The icon is optional and controlled by the `icon` prop. Note: Figma uses a larger container (e.g. 24px) around the icon for auto-layout alignment — the actual SVG rendering size is the icon size listed here, not the container size.
+Label area can include a 20×20px iconfont icon before the label text (horizontal) or a 16×16px iconfont icon (vertical). The icon is optional and controlled by the `icon` prop. Note: Figma uses a larger container (e.g. 24px) around the icon for auto-layout alignment — the rendered icon size is the icon size listed here, not the container size.
 
 ### Label Overflow Handling
 

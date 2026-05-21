@@ -20,7 +20,9 @@ Ask the user a question only when the missing answer would materially change the
 
 ## Translate Into Design Inputs
 
-- Choose the closest page pattern from `page-style-library.md`.
+- Read `BOS-page-style/index.md` and choose the closest page pattern from its intent map.
+- Read the selected `BOS-page-style/*.md` file before deciding the page framework, first-viewport priority, and information hierarchy.
+- If the screen needs reusable task, vehicle, person, site, order, or plan cards, also read `BOS-page-style/card-patterns.md`.
 - Choose relevant component families from `component-index.md`.
 - Use `component-library/taroify.md` for baseline mobile interaction behavior and component semantics.
 - Apply page style rules as the final design judgment source.

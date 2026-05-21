@@ -71,7 +71,7 @@ Title centered with a close icon (24×24px) on the right. Left side has an invis
 
 | Element | Property |
 |---|---|
-| Close icon | `ic_close_line`, 24×24px (`svg width="24" height="24"`), right side |
+| Close icon | iconfont `ic_close_line`, 24×24px, right side |
 | Left placeholder | 24×24px, `opacity: 0` (invisible, for centering) |
 | Title | Same as bottom layout |
 

@@ -36,7 +36,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 图标 | 4 圆点旋转动画（同 `feedback/loading.md`），16px |
+| 图标 | iconfont `ic_loading_line`（同 `feedback/loading.md`），16px，持续旋转 |
 | 颜色 | gray3 `#879099` |
 | 文字 | 12px / regular 400 / gray3 `#879099` / "加载中..." |
 

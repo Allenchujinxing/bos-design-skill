@@ -55,7 +55,7 @@ A Textarea consists of:
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Width | 86px (fixed) |
-| Icon (optional) | 20×20px (`svg width="20" height="20"`), `gray1` `gray1` |
+| Icon (optional) | 20×20px iconfont icon, `gray1` `gray1` |
 | Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `gray1` `gray1` |
 | Required indicator | `*`, 16px, `error-0` `Error-0` |
 
@@ -65,7 +65,7 @@ A Textarea consists of:
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Width | 100% |
-| Icon (optional) | 16×16px (`svg width="16" height="16"`), `gray1` `gray1` |
+| Icon (optional) | 16×16px iconfont icon, `gray1` `gray1` |
 | Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` `gray1` |
 | Required indicator | `*`, 14px, `error-0` `Error-0` |
 
@@ -110,7 +110,7 @@ Label is outside and above a bordered or filled input box.
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Padding left | 4px (outline) / 0 (fill) |
-| Icon (optional) | 16×16px (`svg width="16" height="16"`) |
+| Icon (optional) | 16×16px iconfont icon |
 | Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` `gray1` |
 | Required indicator | `*`, 14px, `error-0` `Error-0` |
 

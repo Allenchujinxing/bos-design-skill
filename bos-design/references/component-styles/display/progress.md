@@ -7,7 +7,6 @@
 - Component set: `Progress 进度条`
 - Directory category: `展示 / Progress 进度条`
 - Demo: `component-demo/progress-demo.html`
-- 切图目录: `component-demo/assets/progress/`
 
 ## Purpose
 
@@ -50,9 +49,9 @@ This file records the Figma visual style only.
 | Type | 填充颜色 | 尾部内容 | 说明 |
 |---|---|---|---|
 | `process` | `Branding-1`（默认 HelloCN: `#0076FF`） | 百分比文字 `80%` | 进行中 |
-| `complete` | `Success-1`（默认 HelloCN: `#07C160`） | ✓ 圆形图标 (绿) | 已完成，填充 100% |
-| `warning` | `Warning-1`（默认 HelloCN: `#FB990F`） | ⚠ 圆形图标 (橙) | 警告 |
-| `error` | `Error-1`（默认 HelloCN: `#F72626`） | ✕ 圆形图标 (红) | 错误 |
+| `complete` | `Success-1`（默认 HelloCN: `#07C160`） | iconfont 完成状态图标 | 已完成，填充 100% |
+| `warning` | `Warning-1`（默认 HelloCN: `#FB990F`） | iconfont 警示状态图标 | 警告 |
+| `error` | `Error-1`（默认 HelloCN: `#F72626`） | iconfont 错误状态图标 | 错误 |
 
 ## 轨道样式
 
@@ -90,7 +89,7 @@ This file records the Figma visual style only.
 |---|---|
 | Size | 20×20px |
 | 居中于 | 36px 宽的尾部区域 |
-| 图标文件 | `icon-success.svg` / `icon-warning.svg` / `icon-error.svg` |
+| 图标来源 | iconfont，优先使用状态语义最接近的图标 |
 
 ## Color Tokens
 
@@ -103,13 +102,13 @@ This file records the Figma visual style only.
 | `Error-1` | `#f72626` | error 填充 + 图标 |
 | `gray1` | `#111` | 百分比文字 |
 
-## 切图资产
+### 状态图标选择
 
-| 文件 | 说明 |
+| 状态 | Iconfont 选择 |
 |---|---|
-| `icon-success.svg` | 完成状态圆形勾选图标 (绿) |
-| `icon-warning.svg` | 警告状态圆形感叹号图标 (橙) |
-| `icon-error.svg` | 错误状态圆形叉号图标 (红) |
+| `complete` | 优先 `ic_verified_line` 或语义相近的完成图标 |
+| `warning` | iconfont 无精确警示图标时，使用语义最接近的 iconfont 占位并标注 |
+| `error` | 优先 `ic_error_circle_fill` 或语义相近的错误图标 |
 
 ## 自定义能力
 
@@ -123,7 +122,7 @@ Progress 组件支持以下维度的自定义：
 |---|---|---|
 | `percent` | 显示百分比数字 | `80%` |
 | `text` | 显示自定义文字 | `完成`、`失败`、`上传中` |
-| `icon` | 显示自定义图标 | ✓ ✕ ⚠ 或业务自定义图标 |
+| `icon` | 显示自定义图标 | iconfont 状态图标或业务语义图标 |
 
 #### 文字模式
 
@@ -138,7 +137,7 @@ Progress 组件支持以下维度的自定义：
 
 | Property | 默认值 | 可自定义 |
 |---|---|---|
-| 图标 | 内置 success/warning/error | 支持传入自定义图标（SVG 或图片） |
+| 图标 | 状态语义 iconfont 图标 | 支持传入自定义 iconfont 图标 |
 | 尺寸 | 20×20px | 支持自定义，建议不超过 24px |
 | 颜色 | 跟随状态色 | 支持自定义 |
 
@@ -184,7 +183,7 @@ Progress 组件支持以下维度的自定义：
 | `trackColor` | string | `gray6` | 轨道背景色 |
 | `tailMode` | enum | `percent` | 尾部模式：percent / text / icon |
 | `tailText` | string | — | tailMode=text 时的文字内容 |
-| `tailIcon` | string/node | — | tailMode=icon 时的自定义图标 |
+| `tailIcon` | string/node | — | tailMode=icon 时的 iconfont 图标 |
 | `tailColor` | string | `gray1` | 尾部文字/图标颜色 |
 
 ## Do Not Infer
@@ -193,5 +192,6 @@ Progress 组件支持以下维度的自定义：
 - 不要给进度条加阴影或边框。
 - 不要使用渐变色填充 — 仅支持纯色。
 - 自定义粗细时轨道和填充必须等高 — 不允许填充比轨道细或粗。
-- 自定义图标尺寸不要超过 24px — 避免破坏与轨道的视觉平衡。
+- 自定义 iconfont 图标尺寸不要超过 24px — 避免破坏与轨道的视觉平衡。
+- 不要为状态图标引用 SVG 切图、图片或外部图标库；找不到精确状态图标时使用语义相近的 iconfont 占位并标注。
 - 尾部区域宽度建议保持 36px — 如果文字较长（如"上传中"），可适当放宽但不超过 56px。

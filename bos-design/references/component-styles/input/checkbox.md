@@ -34,15 +34,17 @@ The selection indicator. Two shapes: square (checkbox) and circle (radio, docume
 |---|---|---|
 | Unchecked | `ic_checkbox_line` | Rounded square outline, 2px stroke `gray5` `gray5`, white fill |
 | Checked | `ic_checkbox_fill` | Rounded square filled `Branding-1` `Branding-1`, white checkmark inside |
-| Unchecked + Disabled | `ic_checkbox_disable_line` | Rounded square outline, 2px stroke `gray5` `gray5`, `gray8` `gray8` fill |
+| Unchecked + Disabled | `ic_checkbox_line` (disabled tokens) | Rounded square outline, 2px stroke `gray5` `gray5`, `gray8` `gray8` fill |
 | Checked + Disabled | `ic_checkbox_fill` (disabled) | Rounded square filled `Branding-2` `Branding-2`, white checkmark inside |
-| Indeterminate | `ic_checkbox_indeterminate` | Rounded square filled `Branding-1` `Branding-1`, white horizontal dash inside |
+| Indeterminate | `ic_minus_fill` | Rounded square filled `Branding-1` `Branding-1`, white horizontal dash inside |
 
 | Property | Value |
 |---|---|
 | Container size | 20×20px |
 | Icon inset | 8.33% (≈1.67px padding) |
 | Corner radius | 2px (inner square) |
+
+Use `ic_minus_fill` as the iconfont mapping for the indeterminate checkbox state.
 
 ### Small (16×16px)
 
@@ -209,7 +211,7 @@ Multiple Checkbox List items stacked vertically. Used inside popups or full-page
 
 Based on the "组件自定义项" section in the Figma spec:
 
-1. **Custom icon** — The checkbox icon can be replaced with a custom icon (e.g., radio circle icons). The icon slot accepts any 20×20px or 16×16px icon component.
+1. **Custom icon** — The checkbox icon can be replaced with a semantic iconfont icon (e.g., radio circle icons). The icon slot accepts 20×20px or 16×16px iconfont icons only.
 2. **Divider visibility** — The bottom border (0.5px divider) in Checkbox List can be hidden when needed.
 
 ## Typography Summary

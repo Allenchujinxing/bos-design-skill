@@ -6,7 +6,7 @@ Source family: Taroify, a Taro mobile UI component library inspired by Vant.
 
 ## How To Apply
 
-1. Identify the page type from `page-style-library.md`.
+1. Identify the page type from `references/BOS-page-style/index.md` and the selected BOS page-style file.
 2. Pick the relevant component families below.
 3. Build HTML/CSS/JS that uses the selected component's expected mobile structure, state behavior, and key interactions.
 4. If matching component style files exist in `references/component-styles/`, use them for visual styling.

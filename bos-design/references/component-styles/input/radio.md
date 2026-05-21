@@ -33,12 +33,12 @@ The selection indicator. Circular shape, four states.
 |---|---|---|
 | Unchecked | `ic_radio_line` | Circle outline, 1.5px stroke `gray5` `gray5` |
 | Checked | `ic_radio_fill` | Circle filled `Branding-1` `Branding-1`, white checkmark inside |
-| Unchecked + Disabled | `ic_radio_disable_line` | Circle outline, 1.5px stroke `gray5` `gray5`, `gray8` `gray8` inner fill |
+| Unchecked + Disabled | `ic_radio_line` (disabled tokens) | Circle outline, 1.5px stroke `gray5` `gray5`, `gray8` `gray8` inner fill |
 | Checked + Disabled | `ic_radio_fill` (disabled) | Circle filled `Branding-2` `Branding-2`, white checkmark inside |
 
 | Property | Value |
 |---|---|
-| Icon size | 20×20px (`svg width="20" height="20"`) |
+| Icon size | 20×20px iconfont icon |
 | Shape | Circle (`border-radius: 50%`) |
 
 ### Small (16×16px)
@@ -47,7 +47,7 @@ Same states as large, proportionally scaled down.
 
 | Property | Value |
 |---|---|
-| Icon size | 16×16px (`svg width="16" height="16"`) |
+| Icon size | 16×16px iconfont icon |
 
 ## Radio Text (Inline)
 
