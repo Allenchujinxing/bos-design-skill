@@ -38,7 +38,7 @@
 
 ## 图标尺寸规范
 
-引用自 `Design/DESIGN-HelloCN.md` 第 8 章 Icon 图标规范：
+引用自 `references/design.md` 第 8 章 Icon 图标规范：
 
 | 尺寸 | 用途 |
 |---|---|
@@ -197,7 +197,8 @@
 
 ## Do Not Infer
 
-- 不要使用 Lucide、FontAwesome 或其他外部图标库 — 统一使用本 iconfont 库。
+- 不要使用外部图标库 — 统一使用本 iconfont 库。
 - 不要自行绘制 SVG 内联图标 — 必须通过 `<use xlink:href="#图标名">` 引用。
 - 不要修改图标的 viewBox 或 path — 图标样式由 iconfont 库统一管理。
 - 不要在 demo 中遗漏 iconfont script 引入。
+- 当 iconfont 没有完全匹配的图标时，使用语义相近的 iconfont 图标占位，并标注占位关系。

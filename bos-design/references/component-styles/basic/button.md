@@ -14,7 +14,7 @@ Use Button for explicit commands such as submit, confirm, retry, start task, com
 
 ## 视觉 Token 声明
 
-本文件中的颜色、圆角、间距等视觉属性引用自搭配的 Design 规范文件（如 `Design/DESIGN-HelloCN.md`）。当切换到其他视觉系统时（如 HelloRide、HelloSaaS），对应 token 的色值会变化，组件结构和行为不变。
+本文件中的颜色、圆角、间距等视觉属性引用自搭配的 Design 规范文件（如 `references/design.md`）。当切换到其他视觉系统时（如 HelloRide、HelloSaaS），对应 token 的色值会变化，组件结构和行为不变。
  Use `references/component-library/taroify.md` for click behavior, loading behavior, disabled behavior, form submission, dialogs, and toast feedback.
 
 ## Variant Axes
@@ -41,7 +41,7 @@ The Figma component set exposes these axes:
 - Optional icon-only button.
 - Optional loading indicator for submitted/loading actions.
 
-Icon slots are replaceable. Preserve Button spacing, color, and size rules; choose icon meaning from `references/icon-system/lucide.md`.
+Icon slots are replaceable. Preserve Button spacing, color, and size rules; choose icon meaning from `references/component-styles/basic/icon.md`. If the iconfont does not include an exact match, use the closest semantic iconfont placeholder and document the substitution.
 
 ## Sizes
 

@@ -13,7 +13,7 @@ Use ToolBar for page-level action bars fixed at the bottom of the screen. It pro
 
 ## 视觉 Token 声明
 
-本文件中的颜色、圆角、间距等视觉属性引用自搭配的 Design 规范文件（如 `Design/DESIGN-HelloCN.md`）。当切换到其他视觉系统时（如 HelloRide、HelloSaaS），对应 token 的色值会变化，组件结构和行为不变。
+本文件中的颜色、圆角、间距等视觉属性引用自搭配的 Design 规范文件（如 `references/design.md`）。当切换到其他视觉系统时（如 HelloRide、HelloSaaS），对应 token 的色值会变化，组件结构和行为不变。
  Use `references/component-library/taroify.md` for button click behavior, form submission, and loading states.
 
 ## Component Categories

@@ -9,8 +9,8 @@ Use this index to find recorded Figma-derived component visual styles. Update th
 1. **系统适配必须包含** — 所有 demo 页面必须适配手机状态栏（44px）和底部安全区（34px），具体规范见 `basic/system.md`。
 2. **图标必须使用 iconfont 库** — 所有图标通过 `<svg class="icon"><use xlink:href="#图标名"></use></svg>` 引用，不得使用外部图标库或内联 SVG path。接入方式和图标清单见 `basic/icon.md`。
 3. **设计稿基准** — 390×844px @1x，以 iOS 为基准。
-4. **视觉 Token 引用** — 组件的颜色、圆角、间距等视觉属性必须从 `Design/DESIGN-HelloCN.md` 中取值，禁止硬编码。
-5. **Demo 运行环境** — 涉及定位、搜索等能力的 demo 需通过 HTTP 服务访问（见 `component-demo/README.md`）。
+4. **视觉 Token 引用** — 组件的颜色、圆角、间距等视觉属性必须从 `references/design.md` 中取值，禁止硬编码。
+5. **Demo 运行环境** — 涉及定位、搜索等能力的 demo 需通过 HTTP 服务访问。
 
 ---
 

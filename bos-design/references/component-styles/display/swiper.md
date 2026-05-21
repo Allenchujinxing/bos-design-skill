@@ -17,7 +17,7 @@ This file records the Figma visual style only.
 
 ## 视觉 Token 声明
 
-本文件中的颜色引用自搭配的 Design 规范文件（如 `Design/DESIGN-HelloCN.md`）。Swiper 的指示器颜色（白色/半透明黑）为通用值，不随设计系统变化；容器圆角遵循 design 规范的圆角体系。
+本文件中的颜色引用自搭配的 Design 规范文件（如 `references/design.md`）。Swiper 的指示器颜色（白色/半透明黑）为通用值，不随设计系统变化；容器圆角遵循 design 规范的圆角体系。
 
 ## 样式类型
 

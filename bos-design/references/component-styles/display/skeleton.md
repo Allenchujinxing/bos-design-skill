@@ -18,7 +18,7 @@ This file records the Figma visual style only.
 
 ## 视觉 Token 声明
 
-本文件中的颜色引用自搭配的 Design 规范文件（如 `Design/DESIGN-HelloCN.md`）。当切换到其他视觉系统时，对应 token 的色值会变化，组件行为不变。
+本文件中的颜色引用自搭配的 Design 规范文件（如 `references/design.md`）。当切换到其他视觉系统时，对应 token 的色值会变化，组件行为不变。
 
 ## 用法
 
