@@ -1,6 +1,10 @@
 # bos-design
 
-`bos-design` 是一个面向 BOS 移动端产品页面设计的 Agent Skill。
+**为复杂移动运维流程而生的 BOS 专属设计 Skill。**
+
+*A BOS-native design skill for complex mobile operations workflows.*
+
+`bos-design` 是一个为哈啰骑行运维终端产品「BOS 移动端」打造的专属 B 端产品设计 Agent Skill。它不是一套泛化的移动端 UI 模板，而是围绕骑行运维场景中高频任务、复杂流程、多状态信息和强执行效率构建的设计能力：帮助 Agent 从需求出发，理解业务目标、用户角色与现场操作路径，基于 HelloDesign TaroUI 3.0 的设计语言生成更符合 BOS 产品方向的交互方案与原型。通过内置 BOS 的设计原则、页面样式、组件规范和视觉规范，`bos-design` 让每一次设计输出都更接近真实运维产品需要的样子：清晰、可靠、高效，并且能落到业务里。
 
 它让 Claude Code、Kiro 或其他兼容 Agent Skills 的 AI 助手，在生成移动端 H5 页面、产品方案、交互原型或设计评审时，能够遵循 BOS 的业务场景、组件视觉规范、设计 token、Taroify 交互语义和页面级设计方法，而不是产出一套泛泛的移动端模板。
 
@@ -116,7 +120,7 @@ npx github:Allenchujinxing/bos-design-skill install codex-project
 | `bos-design/SKILL.md` | 主工作流、触发规则、输出模式、优先级和评审要求 |
 | `bos-design/agents/openai.yaml` | Agent Skills 工具可读取的展示信息 |
 | `bos-design/references/request-analysis.md` | 页面生成前的场景分析 |
-| `bos-design/references/page-style-library.md` | 页面级结构和组合方式 |
+| `bos-design/references/BOS-page-style/index.md` | 页面级结构、样式路由和组合方式 |
 | `bos-design/references/component-styles/` | Figma 组件视觉规范记录 |
 | `bos-design/references/component-index.md` | 组件视觉文件和交互行为类型之间的索引 |
 | `bos-design/references/component-library/taroify.md` | Taroify 交互和移动端组件语义参考 |
