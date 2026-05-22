@@ -1,6 +1,6 @@
 ---
 name: bos-design
-description: Design mobile app product pages using layered Figma component visuals, design tokens, Taroify interactions, component-defined icons, and page style references. Use when creating, critiquing, implementing, or refining mobile product screens, especially when generating interactive H5 prototypes from a component style library, optional design.md visual system, Taroify interaction patterns, and page-level style patterns.
+description: Design BOS mobile operations product experiences for HelloRide using BOS page styles, HelloDesign TaroUI 3.0 tokens, Figma-derived component specs, iconfont rules, and Taroify interactions. Use when analyzing BOS mobile requirements, generating interactive H5 prototypes or Taro/React handoff, critiquing BOS designs, or refining mobile workflows for dispatch, inspection, battery swap, tasks, vehicles, personnel, and city operations.
 ---
 
 # Bos Design
@@ -9,19 +9,20 @@ Use this skill to design mobile product experiences that follow the user's compo
 
 ## Core Workflow
 
-Think like a UX designer first, then use the reference files to make the solution consistent and executable. Do not jump directly from the request to UI styling.
+Design BOS experiences by continuously defining the problem, breaking it down, and converging it into a clear experience. Page styles, components, tokens, and interaction references make that solution BOS-consistent; they do not replace UX judgment.
 
-1. **Understand the request and scenario.** Confirm the desired output mode only when the user explicitly asks for real Taroify components or developer handoff; otherwise default to interactive H5 HTML/CSS/JS. Read `references/request-analysis.md` to infer the user role, scenario, primary goal, trigger, constraints, completion criteria, core task, required content, and required states.
-2. **Frame the page problem.** Decide the page or flow type, user decision to support, first-viewport priority, primary action, secondary actions, and success path. Read `references/BOS-page-style/index.md` to match the request intent to the closest BOS page style, then read that selected page style file before composing the page framework. If the request needs a reusable business-object card pattern, also read `references/BOS-page-style/card-patterns.md`.
-3. **Structure the UX solution.** Define the information hierarchy, module order, content grouping, navigation model, sticky areas, state model, and key edge cases before choosing detailed components. The output should be able to stand as a low-fidelity interaction plan even without final UI styling.
-4. **Select components by visual source first.** Read `references/component-styles/index.md` and choose the closest recorded component style files for the page. A component does not need a one-to-one Taroify match to be usable; if the style library contains a product or scene component such as Map, use the style file as the source of truth for that component's visual and scene-specific behavior.
-5. **Build the interaction prototype.** Read `references/component-index.md` to map selected visual components to behavior families where possible, then read `references/component-library/taroify.md` only for Taroify interaction behavior and mobile component semantics. Use Taroify behavior for common controls such as forms, pickers, popups, dialogs, toast, checkbox, radio, switch, tabs, loading, disabled, and selection.
-6. **Implement components by specification.** Use every relevant file in `references/component-styles/` as a hard implementation contract. Match the component anatomy, layout, dimensions, typography, colors, radius, borders, dividers, shadows, icon source, icon names, state visuals, motion, and any documented component-level interaction shape exactly. If `references/design.md` exists, read it only as the token fallback and visual system source for missing component details.
-7. **Improve visual quality.** Read `references/visual-quality.md` to strengthen page-level visual anchor, business-state expression, hierarchy, rhythm, effective decoration, and polish without losing task clarity.
-8. **Apply icon and state guidance where needed.** Use icon source, size, stroke, color, and slot rules from matching `references/component-styles/` files first; use `references/design.md` Icon rules only as fallback. For empty, no-data, permission, gated, offline, location, failed-loading, or partial-data states, read `references/component-styles/display/empty.md`. For loading, toast, dialog, notice, and other feedback states, read the matching file in `references/component-styles/feedback/`.
-9. **Run a scenario stress test.** Before finalizing, read `references/design-correctness.md` and check whether the solution still works in the real BOS context: outdoor readability, one-handed operation, scan/location/camera dependency, manager scanning efficiency, exception visibility, permission/offline recovery, destructive-action confirmation, and whether the primary action is reachable.
-10. **Generate the artifact and rationale.** Design or implement the requested page in the selected output mode, preserving the page strategy and interaction structure instead of making a component demo. Explain the design thinking with the output format below so reviewers understand why the solution fits the scenario.
-11. **Review the result.** Check the result against `references/review-checklist.md`. Use `references/anti-generic-ai.md` as a final guardrail against generic AI-looking mobile UI patterns.
+1. **Define the problem before drawing.** Confirm the desired output mode only when the user explicitly asks for real Taroify components or developer handoff; otherwise default to interactive H5 HTML/CSS/JS. Read `references/request-analysis.md` and identify the user, usage scenario, user goal, business goal, real problem, core task, constraints, completion criteria, and likely interruption or failure points.
+2. **Break down what the experience must carry.** Separate core functions, key information, and user decisions. Mark what is P0, what directly changes a decision or next action, and what is supporting information. Decide the primary user flow, page-to-page transitions, and where the flow is most likely to break before naming a layout or component.
+3. **Converge the interaction and structure.** Decide the information organization and interaction carrier that best fits the problem: page, list, card, map, table, form, bottom sheet, dedicated selection flow, or step flow. Read `references/BOS-page-style/index.md` to match the closest BOS page strategy, then read the selected page style file before composing the framework. If reusable business-object cards are needed, also read `references/BOS-page-style/card-patterns.md`.
+4. **Shape the hierarchy before selecting components.** Define the first-viewport priority, module order, content grouping, navigation model, sticky areas, state model, and key edge cases. For form pages, decide field editability, form complexity, field layout direction, helper-text necessity, and whether linked feedback or complex selection should stay in the current module or move into a dedicated flow. The solution should stand as a low-fidelity interaction plan before detailed UI styling.
+5. **Choose components from the converged structure.** Read `references/component-styles/index.md` and select the closest recorded component style files only after the interaction carrier and hierarchy are clear. A component does not need a one-to-one Taroify match to be usable; if the style library contains a product or scene component such as Map, use the style file as the source of truth for that component's visual and scene-specific behavior.
+6. **Build interaction behavior.** Read `references/component-index.md` to map selected visual components to behavior families where possible, then read `references/component-library/taroify.md` only for Taroify interaction behavior and mobile component semantics. Use Taroify behavior for common controls such as forms, pickers, popups, dialogs, toast, checkbox, radio, switch, tabs, loading, disabled, and selection.
+7. **Implement components by specification.** Use every relevant file in `references/component-styles/` as a hard implementation contract. Match the component anatomy, layout, dimensions, typography, colors, radius, borders, dividers, shadows, icon source, icon names, state visuals, motion, and any documented component-level interaction shape exactly. If `references/design.md` exists, read it only as the token fallback and visual system source for missing component details.
+8. **Use visual expression to reinforce priority.** Read `references/visual-quality.md` to decide what the user should notice first, what should be weakened, where scan anchors help, and where restraint improves clarity. Color, type, spacing, contrast, icon use, and whitespace should express the already-converged information and action hierarchy.
+9. **Apply icon and state guidance where needed.** Use icon source, size, stroke, color, and slot rules from matching `references/component-styles/` files first; use `references/design.md` Icon rules only as fallback. For empty, no-data, permission, gated, offline, location, failed-loading, or partial-data states, read `references/component-styles/display/empty.md`. For loading, toast, dialog, notice, and other feedback states, read the matching file in `references/component-styles/feedback/`.
+10. **Stress-test the experience.** Before finalizing, read `references/design-correctness.md` and check whether the solution still works in the real BOS context: role and business goal fit, interruption risk, outdoor readability, one-handed operation, scan/location/camera dependency, manager scanning efficiency, exception visibility, permission/offline recovery, destructive-action confirmation, and whether the primary action is reachable.
+11. **Generate the artifact and rationale.** Design or implement the requested output, preserving the problem definition, interaction strategy, and structure instead of making a component demo. Explain why the experience converged this way so reviewers can judge the business and UX reasoning.
+12. **Review the result.** Check the result against `references/review-checklist.md`. Use `references/anti-generic-ai.md` as a final guardrail against generic AI-looking mobile UI patterns.
 
 ## Output Modes
 
@@ -38,20 +39,22 @@ For design proposals, do not output only the interface. Include the interface pl
 
 For a single page, structure the response as one proposal slide:
 
-- User, scenario, user goal, and product goal
+- User, scenario, user goal, and business goal
 - Design strategy
 - Information hierarchy
 - Interaction and state logic
 - Visual rationale
 - Interface/prototype result
 
-For multiple screens or an interactive flow, create one slide/slider section per screen or major step, plus a short flow overview. Each section should anchor on who uses it, where it is used, what user goal it supports, and what product goal it advances.
+For multiple screens or an interactive flow, create one slide/slider section per screen or major step, plus a short flow overview. Each section should anchor on who uses it, where it is used, what user goal it supports, and what business goal it advances.
 
-Keep rationale concrete. Name the business role, scenario context, user goal, and product goal. Avoid generic claims such as "improves efficiency" unless the explanation says how.
+Keep rationale concrete. Name the business role, scenario context, user goal, and business goal. Avoid generic claims such as "improves efficiency" unless the explanation says how.
 
 ## Interactive H5 Requirements
 
 When generating H5, include JavaScript for key component interactions instead of drawing only static states.
+
+For every full-screen mobile H5 demo, read `references/component-styles/basic/system.md` and render the system Status Bar and Home Indicator. Keep bottom actions above the Home Indicator.
 
 Required interaction coverage when the page includes the component:
 
@@ -128,7 +131,7 @@ When `references/design.md` exists, treat it as an exact token source, not a loo
 
 ## Reference Map
 
-- `references/request-analysis.md`: Lightweight page-generation analysis. Use this before choosing page and component patterns.
+- `references/request-analysis.md`: Lightweight UX problem-definition worksheet. Use this before choosing page strategy, interaction carrier, or component patterns.
 - `references/component-styles/index.md`: Index of recorded Figma-derived component visual style files and recording status. Read this before opening specific component style files.
 - `references/component-styles/`: Optional Figma-derived component visual style library. If present, it is the primary component visual source.
 - `references/design.md`: Optional visual system. If present, it is the source for typography, colors, spacing, radius, elevation, motion, imagery, and icon visual rules.

@@ -1,3 +1,4 @@
-display_name: Bos Design
-short_description: Mobile page design skill
-default_prompt: Use bos-design to design this mobile product page.
+interface:
+  display_name: "Bos Design"
+  short_description: "BOS mobile operations design skill"
+  default_prompt: "Use $bos-design to design this BOS mobile operations page."
