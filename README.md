@@ -105,22 +105,14 @@ npx github:Allenchujinxing/bos-design-skill install codex-project
 
 ## 工作方式
 
-`bos-design` 采用按需读取的 Skill 结构：核心流程在 `SKILL.md`，页面策略、组件规范、视觉规范和评审规则按需从 `references/` 中读取。
+你只需要用自然语言描述需求，`bos-design` 会自动完成以下流程：
 
-| 文件或目录 | 作用 |
-| --- | --- |
-| `bos-design/SKILL.md` | 主工作流、触发规则、输出模式、优先级和评审要求 |
-| `bos-design/agents/openai.yaml` | Agent Skills 工具可读取的展示信息 |
-| `bos-design/references/request-analysis.md` | UX 问题定义与体验拆解 |
-| `bos-design/references/BOS-page-style/index.md` | BOS 页面策略索引与阅读入口 |
-| `bos-design/references/component-styles/` | Figma 组件视觉规范记录 |
-| `bos-design/references/component-index.md` | 组件视觉文件和交互行为类型之间的索引 |
-| `bos-design/references/component-library/taroify.md` | Taroify 交互和移动端组件语义参考 |
-| `bos-design/references/design.md` | 设计 token 与视觉系统参考 |
-| `bos-design/references/design-correctness.md` | BOS 场景正确性检查 |
-| `bos-design/references/visual-quality.md` | 页面视觉质量、层级和节奏规则 |
-| `bos-design/references/anti-generic-ai.md` | 避免泛 AI 页面风格的最终检查 |
-| `bos-design/references/review-checklist.md` | 结果输出前的自检清单 |
+1. **理解问题** — 确认用户角色、业务目标和真实使用场景
+2. **拆解体验** — 分离核心功能、关键信息和用户决策，标记优先级
+3. **收敛方案** — 选择最合适的页面策略和交互承载方式
+4. **规范落地** — 按 BOS 组件规范、视觉 token 和交互规则实现
+
+整个过程中，AI 会按需读取 `references/` 下的页面策略、组件规范、视觉规则和评审清单，你不需要手动指定参考文件。
 
 ## 仓库结构
 
