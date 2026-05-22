@@ -105,18 +105,18 @@ npx github:Allenchujinxing/bos-design-skill install codex-project
 
 ## 工作方式
 
-这个 skill 使用 progressive disclosure 的结构：`SKILL.md` 只放核心流程和调度规则，具体组件、视觉、场景、评审标准放在 `references/` 里，由 AI 在需要时读取。
+`bos-design` 采用按需读取的 Skill 结构：核心流程在 `SKILL.md`，页面策略、组件规范、视觉规范和评审规则按需从 `references/` 中读取。
 
 | 文件或目录 | 作用 |
 | --- | --- |
 | `bos-design/SKILL.md` | 主工作流、触发规则、输出模式、优先级和评审要求 |
 | `bos-design/agents/openai.yaml` | Agent Skills 工具可读取的展示信息 |
-| `bos-design/references/request-analysis.md` | 页面生成前的场景分析 |
-| `bos-design/references/BOS-page-style/index.md` | 页面级结构、样式路由和组合方式 |
+| `bos-design/references/request-analysis.md` | UX 问题定义与体验拆解 |
+| `bos-design/references/BOS-page-style/index.md` | BOS 页面策略索引与阅读入口 |
 | `bos-design/references/component-styles/` | Figma 组件视觉规范记录 |
 | `bos-design/references/component-index.md` | 组件视觉文件和交互行为类型之间的索引 |
 | `bos-design/references/component-library/taroify.md` | Taroify 交互和移动端组件语义参考 |
-| `bos-design/references/design.md` | 设计 token 和视觉系统兜底规则 |
+| `bos-design/references/design.md` | 设计 token 与视觉系统参考 |
 | `bos-design/references/design-correctness.md` | BOS 场景正确性检查 |
 | `bos-design/references/visual-quality.md` | 页面视觉质量、层级和节奏规则 |
 | `bos-design/references/anti-generic-ai.md` | 避免泛 AI 页面风格的最终检查 |
@@ -135,7 +135,7 @@ bos-design-skill/
 └── LICENSE
 ```
 
-真正被安装到 Claude Code 或 Kiro 的是 `bos-design/` 这个目录。
+真正被安装或导入到 Agent Skills 工具中的，是 `bos-design/` 这个目录。
 
 ## 维护方式
 
