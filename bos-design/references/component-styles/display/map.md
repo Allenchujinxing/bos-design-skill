@@ -85,7 +85,7 @@ This file records the Figma visual style only.
 | 蓝点尺寸 | 20×20px |
 | 蓝点颜色 | `Branding-1` |
 | 蓝点边框 | 4px `white1` |
-| 蓝点投影 | `shadow-location-dot` |
+| 蓝点投影 | `shadow-1` |
 | 方向三角 | 12×12px，`Branding-1`，右上角，旋转 45°，圆角 2px |
 | 位置 | 地图中心（跟随用户真实坐标） |
 
