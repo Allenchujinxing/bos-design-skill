@@ -26,7 +26,7 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 |---|---|
 | Size | 28×28px |
 | Border | 1px solid `gray5` (normal) / `gray6` (disabled) |
-| Border radius | 4px left corners only (top-left, bottom-left) |
+| Border radius | `radius-md` left corners only (top-left, bottom-left) |
 | Icon | `ic_remove_line`, horizontal line, centered |
 | Icon color (normal) | `gray1` `gray1` |
 | Icon color (disabled) | `gray4` `gray4` |
@@ -50,7 +50,7 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 |---|---|
 | Size | 28×28px |
 | Border | 1px solid `gray5` (normal) / `gray6` (disabled) |
-| Border radius | 4px right corners only (top-right, bottom-right) |
+| Border radius | `radius-md` right corners only (top-right, bottom-right) |
 | Icon | `ic_add_line`, plus cross, centered |
 | Icon color (normal) | `gray1` `gray1` |
 | Icon color (disabled) | `gray4` `gray4` |
@@ -60,7 +60,7 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 | Property | Value |
 |---|---|
 | Background | `white` |
-| Border radius | 4px (overall) |
+| Border radius | `radius-md` (overall) |
 | Layout | Flex row, items center, no gap (buttons share borders with value) |
 
 ## Style 2: 强调加减样式 (Icon Emphasis)
@@ -83,7 +83,7 @@ Circular filled icon buttons with a value display between them.
 |---|---|
 | Min width | 36px |
 | Padding | 4px |
-| Border radius | 4px |
+| Border radius | `radius-md` |
 | Background | `gray8` (editable) / transparent (non-editable) |
 | Text font | 16px, weight 400, line-height 22px |
 | Text color (normal) | `gray1` |
@@ -155,7 +155,7 @@ Circular filled icon buttons with a value display between them.
 - Do not change the outlined value min-width from 48px.
 - Do not change the emphasis value min-width from 36px.
 - Do not change the 4px gap in emphasis editable style or 0px gap in non-editable.
-- Do not change the border-radius from 4px.
+- Do not change the border-radius from `radius-md`.
 - Do not allow the value to go below min or above max.
 - Do not show the input cursor when the stepper is non-editable.
 - Do not use semibold for the value text; it is always regular weight.

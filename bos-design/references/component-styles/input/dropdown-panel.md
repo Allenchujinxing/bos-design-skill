@@ -13,7 +13,7 @@
 
 1. 从筛选栏下方向下展开，展开时背景出现半透明遮罩
 2. 支持单选（无底部按钮，点击即关闭）和多选（必须有确认按钮）
-3. 面板底部圆角 12px，顶部无圆角（紧贴筛选栏）
+3. 面板底部圆角 `radius-3xl`，顶部无圆角（紧贴筛选栏）
 4. 支持 7 种内容布局模式
 
 This file records the Figma visual style only.
@@ -29,7 +29,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 背景 | white1 |
-| 圆角 | 顶部 0px，底部 12px |
+| 圆角 | 顶部 0px，底部 `radius-3xl` |
 | 宽度 | 100%（390px） |
 | 高度 | 自适应内容，最大不超过 70vh |
 | 遮罩 | `rgba(0,0,0,0.7)` 覆盖面板以下区域 |
@@ -148,7 +148,7 @@ This file records the Figma visual style only.
 | 背景（选中） | Branding-3 |
 | 边框（默认） | 1px solid transparent |
 | 边框（选中） | 1px solid Branding-1 |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 文字（默认） | 14px / regular 400 / gray1 / 居中 |
 | 文字（选中） | 14px / regular 400 / Branding-1 / 居中 |
 | 内边距 | 7px 12px |
@@ -328,7 +328,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 背景 | white1 |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
 | 宽度 | 自适应内容（最小 104px） |
 | 箭头 | 顶部三角形，6×8px，白色，指向触发元素 |
@@ -409,7 +409,7 @@ This file records the Figma visual style only.
 
 - 不要在单选场景加底部操作栏 — 单选点击即关闭。
 - 不要在多选场景省略底部操作栏 — 多选必须有确认按钮。
-- 不要让面板顶部有圆角 — 顶部紧贴筛选栏，只有底部 12px 圆角。
+- 不要让面板顶部有圆角 — 顶部紧贴筛选栏，只有底部 `radius-3xl` 圆角。
 - 不要省略遮罩 — 面板展开时必须有半透明遮罩（气泡菜单除外）。
 - 不要让网格项超过三列 — 固定三列布局。
 - 不要让列表项高度小于规定值 — 单行 46/56px，双行 68px。

@@ -28,7 +28,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 背景 | white1 |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
 | 内边距 | 12px |
 | 宽度 | 343px（可自定义，根据页面场景调整） |

@@ -42,7 +42,7 @@ The selection indicator. Two shapes: square (checkbox) and circle (radio, docume
 |---|---|
 | Container size | 20×20px |
 | Icon inset | 8.33% (≈1.67px padding) |
-| Corner radius | 2px (inner square) |
+| Corner radius | `radius-xs` (inner square) |
 
 Use `ic_minus_fill` as the iconfont mapping for the indeterminate checkbox state.
 
@@ -225,7 +225,7 @@ Based on the "组件自定义项" section in the Figma spec:
 ## Do Not Infer
 
 - Do not change the icon sizes: 20×20px for large, 16×16px for small.
-- Do not use a different border radius for the checkbox square icon; it uses 2px.
+- Do not use a different border radius for the checkbox square icon; it uses `radius-xs`.
 - Do not change the gap between icon and text: 4px for inline, 8px for list row.
 - Do not place the checkbox icon on the left in Checkbox List layout — it supports both left and right positions via the `layout` prop.
 - Do not use bold/semibold for checkbox text; all text is regular weight (400).

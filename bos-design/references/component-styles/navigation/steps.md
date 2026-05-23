@@ -84,7 +84,7 @@ Supports 2, 3, 4+ steps. Items use equal flex distribution (`flex: 1 0 0`).
 |---|---|
 | Height | 2px (visible) or 0px (hidden at start/end) |
 | Color | `gray5` `gray5` |
-| Border-radius | 2px on inner end |
+| Border-radius | `radius-xs` on inner end |
 | Layout | `flex: 1 0 0`, fills space between items |
 
 ## Horizontal Layout 2 (Standard)
@@ -111,7 +111,7 @@ Supports 2, 3, 4+ steps. Items use equal flex distribution (`flex: 1 0 0`).
 | Height | 2px (visible) or 0px (hidden at start/end) |
 | Color | `gray6` `gray6` |
 | Gap from icon | 12px |
-| Border-radius | 2px on inner end |
+| Border-radius | `radius-xs` on inner end |
 
 ### Title
 
@@ -183,7 +183,7 @@ Same as Layout 2.
 |---|---|
 | Width | 2px |
 | Color | `gray5` `gray5` |
-| Border-radius | 2px |
+| Border-radius | `radius-xs` |
 | Layout | `flex: 1 0 0`, fills vertical space between icons |
 | Hidden | On last item (no line below) |
 

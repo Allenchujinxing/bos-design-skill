@@ -40,7 +40,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Background | `rgba(0,0,0,0.8)` |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 最小宽度 | 124px |
 | 最大宽度 | 无限制（按文字撑开） |
 | Padding | 10px 上下，12px 左右 |
@@ -63,7 +63,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Background | `rgba(0,0,0,0.8)` |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 最小宽度 | 124px |
 | 最大宽度 | 175px |
 | Padding | 10px 上下，12px 左右 |
@@ -103,7 +103,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Background | `rgba(0,0,0,0.8)` |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 尺寸 | 90×90px（固定正方形） |
 | 位置 | 页面垂直居中，水平居中 |
 | 布局 | flex 垂直居中 |

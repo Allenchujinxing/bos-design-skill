@@ -51,7 +51,7 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 32px |
 | 内边距 | 1px 8px |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 布局 | flex 水平居中，gap 2px |
 | 文字对齐 | 居中 |
 
@@ -100,7 +100,7 @@ This file records the Figma visual style only.
 | 高度 | 32px |
 | 内边距 | 1px 8px |
 | 背景 | white1 |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 投影 | 一级投影 `0 2px 8px 0 rgba(17,17,17,0.04)` |
 | 布局 | flex 水平居中，gap 2px |
 | 宽度 | 自适应内容（shrink-0） |

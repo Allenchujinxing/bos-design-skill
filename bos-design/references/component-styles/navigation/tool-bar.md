@@ -71,7 +71,7 @@ Buttons inside ToolBar use the standard Button component at `large` size. See `b
 | Font | `Title/18-semibold` — PingFang SC, 18px, weight 600, line-height 26px |
 | Height | 48px (padding 11px top/bottom + 26px line-height) |
 | Horizontal padding | 20px |
-| Border-radius | 10px |
+| Border-radius | `radius-2xl` |
 
 ### Secondary button
 
@@ -82,7 +82,7 @@ Buttons inside ToolBar use the standard Button component at `large` size. See `b
 | Font | `Title/18-semibold` — PingFang SC, 18px, weight 600, line-height 26px |
 | Height | 48px |
 | Horizontal padding | 20px |
-| Border-radius | 10px |
+| Border-radius | `radius-2xl` |
 
 ## Basic Toolbar Layouts
 

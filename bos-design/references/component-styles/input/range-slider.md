@@ -77,7 +77,7 @@ A header row above the track shows a hint label and the current selected value. 
 |---|---|
 | Height | 4px |
 | Background | `gray6` `gray6` |
-| Border radius | 999px (Variant 1) / 2px (Variant 2) |
+| Border radius | `radius-full` (Variant 1) / `radius-xs` (Variant 2) |
 | Width | 100% of container |
 
 ### Active Track (selected range)
@@ -96,7 +96,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Property | Value |
 |---|---|
 | Size | 24×24px (Variant 1) / 28×28px (Variant 2) |
-| Shape | Circle (`border-radius: 50%` / `999px`) |
+| Shape | Circle (`border-radius: 50%` / `radius-full`) |
 | Background | `anti` |
 | Border | 2px solid `Branding-1` `Branding-1` |
 | Shadow | `Shadow/Shadow-1`: `0 2px 4px -1px rgba(0,0,0,0.12)`, `0 4px 5px 0 rgba(0,0,0,0.08)`, `0 1px 10px 0 rgba(0,0,0,0.05)` |

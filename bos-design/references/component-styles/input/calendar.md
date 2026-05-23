@@ -30,7 +30,7 @@ The most common mode. Calendar appears in a bottom popup triggered by a form fie
 | Bottom action | ToolBar with confirm button (72px) |
 | Home indicator | 34px safe area |
 | Background overlay | Semi-transparent mask behind popup |
-| Corner radius | 12px top-left and top-right, 0px bottom |
+| Corner radius | `radius-3xl` top-left and top-right, 0px bottom |
 | Background | `white1` |
 
 ### 2. Inline Page Calendar (页面日历模式)
@@ -88,7 +88,7 @@ A form input field that opens the Calendar popup when tapped.
 |---|---|
 | Width | 48px (fixed) |
 | Height | 60px (fixed) |
-| Border-radius | 8px (overflow clip) |
+| Border-radius | `radius-xl` (overflow clip) |
 | Content area | 40px wide text centered (4px inset from sides) |
 | Column pitch | ~52.3px (366px ÷ 7), cells 48px with ~4.3px gap between |
 | Column distribution | 7 columns evenly distributed within 390px - 24px (12px each side) = 366px |
@@ -103,7 +103,7 @@ A form input field that opens the Calendar popup when tapped.
 |---|---|---|---|---|
 | Normal | 16px regular | `gray1` `gray1` | None | — |
 | Today | 16px regular | `gray1` `gray1` | None | Shows "今天" or "今" instead of number |
-| Selected (single) | 16px semibold | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius 8px | — |
+| Selected (single) | 16px semibold | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius `radius-xl` | — |
 | Disabled | 16px regular | `gray3` `gray3` | None | — |
 | Today disabled | 16px regular | `gray3` `gray3` | None | Shows "今天" grayed out |
 
@@ -111,8 +111,8 @@ A form input field that opens the Calendar popup when tapped.
 
 | State | Date color | Background | Shape |
 |---|---|---|---|
-| Range start | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius 8px | Only left side has 8px radius; right side is square (0px) to connect seamlessly with range middle fill |
-| Range end | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius 8px | Only right side has 8px radius; left side is square (0px) to connect seamlessly with range middle fill |
+| Range start | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius `radius-xl` | Only left side has `radius-xl` radius; right side is square (0px) to connect seamlessly with range middle fill |
+| Range end | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius `radius-xl` | Only right side has `radius-xl` radius; left side is square (0px) to connect seamlessly with range middle fill |
 | Range middle | `gray1` `gray1` | Full cell 48×60px rectangle, `gray7` `gray7` | No rounding, fills full cell width and height edge-to-edge; adjacent middle cells connect without gaps |
 
 ### Special Style 1 — Status Tag + Description
@@ -190,7 +190,7 @@ From top to bottom:
 
 ## Layout Rules
 
-- Date cells are always 48×60px fixed size with 8px border-radius (overflow clip).
+- Date cells are always 48×60px fixed size with `radius-xl` border-radius (overflow clip).
 - 7 columns distributed evenly within the container: (390px - 12px left - 12px right) = 366px ÷ 7 ≈ 52.3px pitch per column. Each cell is 48px wide, leaving ~4.3px gap between cells.
 - Date number text (40px wide) is centered within the 48px cell width.
 - Months scroll vertically; each month starts on the correct weekday column.
@@ -225,7 +225,7 @@ When implementing this calendar, follow these critical rules to avoid common iss
 ## Do Not Infer
 
 - Do not override cell dimensions; 48×60px is fixed across all calendar modes.
-- Do not change the selection rounded rectangle from 48×60px with 8px radius.
+- Do not change the selection rounded rectangle from 48×60px with `radius-xl` radius.
 - Do not use arbitrary colors for status tags; they should follow business-defined color schemes.
 - Do not mix Chinese and English week labels in the same calendar instance.
 - Do not add shadows or borders to individual date cells.

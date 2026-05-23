@@ -120,7 +120,7 @@ Label is outside and above a bordered or filled input box.
 |---|---|
 | Background | `white1` |
 | Border | 1px solid `gray5` `gray5` |
-| Border radius | 8px |
+| Border radius | `radius-xl` |
 | Padding | 16px 12px |
 
 ### Input Box — Fill Theme
@@ -129,7 +129,7 @@ Label is outside and above a bordered or filled input box.
 |---|---|
 | Background | `gray8` `gray8` |
 | Border | None |
-| Border radius | 8px |
+| Border radius | `radius-xl` |
 | Padding | 16px 12px |
 
 ### Content inside external box
@@ -151,8 +151,8 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 |---|---|
 | 通栏布局-上下 | Full-width, vertical label |
 | 通栏布局-水平 | Full-width, horizontal label |
-| 卡片布局-上下 | Card container (12px padding, 12px border-radius), vertical label |
-| 卡片布局-水平 | Card container (12px padding, 12px border-radius), horizontal label |
+| 卡片布局-上下 | Card container (`radius-3xl` padding, `radius-3xl` border-radius), vertical label |
+| 卡片布局-水平 | Card container (`radius-3xl` padding, `radius-3xl` border-radius), horizontal label |
 
 ## Color Tokens
 
@@ -183,7 +183,7 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 - Do not change the 12px gap between label and content in horizontal layout.
 - Do not change the 8px gap between label and content in vertical layout.
 - Do not change the 8px gap between text area and character counter.
-- Do not change the external label input border-radius from 8px.
+- Do not change the external label input border-radius from `radius-xl`.
 - Do not omit the character counter — it is always present.
 - Do not change the counter alignment from right-aligned.
 - Do not use semibold for any text in Textarea; all text is regular weight (400).

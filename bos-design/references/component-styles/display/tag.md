@@ -62,7 +62,7 @@ From the Figma spec notes:
 
 | Property | Value |
 |---|---|
-| Border-radius | 4px |
+| Border-radius | `radius-md` |
 | Layout | Flex row, align center |
 | Icon-text gap | 2px (when icon is present) |
 | Text align | Center |
@@ -162,5 +162,5 @@ Tags support the following states:
 - Do not add icon support to small (16px) tags — only height ≥ 18px supports icons.
 - Do not change the fixed height, padding, or font size per size variant — these are not customizable.
 - Do not use font weight 600 for light/line styles at sizes 16 and 18 — only full style uses bold at those sizes.
-- Do not use border-radius other than 4px for standard tags.
+- Do not use border-radius other than `radius-md` for standard tags.
 - Do not mix themes within a single tag instance.

@@ -37,9 +37,9 @@ This file records the Figma visual style only.
 |---|---|
 | 整体宽度 | 自适应容器（示例 343px） |
 | 轨道高度 | 6px |
-| 轨道圆角 | 999px (全圆角胶囊) |
+| 轨道圆角 | `radius-full` (全圆角胶囊) |
 | 填充高度 | 6px (撑满轨道) |
-| 填充圆角 | 999px |
+| 填充圆角 | `radius-full` |
 | Gap (轨道 → 尾部) | 8px |
 | 尾部宽度 | 36px |
 | 图标尺寸 | 20×20px |
@@ -59,14 +59,14 @@ This file records the Figma visual style only.
 |---|---|
 | Background | `gray6` |
 | Height | 6px |
-| Border-radius | 999px |
+| Border-radius | `radius-full` |
 
 ## 填充样式
 
 | Property | Value |
 |---|---|
 | Height | 6px (与轨道等高) |
-| Border-radius | 999px |
+| Border-radius | `radius-full` |
 | Width | 按百分比，如 80% |
 | Color (process) | `Branding-1` |
 | Color (complete) | `Success-1` |
@@ -148,7 +148,7 @@ Progress 组件支持以下维度的自定义：
 | Property | 默认值 | 可自定义范围 | 说明 |
 |---|---|---|---|
 | `strokeWidth` | 6px | 2px – 12px | 轨道 + 填充高度 |
-| 圆角 | 999px | 自动跟随（始终全圆角） | 不建议改为方角 |
+| 圆角 | `radius-full` | 自动跟随（始终全圆角） | 不建议改为方角 |
 
 常用粗细档位：
 
@@ -188,7 +188,7 @@ Progress 组件支持以下维度的自定义：
 
 ## Do Not Infer
 
-- 不要使用方角 — 轨道和填充均为全圆角 999px，不支持自定义圆角值。
+- 不要使用方角 — 轨道和填充均为全圆角 `radius-full`，不支持自定义圆角值。
 - 不要给进度条加阴影或边框。
 - 不要使用渐变色填充 — 仅支持纯色。
 - 自定义粗细时轨道和填充必须等高 — 不允许填充比轨道细或粗。

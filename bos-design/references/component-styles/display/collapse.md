@@ -107,7 +107,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 背景 | `white1` |
-| 圆角 | 遵循圆角体系（模块级 `radius-card`，默认 8px） |
+| 圆角 | 遵循圆角体系（模块级 `radius-card`，默认 `radius-xl`） |
 | 边框 | 可选，0.5px solid `gray6` |
 | 面板间分割 | 0.5px solid `gray6`，左侧缩进 16px |
 

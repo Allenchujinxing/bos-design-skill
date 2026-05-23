@@ -45,7 +45,7 @@ This file records the Figma visual style only.
 |---|---|
 | 宽度 | 撑满容器（示例 390px） |
 | 高度 | 按图片比例，示例 240px |
-| 圆角 | 12px |
+| 圆角 | `radius-3xl` |
 | 溢出 | hidden |
 
 ### 圆点指示器 (Dots Indicator)
@@ -56,7 +56,7 @@ This file records the Figma visual style only.
 | 距底部 | 8px |
 | 圆点尺寸 | 6×6px |
 | 圆点间距 | 4px |
-| 当前页圆点 | 宽度拉伸为 16px，高度 6px，圆角 3px |
+| 当前页圆点 | 宽度拉伸为 16px，高度 `radius-lg`，圆角 `radius-sm` |
 | 当前页颜色 | `white1` (100% 不透明) |
 | 非当前页颜色 | `white1` (40% 不透明) |
 
@@ -78,7 +78,7 @@ This file records the Figma visual style only.
 |---|---|
 | 宽度 | 撑满容器（示例 390px） |
 | 高度 | 按图片比例，示例 420px |
-| 圆角 | 0（全屏相册场景）或 12px（卡片内） |
+| 圆角 | 0（全屏相册场景）或 `radius-3xl`（卡片内） |
 
 ### 数字指示器 (Number Indicator)
 
@@ -89,7 +89,7 @@ This file records the Figma visual style only.
 | 距左/右 | 12px（左下角/右下角时） |
 | 背景 | `black` 40% 不透明 |
 | 尺寸 | 高 24px，宽自适应（min-width 37px） |
-| 圆角 | 12px (全圆角胶囊) |
+| 圆角 | `radius-3xl` (全圆角胶囊) |
 | 文字 | 12px / regular 400 / `#fff` / line-height 20px / center |
 | 格式 | `当前/总数`，如 `1/9` |
 
@@ -165,6 +165,6 @@ This file records the Figma visual style only.
 
 - 不要在相册模式开启自动轮播 — 相册模式仅手动滑动。
 - 不要让圆点指示器使用非白色 — 固定白色 + 透明度区分。
-- 不要给数字指示器用方角 — 固定 12px 全圆角胶囊。
+- 不要给数字指示器用方角 — 固定 `radius-3xl` 全圆角胶囊。
 - 不要省略指示器 — 每种轮播样式必须有对应的指示器。
 - 不要让 Banner 轮播无限加速 — 切换时长最小建议 300ms。

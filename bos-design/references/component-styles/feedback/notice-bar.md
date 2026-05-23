@@ -37,7 +37,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 布局 | flex 水平，gap 8px，items-center |
-| 圆角 | 0px（通栏）或 8px（卡片形式），可自定义 |
+| 圆角 | 0px（通栏）或 `radius-xl`（卡片形式），可自定义 |
 | 溢出 | hidden |
 
 ### 容器形态
@@ -45,7 +45,7 @@ This file records the Figma visual style only.
 | 形态 | 说明 |
 |---|---|
 | 通栏 | 宽度 100%（390px），无圆角，贴边展示 |
-| 卡片 | 宽度自适应（如 366px = 390 - 12*2），有圆角，左右留边距 |
+| 卡片 | 宽度自适应（如 366px = 390 - 12*2），有 `radius-xl` 圆角，左右留边距 |
 
 ---
 

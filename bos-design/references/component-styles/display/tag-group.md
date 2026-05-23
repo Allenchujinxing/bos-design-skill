@@ -119,7 +119,7 @@ Tags in the group support optional icons:
 
 - Do not override tag group styles with default Taroify TagGroup visual styles.
 - Do not change the fixed height, padding, or font size per size variant — these are not customizable.
-- Do not use border-radius values other than those specified per size (4/6/8/10px).
+- Do not use border-radius values other than those specified per size (4/6/8/`radius-2xl`).
 - Do not add a border to default state tags — only selected state has a border.
 - Do not use bold font weight for default state — only selected state uses Semibold 600.
 - Do not mix center-aligned and left-aligned types within the same tag group.

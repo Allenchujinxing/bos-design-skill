@@ -108,7 +108,7 @@ Optional right-side element. Shrink 0, does not flex.
 |---|---|
 | Height | 28px |
 | Background | `Branding-1` `Branding-1` |
-| Border radius | 4px |
+| Border radius | `radius-md` |
 | Padding | 4px 8px |
 | Text | `Mark/12-semibold` 12px, weight 600, line-height 18px, `white` |
 | Note | Row alignment changes to `items-center` when button is present |
@@ -198,7 +198,7 @@ A separate input style where the label is outside and above a bordered input box
 | Height | 48px |
 | Background | `white1` |
 | Border | 1px solid `gray5` `gray5` |
-| Border radius | 8px |
+| Border radius | `radius-xl` |
 | Padding | 12px |
 | Gap | 12px (between input text and suffix) |
 | Input text | `Body/16-regular` 16px, weight 400, line-height 24px |
@@ -247,7 +247,7 @@ Same as full-width vertical but wrapped in a card container.
 |---|---|
 | Card padding | 12px |
 | Card background | `white1` |
-| Card border radius | 8px (follows design system radius-8) |
+| Card border radius | `radius-xl` (follows design system radius-8) |
 | Inner rows | Same as full-width vertical but width = card width - 24px |
 
 ### 卡片布局-水平 (Card Horizontal)
@@ -316,6 +316,6 @@ Input fields that trigger a picker/selector instead of keyboard input. The conte
 - Do not extend the bottom border to the row edge — it must be inset 12px on both sides.
 - Do not use the external label input style for standard inline forms — they are separate patterns.
 - Do not change the external label input box height from 48px.
-- Do not change the external label input border radius from 8px.
+- Do not change the external label input border radius from `radius-xl`.
 - Do not mix horizontal and vertical label layouts within the same form section.
 - Do not place the required `*` indicator before the label text; it always comes after.

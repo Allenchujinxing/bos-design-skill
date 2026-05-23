@@ -60,7 +60,7 @@ Items use equal flex distribution within the container.
 | Height | 56px (content area), 64px (with selected indicator) |
 | Width | Narrower than full width (366px observed, with side margins) |
 | Background | `white1` |
-| Border-radius | 28px (text/icon) or 32px (icon with indicator) |
+| Border-radius | `radius-full` (text/icon) or `radius-full` (icon with indicator) |
 | Padding | 12px horizontal, 8px vertical |
 | Item gap | 8px |
 | Shadow | `0px 2px 8px rgba(17,17,17,0.04)` (一级阴影-用于灰色背景) |
@@ -74,7 +74,7 @@ Items use equal flex distribution within the container.
 |---|---|
 | Item width | Equal flex or fixed (87.5px for 4 tabs) |
 | Item padding | 16px horizontal, 8px vertical |
-| Item border-radius | 999px (full round) |
+| Item border-radius | `radius-full` (full round) |
 | Item height | 40px |
 
 ### Icon & Text (`content&icon`)
@@ -83,7 +83,7 @@ Items use equal flex distribution within the container.
 |---|---|
 | Item width | Equal flex (`flex: 1 0 0`) or fixed (87.5px for 4 tabs) |
 | Item padding | 16px horizontal, 2px vertical |
-| Item border-radius | 999px (selected) or 24px (unselected) |
+| Item border-radius | `radius-full` (selected) or `radius-full` (unselected) |
 | Item height | 44px |
 | Icon size | 24×24px |
 | Icon-to-text gap | 0px (stacked, icon top offset 2px, text at 26px) |
@@ -94,7 +94,7 @@ Items use equal flex distribution within the container.
 |---|---|
 | Item width | Equal flex or fixed (87.5px for 4 tabs) |
 | Item padding | 8px |
-| Item border-radius | 24px |
+| Item border-radius | `radius-full` |
 | Item height | 40px |
 | Icon size | 24×24px, centered |
 
@@ -134,7 +134,7 @@ In the icon placeholder, the selected icon uses `Branding-1` blue and the unsele
 
 - Selected item: brand-colored text/icon with a light brand background pill.
 - Background: `Branding-3` `Branding-3`.
-- Border-radius: 999px (full round pill).
+- Border-radius: `radius-full` (full round pill).
 - Unselected items: no background.
 
 ## TabBar Style Variants
@@ -149,7 +149,7 @@ In the icon placeholder, the selected icon uses `Branding-1` blue and the unsele
 ### Capsule (floating)
 
 - Narrower than viewport (366px in 390px design, ~12px side margins).
-- White background with full-round corners (28–32px radius).
+- White background with full-round corners (`radius-full`).
 - Shadow: `0px 2px 8px rgba(17,17,17,0.04)`.
 - No top divider line.
 - Floats above the page content with spacing from bottom edge.

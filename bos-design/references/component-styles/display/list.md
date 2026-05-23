@@ -127,7 +127,7 @@ Beyond the default tips text + arrow, the right-side operation area supports:
 | Variant | Description |
 |---|---|
 | Switch (开关) | 44×24px toggle switch; tracks on/off state |
-| Button (按钮) | Secondary small button, 32px height, 8px radius, 14px text |
+| Button (按钮) | Secondary small button, 32px height, `radius-xl` radius, 14px text |
 | Icon Group (图标组) | One or more 20×20 action icons (e.g. edit, copy), 16px gap |
 | Dot Badge + Arrow | 8×8 red dot before the right arrow, 4px gap |
 | Number Badge + Arrow | Number badge (e.g. 99, 99+) before the right arrow, 4px gap |
@@ -148,7 +148,7 @@ Each variant replaces the default tips text or is combined with the arrow based 
 |---|---|
 | Width | 366px (12px side margins from 390px screen) |
 | Background | `white1` |
-| Border-radius | 12px |
+| Border-radius | `radius-3xl` |
 | Last row divider | Hidden (card edge replaces it) |
 
 Card lists use the same row structure as standalone lists; the container adds outer side margins and a rounded corner clip.

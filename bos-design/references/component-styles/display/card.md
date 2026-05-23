@@ -65,8 +65,8 @@ This file records the component style spec for mobile.
 
 **选择原则：**
 - 页面内的独立内容卡片 → **8px**（最常用）
-- 弹窗/浮层内的卡片 → **12px**（跟随面板圆角）
-- 卡片内部的子区块 → **4px**（内层圆角 < 外层圆角）
+- 弹窗/浮层内的卡片 → **`radius-3xl`**（跟随面板圆角）
+- 卡片内部的子区块 → **`radius-md`**（内层圆角 < 外层圆角）
 - 贴角标签的对应角 → 与所在卡片圆角保持一致
 
 ## 样式
@@ -77,7 +77,7 @@ This file records the component style spec for mobile.
 |---|---|
 | Background | `anti` |
 | Border | 0.5px solid `gray6` |
-| Border-radius | 8px（默认，遵循圆角体系） |
+| Border-radius | `radius-xl`（默认，遵循圆角体系） |
 | Shadow | none |
 
 ### 无边框 (borderless)
@@ -86,7 +86,7 @@ This file records the component style spec for mobile.
 |---|---|
 | Background | `anti` |
 | Border | none |
-| Border-radius | 8px（默认，遵循圆角体系） |
+| Border-radius | `radius-xl`（默认，遵循圆角体系） |
 | Shadow | none |
 | 使用场景 | 页面背景为 `gray8` 时，卡片自然浮起，无需边框 |
 
@@ -129,7 +129,7 @@ This file records the component style spec for mobile.
 | 宽度 | 100% |
 | 高度 | 按图片比例或固定值 |
 | Object-fit | cover |
-| 圆角 | 顶部跟随卡片圆角 12px |
+| 圆角 | 顶部跟随卡片圆角 `radius-3xl` |
 | 位置 | 卡片最顶部，Header 和 Body 之上 |
 
 ## Meta 信息
@@ -212,4 +212,4 @@ This file records the component style spec for mobile.
 - 不要使用 Grid 网格卡片 — 移动端空间有限，用列表或双列替代。
 - 不要给卡片加 box-shadow — 设计规范中卡片通过背景色差异浮起，不用阴影。
 - 不要让卡片宽度固定 — 应撑满容器，响应式适配。
-- 不要随意指定圆角 — 遵循 references/design.md 圆角梯度体系（页面级 12px / 模块级 8px / 模块内 4px），内层圆角不得大于外层。
+- 不要随意指定圆角 — 遵循 references/design.md 圆角梯度体系（页面级 `radius-3xl` / 模块级 `radius-xl` / 模块内 `radius-md`），内层圆角不得大于外层。

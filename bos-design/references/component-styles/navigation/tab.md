@@ -67,7 +67,7 @@
 | 高度 | 36px |
 | 宽度 | 366px（两侧 12px margin，全宽） |
 | 背景色 | `gray7` `gray7` |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 内边距 | 2px |
 | 布局 | Flex row, 均分 |
 
@@ -78,7 +78,7 @@
 | 高度 | 28px |
 | 宽度 | 内容自适应（非全宽） |
 | 背景色 | `gray7` `gray7` |
-| 圆角 | 4px |
+| 圆角 | `radius-md` |
 | 内边距 | 2px |
 | 间距 | 2px（items 之间） |
 | 布局 | Inline flex, 等分宽度（取最宽项统一） |
@@ -92,7 +92,7 @@
 | 字体 | `Title/18-semibold` | `Title/18-regular` |
 | 字号 | 18px, weight 600, line-height 26px | 18px, weight 400, line-height 26px |
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
-| 指示器 | 20×3px pill, `Branding-1` `Branding-1`, radius 11px | 无 |
+| 指示器 | 20×`radius-sm` pill, `Branding-1` `Branding-1`, radius 11px | 无 |
 | 指示器间距 | 文字下方 6px | — |
 
 导航 Tab 包含返回箭头（24×24px, left 12px, top 10px），支持可选的右侧图标区域（带白色渐变遮罩）。
@@ -104,7 +104,7 @@
 | 字体 | `Title/16-semibold` | `Body/16-regular` |
 | 字号 | 16px, weight 600, line-height 24px | 16px, weight 400, line-height 24px |
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
-| 指示器 | 20×3px pill, `Branding-1` `Branding-1`, radius 11px | 无 |
+| 指示器 | 20×`radius-sm` pill, `Branding-1` `Branding-1`, radius 11px | 无 |
 | 指示器间距 | 文字下方 5px | — |
 | 布局 | 等宽，居中 | 等宽，居中 |
 
@@ -132,7 +132,7 @@
 | 字号 | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
 | 内边距 | 8px horizontal, 3px vertical | 8px horizontal, 3px vertical |
-| 圆角 | 4px | 4px |
+| 圆角 | `radius-md` | `radius-md` |
 | 间距 | 8px | 8px |
 
 ### Tag — 二级
@@ -145,7 +145,7 @@
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
 | 高度 | 24px | 24px |
 | 内边距 | 8px horizontal, 3px vertical | 8px horizontal, 3px vertical |
-| 圆角 | 4px | 4px |
+| 圆角 | `radius-md` | `radius-md` |
 | 间距 | 8px | 8px |
 
 ### 胶囊 — 一级
@@ -156,7 +156,7 @@
 | 字体 | `Mark/14-semibold` | `Body/14-regular` |
 | 字号 | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
-| 圆角 | 6px | 6px |
+| 圆角 | `radius-lg` | `radius-lg` |
 | 阴影 | `0 3px 4px rgba(0,0,0,0.12)` | 无 |
 | 内边距 | 12px horizontal, 5px vertical | 12px horizontal, 5px vertical |
 | 布局 | `flex: 1 0 0`, 均分 | `flex: 1 0 0`, 均分 |
@@ -169,7 +169,7 @@
 | 字体 | `Mark/12-semibold` | `Body/12-regular` |
 | 字号 | 12px, weight 600, line-height 18px | 12px, weight 400, line-height 18px |
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
-| 圆角 | 2px | 2px |
+| 圆角 | `radius-xs` | `radius-xs` |
 | 阴影 | 无 | 无 |
 | 内边距 | 8px horizontal | 8px horizontal |
 | 布局 | 等分宽度，基于内容自适应 | 同左 |
@@ -182,10 +182,10 @@
 |---|---|---|
 | 容器高度 | 36px | 28px |
 | 容器宽度 | 全宽 366px | 内容自适应 |
-| 容器圆角 | 8px | 4px |
+| 容器圆角 | `radius-xl` | `radius-md` |
 | 容器 padding | 2px | 2px |
 | 容器 gap | 0（滑块定位） | 2px |
-| 选中项圆角 | 6px | 2px |
+| 选中项圆角 | `radius-lg` | `radius-xs` |
 | 选中项阴影 | `0 3px 4px rgba(0,0,0,0.12)` | 无 |
 | 字号 | 14px | 12px |
 | Item 内边距 | 12px horizontal | 8px horizontal |
@@ -272,7 +272,7 @@
 - 不要在 Tag 或胶囊风格上使用指示器 pill，它们用背景色/阴影区分选中态。
 - 不要给 Tag 背景使用自定义颜色，统一使用 `gray7` `gray7`。
 - 不要在没有返回箭头的场景使用导航 Tab，应使用通用 Tab。
-- 不要将胶囊一级的容器圆角 8px 与二级的 4px 混用。
+- 不要将胶囊一级的容器圆角 `radius-xl` 与二级的 `radius-md` 混用。
 - 不要在胶囊二级上添加选中项阴影，二级无阴影。
 - 不要将胶囊二级做成全宽，二级容器宽度由内容决定。
 - 不要省略胶囊 Tab 的滑块滑动过渡动画。

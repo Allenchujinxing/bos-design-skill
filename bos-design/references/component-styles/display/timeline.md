@@ -213,7 +213,7 @@ Two background options:
 | Layout | Flex column, 8px gap |
 | Row layout | Flex row, 10px gap, align center |
 | Thumbnail size | Flex `1 0 0`, aspect ratio 1:1, ~82×82px per item (4 per row) |
-| Border-radius | 8px |
+| Border-radius | `radius-xl` |
 | Object-fit | Cover |
 | Max rows | 2 rows (8 images total in spec) |
 | Click action | Image preview (图片预览) |

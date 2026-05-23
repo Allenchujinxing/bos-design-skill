@@ -43,7 +43,7 @@ The input field area.
 |---|---|
 | Height | 36px |
 | Flex | 1 (fills remaining space) |
-| Border radius | 8px (rectangle) / 48px (capsule) |
+| Border radius | `radius-xl` (rectangle) / `radius-full` (capsule) |
 | Overflow | Clip |
 | Padding left | 12px (for icon + placeholder) |
 
@@ -190,7 +190,7 @@ Search bar with back arrow on left and action text on right.
 - Do not change the search icon size from 16×16px.
 - Do not change the clear icon size from 16×16px.
 - Do not change the back arrow icon size from 24×24px.
-- Do not use rectangle border radius (8px) for capsule shape or vice versa.
+- Do not use rectangle border radius (`radius-xl`) for capsule shape or vice versa.
 - Do not show the clear icon when the input is empty.
 - Do not show the back arrow in non-navigation scene.
 - Do not change the 8px gap between left arrow, input, and right area.

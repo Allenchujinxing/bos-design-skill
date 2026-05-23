@@ -60,7 +60,7 @@ This file records the Figma visual style only.
 |---|---|
 | 尺寸 | 自适应内容（最小 80×80px） |
 | 背景 | white1 |
-| 圆角 | 8px |
+| 圆角 | `radius-xl` |
 | 位置 | 页面水平居中，垂直居中 |
 
 ### 有遮罩

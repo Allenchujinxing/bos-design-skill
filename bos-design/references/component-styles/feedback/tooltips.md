@@ -40,7 +40,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Background | `rgba(0,0,0,0.8)` |
-| 圆角 | 4px |
+| 圆角 | `radius-md` |
 | 高度 | 28px |
 | Padding | 5px 上下，4px 左右（有关闭按钮时左侧 4px） |
 | 布局 | flex 水平，内容居中 |
@@ -86,7 +86,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Background | `rgba(0,0,0,0.8)` |
-| 圆角 | 4px |
+| 圆角 | `radius-md` |
 | 高度 | 36px |
 | Padding | 6px 上下，6px 左右 |
 | 布局 | flex 水平，内容居中 |

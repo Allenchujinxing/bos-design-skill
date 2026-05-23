@@ -46,11 +46,11 @@ Icon slots are replaceable. Preserve Button spacing, color, and size rules; choo
 ## Sizes
 
 | Size | Height | Min horizontal padding | Radius | Label token |
-|---|---:|---:|---:|---|
-| `large` | 48px | 20px | 10px | `Mark/16-semibold` |
-| `middle` | 40px | 16px | 8px | `Mark/14-semibold` |
-| `small` | 32px | 12px | 6px | `Mark/12-semibold` |
-| `extra small` | 28px | 8px | 4px | `Mark/12-semibold` |
+|---|---:|---:|---|---|
+| `large` | `radius-full` | 20px | `radius-2xl` | `Mark/16-semibold` |
+| `middle` | 40px | 16px | `radius-xl` | `Mark/14-semibold` |
+| `small` | 32px | `radius-3xl` | `radius-lg` | `Mark/12-semibold` |
+| `extra small` | 28px | `radius-xl` | `radius-md` | `Mark/12-semibold` |
 
 Observed examples:
 

@@ -113,7 +113,7 @@ empty-<scene>-<size>.png
 | Gap (title → body) | 8px |
 | Body | 14px / regular 400 / `gray3` / line-height 22px / center |
 | Gap (body → button) | 12px |
-| Button | **Primary / Large**: min-width 156px, height 48px, border-radius 10px |
+| Button | **Primary / Large**: min-width 156px, height `radius-full`, border-radius `radius-2xl` |
 
 #### 页面级按钮样式
 
@@ -124,7 +124,7 @@ empty-<scene>-<size>.png
 | Height | 48px |
 | Min width | 156px |
 | Padding | 0 20px |
-| Border-radius | 10px |
+| Border-radius | `radius-2xl` |
 | Background | `Branding-1` |
 | Background (pressed) | `Branding-0` |
 | Font | 16px / semibold 600 / `anti` / line-height 24px |
@@ -169,7 +169,7 @@ empty-<scene>-<size>.png
 | Gap (illustration → title) | 12px |
 | Title | 16px / regular 400 / `gray1` / line-height 24px / center |
 | Gap (title → button) | 12px |
-| Button | **Primary / Small**: min-width 88px, height 32px, border-radius 6px |
+| Button | **Primary / Small**: min-width 88px, height 32px, border-radius `radius-lg` |
 
 #### 局部级按钮样式
 
@@ -180,7 +180,7 @@ empty-<scene>-<size>.png
 | Height | 32px |
 | Min width | 88px |
 | Padding | 0 12px |
-| Border-radius | 6px |
+| Border-radius | `radius-lg` |
 | Background | `Branding-1` |
 | Background (pressed) | `Branding-0` |
 | Font | 14px / semibold 600 / `anti` / line-height 22px |

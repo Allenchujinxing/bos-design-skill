@@ -65,7 +65,7 @@ Used to indicate the count of new content or pending items. Max value is 99; val
 | Min width | 16px (actual) / 24px (per spec for standalone) |
 | Width | Auto-adapts to content |
 | Padding | 4px horizontal, 1px vertical |
-| Border-radius | 30px (full pill) |
+| Border-radius | `radius-full` |
 | Background | `Error-1` `Error-1` |
 | Font | `PingFang SC:Semibold`, 10px, weight 600, line-height 14px |
 | Text color | `anti` |
@@ -103,7 +103,7 @@ Used for new feature alerts or key feature recommendations. Typically displays "
 | Height | 16px (fixed) |
 | Width | Auto-adapts to content, min 24px |
 | Padding | 4px horizontal, 1px vertical |
-| Border-radius | 8px top-left / 8px top-right / 8px bottom-right / **1px bottom-left** |
+| Border-radius | `radius-xl` top-left / `radius-xl` top-right / `radius-xl` bottom-right / **1px bottom-left** |
 | Background | `Error-1` `Error-1` |
 | Font | `PingFang SC:Semibold`, 10px, weight 600, line-height 14px |
 | Text color | `anti` |
@@ -118,7 +118,7 @@ Some ribbon badges (e.g. overlaid on background images) add a 1px white border f
 | Property | Value |
 |---|---|
 | Border | 1px solid `anti` |
-| Border-radius | 8px TL / 10px TR / 10px BR / 1px BL |
+| Border-radius | `radius-xl` TL / `radius-2xl` TR / `radius-2xl` BR / 1px BL |
 
 Note: the bordered variant uses asymmetric 8/10/10/1 radii (not uniform increase).
 

@@ -29,7 +29,7 @@ The Picker is a bottom sheet panel consisting of:
 | Property | Value |
 |---|---|
 | Background | `white1` |
-| Border radius | 12px top-left, 12px top-right (bottom sheet style) |
+| Border radius | `radius-3xl` top-left, `radius-3xl` top-right (bottom sheet style) |
 | Width | 390px (full screen width) |
 | Layout | Flex column, items center |
 
@@ -47,7 +47,7 @@ Actions are inline with the title in the header row.
 | Padding | 16px vertical, 12px horizontal |
 | Layout | Flex row, 4px gap, justify center |
 | Background | `white1` |
-| Border radius | 12px top-left, 12px top-right |
+| Border radius | `radius-3xl` top-left, `radius-3xl` top-right |
 
 | Element | Font | Color | Width |
 |---|---|---|---|
@@ -99,7 +99,7 @@ The highlighted band showing the currently selected row.
 |---|---|
 | Height | 40px |
 | Background | `gray7` `gray7` |
-| Border radius | 6px |
+| Border radius | `radius-lg` |
 | Position | Absolute, horizontally stretched (left 16px, right 16px) |
 | Vertical position | Centered vertically in the roller area |
 
@@ -165,7 +165,7 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 | Button width | 100% |
 | Background | `Branding-1` `Branding-1` |
 | Text | `Title/18-semibold` 18px, weight 600, `white` |
-| Border radius | 10px |
+| Border radius | `radius-2xl` |
 | Padding | 11px 20px |
 
 ### Disabled Button State (已约满)
@@ -242,7 +242,7 @@ Only the item aligned with the indicator band (the snapped item) gets the select
 
 ## Do Not Infer
 
-- Do not change the selection indicator height from 40px or border-radius from 6px.
+- Do not change the selection indicator height from 40px or border-radius from `radius-lg`.
 - Do not change the visible row count from 3 rows unless a new Figma variant explicitly defines it.
 - Do not change the roller area height from 136px.
 - Do not remove the 1 empty row slot above and below the real options; they are required for first/last option centering.
@@ -252,5 +252,5 @@ Only the item aligned with the indicator band (the snapped item) gets the select
 - Do not mix header and bottom button layouts in the same Picker instance.
 - Do not change the column equal-width behavior; all columns share space equally via `flex: 1`.
 - Do not use bold for unselected options; only the selected option uses semibold (600).
-- Do not change the toolbar button border-radius from 10px.
+- Do not change the toolbar button border-radius from `radius-2xl`.
 - Do not omit the invisible left placeholder in the close-icon title bar variant; it ensures the title stays centered.

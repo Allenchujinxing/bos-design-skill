@@ -123,7 +123,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 | Width | 210px (same as title max width) |
 | Height | 36px |
 | Background | `gray7` `gray7` |
-| Border-radius | 8px |
+| Border-radius | `radius-xl` |
 | Horizontal padding | 2px |
 | Vertical alignment | Centered in 44px NavBar height |
 | Layout | Flex row, items stretch equally (`flex: 1 0 0`) |
@@ -133,7 +133,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 | Property | Selected | Unselected |
 |---|---|---|
 | Background | `white1` | Transparent |
-| Border-radius | 6px | 6px |
+| Border-radius | `radius-lg` | `radius-lg` |
 | Shadow | `0px 3px 4px rgba(0,0,0,0.12)` | None |
 | Horizontal padding | 12px | 12px |
 | Vertical padding | 5px | 5px |

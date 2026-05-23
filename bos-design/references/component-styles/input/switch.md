@@ -45,7 +45,7 @@ Switch 由以下部分组成：
 |---|---|---|
 | 宽度 | 50px | 50px |
 | 高度 | 30px（padding 2px + thumb 26px） | 30px |
-| 圆角 | 24px | 24px |
+| 圆角 | `radius-full` | `radius-full` |
 | 背景色（默认） | `Branding-1` `Branding-1` | `gray5` `gray5` |
 | 背景色（禁用） | `Branding-2` `Branding-2` | `gray8` `gray8` |
 | 内边距 | 2px | 2px |
@@ -71,7 +71,7 @@ Switch 由以下部分组成：
 |---|---|---|
 | 宽度 | 42px | 41px |
 | 高度 | 24px（padding 2px + thumb 20px） | 24px |
-| 圆角 | 24px（开启）/ 12px（关闭） | 12px |
+| 圆角 | `radius-full`（开启）/ `radius-3xl`（关闭） | `radius-3xl` |
 | 背景色（默认） | `Branding-1` `Branding-1` | `gray5` `gray5` |
 | 背景色（禁用） | `Branding-2` `Branding-2` | `gray8` `gray8` |
 | 内边距 | 2px | 2px |
@@ -97,7 +97,7 @@ Switch 由以下部分组成：
 |---|---|---|
 | 最小宽度 | 68px | 68px |
 | 最大宽度 | 96px | 96px |
-| 圆角 | 24px | 24px |
+| 圆角 | `radius-full` | `radius-full` |
 | 背景色（默认） | `Branding-1` `Branding-1` | `gray5` `gray5` |
 | 背景色（禁用） | `Branding-2` `Branding-2` | `gray8` `gray8` |
 | 内边距（开启） | 2px right, 8px left, 2px top/bottom | — |
@@ -228,7 +228,7 @@ Switch 由以下部分组成：
 
 - 不要改变滑块尺寸：大号 26×26px，小号 20×20px。
 - 不要在小号尺寸上使用内嵌文字模式，内嵌文字仅支持大号（medium）。
-- 不要改变轨道圆角 24px（小号关闭状态为 12px）。
+- 不要改变轨道圆角 `radius-full`（小号关闭状态为 `radius-3xl`）。
 - 不要改变内嵌文字最大字数限制：最多 4 个字。
 - 不要在关闭状态使用自定义颜色，关闭状态始终为 `gray5`。
 - 不要在禁用状态使用自定义颜色，禁用状态有固定的颜色规则。

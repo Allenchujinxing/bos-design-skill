@@ -61,7 +61,7 @@ This file records the Figma visual style only.
 |---|---|
 | 宽度 | 304px（固定） |
 | Background | `white1` |
-| 圆角 | 12px（第一梯度，面板级） |
+| 圆角 | `radius-3xl`（第一梯度，面板级） |
 | 位置 | 屏幕垂直居中，水平居中 |
 | 阴影 | 无（通过遮罩区分层级） |
 
@@ -102,7 +102,7 @@ This file records the Figma visual style only.
 | 高度 | 48px |
 | 宽度 | 264px（容器宽 304 - 左右 20px padding） |
 | Background | `gray8` |
-| 圆角 | 8px（模块内圆角） |
+| 圆角 | `radius-xl`（模块内圆角） |
 | 字体 | 16px / regular 400 / `gray1` / line-height 24px |
 | Placeholder | 16px / regular 400 / `gray3` |
 | Padding | 12px 内边距 |
@@ -116,7 +116,7 @@ This file records the Figma visual style only.
 |---|---|
 | 宽度 | 304px（撑满容器） |
 | 高度 | 228px |
-| 圆角 | 顶部 12px（跟随容器），底部 0 |
+| 圆角 | 顶部 `radius-3xl`（跟随容器），底部 0 |
 | 位置 | 容器最顶部 |
 
 ### 不贴边图片（类型5）
@@ -125,7 +125,7 @@ This file records the Figma visual style only.
 |---|---|
 | 宽度 | 264px（容器宽 - 左右 20px） |
 | 高度 | 198px |
-| 圆角 | 8px（模块内圆角） |
+| 圆角 | `radius-xl`（模块内圆角） |
 | Padding | 20px（距容器边缘） |
 | 位置 | 内容区内，可在标题上方或下方 |
 
@@ -144,7 +144,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 按钮高度 | 40px（middle 档） |
-| 按钮圆角 | 8px |
+| 按钮圆角 | `radius-xl` |
 | Padding | 20px 左右，0 上，20px 下 |
 | 按钮间距 | 12px（双按钮时） |
 
