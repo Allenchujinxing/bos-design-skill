@@ -1,5 +1,14 @@
 # 更新记录
 
+## 2026-05-23
+
+- 将组件样式文件中的所有颜色硬编码（hex 值）替换为纯 token 语义名，组件不再绑定具体色值。
+- 为 `card.md` 补充「视觉 Token 声明」，修正旧路径 `DESIGN-HelloCN.md` → `references/design.md`。
+- 组件体系现在是通用的：更换 `design.md` 即可适配不同视觉系统（HelloCN、HelloRide、HelloSaaS），组件结构和行为不变。
+- 新增 `evals/` 目录，包含 6 个按设计能力维度划分的 eval 用例，用于验证 skill 输出稳定性。
+- 简化 README「工作方式」章节为用户视角的 4 步流程说明。
+
+
 ## 2026-05-22
 
 - 将 `bos-design` 的核心工作流重写为「定义问题 -> 拆解问题 -> 收敛体验 -> 规范落地」，强调页面样式、组件规范和 token 服务于 UX 判断。
