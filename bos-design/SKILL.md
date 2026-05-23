@@ -7,6 +7,12 @@ description: Design BOS mobile operations product experiences for HelloRide usin
 
 Use this skill to design mobile product experiences that follow the user's component visuals, visual tokens, interaction patterns, component-defined icon language, and product-specific page language. The goal is to generate design proposals with complete scenario fit for Hello BOS mobile product work, suitable for UX review, business stakeholder discussion, and implementation iteration.
 
+## Execution Principle
+
+Use this skill as an execution contract, not a visual moodboard. Move slowly through the workflow and generate only after the page strategy, component list, required states, tokens, and assets are known. A valid result must align with the selected page-style files, every matching component style file, `design.md` tokens, and `review-checklist.md` on the first full pass.
+
+Do not improvise missing icons, assets, or component details; state the gap before generating.
+
 ## Core Workflow
 
 Design BOS experiences by continuously defining the problem, breaking it down, and converging it into a clear experience. Page styles, components, tokens, and interaction references make that solution BOS-consistent; they do not replace UX judgment.
