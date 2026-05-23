@@ -27,7 +27,7 @@ This file records the Figma visual style only.
 |---|---|
 | 图标 | `ic_loading_line`（循环旋转动画） |
 | 尺寸 | 56×56px |
-| 颜色 | Branding-1 `#0076FF` |
+| 颜色 | Branding-1 |
 | 动画 | 360° 持续旋转，1s 一圈，linear |
 | 位置 | 页面水平居中，垂直居中 |
 
@@ -43,8 +43,8 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 主文字 | 16px / regular 400 / gray1 `#111111` / line-height 24px / 居中 |
-| 副文字 | 14px / regular 400 / gray3 `#879099` / line-height 22px / 居中 |
+| 主文字 | 16px / regular 400 / gray1 / line-height 24px / 居中 |
+| 副文字 | 14px / regular 400 / gray3 / line-height 22px / 居中 |
 | 图标与主文字间距 | 12px |
 | 主文字与副文字间距 | 8px |
 
@@ -59,7 +59,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 尺寸 | 自适应内容（最小 80×80px） |
-| 背景 | white1 `#FFFFFF` |
+| 背景 | white1 |
 | 圆角 | 8px |
 | 位置 | 页面水平居中，垂直居中 |
 
@@ -96,10 +96,10 @@ This file records the Figma visual style only.
 |---|---|
 | 图标 | `ic_loading_line` |
 | 尺寸 | 24×24px 或 20×20px（根据模块大小） |
-| 颜色 | gray3 `#879099` |
+| 颜色 | gray3 |
 | 动画 | 360° 持续旋转，1s 一圈，linear |
 | 位置 | 模块区域水平居中 |
-| 文字（可选） | 12px / regular 400 / gray3 `#879099` / 图标下方 4px |
+| 文字（可选） | 12px / regular 400 / gray3 / 图标下方 4px |
 
 ---
 

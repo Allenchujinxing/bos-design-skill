@@ -76,7 +76,7 @@ Do not use regular-weight body text for Button labels unless a future Figma comp
 | Theme | Normal | Pressed | Disabled | Light background |
 |---|---|---|---|---|
 | `brand` | `Branding-1` `Branding-1` | `Branding-0` `Branding-0` | `Branding-2` `Branding-2` | `Branding-3` `Branding-3` |
-| `error` | `Error-1` `Error-1` | `Error-0` `Error-0` | `Error-2` `#fdcbcb` | `Error-3` `#feeeee` |
+| `error` | `Error-1` `Error-1` | `Error-0` `Error-0` | `Error-2` | `Error-3` |
 
 Other tokens:
 

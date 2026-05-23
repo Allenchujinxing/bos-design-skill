@@ -48,16 +48,16 @@ This file records the Figma visual style only.
 
 | Type | 填充颜色 | 尾部内容 | 说明 |
 |---|---|---|---|
-| `process` | `Branding-1`（默认 HelloCN: `#0076FF`） | 百分比文字 `80%` | 进行中 |
-| `complete` | `Success-1`（默认 HelloCN: `#07C160`） | iconfont 完成状态图标 | 已完成，填充 100% |
-| `warning` | `Warning-1`（默认 HelloCN: `#FB990F`） | iconfont 警示状态图标 | 警告 |
-| `error` | `Error-1`（默认 HelloCN: `#F72626`） | iconfont 错误状态图标 | 错误 |
+| `process` | `Branding-1` | 百分比文字 `80%` | 进行中 |
+| `complete` | `Success-1` | iconfont 完成状态图标 | 已完成，填充 100% |
+| `warning` | `Warning-1` | iconfont 警示状态图标 | 警告 |
+| `error` | `Error-1` | iconfont 错误状态图标 | 错误 |
 
 ## 轨道样式
 
 | Property | Value |
 |---|---|
-| Background | `gray6`（默认 HelloCN: `#E1E6EB`） |
+| Background | `gray6` |
 | Height | 6px |
 | Border-radius | 999px |
 
@@ -79,7 +79,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Font | 14px / regular 400 / `gray1`（默认 HelloCN: `#111111`） / line-height 22px |
+| Font | 14px / regular 400 / `gray1` / line-height 22px |
 | Alignment | 右对齐 |
 | Width | 36px |
 
@@ -95,11 +95,11 @@ This file records the Figma visual style only.
 
 | Token | Value | Use |
 |---|---|---|
-| `Gray6` | `#e1e6eb` | 轨道背景 |
-| `Branding-1` | `#0076ff` | process 填充 |
-| `Success-1` | `#07c160` | complete 填充 + 图标 |
-| `Warning-1` | `#fb990f` | warning 填充 + 图标 |
-| `Error-1` | `#f72626` | error 填充 + 图标 |
+| `Gray6` | 轨道背景 |
+| `Branding-1` | process 填充 |
+| `Success-1` | complete 填充 + 图标 |
+| `Warning-1` | warning 填充 + 图标 |
+| `Error-1` | error 填充 + 图标 |
 | `gray1` | `#111` | 百分比文字 |
 
 ### 状态图标选择
@@ -165,7 +165,7 @@ Progress 组件支持以下维度的自定义：
 | Property | 默认值 | 可自定义 | 说明 |
 |---|---|---|---|
 | `activeColor` | 按状态取色（见上方状态表） | 任意颜色值 | 填充条颜色 |
-| `trackColor` | `#e1e6eb` (Gray6) | 任意颜色值 | 轨道背景色 |
+| `trackColor` | `gray6` | 任意颜色值 | 轨道背景色 |
 
 自定义颜色时的约束：
 - 填充色与轨道色需有足够对比度，建议对比度 ≥ 3:1

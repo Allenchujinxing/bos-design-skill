@@ -219,12 +219,12 @@ Same as Layout 2.
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | Active step icon, title |
-| `Color/brand/branding-2` | `#c2deff` | Disabled button background |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | `#5a6066` | Default step title |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | Subtitle text |
-| `Color/neutral/gray5-component-border` | `#d3dae0` | Connector line (Layout 1, Vertical) |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | Connector line (Layout 2, 3) |
+| `Color/brand/branding-1` | | Active step icon, title |
+| `Color/brand/branding-2` | | Disabled button background |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | | Default step title |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | Subtitle text |
+| `Color/neutral/gray5-component-border` | | Connector line (Layout 1, Vertical) |
+| `Color/neutral/gray6-component-stroke` | | Connector line (Layout 2, 3) |
 
 ## Customization Notes
 

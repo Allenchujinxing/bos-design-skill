@@ -133,12 +133,12 @@ A header row above the track shows a hint label and the current selected value. 
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | Active track, thumb border, selected value text |
-| `Color/brand/branding-2` | `#c2deff` | Thumb grip lines |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | End labels, value bubble text |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | `#5a6066` | Header hint text, below-track labels |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | Inactive track |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | Thumb background |
+| `Color/brand/branding-1` | | Active track, thumb border, selected value text |
+| `Color/brand/branding-2` | | Thumb grip lines |
+| `Color/icon&text/gray1-text-icon-color-default` | | End labels, value bubble text |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | | Header hint text, below-track labels |
+| `Color/neutral/gray6-component-stroke` | | Inactive track |
+| `Color/neutral/white1-bg-color-container` | | Thumb background |
 
 ## Interaction
 

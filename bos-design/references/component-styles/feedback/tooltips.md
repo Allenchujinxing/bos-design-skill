@@ -74,7 +74,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 10px / semibold 600 / `warning`（`Warning-1` `#FB990F`）/ line-height 14px |
+| 字体 | 10px / semibold 600 / `warning`（`Warning-1`）/ line-height 14px |
 | 位置 | 文字左侧（紧邻文字） |
 
 ---
@@ -120,7 +120,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 12px / semibold 600 / 品牌色（#1ACEAA）/ line-height 18px |
+| 字体 | 12px / semibold 600 / 品牌色（brand）/ line-height 18px |
 | 位置 | 文字左侧或右侧（关闭按钮之前） |
 
 ### 前置图标（可选）
@@ -151,7 +151,7 @@ This file records the Figma visual style only.
 | 示例 | 背景色 | 文字色 |
 |---|---|---|
 | 默认深色 | `rgba(0,0,0,0.8)` | `anti`（白色） |
-| 品牌色 | `#1ACEAA` | 白色 |
+| 品牌色 | `brand` | 白色 |
 | 自定义 | 任意色值 | 根据背景色自动适配 |
 
 ---

@@ -149,14 +149,14 @@ Switch 由以下部分组成：
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | 开启状态轨道背景（默认） |
-| `Color/brand/branding-2` | `#c2deff` | 开启+禁用状态轨道背景 |
-| `Color/neutral/gray5-component-border` | `#d3dae0` | 关闭状态轨道背景 |
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | 关闭+禁用状态轨道背景 |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | 滑块颜色、开启文字颜色 |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | 关闭状态内嵌文字颜色 |
-| `Color/warning/warning-1` | `#fb990f` | 自定义颜色：警告橙 |
-| `Color/success/success-color` | `Success-1` `#07c160` | 自定义颜色：成功绿 |
+| `Color/brand/branding-1` | | 开启状态轨道背景（默认） |
+| `Color/brand/branding-2` | | 开启+禁用状态轨道背景 |
+| `Color/neutral/gray5-component-border` | | 关闭状态轨道背景 |
+| `Color/neutral/gray8-bg-color-page` | | 关闭+禁用状态轨道背景 |
+| `Color/neutral/white1-bg-color-container` | | 滑块颜色、开启文字颜色 |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | 关闭状态内嵌文字颜色 |
+| `Color/warning/warning-1` | | 自定义颜色：警告橙 |
+| `Color/success/success-color` | `Success-1` | 自定义颜色：成功绿 |
 
 ## States
 

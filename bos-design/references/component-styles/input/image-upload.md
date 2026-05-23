@@ -297,12 +297,12 @@ ImagePicker 由以下部分组成：
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | 容器背景 |
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | 上传按钮背景 |
+| `Color/neutral/white1-bg-color-container` | | 容器背景 |
+| `Color/neutral/gray8-bg-color-page` | | 上传按钮背景 |
 | `Color/neutral/translucent-bg-color` | `rgba(0,0,0,0.7)` | 删除按钮背景 |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | 标题文字颜色 |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | 副标题、说明入口颜色 |
-| `Color/error/error-1` | `#f72626` | 必填标记 `*` 颜色 |
+| `Color/icon&text/gray1-text-icon-color-default` | | 标题文字颜色 |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | 副标题、说明入口颜色 |
+| `Color/error/error-1` | | 必填标记 `*` 颜色 |
 | 蒙层色 | `rgba(0,0,0,0.6)` | 上传中/重新上传/失败蒙层 |
 
 ## Typography Summary

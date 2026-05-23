@@ -158,16 +158,16 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | Input cursor |
-| `Color/error/error-0` | `#cb1f1f` | Required indicator |
-| `Color/error/error-1` | `#f72626` | Over-limit counter |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Label text, input text, normal counter |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | Placeholder, counter max |
-| `Color/icon&text/gray4-text-icon-color-disable` | `#bcc4cc` | Disabled text |
-| `Color/neutral/gray5-component-border` | `#d3dae0` | Outline theme border |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | Bottom border |
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | Fill theme background |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | Container background |
+| `Color/brand/branding-1` | | Input cursor |
+| `Color/error/error-0` | | Required indicator |
+| `Color/error/error-1` | | Over-limit counter |
+| `Color/icon&text/gray1-text-icon-color-default` | | Label text, input text, normal counter |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | Placeholder, counter max |
+| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled text |
+| `Color/neutral/gray5-component-border` | | Outline theme border |
+| `Color/neutral/gray6-component-stroke` | | Bottom border |
+| `Color/neutral/gray8-bg-color-page` | | Fill theme background |
+| `Color/neutral/white1-bg-color-container` | | Container background |
 
 ## Typography Summary
 

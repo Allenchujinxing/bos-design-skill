@@ -53,10 +53,10 @@ This file records the Figma visual style only.
 
 | 状态 | 背景色 | 图标色 | 说明 |
 |---|---|---|---|
-| default（信息） | Branding-3 `#EBF4FF` | Branding-1 `#0076FF` | 普通信息提示 |
-| success | Success-3 `#EBFAF2` | Success-1 `#07C160` | 成功提示 |
-| error | Error-3 `#FEEEEE` | Error-1 `#F72626` | 错误/异常提示 |
-| warning | Warning-3 `#FFF7EC` | Warning-1 `#FB990F` | 警告提示 |
+| default（信息） | Branding-3 | Branding-1 | 普通信息提示 |
+| success | Success-3 | Success-1 | 成功提示 |
+| error | Error-3 | Error-1 | 错误/异常提示 |
+| warning | Warning-3 | Warning-1 | 警告提示 |
 
 背景色可自定义，不限于以上 4 种。
 
@@ -68,7 +68,7 @@ This file records the Figma visual style only.
 |---|---|
 | 布局 | flex 水平，gap 8px，items-center，flex: 1 |
 | 图标 | 20×20px，颜色跟随状态（见上表），可从 iconfont 选择图标 |
-| 文字 | 14px / regular 400 / gray1 `#111111` / line-height 22px |
+| 文字 | 14px / regular 400 / gray1 / line-height 22px |
 | 文字换行 | 支持多行（word-break: break-word），容器高度自适应 |
 
 ---
@@ -82,7 +82,7 @@ This file records the Figma visual style only.
 | 操作按钮 | 文字按钮 | 自适应 | 如"查看详情"、"去处理" |
 | 无 | — | — | 纯展示，无操作 |
 
-右侧操作区图标颜色：gray3 `#879099`。
+右侧操作区图标颜色：gray3。
 
 ---
 

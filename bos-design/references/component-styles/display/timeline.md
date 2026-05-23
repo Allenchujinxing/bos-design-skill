@@ -284,16 +284,16 @@ Both support text wrapping for long content.
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | Selected/current node title, current node dot |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Default title, text content, default node dot |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | `#5a6066` | Subtitle, time, action entry text, completed title, address text |
-| `Color/neutral/gray5-component-border` | `#d3dae0` | Inactive node dot stroke |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | Connector line (solid & dashed) |
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | Text content gray background |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | Text content white background |
-| `Color/semantic/success-1` | `#06AEBD` | Completed node dot, success icon |
-| `Color/semantic/error-1` | `#EE3B28` | Failure icon |
-| `Color/semantic/warning-1` | `#FF9500` | Warning icon |
+| `Color/brand/branding-1` | | Selected/current node title, current node dot |
+| `Color/icon&text/gray1-text-icon-color-default` | | Default title, text content, default node dot |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | | Subtitle, time, action entry text, completed title, address text |
+| `Color/neutral/gray5-component-border` | | Inactive node dot stroke |
+| `Color/neutral/gray6-component-stroke` | | Connector line (solid & dashed) |
+| `Color/neutral/gray8-bg-color-page` | | Text content gray background |
+| `Color/neutral/white1-bg-color-container` | | Text content white background |
+| `Color/semantic/success-1` | | Completed node dot, success icon |
+| `Color/semantic/error-1` | | Failure icon |
+| `Color/semantic/warning-1` | | Warning icon |
 
 ## Layout Notes
 

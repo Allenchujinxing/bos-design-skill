@@ -125,8 +125,8 @@ empty-<scene>-<size>.png
 | Min width | 156px |
 | Padding | 0 20px |
 | Border-radius | 10px |
-| Background | `Branding-1`（默认 HelloCN: `#0076FF`） |
-| Background (pressed) | `Branding-0`（默认 HelloCN: `#0061D1`） |
+| Background | `Branding-1` |
+| Background (pressed) | `Branding-0` |
 | Font | 16px / semibold 600 / `anti` / line-height 24px |
 
 ## Local/Partial Empty State (局部级空状态)
@@ -181,8 +181,8 @@ empty-<scene>-<size>.png
 | Min width | 88px |
 | Padding | 0 12px |
 | Border-radius | 6px |
-| Background | `Branding-1`（默认 HelloCN: `#0076FF`） |
-| Background (pressed) | `Branding-0`（默认 HelloCN: `#0061D1`） |
+| Background | `Branding-1` |
+| Background (pressed) | `Branding-0` |
 | Font | 14px / semibold 600 / `anti` / line-height 22px |
 
 ## Text Styles
@@ -197,12 +197,12 @@ empty-<scene>-<size>.png
 
 | Token | Value | Use |
 |---|---|---|
-| `gray1` | `#111111` | 标题文字 |
-| `gray3` | `#879099` | 正文/描述文字 |
-| `Branding-1` | `#0076ff` | 按钮背景 |
-| `Branding-0` | `#0061d1` | 按钮按压态 |
-| `anti` | `white1` `#ffffff` | 按钮文字 |
-| `white1` | `#ffffff` | 页面/模块背景 |
+| `gray1` | 标题文字 |
+| `gray3` | 正文/描述文字 |
+| `Branding-1` | 按钮背景 |
+| `Branding-0` | 按钮按压态 |
+| `anti` | `white1` | 按钮文字 |
+| `white1` | 页面/模块背景 |
 
 ## State Semantics And Copy
 

@@ -175,11 +175,11 @@ Note: the divider line is inset by 12px on each side (centered within the row's 
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | List background (default) |
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | List row active/pressed background |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | Row bottom border |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Title text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | Subtitle, tips text |
+| `Color/neutral/white1-bg-color-container` | | List background (default) |
+| `Color/neutral/gray8-bg-color-page` | | List row active/pressed background |
+| `Color/neutral/gray6-component-stroke` | | Row bottom border |
+| `Color/icon&text/gray1-text-icon-color-default` | | Title text |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | Subtitle, tips text |
 
 ## Do Not Infer
 

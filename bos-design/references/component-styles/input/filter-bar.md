@@ -40,7 +40,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景 | white1 `#FFFFFF` |
+| 背景 | white1 |
 | 高度 | 32px |
 | 宽度 | 100%（通栏） |
 | 布局 | flex，子项等分宽度（flex: 1） |
@@ -61,23 +61,23 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 文字 | 14px / regular 400 / gray1 `#111111` / line-height 22px |
-| 图标 | `ic_caret_down_fill` 16×16px，gray3 `#879099` |
+| 文字 | 14px / regular 400 / gray1 / line-height 22px |
+| 图标 | `ic_caret_down_fill` 16×16px，gray3 |
 
 **选中态（有已选项）**
 
 | Property | Value |
 |---|---|
-| 文字 | 14px / semibold 600 / Branding-1 `#0076FF` / line-height 22px |
-| 图标 | `ic_caret_down_fill` 16×16px，Branding-1 `#0076FF` |
+| 文字 | 14px / semibold 600 / Branding-1 / line-height 22px |
+| 图标 | `ic_caret_down_fill` 16×16px，Branding-1 |
 
 **选中态 + 回显数字**
 
 | Property | Value |
 |---|---|
-| 文字 | 14px / semibold 600 / Branding-1 `#0076FF` |
-| 回显数字 | 12×12px 圆形，Branding-1 `#0076FF` 背景，白色文字 10px |
-| 图标 | `ic_caret_down_fill` 16×16px，Branding-1 `#0076FF` |
+| 文字 | 14px / semibold 600 / Branding-1 |
+| 回显数字 | 12×12px 圆形，Branding-1 背景，白色文字 10px |
+| 图标 | `ic_caret_down_fill` 16×16px，Branding-1 |
 | 排列顺序 | 文字 → 回显数字 → 下拉图标 |
 
 ---
@@ -99,7 +99,7 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 32px |
 | 内边距 | 1px 8px |
-| 背景 | white1 `#FFFFFF` |
+| 背景 | white1 |
 | 圆角 | 8px |
 | 投影 | 一级投影 `0 2px 8px 0 rgba(17,17,17,0.04)` |
 | 布局 | flex 水平居中，gap 2px |

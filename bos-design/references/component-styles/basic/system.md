@@ -42,8 +42,8 @@ This file records the Figma visual style only.
 
 | 主题 | 时间颜色 | 图标颜色 | 背景 |
 |---|---|---|---|
-| Light | gray1 `#111111` | gray1 `#111111` | 透明或白色 |
-| Dark | white1 `#FFFFFF` | white1 `#FFFFFF` | 透明或深色 |
+| Light | gray1 | gray1 | 透明或白色 |
+| Dark | white1 | white1 | 透明或深色 |
 
 ### 使用规则
 
@@ -69,8 +69,8 @@ This file records the Figma visual style only.
 | 元素 | 样式 |
 |---|---|
 | 小横条 | 宽 140px（36%屏宽），高 5px，圆角 2.5px，水平居中 |
-| 小横条颜色（Light） | gray1 `#111111` |
-| 小横条颜色（Dark） | white1 `#FFFFFF` |
+| 小横条颜色（Light） | gray1 |
+| 小横条颜色（Dark） | white1 |
 | 小横条垂直位置 | 距顶部 38.24%（约 13px） |
 
 ### 使用规则

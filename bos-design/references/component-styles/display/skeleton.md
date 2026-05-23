@@ -34,7 +34,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景色 | `gray7`（默认 HelloCN: `#F0F3F5`） |
+| 背景色 | `gray7` |
 | 圆角 | 与实际内容元素保持一致（文字行用 2–4px，图片/头像用对应圆角） |
 | 高度 | 与待加载元素视觉高度保持一致，优先根据栅格定义，或选取 4 的倍数 |
 | 位置 | 与待加载元素保持上下居中对齐 |
@@ -77,7 +77,7 @@ This file records the Figma visual style only.
 
 | Token | Value | Use |
 |---|---|---|
-| 占位块背景 | `gray7`（默认 HelloCN: `#F0F3F5`） | 所有骨架占位块 |
+| 占位块背景 | `gray7` | 所有骨架占位块 |
 | 页面背景 | `white1` 或页面实际背景色 | 骨架屏容器背景 |
 
 ## CSS 动画参考
@@ -89,7 +89,7 @@ This file records the Figma visual style only.
 }
 
 .skeleton-block {
-  background: var(--color-bg-component); /* gray7, HelloCN: #F0F3F5 */
+  background: var(--color-bg-component); /* gray7 */
   animation: skeleton-breath 1.6s ease-in-out infinite;
 }
 ```

@@ -170,11 +170,11 @@ Search bar with back arrow on left and action text on right.
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | Custom theme container bg, cursor color |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Input text, right area text, back arrow |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | Placeholder text, search icon, clear icon |
-| `Color/neutral/gray7-bg-color-component` | `#f0f3f5` | White theme input bg |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | White theme container bg, custom theme input bg |
+| `Color/brand/branding-1` | | Custom theme container bg, cursor color |
+| `Color/icon&text/gray1-text-icon-color-default` | | Input text, right area text, back arrow |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | Placeholder text, search icon, clear icon |
+| `Color/neutral/gray7-bg-color-component` | | White theme input bg |
+| `Color/neutral/white1-bg-color-container` | | White theme container bg, custom theme input bg |
 
 ## Typography Summary
 

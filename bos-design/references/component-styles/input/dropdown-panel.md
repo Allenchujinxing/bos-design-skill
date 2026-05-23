@@ -28,7 +28,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景 | white1 `#FFFFFF` |
+| 背景 | white1 |
 | 圆角 | 顶部 0px，底部 12px |
 | 宽度 | 100%（390px） |
 | 高度 | 自适应内容，最大不超过 70vh |
@@ -44,16 +44,16 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 高度 | 64px |
-| 背景 | white1 `#FFFFFF` |
-| 顶部分割线 | 0.5px gray6 `#E1E6EB` |
+| 背景 | white1 |
+| 顶部分割线 | 0.5px gray6 |
 | 内边距 | 12px |
 | 按钮间距 | 12px |
 | 按钮布局 | 两个按钮等分宽度 |
 
 | 按钮 | 背景 | 文字 | 圆角 | 高度 |
 |---|---|---|---|---|
-| 重置 | Branding-3 `#EBF4FF` | 16px / semibold 600 / Branding-1 `#0076FF` | 8px | 40px |
-| 确认 | Branding-1 `#0076FF` | 16px / semibold 600 / anti `white1` `#FFFFFF` | 8px | 40px |
+| 重置 | Branding-3 | 16px / semibold 600 / Branding-1 | 8px | 40px |
+| 确认 | Branding-1 | 16px / semibold 600 / anti `white1` | 8px | 40px |
 
 **按钮支持展示已选数量或不显示**，如"确认(3)"，根据业务需求决定。
 
@@ -68,16 +68,16 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 图标 | `ic_check_line` 20×20px（列表）或 16×16px（气泡菜单） |
-| 颜色 | Branding-1 `#0076FF` |
+| 颜色 | Branding-1 |
 | 位置 | 选项右侧 |
-| 选中文字色 | Branding-1 `#0076FF` |
+| 选中文字色 | Branding-1 |
 
 ### 样式 B：贴角勾选标记
 
 | Property | Value |
 |---|---|
 | 形状 | 右上角三角形 18×12px |
-| 颜色 | Branding-1 `#0076FF` |
+| 颜色 | Branding-1 |
 | 勾选图标 | 白色对勾，内嵌在三角形中 |
 | 位置 | 标签右上角贴角 |
 
@@ -96,9 +96,9 @@ This file records the Figma visual style only.
 | 高度 | 56px |
 | 左边距 | 12px |
 | 右边距 | 12px |
-| 文字 | 16px / regular 400 / gray1 `#111111` / line-height 24px |
-| 选中图标 | `ic_check_line` 20×20px，Branding-1 `#0076FF`，右侧 |
-| 选中文字色 | Branding-1 `#0076FF` |
+| 文字 | 16px / regular 400 / gray1 / line-height 24px |
+| 选中图标 | `ic_check_line` 20×20px，Branding-1，右侧 |
+| 选中文字色 | Branding-1 |
 | 垂直对齐 | 文字和图标均垂直居中 |
 
 ---
@@ -114,10 +114,10 @@ This file records the Figma visual style only.
 | 高度 | 44px |
 | 位置 | 面板顶部 |
 | 内边距 | 0 12px |
-| 图标 | `ic_search_line` 16×16px，gray3 `#879099`，左侧 |
-| 输入文字 | 14px / regular 400 / gray1 `#111111` |
-| 占位符 | 14px / regular 400 / gray3 `#879099` |
-| 底部分割线 | 0.5px gray6 `#E1E6EB` |
+| 图标 | `ic_search_line` 16×16px，gray3，左侧 |
+| 输入文字 | 14px / regular 400 / gray1 |
+| 占位符 | 14px / regular 400 / gray3 |
+| 底部分割线 | 0.5px gray6 |
 
 ### 列表项
 
@@ -144,13 +144,13 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 40px（单行）或自适应（双行） |
 | 宽度 | 等分三列 |
-| 背景（默认） | gray8 `#F5F7FA` |
-| 背景（选中） | Branding-3 `#EBF4FF` |
+| 背景（默认） | gray8 |
+| 背景（选中） | Branding-3 |
 | 边框（默认） | 1px solid transparent |
-| 边框（选中） | 1px solid Branding-1 `#0076FF` |
+| 边框（选中） | 1px solid Branding-1 |
 | 圆角 | 8px |
-| 文字（默认） | 14px / regular 400 / gray1 `#111111` / 居中 |
-| 文字（选中） | 14px / regular 400 / Branding-1 `#0076FF` / 居中 |
+| 文字（默认） | 14px / regular 400 / gray1 / 居中 |
+| 文字（选中） | 14px / regular 400 / Branding-1 / 居中 |
 | 内边距 | 7px 12px |
 
 **同一行内的标签高度要保持一致。** 如果某个标签文字换行，同行其他标签也应撑高到相同高度。
@@ -159,8 +159,8 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 左侧竖条 | 4×14px，Branding-1 渐变（从 `#0076FF` 到透明），圆角 1px |
-| 文字 | 14px / semibold 600 / gray1 `#111111` / line-height 22px |
+| 左侧竖条 | 4×14px，Branding-1 渐变（从 Branding-1 到透明），圆角 1px |
+| 文字 | 14px / semibold 600 / gray1 / line-height 22px |
 | 与竖条间距 | 4px |
 | 上边距 | 12px（非首个分组），首个分组 0 |
 | 下边距 | 8px |
@@ -184,20 +184,20 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 宽度 | 92px |
-| 背景 | gray7 `#F0F3F5` |
+| 背景 | gray7 |
 | 分类项高度 | 46px |
 | 分类项内边距 | 0 12px |
-| 文字（默认） | 14px / regular 400 / gray1 `#111111` / line-height 22px |
-| 文字（选中） | 14px / semibold 600 / Branding-1 `#0076FF` |
-| 选中态背景 | white1 `#FFFFFF` |
-| 已选标记 | 左侧 4px 处，4×4px 圆点，Branding-1 `#0076FF`（多选场景下表示该分类有已选项） |
+| 文字（默认） | 14px / regular 400 / gray1 / line-height 22px |
+| 文字（选中） | 14px / semibold 600 / Branding-1 |
+| 选中态背景 | white1 |
+| 已选标记 | 左侧 4px 处，4×4px 圆点，Branding-1（多选场景下表示该分类有已选项） |
 
 ### 右侧内容区
 
 | Property | Value |
 |---|---|
 | 宽度 | 剩余空间（390 - 92 = 298px） |
-| 背景 | white1 `#FFFFFF` |
+| 背景 | white1 |
 | 内边距 | 12px |
 | 内容 | 标签网格（同模式 3 的网格项样式） |
 
@@ -207,8 +207,8 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 文字（默认） | 14px / semibold 600 / gray1 `#111111` / line-height 22px |
-| 文字（高亮） | 14px / semibold 600 / Branding-1 `#0076FF` / line-height 22px |
+| 文字（默认） | 14px / semibold 600 / gray1 / line-height 22px |
+| 文字（高亮） | 14px / semibold 600 / Branding-1 / line-height 22px |
 | 下边距 | 8px |
 
 标题高亮规则：当内容区滚动到该分类的区域时，对应标题变为蓝色；滚出该区域后恢复默认色。与左侧分类高亮联动一致。
@@ -252,10 +252,10 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 46px |
 | 内边距 | 0 12px |
-| 文字 | 14px / regular 400 / gray1 `#111111` / line-height 22px |
+| 文字 | 14px / regular 400 / gray1 / line-height 22px |
 | 选中图标 | `ic_check_line` 20×20px，右侧，Branding-1 |
-| 选中文字色 | Branding-1 `#0076FF` |
-| 分割线 | 0.5px gray6 `#E1E6EB`，每行底部，左右各留 12px 缩进，最后一项是否有分割线根据业务场景决定 |
+| 选中文字色 | Branding-1 |
+| 分割线 | 0.5px gray6，每行底部，左右各留 12px 缩进，最后一项是否有分割线根据业务场景决定 |
 
 ### 右侧列表项 — 双行
 
@@ -263,10 +263,10 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 68px |
 | 内边距 | 12px |
-| 主文字 | 14px / regular 400 / gray1 `#111111` / line-height 22px |
-| 副文字 | 12px / regular 400 / gray3 `#879099` / line-height 18px，主文字下方 4px |
+| 主文字 | 14px / regular 400 / gray1 / line-height 22px |
+| 副文字 | 12px / regular 400 / gray3 / line-height 18px，主文字下方 4px |
 | 选中图标 | Radio icon 20×20px，右侧，与主文字垂直居中 |
-| 分割线 | 0.5px gray6 `#E1E6EB`，每行底部，左右各留 12px 缩进，最后一项是否有分割线根据业务场景决定 |
+| 分割线 | 0.5px gray6，每行底部，左右各留 12px 缩进，最后一项是否有分割线根据业务场景决定 |
 
 ### 多选支持
 
@@ -285,9 +285,9 @@ This file records the Figma visual style only.
 
 | 列 | 宽度 | 背景 |
 |---|---|---|
-| 左（一级分类） | 92px | gray7 `#F0F3F5` |
-| 中（二级选项） | 120px | gray8 `#F5F7FA` |
-| 右（三级内容） | 剩余空间（178px） | white1 `#FFFFFF` |
+| 左（一级分类） | 92px | gray7 |
+| 中（二级选项） | 120px | gray8 |
+| 右（三级内容） | 剩余空间（178px） | white1 |
 
 ### 左侧一级分类
 
@@ -299,11 +299,11 @@ This file records the Figma visual style only.
 |---|---|
 | 选项高度 | 46px |
 | 内边距 | 0 12px |
-| 背景（默认） | gray8 `#F5F7FA` |
-| 背景（选中） | white1 `#FFFFFF` |
-| 文字（默认） | 14px / regular 400 / gray1 `#111111` / line-height 22px |
-| 文字（选中） | 14px / semibold 600 / Branding-1 `#0076FF` |
-| 已选标记 | 左侧 4px 处，4×4px 圆点，Branding-1 `#0076FF`（表示该二级下有已选三级） |
+| 背景（默认） | gray8 |
+| 背景（选中） | white1 |
+| 文字（默认） | 14px / regular 400 / gray1 / line-height 22px |
+| 文字（选中） | 14px / semibold 600 / Branding-1 |
+| 已选标记 | 左侧 4px 处，4×4px 圆点，Branding-1（表示该二级下有已选三级） |
 
 ### 右侧三级内容
 
@@ -327,7 +327,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景 | white1 `#FFFFFF` |
+| 背景 | white1 |
 | 圆角 | 8px |
 | 投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
 | 宽度 | 自适应内容（最小 104px） |
@@ -340,10 +340,10 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 38px |
 | 内边距 | 8px 12px |
-| 文字 | 14px / regular 400 / gray1 `#111111` / line-height 22px |
+| 文字 | 14px / regular 400 / gray1 / line-height 22px |
 | 文字对齐 | 左对齐（无论箭头位置在哪，内容始终居左） |
-| 选中图标 | `ic_check_line` 16×16px，Branding-1 `#0076FF`，右侧 |
-| 选中文字色 | Branding-1 `#0076FF` |
+| 选中图标 | `ic_check_line` 16×16px，Branding-1，右侧 |
+| 选中文字色 | Branding-1 |
 | 分割线 | 无 |
 
 **下拉菜单宽度可基于内容自定义，内部布局不变。**
@@ -385,9 +385,9 @@ This file records the Figma visual style only.
 
 | 状态 | 文字 | 箭头方向 | 箭头颜色 |
 |---|---|---|---|
-| 默认（未展开、无已选） | regular 400 / gray1 | 朝下 | gray3 `#879099` |
-| 激活（面板展开中） | semibold 600 / Branding-1 | 朝上（旋转 180°） | Branding-1 `#0076FF` |
-| 已选（面板关闭、有已选项） | semibold 600 / Branding-1 | 朝下 | gray3 `#879099` |
+| 默认（未展开、无已选） | regular 400 / gray1 | 朝下 | gray3 |
+| 激活（面板展开中） | semibold 600 / Branding-1 | 朝上（旋转 180°） | Branding-1 |
+| 已选（面板关闭、有已选项） | semibold 600 / Branding-1 | 朝下 | gray3 |
 
 ### 单选 vs 多选
 
@@ -400,8 +400,8 @@ This file records the Figma visual style only.
 
 | 按钮 | 点击行为 | pressed 态 |
 |---|---|---|
-| 确认 | 关闭面板（有收起动画） | 背景变为 Branding-0 `#0061D1` |
-| 重置 | 清空当前面板所有选中项，面板保持展开 | 背景变为 Branding-2 `#C2DEFF` |
+| 确认 | 关闭面板（有收起动画） | 背景变为 Branding-0 |
+| 重置 | 清空当前面板所有选中项，面板保持展开 | 背景变为 Branding-2 |
 
 ---
 

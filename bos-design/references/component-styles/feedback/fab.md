@@ -24,9 +24,9 @@ This file records the Figma visual style only.
 |---|---|
 | 形状 | 圆形 |
 | 尺寸 | 40×40px |
-| 背景 | Branding-1 `#0076FF` |
+| 背景 | Branding-1 |
 | 投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
-| 图标 | 20×20px，anti `white1` `#FFFFFF` |
+| 图标 | 20×20px，anti `white1` |
 | 位置 | 固定定位，默认右下角 |
 | 距右 | 12px |
 | 距底 | 距底部安全区上方 12px（即 bottom: 34 + 12 = 46px） |
@@ -47,8 +47,8 @@ This file records the Figma visual style only.
 |---|---|
 | 尺寸 | 18×18px |
 | 位置 | 浮动按钮右上角，偏移 -4px |
-| 背景 | gray2 `#5A6066` |
-| 图标 | `ic_close_line` 12×12px，anti `white1` `#FFFFFF` |
+| 背景 | gray2 |
+| 图标 | `ic_close_line` 12×12px，anti `white1` |
 | 圆角 | 圆形 |
 
 ---

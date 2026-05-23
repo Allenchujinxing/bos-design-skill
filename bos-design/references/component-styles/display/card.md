@@ -171,13 +171,13 @@ This file records the component style spec for mobile.
 
 | Token | Value | Use |
 |---|---|---|
-| `white1` | `#ffffff` | 卡片背景 |
-| `Gray6` | `#e1e6eb` | 边框、分割线 |
-| `gray8` | `gray8` `#f5f7fa` | 按压态背景 |
+| `white1` | 卡片背景 |
+| `Gray6` | 边框、分割线 |
+| `gray8` | `gray8` | 按压态背景 |
 | `gray1` | `#111` | 标题文字 |
-| `gray2` | `#5d666e` | 正文文字 |
-| `gray3` | `#879099` | 描述文字 |
-| `Branding-1` | `#0076ff` | Extra 链接色 |
+| `gray2` | 正文文字 |
+| `gray3` | 描述文字 |
+| `Branding-1` | Extra 链接色 |
 
 ## 移动端适配说明
 

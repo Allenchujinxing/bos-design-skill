@@ -150,9 +150,9 @@ Note: the bordered variant uses asymmetric 8/10/10/1 radii (not uniform increase
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/error/error-1` | `#f72626` | Badge background (all types) |
-| `Color/icon&text/text-icon-color-anti` | `white1` `#ffffff` | Badge text (number, ribbon) |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | Ribbon badge white border |
+| `Color/error/error-1` | | Badge background (all types) |
+| `Color/icon&text/text-icon-color-anti` | `white1` | Badge text (number, ribbon) |
+| `Color/neutral/white1-bg-color-container` | | Ribbon badge white border |
 
 ## Positioning Rules
 

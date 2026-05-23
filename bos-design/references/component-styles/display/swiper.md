@@ -87,7 +87,7 @@ This file records the Figma visual style only.
 | 位置 | 默认底部水平居中，支持调整至左下角或右下角 |
 | 距底部 | 8px |
 | 距左/右 | 12px（左下角/右下角时） |
-| 背景 | `black` `#000000` 40% 不透明 |
+| 背景 | `black` 40% 不透明 |
 | 尺寸 | 高 24px，宽自适应（min-width 37px） |
 | 圆角 | 12px (全圆角胶囊) |
 | 文字 | 12px / regular 400 / `#fff` / line-height 20px / center |
@@ -149,10 +149,10 @@ This file records the Figma visual style only.
 
 | Token | Value | Use |
 |---|---|---|
-| 圆点 (active) | `white1` `#ffffff` 100% | 当前页圆点 |
-| 圆点 (inactive) | `white1` `#ffffff` 40% | 非当前页圆点 |
+| 圆点 (active) | `white1` 100% | 当前页圆点 |
+| 圆点 (inactive) | `white1` 40% | 非当前页圆点 |
 | 数字指示器背景 | `rgba(0,0,0,0.4)` | 数字胶囊底色 |
-| 数字指示器文字 | `white1` `#ffffff` | 页码文字 |
+| 数字指示器文字 | `white1` | 页码文字 |
 
 ## 切图资产
 

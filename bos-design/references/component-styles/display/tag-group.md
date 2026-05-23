@@ -109,11 +109,11 @@ Tags in the group support optional icons:
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | Default tag background |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Default text color |
-| `Color/brand/branding-1` | `#0076ff` | Selected border, selected text |
-| `Color/brand/branding-3` | `#ebf4ff` | Selected background |
-| `Color/icon&text/gray4-text-icon-color-disable` | `#bcc4cc` | Disabled text color |
+| `Color/neutral/gray8-bg-color-page` | | Default tag background |
+| `Color/icon&text/gray1-text-icon-color-default` | | Default text color |
+| `Color/brand/branding-1` | | Selected border, selected text |
+| `Color/brand/branding-3` | | Selected background |
+| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled text color |
 
 ## Do Not Infer
 

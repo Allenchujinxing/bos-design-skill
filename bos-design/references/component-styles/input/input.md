@@ -282,19 +282,19 @@ Input fields that trigger a picker/selector instead of keyboard input. The conte
 
 | Token | Value | Use |
 |---|---|---|
-| `Color/brand/branding-1` | `#0076ff` | Action button background, link text |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Label text, filled input text |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | `#5a6066` | Secondary text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | Placeholder text, helper text |
-| `Color/icon&text/gray4-text-icon-color-disable` | `#bcc4cc` | Disabled text |
-| `Color/icon&text/text-icon-color-anti` | `white1` `#ffffff` | Button text on brand background |
-| `Color/error/error-1` | `#f72626` | Required indicator, error helper text |
-| `Color/warning/warning-1` | `#fb990f` | Warning helper text |
-| `Color/success/success-1` | `#07c160` | Success helper text |
-| `Color/neutral/gray5-component-border` | `#d3dae0` | External label input border |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | Standard input bottom border |
-| `Color/neutral/gray7-bg-color-component` | `#f0f3f5` | Filled theme background |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | Container background |
+| `Color/brand/branding-1` | | Action button background, link text |
+| `Color/icon&text/gray1-text-icon-color-default` | | Label text, filled input text |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | | Secondary text |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | | Placeholder text, helper text |
+| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled text |
+| `Color/icon&text/text-icon-color-anti` | `white1` | Button text on brand background |
+| `Color/error/error-1` | | Required indicator, error helper text |
+| `Color/warning/warning-1` | | Warning helper text |
+| `Color/success/success-1` | | Success helper text |
+| `Color/neutral/gray5-component-border` | | External label input border |
+| `Color/neutral/gray6-component-stroke` | | Standard input bottom border |
+| `Color/neutral/gray7-bg-color-component` | | Filled theme background |
+| `Color/neutral/white1-bg-color-container` | | Container background |
 
 ## Typography Summary
 
