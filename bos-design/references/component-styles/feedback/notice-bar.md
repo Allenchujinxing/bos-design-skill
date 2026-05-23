@@ -30,7 +30,7 @@ This file records the Figma visual style only.
 ### 尺寸
 
 | 尺寸 | 高度 | 内边距 | 文字 | 图标 | 右侧操作图标 |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | 默认 | 46px（单行）/ 自适应 | 12px | 14px / regular 400 / line-height 22px | 20×20px | 16×16px |
 | 小尺寸 | 自适应（上下 12px 撑高） | 12px | 12px / regular 400 / line-height 18px | 16×16px | 14×14px |
 
@@ -52,7 +52,7 @@ This file records the Figma visual style only.
 ## 状态与背景色
 
 | 状态 | 背景色 | 图标色 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | default（信息） | Branding-3 | Branding-1 | 普通信息提示 |
 | success | Success-3 | Success-1 | 成功提示 |
 | error | Error-3 | Error-1 | 错误/异常提示 |
@@ -76,7 +76,7 @@ This file records the Figma visual style only.
 ## 右侧操作区
 
 | 变体 | 图标/内容 | 尺寸 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | 箭头 | `ic_right_line` | 16×16px | 点击跳转详情 |
 | 关闭 | `ic_close_line` | 16×16px | 点击关闭公告栏 |
 | 操作按钮 | 文字按钮 | 自适应 | 如"查看详情"、"去处理" |

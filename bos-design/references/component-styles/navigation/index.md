@@ -111,15 +111,15 @@ The tooltip appears when the user touches and drags on the index bar, showing th
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
-| `Color/neutral/gray8-bg-color-page` | `#f5f7fa` | Section title background |
-| `Color/neutral/white1-bg-color-container` | `#ffffff` | List item background |
-| `Color/neutral/gray6-component-stroke` | `#e1e6eb` | List item bottom border |
-| `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Section title, list item text, index bar text |
-| `Color/brand/branding-1` | `#0076ff` | Active index item background |
-| `Color/neutral/gray5-component-border` | `#d3dae0` | Sliding tooltip background |
-| `Color/icon&text/text-icon-color-anti` | `#ffffff` | Active index text, tooltip text |
+| Token | Use |
+|---|---|
+| `Color/neutral/gray8-bg-color-page` | Section title background |
+| `Color/neutral/white1-bg-color-container` | List item background |
+| `Color/neutral/gray6-component-stroke` | List item bottom border |
+| `Color/icon&text/gray1-text-icon-color-default` | Section title, list item text, index bar text |
+| `Color/brand/branding-1` | Active index item background |
+| `Color/neutral/gray5-component-border` | Sliding tooltip background |
+| `Color/icon&text/text-icon-color-anti` | Active index text, tooltip text |
 
 ## Layout Usage
 

@@ -47,11 +47,11 @@ This file records the Figma visual style only.
 ## 状态 (type)
 
 | Type | 填充颜色 | 尾部内容 | 说明 |
-|---|---|---|---|
-| `process` | `Branding-1` | 百分比文字 `80%` | 进行中 |
-| `complete` | `Success-1` | iconfont 完成状态图标 | 已完成，填充 100% |
-| `warning` | `Warning-1` | iconfont 警示状态图标 | 警告 |
-| `error` | `Error-1` | iconfont 错误状态图标 | 错误 |
+|---|---|---|
+| `process` `Branding-1` | 百分比文字 `80%` | 进行中 |
+| `complete` `Success-1` | iconfont 完成状态图标 | 已完成，填充 100% |
+| `warning` `Warning-1` | iconfont 警示状态图标 | 警告 |
+| `error` `Error-1` | iconfont 错误状态图标 | 错误 |
 
 ## 轨道样式
 
@@ -93,8 +93,8 @@ This file records the Figma visual style only.
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Gray6` | 轨道背景 |
 | `Branding-1` | process 填充 |
 | `Success-1` | complete 填充 + 图标 |
@@ -119,7 +119,7 @@ Progress 组件支持以下维度的自定义：
 尾部区域（轨道右侧）支持 3 种展示模式，可通过配置切换：
 
 | 模式 | 说明 | 示例 |
-|---|---|---|
+|---|---|
 | `percent` | 显示百分比数字 | `80%` |
 | `text` | 显示自定义文字 | `完成`、`失败`、`上传中` |
 | `icon` | 显示自定义图标 | iconfont 状态图标或业务语义图标 |
@@ -127,7 +127,7 @@ Progress 组件支持以下维度的自定义：
 #### 文字模式
 
 | Property | 默认值 | 可自定义 |
-|---|---|---|
+|---|---|
 | 内容 | 百分比 | 任意文字，如"完成"、"失败" |
 | 字号 | 14px | 支持自定义 |
 | 颜色 | `gray1` | 支持自定义，建议跟随进度条颜色 |
@@ -136,7 +136,7 @@ Progress 组件支持以下维度的自定义：
 #### 图标模式
 
 | Property | 默认值 | 可自定义 |
-|---|---|---|
+|---|---|
 | 图标 | 状态语义 iconfont 图标 | 支持传入自定义 iconfont 图标 |
 | 尺寸 | 20×20px | 支持自定义，建议不超过 24px |
 | 颜色 | 跟随状态色 | 支持自定义 |
@@ -146,14 +146,14 @@ Progress 组件支持以下维度的自定义：
 轨道和填充高度支持自定义，两者始终等高：
 
 | Property | 默认值 | 可自定义范围 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `strokeWidth` | 6px | 2px – 12px | 轨道 + 填充高度 |
 | 圆角 | `radius-full` | 自动跟随（始终全圆角） | 不建议改为方角 |
 
 常用粗细档位：
 
 | 档位 | 高度 | 适用场景 |
-|---|---|---|
+|---|---|
 | 细 | 2px – 4px | 信息密度高的列表、卡片内 |
 | 默认 | 6px | 通用场景 |
 | 粗 | 8px – 12px | 强调型进度、大面积展示 |
@@ -163,9 +163,9 @@ Progress 组件支持以下维度的自定义：
 填充颜色和轨道背景色均支持自定义：
 
 | Property | 默认值 | 可自定义 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `activeColor` | 按状态取色（见上方状态表） | 任意颜色值 | 填充条颜色 |
-| `trackColor` | `gray6` | 任意颜色值 | 轨道背景色 |
+| `trackColor` `gray6` | 任意颜色值 | 轨道背景色 |
 
 自定义颜色时的约束：
 - 填充色与轨道色需有足够对比度，建议对比度 ≥ 3:1
@@ -175,7 +175,7 @@ Progress 组件支持以下维度的自定义：
 ### 自定义属性汇总
 
 | 属性 | 类型 | 默认值 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `percent` | number | 0 | 进度百分比 0–100 |
 | `type` | enum | `process` | 状态：process / complete / warning / error |
 | `strokeWidth` | number | 6 | 轨道 + 填充高度 (px) |

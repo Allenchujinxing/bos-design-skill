@@ -30,11 +30,11 @@ The selection indicator. Circular shape, four states.
 ### Large (20×20px)
 
 | State | Icon Name | Description |
-|---|---|---|
-| Unchecked | `ic_radio_line` | Circle outline, 1.5px stroke `gray5` `gray5` |
-| Checked | `ic_radio_fill` | Circle filled `Branding-1` `Branding-1`, white checkmark inside |
-| Unchecked + Disabled | `ic_radio_line` (disabled tokens) | Circle outline, 1.5px stroke `gray5` `gray5`, `gray8` `gray8` inner fill |
-| Checked + Disabled | `ic_radio_fill` (disabled) | Circle filled `Branding-2` `Branding-2`, white checkmark inside |
+|---|---|
+| Unchecked | `ic_radio_line` | Circle outline, 1.5px stroke `gray5` |
+| Checked | `ic_radio_fill` | Circle filled `Branding-1`, white checkmark inside |
+| Unchecked + Disabled | `ic_radio_line` (disabled tokens) | Circle outline, 1.5px stroke `gray5`, `gray8` inner fill |
+| Checked + Disabled | `ic_radio_fill` (disabled) | Circle filled `Branding-2`, white checkmark inside |
 
 | Property | Value |
 |---|---|
@@ -60,8 +60,8 @@ Icon + text placed side by side. Used for standalone radios or horizontal groups
 | Layout | Flex row, 4px gap, items start-aligned |
 | Icon | Radio icon 20×20px |
 | Text font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 
 ### Large with Subtitle (content=true)
 
@@ -71,10 +71,10 @@ Icon + text placed side by side. Used for standalone radios or horizontal groups
 | Icon | Radio icon 20×20px |
 | Text block | Flex column, 4px gap |
 | Title font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Title color (default) | `gray1` `gray1` |
+| Title color (default) | `gray1` |
 | Subtitle font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Subtitle color (default) | `gray2` `gray2` |
-| Title + Subtitle color (disabled) | Both `gray4` `gray4` |
+| Subtitle color (default) | `gray2` |
+| Title + Subtitle color (disabled) | Both `gray4` |
 
 ### Small
 
@@ -83,8 +83,8 @@ Icon + text placed side by side. Used for standalone radios or horizontal groups
 | Layout | Flex row, 4px gap, items center-aligned |
 | Icon | Radio icon 16×16px |
 | Text font | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 
 ## Radio List (Full-width Row)
 
@@ -99,7 +99,7 @@ A full-width list item with text and radio icon. Supports icon on left or right.
 | Container padding | 0 12px |
 | Inner row padding | 16px vertical (large) / 12px vertical (small) |
 | Inner row layout | Flex row, 8px gap, items start-aligned |
-| Bottom border | 0.5px solid `gray6` `gray6` |
+| Bottom border | 0.5px solid `gray6` |
 | Text | Flex 1, left-aligned |
 | Icon position | Right side, shrink 0 |
 
@@ -118,8 +118,8 @@ Same structure but icon comes first in the flex order, text second.
 | Property | Value |
 |---|---|
 | Text font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 | Icon | Radio icon 20×20px |
 
 ### Large — With Subtitle (content=true)
@@ -128,10 +128,10 @@ Same structure but icon comes first in the flex order, text second.
 |---|---|
 | Text block | Flex 1, flex column, 4px gap |
 | Title font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Title color (default) | `gray1` `gray1` |
+| Title color (default) | `gray1` |
 | Subtitle font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Subtitle color (default) | `gray2` `gray2` |
-| Title + Subtitle color (disabled) | Both `gray4` `gray4` |
+| Subtitle color (default) | `gray2` |
+| Title + Subtitle color (disabled) | Both `gray4` |
 
 ### Small
 
@@ -139,8 +139,8 @@ Same structure but icon comes first in the flex order, text second.
 |---|---|
 | Inner row padding | 12px vertical |
 | Text font | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 | Icon | Radio icon 16×16px |
 
 ## Horizontal Radio Layout
@@ -160,8 +160,8 @@ Multiple Radio Text items arranged horizontally inside a container.
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Checked icon fill |
 | `Color/brand/branding-2` | | Checked + disabled icon fill |
 | `Color/icon&text/gray1-text-icon-color-default` | | Default text color |
@@ -181,7 +181,7 @@ Multiple Radio Text items arranged horizontally inside a container.
 ## Differences from Checkbox
 
 | Aspect | Radio | Checkbox |
-|---|---|---|
+|---|---|
 | Icon shape | Circle | Rounded square |
 | Selection | Single (one per group) | Multiple |
 | Icon position in list | Left or right (`layout` prop) | Left or right (`layout` prop) |
@@ -190,7 +190,7 @@ Multiple Radio Text items arranged horizontally inside a container.
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Body/16-regular` | 16px | 400 | 24px | Large radio text, list item text |
 | `Body/14-regular` | 14px | 400 | 22px | Subtitle text |
 | `Body/12-regular` | 12px | 400 | 18px | Small radio text |

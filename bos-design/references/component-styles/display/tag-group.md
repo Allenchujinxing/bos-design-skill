@@ -40,7 +40,7 @@ From the Figma spec notes:
 ### 居中对齐类 (Center-aligned)
 
 | Size | Height | Padding (h × v) | Font size | Line-height | Border-radius |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | 28 | 28px | 8px × 3px | 14px | 22px | 4px |
 | 32 | 32px | 12px × 7px | 14px | 22px | 6px |
 | 40 | 40px | 16px × 8px | 16px | 24px | 8px |
@@ -53,7 +53,7 @@ From the Figma spec notes:
 ### 左对齐类 (Left-aligned)
 
 | Size | Height | Padding | Font size | Line-height | Border-radius | Default width | Min width |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 28 | 28px | 8px × 3px | 14px | 22px | 4px | 220px | 128px |
 | 32 | 32px | 12px × 7px | 14px | 22px | 6px | 220px | 136px (pl 12 / pr 4) |
 | 40 | 40px | pl 16 / pr 8 / py 8 | 16px | 24px | 6px | 220px | 160px |
@@ -68,8 +68,8 @@ From the Figma spec notes:
 
 | Property | Value |
 |---|---|
-| Background (default) | `gray8` `gray8` |
-| Text color (default) | `gray1` `gray1` |
+| Background (default) | `gray8` |
+| Text color (default) | `gray1` |
 | Font weight (default) | Regular 400 |
 | Font family | PingFang SC |
 | Layout | Flex row, wrap, gap between items |
@@ -78,10 +78,10 @@ From the Figma spec notes:
 ## Component States (仅跳转标签)
 
 | State | Background | Border | Text color | Font weight |
-|---|---|---|---|---|
-| 默认 (Default) | `gray8` `gray8` | none | `gray1` `gray1` | Regular 400 |
-| 选中 (Selected) | `Branding-3` `Branding-3` | 1px solid `Branding-1` `Branding-1` | `Branding-1` `Branding-1` | Semibold 600 |
-| 不可点 (Disabled) | `gray8` `gray8` | none | `gray4` `gray4` | Regular 400 |
+|---|---|---|---|
+| 默认 (Default) | `gray8` | none | `gray1` | Regular 400 |
+| 选中 (Selected) | `Branding-3` | 1px solid `Branding-1` | `Branding-1` | Semibold 600 |
+| 不可点 (Disabled) | `gray8` | none | `gray4` | Regular 400 |
 
 ## Icon Support
 
@@ -107,8 +107,8 @@ Tags in the group support optional icons:
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/neutral/gray8-bg-color-page` | | Default tag background |
 | `Color/icon&text/gray1-text-icon-color-default` | | Default text color |
 | `Color/brand/branding-1` | | Selected border, selected text |

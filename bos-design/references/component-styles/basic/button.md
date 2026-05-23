@@ -74,14 +74,14 @@ Do not use regular-weight body text for Button labels unless a future Figma comp
 ## Theme Tokens
 
 | Theme | Normal | Pressed | Disabled | Light background |
-|---|---|---|---|---|
-| `brand` | `Branding-1` `Branding-1` | `Branding-0` `Branding-0` | `Branding-2` `Branding-2` | `Branding-3` `Branding-3` |
-| `error` | `Error-1` `Error-1` | `Error-0` `Error-0` | `Error-2` | `Error-3` |
+|---|---|---|---|
+| `brand` `Branding-1` | `Branding-0` | `Branding-2` | `Branding-3` |
+| `error` `Error-1` | `Error-0` | `Error-2` | `Error-3` |
 
 Other tokens:
 
 - Anti text/icon: `anti`.
-- Default text/icon: `gray1` `gray1`.
+- Default text/icon: `gray1`.
 - Container background: `white1`.
 - Icon/text gap fallback: `Space/4` = 4px.
 

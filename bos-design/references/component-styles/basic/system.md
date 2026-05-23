@@ -34,14 +34,14 @@ This file records the Figma visual style only.
 ### 内容
 
 | 元素 | 位置 | 样式 |
-|---|---|---|
+|---|---|
 | 时间 | 左侧 16px，垂直底部对齐 | 16px / Semibold 600 / line-height 24px / letter-spacing -0.3px |
 | 系统图标（信号、WiFi、电量） | 右侧 16px | 使用 `assets/system/status.svg` 系统状态栏资产，高度 12px，宽度自适应 |
 
 ### 主题
 
 | 主题 | 时间颜色 | 图标颜色 | 背景 |
-|---|---|---|---|
+|---|---|---|
 | Light | gray1 | gray1 | 透明或白色 |
 | Dark | white1 | white1 | 透明或深色 |
 
@@ -87,7 +87,7 @@ This file records the Figma visual style only.
 ### 类型
 
 | 类型 | 高度 | 说明 |
-|---|---|---|
+|---|---|
 | text（文字键盘） | 336px | 标准 QWERTY 键盘 |
 | number（数字键盘） | 292px | 纯数字 + 小数点 |
 | emoji（表情键盘） | 384px | 表情选择面板 |
@@ -125,7 +125,7 @@ This file records the Figma visual style only.
 ### 关键高度速查
 
 | 区域 | 高度 | 累计 |
-|---|---|---|
+|---|---|
 | 状态栏 | 44px | 44px |
 | 导航栏 | 44px | 88px |
 | 底部操作区（含安全区） | 106px | — |

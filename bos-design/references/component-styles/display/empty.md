@@ -37,7 +37,7 @@ empty-<scene>-<size>.png
 ### Illustration Sizes
 
 | Level | Width × Height | Use |
-|---|---|---|
+|---|---|
 | 页面级 (Page-level) | 180×180px | 全屏空状态 |
 | 局部级 (Local) | 120×120px | 模块/Tab 内空状态 |
 
@@ -113,7 +113,7 @@ empty-<scene>-<size>.png
 | Gap (title → body) | 8px |
 | Body | 14px / regular 400 / `gray3` / line-height 22px / center |
 | Gap (body → button) | 12px |
-| Button | **Primary / Large**: min-width 156px, height `radius-full`, border-radius `radius-2xl` |
+| Button | **Primary / Large**: min-width 156px, height 48px, border-radius `radius-2xl` |
 
 #### 页面级按钮样式
 
@@ -188,20 +188,20 @@ empty-<scene>-<size>.png
 ## Text Styles
 
 | Style | Font | Size | Line-height | Weight | Color | Use |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|
 | Page title | PingFang SC | 18px | 26px | Semibold 600 | `gray1` | 页面级标题 |
 | Page body | PingFang SC | 14px | 22px | Regular 400 | `gray3` | 页面级正文 |
 | Local title | PingFang SC | 16px | 24px | Regular 400 | `gray1` | 局部级标题 |
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `gray1` | 标题文字 |
 | `gray3` | 正文/描述文字 |
 | `Branding-1` | 按钮背景 |
 | `Branding-0` | 按钮按压态 |
-| `anti` | `white1` | 按钮文字 |
+| `anti` `white1` | 按钮文字 |
 | `white1` | 页面/模块背景 |
 
 ## State Semantics And Copy
@@ -211,7 +211,7 @@ Empty is not decoration. It should explain what happened, why it matters, and wh
 ### State Types
 
 | State | Use when | Required message |
-|---|---|---|
+|---|---|
 | True empty | Nothing has been created yet | What this object is and how to create the first one |
 | Search empty | Search, filter, or category selection returns no results | What criteria failed and how to reset or broaden the search |
 | List/feed empty | A list, feed, queue, or notification center has no items | Confirm the current status and show the next useful action |
@@ -243,7 +243,7 @@ Empty is not decoration. It should explain what happened, why it matters, and wh
 ## 间距速查
 
 | Gap | Value | Context |
-|---|---|---|
+|---|---|
 | Illustration → Title (page) | 20px | 页面级 |
 | Illustration → Title (local) | 12px | 局部级 |
 | Title → Body | 8px | 页面级有正文时 |

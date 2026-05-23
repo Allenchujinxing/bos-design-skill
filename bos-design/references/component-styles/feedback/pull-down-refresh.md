@@ -15,7 +15,7 @@ This file records the Figma visual style only.
 ## 交互状态
 
 | 状态 | 说明 | 视觉表现 |
-|---|---|---|
+|---|---|
 | 下拉中（pulling） | 手指下拉但未达到阈值 | loading 图标跟随下拉距离旋转，文字"下拉刷新" |
 | 释放刷新（loosing） | 下拉超过阈值，松手即触发 | 文字变为"释放立即刷新" |
 | 加载中（loading） | 已触发刷新，等待数据返回 | loading 图标持续旋转，文字"正在刷新..." |

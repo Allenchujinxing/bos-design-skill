@@ -14,6 +14,11 @@
 - 为 `icon.md` 补充视觉 Token 声明，标注 iconfont script 与业务图标清单属于项目资产层。
 - 将所有组件文件中的 `rgba()` 遮罩值替换为语义 token（translucent / translucent-heavy / translucent-medium / translucent-light），投影值替换为 shadow token（shadow-1 / shadow-2 / shadow-nav / shadow-thumb）。
 - 在 `design.md` 中补充完整的 translucent 梯度和 shadow token 定义表。
+- 修复 radius token 误替换回归：button height/padding 恢复 px、empty/swiper/textarea/list 中的尺寸值恢复。
+- 清除所有组件文件中的重复 token 名（如 `gray1` `gray1` → `gray1`）。
+- 统一 Token 表为 `Token | Use` 两列格式，移除 Value 列。
+- 修正 `white` 伪 token 为 `anti`，在 design.md 中正式定义 `black` token。
+- 合并 design.md 中重复的 translucent 定义。
 
 
 ## 2026-05-22

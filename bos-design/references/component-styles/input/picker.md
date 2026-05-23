@@ -50,10 +50,10 @@ Actions are inline with the title in the header row.
 | Border radius | `radius-3xl` top-left, `radius-3xl` top-right |
 
 | Element | Font | Color | Width |
-|---|---|---|---|
-| Cancel text | `Body/14-regular` 14px, weight 400, line-height 22px | `gray3` `gray3` | 56px, center |
-| Title text | `Title/18-semibold` 18px, weight 600, line-height 26px | `gray1` `gray1` | Flex, max-width 216px, center, truncate |
-| Confirm text | `Body/14-regular` 14px, weight 400, line-height 22px | `Branding-1` `Branding-1` | 56px, center |
+|---|---|---|
+| Cancel text | `Body/14-regular` 14px, weight 400, line-height 22px | `gray3` | 56px, center |
+| Title text | `Title/18-semibold` 18px, weight 600, line-height 26px | `gray1` | Flex, max-width 216px, center, truncate |
+| Confirm text | `Body/14-regular` 14px, weight 400, line-height 22px | `Branding-1` | 56px, center |
 
 ### Bottom Layout (操作位置-底部)
 
@@ -63,7 +63,7 @@ Title is centered in the header, actions are in a bottom toolbar.
 |---|---|
 | Header padding | 16px vertical, 12px horizontal |
 | Header layout | Flex row, justify space-between |
-| Title | `Title/18-semibold` 18px, weight 600, line-height 26px, `gray1` `gray1`, center, max-width 216px |
+| Title | `Title/18-semibold` 18px, weight 600, line-height 26px, `gray1`, center, max-width 216px |
 
 ### Special Combination (底部大按钮 + 右上关闭)
 
@@ -98,7 +98,7 @@ The highlighted band showing the currently selected row.
 | Property | Value |
 |---|---|
 | Height | 40px |
-| Background | `gray7` `gray7` |
+| Background | `gray7` |
 | Border radius | `radius-lg` |
 | Position | Absolute, horizontally stretched (left 16px, right 16px) |
 | Vertical position | Centered vertically in the roller area |
@@ -124,9 +124,9 @@ Each column is a vertical list of options.
 | Text overflow | `overflow: hidden`, `text-overflow: ellipsis`, `white-space: nowrap` |
 
 | State | Font | Color |
-|---|---|---|
-| Unselected | `Body/16-regular` 16px, weight 400, line-height 24px | `gray3` `gray3` |
-| Selected | `Mark/16-semibold` 16px, weight 600, line-height 24px | `gray1` `gray1` |
+|---|---|
+| Unselected | `Body/16-regular` 16px, weight 400, line-height 24px | `gray3` |
+| Selected | `Mark/16-semibold` 16px, weight 600, line-height 24px | `gray1` |
 | Empty (spacer) | — | — (24px height placeholder, no text) |
 
 ### Fade Masks
@@ -135,8 +135,8 @@ Gradient masks at top and bottom of the roller area to create the drum-roller fa
 
 | Mask | Property |
 |---|---|
-| Top mask | Height 40px, gradient from `white` to `transparent`, positioned at top |
-| Bottom mask | Height 40px, gradient from `white` to `transparent`, rotated 180° (fade from bottom) |
+| Top mask | Height 40px, gradient from `anti` to `transparent`, positioned at top |
+| Bottom mask | Height 40px, gradient from `anti` to `transparent`, rotated 180° (fade from bottom) |
 | Position | Absolute, left 16px, right 16px |
 
 ## Bottom Toolbar
@@ -153,9 +153,9 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 | Overflow | Clip |
 
 | Button | Background | Text Color | Font | Border Radius | Min Width | Padding |
-|---|---|---|---|---|---|---|
-| Cancel (取消) | `Branding-3` `Branding-3` | `Branding-1` `Branding-1` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
-| Confirm (确认) | `Branding-1` `Branding-1` | `anti` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
+|---|---|---|---|---|
+| Cancel (取消) | `Branding-3` `Branding-1` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
+| Confirm (确认) | `Branding-1` `anti` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
 | Both | Flex 1 (equal width) | | | | | |
 
 ### Single-Button Layout (确认 only)
@@ -163,8 +163,8 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 | Property | Value |
 |---|---|
 | Button width | 100% |
-| Background | `Branding-1` `Branding-1` |
-| Text | `Title/18-semibold` 18px, weight 600, `white` |
+| Background | `Branding-1` |
+| Text | `Title/18-semibold` 18px, weight 600, `anti` |
 | Border radius | `radius-2xl` |
 | Padding | 11px 20px |
 
@@ -172,14 +172,14 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 
 | Property | Value |
 |---|---|
-| Background | `Branding-2` `Branding-2` |
+| Background | `Branding-2` |
 | Text color | `anti` |
 | Cursor | Not allowed |
 
 ## Column Count Variants
 
 | Variant | Columns | Example Use |
-|---|---|---|
+|---|---|
 | 1 column | 1 | User name selection |
 | 2 columns | 2 | Province + district (地区) |
 | 3 columns | 3 | Year + month + day (日期) |
@@ -190,7 +190,7 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 The design spec includes a section on matching title bar style with toolbar style:
 
 | Combination | Title Bar | Toolbar |
-|---|---|---|
+|---|---|
 | Header actions | Cancel / Title / Confirm in header | None |
 | Bottom two-button | Title only (centered) | Cancel + Confirm buttons |
 | Bottom single-button + close | Title + close icon (right) | Single confirm button |
@@ -198,8 +198,8 @@ The design spec includes a section on matching title bar style with toolbar styl
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Confirm text, confirm button bg, cancel button text |
 | `Color/brand/branding-2` | | Disabled button bg |
 | `Color/brand/branding-3` | | Cancel button bg |
@@ -211,7 +211,7 @@ The design spec includes a section on matching title bar style with toolbar styl
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Title/18-semibold` | 18px | 600 | 26px | Title text, toolbar button text |
 | `Body/16-regular` | 16px | 400 | 24px | Unselected option text |
 | `Mark/16-semibold` | 16px | 600 | 24px | Selected option text |

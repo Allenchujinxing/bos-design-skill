@@ -31,12 +31,12 @@ The selection indicator. Two shapes: square (checkbox) and circle (radio, docume
 ### Large (20×20px)
 
 | State | Icon Name | Description |
-|---|---|---|
-| Unchecked | `ic_checkbox_line` | Rounded square outline, 2px stroke `gray5` `gray5`, white fill |
-| Checked | `ic_checkbox_fill` | Rounded square filled `Branding-1` `Branding-1`, white checkmark inside |
-| Unchecked + Disabled | `ic_checkbox_line` (disabled tokens) | Rounded square outline, 2px stroke `gray5` `gray5`, `gray8` `gray8` fill |
-| Checked + Disabled | `ic_checkbox_fill` (disabled) | Rounded square filled `Branding-2` `Branding-2`, white checkmark inside |
-| Indeterminate | `ic_minus_fill` | Rounded square filled `Branding-1` `Branding-1`, white horizontal dash inside |
+|---|---|
+| Unchecked | `ic_checkbox_line` | Rounded square outline, 2px stroke `gray5`, white fill |
+| Checked | `ic_checkbox_fill` | Rounded square filled `Branding-1`, white checkmark inside |
+| Unchecked + Disabled | `ic_checkbox_line` (disabled tokens) | Rounded square outline, 2px stroke `gray5`, `gray8` fill |
+| Checked + Disabled | `ic_checkbox_fill` (disabled) | Rounded square filled `Branding-2`, white checkmark inside |
+| Indeterminate | `ic_minus_fill` | Rounded square filled `Branding-1`, white horizontal dash inside |
 
 | Property | Value |
 |---|---|
@@ -67,8 +67,8 @@ Icon + text placed side by side. Used for standalone checkboxes or horizontal gr
 | Layout | Flex row, 4px gap, items start-aligned |
 | Icon | Checkbox icon large (20×20px), inside 24px height container |
 | Text font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 
 ### Large with Subtitle (content=true)
 
@@ -78,10 +78,10 @@ Icon + text placed side by side. Used for standalone checkboxes or horizontal gr
 | Icon | Checkbox icon large (20×20px) |
 | Text block | Flex column, 4px gap |
 | Title font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Title color (default) | `gray1` `gray1` |
+| Title color (default) | `gray1` |
 | Subtitle font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Subtitle color (default) | `gray2` `gray2` |
-| Title + Subtitle color (disabled) | Both `gray4` `gray4` |
+| Subtitle color (default) | `gray2` |
+| Title + Subtitle color (disabled) | Both `gray4` |
 
 ### Small
 
@@ -90,8 +90,8 @@ Icon + text placed side by side. Used for standalone checkboxes or horizontal gr
 | Layout | Flex row, 4px gap, items centered |
 | Icon | Checkbox icon small (16×16px), inside 18px height container |
 | Text font | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 
 ## Checkbox List (Full-width Row)
 
@@ -106,10 +106,10 @@ A full-width list item with text on the left and checkbox icon on the right. Use
 | Container padding | 0 12px (horizontal) |
 | Inner row padding | 16px vertical |
 | Inner row layout | Flex row, 8px gap, items start-aligned |
-| Bottom border | 0.5px solid `gray6` `gray6` |
+| Bottom border | 0.5px solid `gray6` |
 | Text | Flex 1, `Body/16-regular` 16px, weight 400, line-height 24px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 | Icon position | Right side, shrink 0 |
 | Icon | Checkbox icon large (20×20px), inside 24px height container |
 
@@ -120,10 +120,10 @@ A full-width list item with text on the left and checkbox icon on the right. Use
 | Inner row layout | Flex row, 8px gap, items start-aligned |
 | Text block | Flex 1, flex column, 4px gap |
 | Title font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Title color (default) | `gray1` `gray1` |
+| Title color (default) | `gray1` |
 | Subtitle font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Subtitle color (default) | `gray2` `gray2` |
-| Title + Subtitle color (disabled) | Both `gray4` `gray4` |
+| Subtitle color (default) | `gray2` |
+| Title + Subtitle color (disabled) | Both `gray4` |
 | Icon position | Right side, top-aligned with title |
 
 ### Small
@@ -133,8 +133,8 @@ A full-width list item with text on the left and checkbox icon on the right. Use
 | Inner row padding | 12px vertical |
 | Inner row layout | Flex row, items centered, space-between |
 | Text | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Text color (default) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (default) | `gray1` |
+| Text color (disabled) | `gray4` |
 | Icon | Checkbox icon small (16×16px), inside 18px height container with 1px vertical padding |
 
 ## Horizontal Checkbox Layout
@@ -151,7 +151,7 @@ Multiple Checkbox Text items arranged horizontally inside a container.
 ### Horizontal Variants
 
 | Variant | Items | Size |
-|---|---|---|
+|---|---|
 | Single | 1 item | Large |
 | Double | 2 items | Large |
 | Triple | 3 items | Large |
@@ -185,8 +185,8 @@ Multiple Checkbox List items stacked vertically. Used inside popups or full-page
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Checked icon fill |
 | `Color/brand/branding-2` | | Checked + disabled icon fill |
 | `Color/icon&text/gray1-text-icon-color-default` | | Default text color |
@@ -200,12 +200,12 @@ Multiple Checkbox List items stacked vertically. Used inside popups or full-page
 ## States
 
 | State | Icon | Text Color | Interactive |
-|---|---|---|---|
-| Unchecked | Square outline, white fill | `gray1` `gray1` | Yes |
-| Checked | Square filled `Branding-1`, white checkmark | `gray1` `gray1` | Yes |
-| Unchecked + Disabled | Square outline, `gray8` fill | `gray4` `gray4` | No |
-| Checked + Disabled | Square filled `Branding-2`, white checkmark | `gray4` `gray4` | No |
-| Indeterminate | Square filled `Branding-1`, white dash | `gray1` `gray1` | Yes |
+|---|---|---|
+| Unchecked | Square outline, white fill | `gray1` | Yes |
+| Checked | Square filled `Branding-1`, white checkmark | `gray1` | Yes |
+| Unchecked + Disabled | Square outline, `gray8` fill | `gray4` | No |
+| Checked + Disabled | Square filled `Branding-2`, white checkmark | `gray4` | No |
+| Indeterminate | Square filled `Branding-1`, white dash | `gray1` | Yes |
 
 ## Customization Options
 
@@ -217,7 +217,7 @@ Based on the "组件自定义项" section in the Figma spec:
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Body/16-regular` | 16px | 400 | 24px | Large checkbox text, list item text |
 | `Body/14-regular` | 14px | 400 | 22px | Subtitle text |
 | `Body/12-regular` | 12px | 400 | 18px | Small checkbox text |

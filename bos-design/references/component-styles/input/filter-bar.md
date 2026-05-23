@@ -28,7 +28,7 @@ This file records the Figma visual style only.
 ## 类型
 
 | 类型 | 说明 | 布局 |
-|---|---|---|
+|---|---|
 | default（通栏） | 筛选项等分容器宽度，适用于普通页面顶部 | 等分 flex |
 | map（地图场景） | 筛选项自适应内容宽度，带投影，适用于浮在地图上方 | 自适应 flex + gap |
 

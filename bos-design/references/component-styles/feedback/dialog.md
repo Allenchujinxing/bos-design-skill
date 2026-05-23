@@ -40,7 +40,7 @@ This file records the Figma visual style only.
 ## 类型
 
 | 类型 | 说明 | 操作按钮 |
-|---|---|---|
+|---|---|
 | 类型1: Feedback Dialog | 反馈类，仅通知 | 单按钮（确认） |
 | 类型2: Confirmation Dialog | 确认类，需决策 | 双按钮（取消 + 确认） |
 | 类型3: Dialog with Input | 输入类，需填写 | 双按钮（取消 + 确认） |
@@ -209,7 +209,7 @@ This file records the Figma visual style only.
 ## 自定义能力
 
 | 属性 | 类型 | 默认值 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `title` | string | — | 标题 |
 | `content` | string/node | — | 描述内容 |
 | `image` | string | — | 图片 URL |

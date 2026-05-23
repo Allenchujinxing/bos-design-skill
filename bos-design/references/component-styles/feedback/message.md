@@ -62,7 +62,7 @@ This file records the Figma visual style only.
 ## 变体组合
 
 | 变体 | 前置图标 | 关闭按钮 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | 完整 | ✓ | ✓ | 图标 + 文字 + 关闭 |
 | 无关闭 | ✓ | ✗ | 图标 + 文字，自动消失 |
 | 无图标 | ✗ | ✓ | 纯文字 + 关闭 |
@@ -73,7 +73,7 @@ This file records the Figma visual style only.
 ## 动效
 
 | 行为 | 顶部位置 | 底部位置 |
-|---|---|---|
+|---|---|
 | 出现 | 从上方滑入 + 淡入，duration 250ms，ease-out | 从下方滑入 + 淡入，duration 250ms，ease-out |
 | 消失 | 向上滑出 + 淡出，duration 200ms，ease-in | 向下滑出 + 淡出，duration 200ms，ease-in |
 | 自动消失 | 默认 3 秒后自动消失，可自定义时长 | 同左 |
@@ -81,7 +81,7 @@ This file records the Figma visual style only.
 ### 位置规则
 
 | 位置 | 距离 | 说明 |
-|---|---|---|
+|---|---|
 | 顶部 | 导航栏下方（top: 96px，即状态栏 44px + 导航栏 44px + 8px 间距） | 常用于操作反馈 |
 | 底部 | 距页面底部 48px（避开安全区和底部操作栏） | 常用于不打断当前操作的提示 |
 

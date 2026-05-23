@@ -33,7 +33,7 @@ A Textarea consists of:
 | Background | `white1` |
 | Padding | 0 12px |
 | Width | 100% (390px) |
-| Bottom border | 0.5px solid `gray6` `gray6` |
+| Bottom border | 0.5px solid `gray6` |
 
 ### Inner Row — Horizontal Layout (左右)
 
@@ -55,8 +55,8 @@ A Textarea consists of:
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Width | 86px (fixed) |
-| Icon (optional) | 20×20px iconfont icon, `gray1` `gray1` |
-| Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `gray1` `gray1` |
+| Icon (optional) | 20×20px iconfont icon, `gray1` |
+| Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `gray1` |
 | Required indicator | `*`, 16px, `error-0` `Error-0` |
 
 ### Label — Vertical
@@ -65,8 +65,8 @@ A Textarea consists of:
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Width | 100% |
-| Icon (optional) | 16×16px iconfont icon, `gray1` `gray1` |
-| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` `gray1` |
+| Icon (optional) | 16×16px iconfont icon, `gray1` |
+| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` |
 | Required indicator | `*`, 14px, `error-0` `Error-0` |
 
 ### Content Area (placeholder)
@@ -76,11 +76,11 @@ A Textarea consists of:
 | Layout | Flex column, 8px gap |
 | Flex | 1 (horizontal) / full width (vertical) |
 | Text font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Placeholder color | `gray3` `gray3` |
-| Input text color | `gray1` `gray1` |
+| Placeholder color | `gray3` |
+| Input text color | `gray1` |
 | Disabled text color | `gray4` (both text and placeholder) |
 | Min height | 3 lines (72px text area) |
-| Cursor | `Branding-1` `Branding-1`, 1px wide |
+| Cursor | `Branding-1`, 1px wide |
 
 ### Character Counter
 
@@ -89,7 +89,7 @@ A Textarea consists of:
 | Font | `Body/12-regular` 12px, weight 400, line-height 18px |
 | Alignment | Right (`text-align: right`) |
 | Width | 100% |
-| Normal color | Current count `gray1` `gray1`, separator+max `gray3` (e.g., **28**/30) |
+| Normal color | Current count `gray1`, separator+max `gray3` (e.g., **28**/30) |
 | Placeholder color | `gray3` (e.g., 0/30) |
 | Over limit color | Count `Error-1` (e.g., **31**/30) |
 
@@ -111,7 +111,7 @@ Label is outside and above a bordered or filled input box.
 | Layout | Flex row, 4px gap, items center |
 | Padding left | 4px (outline) / 0 (fill) |
 | Icon (optional) | 16×16px iconfont icon |
-| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` `gray1` |
+| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` |
 | Required indicator | `*`, 14px, `error-0` `Error-0` |
 
 ### Input Box — Outline Theme
@@ -119,7 +119,7 @@ Label is outside and above a bordered or filled input box.
 | Property | Value |
 |---|---|
 | Background | `white1` |
-| Border | 1px solid `gray5` `gray5` |
+| Border | 1px solid `gray5` |
 | Border radius | `radius-xl` |
 | Padding | 16px 12px |
 
@@ -127,7 +127,7 @@ Label is outside and above a bordered or filled input box.
 
 | Property | Value |
 |---|---|
-| Background | `gray8` `gray8` |
+| Background | `gray8` |
 | Border | None |
 | Border radius | `radius-xl` |
 | Padding | 16px 12px |
@@ -139,11 +139,11 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 ## States
 
 | State | Text color | Counter color | Description |
-|---|---|---|---|
-| Default | `gray3` (placeholder) | `gray3` `gray3` | Empty, showing placeholder |
-| Input | `gray1` `gray1` + cursor `Branding-1` | Count `gray1`, max `gray3` | User is typing |
-| Over limit | `gray1` `gray1` + cursor `Branding-1` | Count `Error-1`, max `Error-1` | Exceeded max characters, input is NOT blocked — user can continue typing, counter turns red as warning |
-| Disabled | `gray4` `gray4` | `gray3` `gray3` | Non-editable |
+|---|---|---|
+| Default | `gray3` (placeholder) | `gray3` | Empty, showing placeholder |
+| Input | `gray1` + cursor `Branding-1` | Count `gray1`, max `gray3` | User is typing |
+| Over limit | `gray1` + cursor `Branding-1` | Count `Error-1`, max `Error-1` | Exceeded max characters, input is NOT blocked — user can continue typing, counter turns red as warning |
+| Disabled | `gray4` `gray3` | Non-editable |
 
 ## Layout Variants
 
@@ -151,13 +151,13 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 |---|---|
 | 通栏布局-上下 | Full-width, vertical label |
 | 通栏布局-水平 | Full-width, horizontal label |
-| 卡片布局-上下 | Card container (`radius-3xl` padding, `radius-3xl` border-radius), vertical label |
-| 卡片布局-水平 | Card container (`radius-3xl` padding, `radius-3xl` border-radius), horizontal label |
+| 卡片布局-上下 | Card container (12px padding, `radius-3xl` border-radius), vertical label |
+| 卡片布局-水平 | Card container (12px padding, `radius-3xl` border-radius), horizontal label |
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Input cursor |
 | `Color/error/error-0` | | Required indicator |
 | `Color/error/error-1` | | Over-limit counter |
@@ -172,7 +172,7 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Body/16-regular` | 16px | 400 | 24px | Horizontal label, input text, placeholder |
 | `Body/14-regular` | 14px | 400 | 22px | Vertical/external label |
 | `Body/12-regular` | 12px | 400 | 18px | Character counter |
@@ -190,4 +190,4 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 - Do not change the min display height of 3 lines for the text area.
 - Do not use `error-1` `Error-1` for the required indicator — it uses `error-0` `Error-0`.
 - Do not use `maxlength` to block input when exceeding the character limit — the counter turns red but input must remain allowed.
-- Do not use `gray3` `gray3` for disabled placeholder — disabled state uses `gray4` `gray4` for both text and placeholder.
+- Do not use `gray3` for disabled placeholder — disabled state uses `gray4` for both text and placeholder.

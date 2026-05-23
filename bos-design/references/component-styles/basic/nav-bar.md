@@ -20,7 +20,7 @@ Use NavBar for page-level navigation at the top of the screen. It sits below the
 
 | Axis | Values |
 |---|---|
-| `theme` | `white`, `color`, `dark` |
+| `theme` | `anti`, `color`, `dark` |
 | `leftarrow` | `true`, `false` |
 | `rightArea` | `empty`, `icon`, `icon+text`, `text` |
 | `icon` | `true`, `false` (second icon slot when rightArea is `icon`) |
@@ -76,19 +76,19 @@ Use NavBar for page-level navigation at the top of the screen. It sits below the
 ## Theme Tokens
 
 | Theme | Background | Title color | Icon color |
-|---|---|---|---|
-| `white` | `white1` | `gray1` `gray1` | `gray1` `gray1` |
-| `color` | `Branding-1` `Branding-1` | `anti` | `anti` |
+|---|---|---|
+| `anti` `white1` | `gray1` | `gray1` |
+| `color` `Branding-1` | `anti` | `anti` |
 | `dark` | Dark background | `anti` | `anti` |
 
 ### Token mapping
 
-| Token | Value | Use |
-|---|---|---|
-| `Color/neutral/white1-bg-color-container` | `anti` | White theme background |
-| `Color/brand/branding-1` | `Branding-1` | Color theme background |
-| `Color/icon&text/gray1-text-icon-color-default` | `gray1` | White theme title and icons |
-| `Color/icon&text/text-icon-color-anti` | `anti` | Color/dark theme title and icons |
+| Token | Use |
+|---|---|
+| `Color/neutral/white1-bg-color-container` `anti` | White theme background |
+| `Color/brand/branding-1` `Branding-1` | Color theme background |
+| `Color/icon&text/gray1-text-icon-color-default` `gray1` | White theme title and icons |
+| `Color/icon&text/text-icon-color-anti` `anti` | Color/dark theme title and icons |
 
 ## Stroke (Bottom Divider)
 
@@ -96,13 +96,13 @@ Use NavBar for page-level navigation at the top of the screen. It sits below the
 - Position: absolute bottom of the NavBar container.
 - Width: full NavBar width.
 - Height: 0.5px visual weight (rendered as a line asset).
-- Color: follows the `gray6` `gray6` divider token.
+- Color: follows the `gray6` divider token.
 - Use case: white NavBar on white background when content scrolls behind it, to provide visual separation.
 
 ## Right Area Variants
 
 | rightArea | Description | Layout |
-|---|---|---|
+|---|---|
 | `empty` | No right action | Title centered, no right content |
 | `icon` | Single icon (e.g. share) | 24×24 icon at right-12px, top-10px |
 | `icon` + `icon=true` | Two icons (e.g. search + share) | Second icon at left-318px, first at left-354px, 12px gap |
@@ -122,7 +122,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 |---|---|
 | Width | 210px (same as title max width) |
 | Height | 36px |
-| Background | `gray7` `gray7` |
+| Background | `gray7` |
 | Border-radius | `radius-xl` |
 | Horizontal padding | 2px |
 | Vertical alignment | Centered in 44px NavBar height |
@@ -131,7 +131,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 ### Tab Item
 
 | Property | Selected | Unselected |
-|---|---|---|
+|---|---|
 | Background | `white1` | Transparent |
 | Border-radius | `radius-lg` | `radius-lg` |
 | Shadow | `shadow-nav` | None |
@@ -139,7 +139,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 | Vertical padding | 5px | 5px |
 | Font token | `Mark/14-semibold` | `Body/14-regular` |
 | Font | PingFang SC, 14px, weight 600, line-height 22px | PingFang SC, 14px, weight 400, line-height 22px |
-| Text color | `gray1` `gray1` | `gray2` `gray2` |
+| Text color | `gray1` | `gray2` |
 | Text alignment | Center | Center |
 
 ### Tabs Layout Rules

@@ -51,7 +51,7 @@ This file records the Figma visual style only.
 | 按钮布局 | 两个按钮等分宽度 |
 
 | 按钮 | 背景 | 文字 | 圆角 | 高度 |
-|---|---|---|---|---|
+|---|---|---|---|
 | 重置 | Branding-3 | 16px / semibold 600 / Branding-1 | 8px | 40px |
 | 确认 | Branding-1 | 16px / semibold 600 / anti `white1` | 8px | 40px |
 
@@ -284,7 +284,7 @@ This file records the Figma visual style only.
 ### 整体布局
 
 | 列 | 宽度 | 背景 |
-|---|---|---|
+|---|---|
 | 左（一级分类） | 92px | gray7 |
 | 中（二级选项） | 120px | gray8 |
 | 右（三级内容） | 剩余空间（178px） | white1 |
@@ -384,7 +384,7 @@ This file records the Figma visual style only.
 ### 筛选项状态联动
 
 | 状态 | 文字 | 箭头方向 | 箭头颜色 |
-|---|---|---|---|
+|---|---|---|
 | 默认（未展开、无已选） | regular 400 / gray1 | 朝下 | gray3 |
 | 激活（面板展开中） | semibold 600 / Branding-1 | 朝上（旋转 180°） | Branding-1 |
 | 已选（面板关闭、有已选项） | semibold 600 / Branding-1 | 朝下 | gray3 |
@@ -392,14 +392,14 @@ This file records the Figma visual style only.
 ### 单选 vs 多选
 
 | 模式 | 底部按钮 | 关闭方式 |
-|---|---|---|
+|---|---|
 | 单选 | 无 | 点击选项即选中并关闭面板（延迟 120ms 后关闭） |
 | 多选 | 重置 + 确认 | 点击确认关闭，点击选项仅切换选中态不关闭 |
 
 ### 按钮交互
 
 | 按钮 | 点击行为 | pressed 态 |
-|---|---|---|
+|---|---|
 | 确认 | 关闭面板（有收起动画） | 背景变为 Branding-0 |
 | 重置 | 清空当前面板所有选中项，面板保持展开 | 背景变为 Branding-2 |
 

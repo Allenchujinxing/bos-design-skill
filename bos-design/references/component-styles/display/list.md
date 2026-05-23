@@ -59,7 +59,7 @@ Implementation note: the divider is inset from row edges while the active backgr
 ## Row Heights
 
 | Layout | Content | Row height (including 16px × 2 padding) |
-|---|---|---|
+|---|---|
 | Horizontal | Title only | 56px (16 + 24 + 16) |
 | Vertical | Title + subtitle | 80px (16 + 24 + 2 + 22 + 16) |
 
@@ -78,7 +78,7 @@ In vertical layout, the icon sits in a 20×24 area to vertically align with the 
 | Property | Value |
 |---|---|
 | Font | `Body/16-regular` — PingFang SC, 16px, weight 400, line-height 24px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Text overflow | Ellipsis, single line |
 | Layout | Flex grow `1 0 0`, min-width 0 |
 
@@ -87,7 +87,7 @@ In vertical layout, the icon sits in a 20×24 area to vertically align with the 
 | Property | Value |
 |---|---|
 | Font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Color | `gray3` `gray3` |
+| Color | `gray3` |
 | Gap from title | 2px |
 | Text overflow | Ellipsis, single line (`white-space: nowrap; overflow: hidden; text-overflow: ellipsis`) |
 | Copy guideline | 文本内容建议不超过 2 行（Content guideline, not component behavior） |
@@ -102,7 +102,7 @@ Trailing helper text shown on the right side of the row.
 | Property | Value |
 |---|---|
 | Font | `Body/16-regular` — PingFang SC, 16px, weight 400, line-height 24px |
-| Color | `gray3` `gray3` |
+| Color | `gray3` |
 | Text align | Right |
 | Text overflow | Ellipsis, single line |
 
@@ -127,7 +127,7 @@ Beyond the default tips text + arrow, the right-side operation area supports:
 | Variant | Description |
 |---|---|
 | Switch (开关) | 44×24px toggle switch; tracks on/off state |
-| Button (按钮) | Secondary small button, 32px height, `radius-xl` radius, 14px text |
+| Button (按钮) | Secondary small button, 32px height, `radius-lg` radius, 14px text |
 | Icon Group (图标组) | One or more 20×20 action icons (e.g. edit, copy), 16px gap |
 | Dot Badge + Arrow | 8×8 red dot before the right arrow, 4px gap |
 | Number Badge + Arrow | Number badge (e.g. 99, 99+) before the right arrow, 4px gap |
@@ -160,7 +160,7 @@ The `fronticon` prop toggles the leading icon on or off. When `fronticon=false`,
 ## Click Interaction State (点击交互状态)
 
 From the Figma annotation:
-- On tap, the list row background inverts to `gray8` `gray8`
+- On tap, the list row background inverts to `gray8`
 - Background reverts to `white1` on release
 - The active background fills the **entire row width** (edge-to-edge), not inset by the 12px content padding
 
@@ -173,8 +173,8 @@ Note: the divider line is inset by 12px on each side (centered within the row's 
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/neutral/white1-bg-color-container` | | List background (default) |
 | `Color/neutral/gray8-bg-color-page` | | List row active/pressed background |
 | `Color/neutral/gray6-component-stroke` | | Row bottom border |

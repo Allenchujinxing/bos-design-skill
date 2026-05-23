@@ -41,7 +41,7 @@ From the Figma spec notes:
 ## Size Variants (通用标签尺寸)
 
 | Size | Height | Padding (h × v) | Font size | Line-height | Font weight | Icon size | Icon support |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | small (16) | 16px | 4px × 1px | 10px | 14px | 600 (full only) / 400 (light, line) | — | ❌ Not supported |
 | medium (18) | 18px | 4px × 1px | 11px | 16px | 600 (full only) / 400 (light, line) | 12×12px | ✅ Supported |
 | large (20) | 20px | 6px × 2px | 11px | 16px | 600 (all styles) | 12×12px | ✅ Supported |
@@ -50,7 +50,7 @@ From the Figma spec notes:
 ### Font Weight Rules by Size
 
 | Size | Full style | Light style | Line style |
-|---|---|---|---|
+|---|---|---|
 | 16 (small) | Semibold 600 (反白文字加粗) | Regular 400 | Regular 400 |
 | 18 (medium) | Semibold 600 (仅反白的文字加粗) | Regular 400 | Regular 400 |
 | 20 (large) | Semibold 600 (所有文字都加粗) | Semibold 600 | Semibold 600 |
@@ -75,40 +75,40 @@ From the Figma spec notes:
 ### Primary
 
 | Style | Background | Border | Text color | Icon color |
-|---|---|---|---|---|
-| Primary_full | `Branding-1` `Branding-1` | none | `white` | `white` |
-| Primary_light | `Branding-3` `Branding-3` | none | `Branding-1` `Branding-1` | `Branding-1` |
-| Primary_line | none | 1px solid `Branding-2` `Branding-2` | `Branding-1` `Branding-1` | `Branding-1` |
+|---|---|---|---|
+| Primary_full | `Branding-1` | none | `anti` | `anti` |
+| Primary_light | `Branding-3` | none | `Branding-1` | `Branding-1` |
+| Primary_line | none | 1px solid `Branding-2` | `Branding-1` | `Branding-1` |
 
 ### Default
 
 | Style | Background | Border | Text color | Icon color |
-|---|---|---|---|---|
-| Default_full | `gray1` `gray1` | none | `white` | `white` |
-| Default_light | `gray7` `gray7` | none | `gray1` `gray1` | `gray1` |
-| Default_line | none | 1px solid `gray5` `gray5` | `gray1` `gray1` | `gray1` |
+|---|---|---|---|
+| Default_full | `gray1` | none | `anti` | `anti` |
+| Default_light | `gray7` | none | `gray1` | `gray1` |
+| Default_line | none | 1px solid `gray5` | `gray1` | `gray1` |
 
 ### Discount
 
 | Style | Background | Border | Text color | Icon color |
-|---|---|---|---|---|
-| Discount_full | `Discount-1` `LowPrice-1` | none | `white` | `white` |
+|---|---|---|---|
+| Discount_full | `Discount-1` `LowPrice-1` | none | `anti` | `anti` |
 | Discount_light | `Discount-3` `LowPrice-3` | none | `Discount-1` `LowPrice-1` | `LowPrice-1` |
 | Discount_line | none | 1px solid `Discount-2` `LowPrice-2` | `Discount-1` `LowPrice-1` | `LowPrice-1` |
 
 ### Danger
 
 | Style | Background | Border | Text color | Icon color |
-|---|---|---|---|---|
-| Danger_full | `Error-0` `Error-0` | none | `white` | `white` |
-| Danger_light | `Error-3` | none | `Error-0` `Error-0` | `Error-0` |
-| Danger_line | none | 1px solid `Error-2` | `Error-0` `Error-0` | `Error-0` |
+|---|---|---|---|
+| Danger_full | `Error-0` | none | `anti` | `anti` |
+| Danger_light | `Error-3` | none | `Error-0` | `Error-0` |
+| Danger_line | none | 1px solid `Error-2` | `Error-0` | `Error-0` |
 
 ### Success
 
 | Style | Background | Border | Text color | Icon color |
-|---|---|---|---|---|
-| Success_full | `Success-0` | none | `white` | `white` |
+|---|---|---|---|
+| Success_full | `Success-0` | none | `anti` | `anti` |
 | Success_light | `Success-3` | none | `Success-0` |
 | Success_line | none | 1px solid `Success-2` | `Success-0` |
 
@@ -136,24 +136,24 @@ Tags support the following states:
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Primary full bg, Primary text |
 | `Color/brand/branding-2` | | Primary line border |
 | `Color/brand/branding-3` | | Primary light bg |
 | `Color/icon&text/gray1-text-icon-color-default` | | Default full bg, Default text |
 | `Color/neutral/gray5-component-border` | | Default line border |
 | `Color/neutral/gray7-bg-color-component` | | Default light bg |
-| `Color/discount/discount-1` | `LowPrice-1` | Discount full bg, Discount text |
-| `Color/discount/discount-2` | `LowPrice-2` | Discount line border |
-| `Color/discount/discount-3` | `LowPrice-3` | Discount light bg |
+| `Color/discount/discount-1` `LowPrice-1` | Discount full bg, Discount text |
+| `Color/discount/discount-2` `LowPrice-2` | Discount line border |
+| `Color/discount/discount-3` `LowPrice-3` | Discount light bg |
 | `Color/error/error-0` | | Danger full bg, Danger text |
 | `Color/error/error-2` | | Danger line border |
 | `Color/error/error-3` | | Danger light bg |
 | `Color/success/success-0` | | Success full bg, Success text |
 | `Color/success/success-2` | | Success line border |
 | `Color/success/success-3` | | Success light bg |
-| `Color/icon&text/text-icon-color-anti` | `white1` | White text on full-color tags |
+| `Color/icon&text/text-icon-color-anti` `white1` | White text on full-color tags |
 | `Color/neutral/white1-bg-color-container` | | White text (alternate token) |
 
 ## Do Not Infer

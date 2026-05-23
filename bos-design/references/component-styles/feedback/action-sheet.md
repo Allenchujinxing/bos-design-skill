@@ -91,7 +91,7 @@ This file records the Figma visual style only.
 ### 操作项颜色变体
 
 | 变体 | 文字颜色 | 说明 |
-|---|---|---|
+|---|---|
 | 默认 | `gray1` | 普通操作 |
 | 危险 | `Error-1` | 退出登录、注销账号等破坏性操作 |
 | 品牌 | `Branding-1` | 强调操作 |
@@ -150,7 +150,7 @@ This file records the Figma visual style only.
 ## 自定义能力
 
 | 属性 | 类型 | 默认值 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `description` | string | — | 顶部描述文案 |
 | `actions` | Action[] | [] | 操作项列表 |
 | `cancelText` | string | `'取消'` | 取消按钮文字 |
@@ -159,7 +159,7 @@ This file records the Figma visual style only.
 ### Action 对象
 
 | 属性 | 类型 | 默认值 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `text` | string | — | 操作项文字 |
 | `color` | enum | `'default'` | `default` / `danger` / `brand` |
 | `disabled` | boolean | false | 是否禁用 |

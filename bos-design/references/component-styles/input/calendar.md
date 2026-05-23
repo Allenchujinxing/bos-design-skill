@@ -67,7 +67,7 @@ A form input field that opens the Calendar popup when tapped.
 | Cell width | ~48px per column |
 | Cell padding | 12px horizontal from container edge |
 | Font | `Body/14-regular` — 14px, weight 400, line-height 22px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Alignment | Center |
 | Labels | 日/一/二/三/四/五/六 (Chinese) or SUN/MON/TUE/WED/THU/FRI/SAT (International) |
 
@@ -78,7 +78,7 @@ A form input field that opens the Calendar popup when tapped.
 | Height | 24px text |
 | Font | `Body/16-regular` — 16px, weight 400, line-height 24px (popup) |
 | Font (inline) | `Title/18-semibold` — 18px, weight 600, line-height 26px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Left padding | 12px |
 | Format | "2025年 8月" or "August 2025" (international) |
 
@@ -100,29 +100,29 @@ A form input field that opens the Calendar popup when tapped.
 ### Basic States
 
 | State | Date font | Date color | Background | Description text |
-|---|---|---|---|---|
-| Normal | 16px regular | `gray1` `gray1` | None | — |
-| Today | 16px regular | `gray1` `gray1` | None | Shows "今天" or "今" instead of number |
-| Selected (single) | 16px semibold | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius `radius-xl` | — |
-| Disabled | 16px regular | `gray3` `gray3` | None | — |
-| Today disabled | 16px regular | `gray3` `gray3` | None | Shows "今天" grayed out |
+|---|---|---|---|
+| Normal | 16px regular | `gray1` | None | — |
+| Today | 16px regular | `gray1` | None | Shows "今天" or "今" instead of number |
+| Selected (single) | 16px semibold | `anti` | 48×60 full cell, `Branding-1`, radius `radius-xl` | — |
+| Disabled | 16px regular | `gray3` | None | — |
+| Today disabled | 16px regular | `gray3` | None | Shows "今天" grayed out |
 
 ### Range Selection States
 
 | State | Date color | Background | Shape |
-|---|---|---|---|
-| Range start | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius `radius-xl` | Only left side has `radius-xl` radius; right side is square (0px) to connect seamlessly with range middle fill |
-| Range end | `anti` | 48×60 full cell, `Branding-1` `Branding-1`, radius `radius-xl` | Only right side has `radius-xl` radius; left side is square (0px) to connect seamlessly with range middle fill |
-| Range middle | `gray1` `gray1` | Full cell 48×60px rectangle, `gray7` `gray7` | No rounding, fills full cell width and height edge-to-edge; adjacent middle cells connect without gaps |
+|---|---|---|
+| Range start | `anti` | 48×60 full cell, `Branding-1`, radius `radius-xl` | Only left side has `radius-xl` radius; right side is square (0px) to connect seamlessly with range middle fill |
+| Range end | `anti` | 48×60 full cell, `Branding-1`, radius `radius-xl` | Only right side has `radius-xl` radius; left side is square (0px) to connect seamlessly with range middle fill |
+| Range middle | `gray1` | Full cell 48×60px rectangle, `gray7` | No rounding, fills full cell width and height edge-to-edge; adjacent middle cells connect without gaps |
 
 ### Special Style 1 — Status Tag + Description
 
 Used in task/scheduling calendars. Each cell can show a colored status tag at the top and a description below the date.
 
 | Element | Font | Color | Position |
-|---|---|---|---|
+|---|---|---|
 | Status tag | 10px semibold | White on colored background | Top of cell, full width, 12px height |
-| Date number | 16px regular/semibold | `gray1` `gray1` | Center, y=18px |
+| Date number | 16px regular/semibold | `gray1` | Center, y=18px |
 | Description | 10px regular | Customizable | Bottom, y=42px, 14px height |
 
 Tag colors are customizable per business (e.g. green for "已达成", red for "未达成", blue for "进行中").
@@ -136,7 +136,7 @@ Each cell supports a custom background image that fills the entire 48×60px cell
 Cells can show text above and below the date number:
 
 | Element | Position | Font | Height |
-|---|---|---|---|
+|---|---|---|
 | Top text (e.g. "春节") | y=4px | 10px regular | 14px |
 | Date number | y=18px | 16px regular | 24px |
 | Bottom text (e.g. "¥99") | y=42px | 10px regular | 14px |
@@ -144,7 +144,7 @@ Cells can show text above and below the date number:
 ## Typography Tokens
 
 | Token | Size | Weight | Line-height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Body/16-regular` | 16px | 400 | 24px | Date numbers, month headers |
 | `Title/16-semibold` | 16px | 600 | 24px | Selected date number |
 | `Body/14-regular` | 14px | 400 | 22px | Week header labels |
@@ -153,8 +153,8 @@ Cells can show text above and below the date number:
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Selected date background, range endpoints |
 | `Color/brand/branding-3` | | (Reserved, not used for range middle) |
 | `Color/neutral/gray7-bg-color-component` | | Range middle background |
@@ -165,7 +165,7 @@ Cells can show text above and below the date number:
 ## Selection Modes
 
 | Mode | Description | Visual |
-|---|---|---|
+|---|---|
 | Single select | Tap one date, full cell highlight | Blue 8px rounded rect on selected cell |
 | Range select | Tap start + end, fill range between | Blue rounded rects on endpoints, `gray7` gray fill between |
 | Same-day range | Tap same date twice = full day range | Single blue rounded rect |

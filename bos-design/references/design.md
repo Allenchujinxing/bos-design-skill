@@ -89,10 +89,8 @@
 | translucent | `rgba(0,0,0,0.7)` | 弹窗遮罩 |
 | translucent-heavy | `rgba(0,0,0,0.8)` | Toast/Tooltips 深色背景 |
 | translucent-medium | `rgba(0,0,0,0.6)` | 图片蒙层（上传中/失败） |
-| translucent-light | `rgba(0,0,0,0.4)` | 轻量遮罩（导航栏、指示器背景） |
-| translucent-heavy | `rgba(0,0,0,0.8)` | Toast / Tooltips 深色背景 |
-| translucent-medium | `rgba(0,0,0,0.6)` | 图片蒙层（上传中/失败） |
-| translucent-light | `rgba(0,0,0,0.4)` | 轻量遮罩（图片预览导航栏） |
+| translucent-light | `rgba(0,0,0,0.4)` | 轻量遮罩（导航栏、图片预览、指示器背景） |
+| black | `#000000` | 固定媒体预览背景（图片查看器等），不随主题变化 |
 
 ### 文字与图标
 

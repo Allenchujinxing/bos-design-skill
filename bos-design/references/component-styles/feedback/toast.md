@@ -26,7 +26,7 @@ This file records the Figma visual style only.
 ## 类型
 
 | 类型 | 说明 | 布局 |
-|---|---|---|
+|---|---|
 | Only Text 纯文字 | 仅文字提示 | 水平居中 |
 | Horizontal Layout with Icon 带横向图标 | 图标 + 文字水平排列 | 水平 |
 | Vertical Layout with Icon 带竖向图标 | 图标在上 + 文字在下 | 垂直 |

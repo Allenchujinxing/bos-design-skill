@@ -42,7 +42,7 @@ This file records the Figma visual style only.
 ## 占位块类型
 
 | 类型 | 形状 | 适用场景 |
-|---|---|---|
+|---|---|
 | 文字行 | 圆角矩形 (radius 2–`radius-md`) | 标题、正文、标签 |
 | 图片/卡片 | 圆角矩形 (radius 与实际一致) | 图片、Banner、卡片 |
 | 头像 | 圆形 | 用户头像 |
@@ -75,8 +75,8 @@ This file records the Figma visual style only.
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | 占位块背景 | `gray7` | 所有骨架占位块 |
 | 页面背景 | `white1` 或页面实际背景色 | 骨架屏容器背景 |
 

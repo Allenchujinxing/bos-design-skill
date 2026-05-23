@@ -50,7 +50,7 @@ ImagePicker 由以下部分组成：
 |---|---|
 | 布局 | Flex row, space-between, items center |
 | 标题字体 | `Title/16-semibold` 16px, weight 600, line-height 24px |
-| 标题颜色 | `gray1` `gray1` |
+| 标题颜色 | `gray1` |
 | 标题最大宽度 | 96px |
 | 必填标记 | `*`，`Body/16-regular` 16px, weight 400, color `error-1` `Error-1` |
 | 标题与必填标记间距 | 紧邻（无额外间距） |
@@ -61,9 +61,9 @@ ImagePicker 由以下部分组成：
 |---|---|
 | 布局 | Inline grid, items start |
 | 图标 | `ic_info_circle_line` 14×14px, margin-top 2px |
-| 图标颜色 | `gray3` `gray3` |
+| 图标颜色 | `gray3` |
 | 文字 | "说明入口"，12px Regular, line-height 18px |
-| 文字颜色 | `gray3` `gray3` |
+| 文字颜色 | `gray3` |
 | 图标与文字间距 | 16px（margin-left） |
 
 #### 副标题
@@ -71,7 +71,7 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 字体 | `Body/12-regular` 12px, weight 400, line-height 18px |
-| 颜色 | `gray3` `gray3` |
+| 颜色 | `gray3` |
 | 宽度 | 100% |
 | 与标题行间距 | 4px（flex column gap） |
 
@@ -87,7 +87,7 @@ ImagePicker 由以下部分组成：
 | 标题前图标 | 16×16px，可选 |
 | 图标与标题间距 | 4px |
 | 标题字体 | `Body/14-regular` 14px, weight 400, line-height 22px |
-| 标题颜色 | `gray1` `gray1` |
+| 标题颜色 | `gray1` |
 | 必填标记 | `*`，14px Regular, color `error-1` `Error-1` |
 
 #### 说明入口（右侧）
@@ -150,11 +150,11 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 尺寸 | 与图片项相同，按动态宽度保持正方形 |
-| 背景色 | `gray8` `gray8` |
+| 背景色 | `gray8` |
 | 圆角 | `radius-xl` |
 | 图标 | `ic_add_line` 加号 |
 | 图标尺寸 | 32×32px |
-| 图标颜色 | `gray3` `gray3`（推断自视觉） |
+| 图标颜色 | `gray3`（推断自视觉） |
 | 图标位置 | 居中 |
 
 ### 上传按钮 — 拍照类型（type=camera）
@@ -164,7 +164,7 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 尺寸 | 与图片项相同，按动态宽度保持正方形 |
-| 背景色 | `gray8` `gray8` |
+| 背景色 | `gray8` |
 | 圆角 | `radius-xl` |
 | 图标 | `ic_camera_fill` 相机 |
 | 图标尺寸 | 32×32px |
@@ -186,7 +186,7 @@ ImagePicker 由以下部分组成：
 ### 布局变体
 
 | 已上传数量 | 第一行 | 第二行 |
-|---|---|---|
+|---|---|
 | 0 | 上传按钮 | — |
 | 1~2 | 图片 + 上传按钮 | — |
 | 3 | 图片 ×3 + 上传按钮 | — |
@@ -295,11 +295,11 @@ ImagePicker 由以下部分组成：
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/neutral/white1-bg-color-container` | | 容器背景 |
 | `Color/neutral/gray8-bg-color-page` | | 上传按钮背景 |
-| `Color/neutral/translucent-bg-color` | `translucent` | 删除按钮背景 |
+| `Color/neutral/translucent-bg-color` `translucent` | 删除按钮背景 |
 | `Color/icon&text/gray1-text-icon-color-default` | | 标题文字颜色 |
 | `Color/icon&text/gray3-text-icon-color-placeholder` | | 副标题、说明入口颜色 |
 | `Color/error/error-1` | | 必填标记 `*` 颜色 |
@@ -308,7 +308,7 @@ ImagePicker 由以下部分组成：
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Title/16-semibold` | 16px | 600 | 24px | 独立模块标题 |
 | `Body/14-regular` | 14px | 400 | 22px | 表单内标题 |
 | `Body/12-regular` | 12px | 400 | 18px | 副标题、说明入口文字、重新上传/上传失败文字 |

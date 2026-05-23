@@ -20,7 +20,7 @@ Use TabBar for switching between top-level content modules at the bottom of the 
 TabBar supports three content modes for its items:
 
 | Type | Component name | Description |
-|---|---|---|
+|---|---|
 | Text | `item/tabBar-tag-horizontal/content` | Text label only |
 | Icon & Text | `item/tabBar-tag-horizontal/content&icon` | Icon above text label |
 | Icon | `item/tabBar-tag-horizontal/icon` | Icon only, no text |
@@ -50,7 +50,7 @@ Items use equal flex distribution within the container.
 | Background | `white1` |
 | Padding | 8px all sides |
 | Item gap | 8px |
-| Top divider | 0.5px line, `gray6` `gray6` |
+| Top divider | 0.5px line, `gray6` |
 | Layout | Flex row, items centered, overflow clip |
 
 ### Capsule Style
@@ -103,21 +103,21 @@ Items use equal flex distribution within the container.
 ### Text label (Text type)
 
 | State | Token | Font | Size | Weight | Line-height | Color |
-|---|---|---|---|---|---|---|
-| Selected | `Title/16-semibold` | PingFang SC | 16px | 600 | 24px | `Branding-1` `Branding-1` |
-| Unselected | `Body/16-regular` | PingFang SC | 16px | 400 | 24px | `gray1` `gray1` |
+|---|---|---|---|---|
+| Selected | `Title/16-semibold` | PingFang SC | 16px | 600 | 24px | `Branding-1` |
+| Unselected | `Body/16-regular` | PingFang SC | 16px | 400 | 24px | `gray1` |
 
 ### Text label (Icon & Text type)
 
 | State | Token | Font | Size | Weight | Line-height | Color |
-|---|---|---|---|---|---|---|
-| Selected | `Special/11-semibold` | PingFang SC | 11px | 600 | 16px | `Branding-1` `Branding-1` |
-| Unselected | `Special/11-regular` | PingFang SC | 11px | 400 | 16px | `gray1` `gray1` |
+|---|---|---|---|---|
+| Selected | `Special/11-semibold` | PingFang SC | 11px | 600 | 16px | `Branding-1` |
+| Unselected | `Special/11-regular` | PingFang SC | 11px | 400 | 16px | `gray1` |
 
 ## Icon Color Tokens
 
 | State | Color | Token |
-|---|---|---|
+|---|---|
 | Selected | `Branding-1` | `Color/brand/branding-1` |
 | Unselected | `gray3` | `Color/icon&text/gray3-text-icon-color-placeholder` |
 
@@ -133,7 +133,7 @@ In the icon placeholder, the selected icon uses `Branding-1` blue and the unsele
 ### Label (selected indicator)
 
 - Selected item: brand-colored text/icon with a light brand background pill.
-- Background: `Branding-3` `Branding-3`.
+- Background: `Branding-3`.
 - Border-radius: `radius-full` (full round pill).
 - Unselected items: no background.
 

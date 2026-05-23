@@ -19,7 +19,7 @@ Use ToolBar for page-level action bars fixed at the bottom of the screen. It pro
 ## Component Categories
 
 | Category | Frame name | Description |
-|---|---|---|
+|---|---|
 | Basic Toolbar | `Basic_ Toolbar` | Pure button combinations (1–3 buttons) |
 | Functional category | `Functional category` | Icon entries + button combinations |
 
@@ -54,7 +54,7 @@ Use ToolBar for page-level action bars fixed at the bottom of the screen. It pro
 ### Container height (derived)
 
 | Layout | Buttons | Height |
-|---|---|---|
+|---|---|
 | Horizontal | Any | 72px (12 + 48 + 12) |
 | Vertical | 2 | 132px (12 + 48 + 12 + 48 + 12) |
 
@@ -66,7 +66,7 @@ Buttons inside ToolBar use the standard Button component at `large` size. See `b
 
 | Property | Value |
 |---|---|
-| Background | `Branding-1` `Branding-1` |
+| Background | `Branding-1` |
 | Text color | `anti` |
 | Font | `Title/18-semibold` — PingFang SC, 18px, weight 600, line-height 26px |
 | Height | 48px (padding 11px top/bottom + 26px line-height) |
@@ -77,8 +77,8 @@ Buttons inside ToolBar use the standard Button component at `large` size. See `b
 
 | Property | Value |
 |---|---|
-| Background | `Branding-3` `Branding-3` |
-| Text color | `Branding-1` `Branding-1` |
+| Background | `Branding-3` |
+| Text color | `Branding-1` |
 | Font | `Title/18-semibold` — PingFang SC, 18px, weight 600, line-height 26px |
 | Height | 48px |
 | Horizontal padding | 20px |
@@ -125,20 +125,20 @@ Functional category adds icon shortcut entries to the left of the button area.
 |---|---|
 | Icon size | 20×20px |
 | Icon container padding | 14px horizontal (centering within item) |
-| Icon color | `gray1` `gray1` |
+| Icon color | `gray1` |
 
 ### Icon label
 
 | Property | Value |
 |---|---|
 | Font | `Body/10-regular` — PingFang SC, 10px, weight 400, line-height 14px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Alignment | Center |
 
 ### Functional variants
 
 | Variant | Icons | Buttons | Layout |
-|---|---|---|---|
+|---|---|---|
 | `Single Button_1icon` | 1 icon entry | 1 primary (flex) | Icon fixed + button fills remaining |
 | `Single Button_2icon` | 2 icon entries | 1 primary (flex) | Icons fixed + button fills remaining |
 | `Single Button_3icon` | 3 icon entries | 1 primary (flex) | Icons fixed + button fills remaining |

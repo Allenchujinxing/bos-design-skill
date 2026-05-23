@@ -38,10 +38,10 @@ The breadcrumb bar showing the hierarchy path.
 ### Tab Item (Cascader tab)
 
 | Property | Active (current level) | Inactive (parent level) |
-|---|---|---|
+|---|---|
 | Font | `Title/16-semibold` | `Body/16-regular` |
 | Size | 16px, weight 600, line-height 24px | 16px, weight 400, line-height 24px |
-| Color | `Branding-1` `Branding-1` | `gray3` `gray3` |
+| Color | `Branding-1` | `gray3` |
 
 ### Level Separator
 
@@ -70,7 +70,7 @@ The scrollable list of options for the current level.
 | Height | 56px |
 | Background | `white1` |
 | Padding | 12px horizontal (container), 16px vertical (inner row) |
-| Bottom border | 0.5px solid `gray6` `gray6` |
+| Bottom border | 0.5px solid `gray6` |
 | Layout | Flex row, items centered, space-between |
 
 ### Selection Types
@@ -78,18 +78,18 @@ The scrollable list of options for the current level.
 #### Single Select (单选)
 
 | State | Text font | Text color | Right icon |
-|---|---|---|---|
-| Unselected | `Body/16-regular` 16px, weight 400 | `gray1` `gray1` | None |
-| Selected | `Body/16-regular` 16px, weight 400 | `Branding-1` `Branding-1` | Checkmark icon (`ic_check_line`), 20×20px, `Branding-1` |
+|---|---|---|
+| Unselected | `Body/16-regular` 16px, weight 400 | `gray1` | None |
+| Selected | `Body/16-regular` 16px, weight 400 | `Branding-1` | Checkmark icon (`ic_check_line`), 20×20px, `Branding-1` |
 
 In single-select mode, tapping an option selects it and automatically advances to the next level. The selected option's text turns blue with a checkmark on the right.
 
 #### Multi Select (多选)
 
 | State | Left icon | Text font | Text color | Right action |
-|---|---|---|---|---|
-| Unselected | Radio circle outline, 20×20px, gray | `Body/16-regular` 16px | `gray1` `gray1` | "下级" link with tree icon, `Branding-1` |
-| Selected | Radio filled circle with check, 20×20px, `Branding-1` | `Body/16-regular` 16px | `gray1` `gray1` | "下级" link **disabled** (grayed out, not clickable) |
+|---|---|---|---|
+| Unselected | Radio circle outline, 20×20px, gray | `Body/16-regular` 16px | `gray1` | "下级" link with tree icon, `Branding-1` |
+| Selected | Radio filled circle with check, 20×20px, `Branding-1` | `Body/16-regular` 16px | `gray1` | "下级" link **disabled** (grayed out, not clickable) |
 
 In multi-select mode:
 - Every level (not just leaf) has a radio icon on the left + option text (4px gap)
@@ -97,7 +97,7 @@ In multi-select mode:
 - **Selection and "下级" are mutually exclusive**: when an option is checked, its "下级" button becomes disabled (grayed out, pointer-events none). This is because checking a parent means selecting the entire node — drilling into children is unnecessary.
 - When unchecking a parent, "下级" becomes active again
 - **Checking a parent clears its children**: if a user has individually selected some children, then checks the parent, all child selections are removed (replaced by the parent selection)
-- When returning to a parent level, options that have selected children show the count in the format `选项名 (已选数/总数)` — the count text uses `Branding-1` `Branding-1` color, same font weight as the option text (not bold)
+- When returning to a parent level, options that have selected children show the count in the format `选项名 (已选数/总数)` — the count text uses `Branding-1` color, same font weight as the option text (not bold)
 
 ### "下级" (Sub-level) Action
 
@@ -105,13 +105,13 @@ In multi-select mode:
 |---|---|
 | Layout | Flex row, 4px gap, items centered |
 | Icon | Tree icon (`ic_tree_square_vertical_line`), 20×20px |
-| Text | "下级", 16px regular, `Branding-1` `Branding-1` |
+| Text | "下级", 16px regular, `Branding-1` |
 | Position | Right-aligned in the list item |
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Active tab text, selected option text, checkmark, "下级" link |
 | `Color/icon&text/gray1-text-icon-color-default` | | Unselected option text |
 | `Color/icon&text/gray3-text-icon-color-placeholder` | | Inactive tab text |

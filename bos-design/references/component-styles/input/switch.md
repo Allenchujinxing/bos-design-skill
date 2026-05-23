@@ -28,12 +28,12 @@ Switch 由以下部分组成：
 ## Props
 
 | Prop | Type | Default | Description |
-|---|---|---|---|
-| `status` | `boolean` | `true` | 开关状态，`true` 为开启，`false` 为关闭 |
-| `disabled` | `boolean` | `false` | 是否禁用 |
-| `size` | `"medium" \| "small"` | `"medium"` | 开关尺寸 |
-| `text` | `boolean` | `false` | 是否显示内嵌文字（仅 medium 尺寸生效） |
-| `color` | `string` | `Branding-1` | 自定义开启状态的轨道颜色 |
+|---|---|---|
+| `status` `boolean` | `true` | 开关状态，`true` 为开启，`false` 为关闭 |
+| `disabled` `boolean` | `false` | 是否禁用 |
+| `size` `"medium" \| "small"` | `"medium"` | 开关尺寸 |
+| `text` `boolean` | `false` | 是否显示内嵌文字（仅 medium 尺寸生效） |
+| `color` `string` | `Branding-1` | 自定义开启状态的轨道颜色 |
 
 ## 大号开关（Medium）— 无文字
 
@@ -42,12 +42,12 @@ Switch 由以下部分组成：
 ### 轨道（Track）
 
 | Property | 开启（status=true） | 关闭（status=false） |
-|---|---|---|
+|---|---|
 | 宽度 | 50px | 50px |
 | 高度 | 30px（padding 2px + thumb 26px） | 30px |
 | 圆角 | `radius-full` | `radius-full` |
-| 背景色（默认） | `Branding-1` `Branding-1` | `gray5` `gray5` |
-| 背景色（禁用） | `Branding-2` `Branding-2` | `gray8` `gray8` |
+| 背景色（默认） | `Branding-1` | `gray5` |
+| 背景色（禁用） | `Branding-2` | `gray8` |
 | 内边距 | 2px | 2px |
 | 布局 | Flex row, justify-end | Flex row, justify-start |
 | overflow | clip | clip |
@@ -68,12 +68,12 @@ Switch 由以下部分组成：
 ### 轨道（Track）
 
 | Property | 开启（status=true） | 关闭（status=false） |
-|---|---|---|
+|---|---|
 | 宽度 | 42px | 41px |
 | 高度 | 24px（padding 2px + thumb 20px） | 24px |
 | 圆角 | `radius-full`（开启）/ `radius-3xl`（关闭） | `radius-3xl` |
-| 背景色（默认） | `Branding-1` `Branding-1` | `gray5` `gray5` |
-| 背景色（禁用） | `Branding-2` `Branding-2` | `gray8` `gray8` |
+| 背景色（默认） | `Branding-1` | `gray5` |
+| 背景色（禁用） | `Branding-2` | `gray8` |
 | 内边距 | 2px | 2px |
 | 布局 | Flex row, justify-end | Flex row, justify-start |
 | overflow | clip | clip |
@@ -94,12 +94,12 @@ Switch 由以下部分组成：
 ### 轨道（Track）
 
 | Property | 开启（status=true） | 关闭（status=false） |
-|---|---|---|
+|---|---|
 | 最小宽度 | 68px | 68px |
 | 最大宽度 | 96px | 96px |
 | 圆角 | `radius-full` | `radius-full` |
-| 背景色（默认） | `Branding-1` `Branding-1` | `gray5` `gray5` |
-| 背景色（禁用） | `Branding-2` `Branding-2` | `gray8` `gray8` |
+| 背景色（默认） | `Branding-1` | `gray5` |
+| 背景色（禁用） | `Branding-2` | `gray8` |
 | 内边距（开启） | 2px right, 8px left, 2px top/bottom | — |
 | 内边距（关闭） | — | 2px left, 8px right, 2px top/bottom |
 | 布局 | Flex row, 4px gap | Flex row, 4px gap |
@@ -115,13 +115,13 @@ Switch 由以下部分组成：
 ### 内嵌文字
 
 | Property | 开启 | 关闭 |
-|---|---|---|
+|---|---|
 | 默认文字 | "启用" | "停用" |
 | 字体 | `Body/middle` 14px, weight 400, line-height 22px | 同左 |
 | 文字颜色（开启） | `white1` | — |
-| 文字颜色（关闭） | — | `gray3` `gray3` |
+| 文字颜色（关闭） | — | `gray3` |
 | 文字颜色（禁用+开启） | `white1` | — |
-| 文字颜色（禁用+关闭） | — | `gray3` `gray3` |
+| 文字颜色（禁用+关闭） | — | `gray3` |
 | 最大宽度 | 68px | 68px |
 | 最小宽度 | 1px | 1px |
 | flex | 1 0 0 | 1 0 0 |
@@ -136,19 +136,19 @@ Switch 由以下部分组成：
 开启状态的轨道背景色可自定义，常见预设：
 
 | 颜色名称 | Token | Value | 示例场景 |
-|---|---|---|---|
-| 品牌蓝（默认） | `Color/brand/branding-1` | `Branding-1` | 通用开关 |
-| 警告橙 | `Color/warning/warning-1` | `Warning-1` | 警告/提醒类开关 |
-| 成功绿 | `Color/success/success-color` | `Success-1` | 成功/确认类开关 |
+|---|---|---|
+| 品牌蓝（默认） | `Color/brand/branding-1` `Branding-1` | 通用开关 |
+| 警告橙 | `Color/warning/warning-1` `Warning-1` | 警告/提醒类开关 |
+| 成功绿 | `Color/success/success-color` `Success-1` | 成功/确认类开关 |
 
-自定义颜色仅影响开启状态的轨道背景色，关闭状态始终使用 `gray5` `gray5`。禁用状态下自定义颜色不生效，统一使用 `Branding-2` `Branding-2`（开启禁用）或 `gray8` `gray8`（关闭禁用）。
+自定义颜色仅影响开启状态的轨道背景色，关闭状态始终使用 `gray5`。禁用状态下自定义颜色不生效，统一使用 `Branding-2`（开启禁用）或 `gray8`（关闭禁用）。
 
 自定义颜色同时适用于无文字和内嵌文字模式，以及大号和小号尺寸。
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | 开启状态轨道背景（默认） |
 | `Color/brand/branding-2` | | 开启+禁用状态轨道背景 |
 | `Color/neutral/gray5-component-border` | | 关闭状态轨道背景 |
@@ -156,12 +156,12 @@ Switch 由以下部分组成：
 | `Color/neutral/white1-bg-color-container` | | 滑块颜色、开启文字颜色 |
 | `Color/icon&text/gray3-text-icon-color-placeholder` | | 关闭状态内嵌文字颜色 |
 | `Color/warning/warning-1` | | 自定义颜色：警告橙 |
-| `Color/success/success-color` | `Success-1` | 自定义颜色：成功绿 |
+| `Color/success/success-color` `Success-1` | 自定义颜色：成功绿 |
 
 ## States
 
 | State | 轨道背景 | 滑块 | 文字颜色 | Interactive |
-|---|---|---|---|---|
+|---|---|---|---|
 | 开启 | `Branding-1` | 白色圆形 | `anti` | Yes |
 | 关闭 | `gray5` | 白色圆形 | `gray3` | Yes |
 | 开启 + 禁用 | `Branding-2` | 白色圆形 | `anti` | No |
@@ -169,8 +169,8 @@ Switch 由以下部分组成：
 
 ## Shadow
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | 一级阴影（灰色背景） | `shadow-thumb` | 滑块投影（双层阴影，主阴影 + 微边缘） |
 
 ## Transition 过渡动效
@@ -221,7 +221,7 @@ Switch 由以下部分组成：
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Body/middle` | 14px | 400 | 22px | 内嵌文字 |
 
 ## Do Not Infer

@@ -44,7 +44,7 @@ Values are displayed as static labels at the left and right ends of the slider. 
 |---|---|
 | Position | Centered above thumb, bottom offset ~6px above thumb top |
 | Font | `14/CN-Regular` 14px, weight 400, line-height 22px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Alignment | Center, `white-space: nowrap` |
 
 ### Variant 2: 数值在滑杆下面的模式 (Values Below Track)
@@ -56,8 +56,8 @@ A header row above the track shows a hint label and the current selected value. 
 | Property | Value |
 |---|---|
 | Layout | Flex row, space-between, items baseline |
-| Hint text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `gray2` `gray2` |
-| Value text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `Branding-1` `Branding-1` |
+| Hint text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `gray2` |
+| Value text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `Branding-1` |
 | Margin bottom | 8px |
 
 #### Below-Track Labels
@@ -66,7 +66,7 @@ A header row above the track shows a hint label and the current selected value. 
 |---|---|
 | Layout | Flex row, space-between |
 | Font | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Color | `gray2` `gray2` |
+| Color | `gray2` |
 | Margin top | 4px |
 
 ## Track
@@ -76,7 +76,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Property | Value |
 |---|---|
 | Height | 4px |
-| Background | `gray6` `gray6` |
+| Background | `gray6` |
 | Border radius | `radius-full` (Variant 1) / `radius-xs` (Variant 2) |
 | Width | 100% of container |
 
@@ -85,7 +85,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Property | Value |
 |---|---|
 | Height | 4px |
-| Background | `Branding-1` `Branding-1` |
+| Background | `Branding-1` |
 | Border radius | Same as inactive track |
 | Position | Absolute, aligned to track top |
 | Left | Percentage of min value (or 0% for single thumb) |
@@ -98,7 +98,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Size | 24×24px (Variant 1) / 28×28px (Variant 2) |
 | Shape | Circle (`border-radius: 50%` / `radius-full`) |
 | Background | `anti` |
-| Border | 2px solid `Branding-1` `Branding-1` |
+| Border | 2px solid `Branding-1` |
 | Shadow | `Shadow/Shadow-1`（见 `references/design.md` Shadow 体系） |
 | Position | Absolute, centered vertically on track, `transform: translate(-50%, -50%)` |
 | Cursor | `grab` (default), `grabbing` (while dragging) |
@@ -110,7 +110,7 @@ A header row above the track shows a hint label and the current selected value. 
 |---|---|
 | Layout | 3 vertical lines, centered inside thumb, 3px gap |
 | Line size | 2px wide × 10px tall |
-| Line color | `Branding-2` `Branding-2` |
+| Line color | `Branding-2` |
 | Line radius | 1px |
 
 ## Modes
@@ -131,8 +131,8 @@ A header row above the track shows a hint label and the current selected value. 
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Active track, thumb border, selected value text |
 | `Color/brand/branding-2` | | Thumb grip lines |
 | `Color/icon&text/gray1-text-icon-color-default` | | End labels, value bubble text |
@@ -150,7 +150,7 @@ A header row above the track shows a hint label and the current selected value. 
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `14/CN-Regular` | 14px | 400 | 22px | End labels, value bubbles |
 | `Mark/14-semibold` | 14px | 600 | 22px | Header hint, header value |
 | `Body/12-regular` | 12px | 400 | 18px | Below-track min/max labels |

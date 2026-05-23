@@ -75,7 +75,7 @@ This file records the Figma visual style only.
 ## 箭头图标
 
 | 状态 | 方向 | 说明 |
-|---|---|---|
+|---|---|
 | 收起 | 向右 ▶ 或向下 ▼ | 表示可展开 |
 | 展开 | 向下 ▼ 或向上 ▲ | 表示可收起 |
 
@@ -84,7 +84,7 @@ This file records the Figma visual style only.
 ### 箭头位置变体
 
 | 位置 | 说明 | 间距 |
-|---|---|---|
+|---|---|
 | 右侧（默认） | 箭头在 Header 最右侧，垂直居中 | — |
 | 标题右侧 | 箭头紧跟标题文字右侧 | 标题与箭头间距 4px |
 
@@ -114,7 +114,7 @@ This file records the Figma visual style only.
 ## 状态
 
 | 状态 | Header 样式 | Content |
-|---|---|---|
+|---|---|
 | 收起（默认） | 标题 `gray1`，箭头 `gray3` 向右 | 隐藏 |
 | 展开 | 标题 `gray1`，箭头 `gray3` 向下 | 显示 |
 | 禁用 | 标题 `gray4`，箭头 `gray4` | 不可操作 |
@@ -122,7 +122,7 @@ This file records the Figma visual style only.
 ## 自定义能力
 
 | 属性 | 类型 | 默认值 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `accordion` | boolean | false | 是否手风琴模式（同时只展开一个） |
 | `defaultActive` | string[] | [] | 默认展开的面板 key 列表 |
 | `bordered` | boolean | true | 是否有外边框 |

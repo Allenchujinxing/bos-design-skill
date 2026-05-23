@@ -109,7 +109,7 @@ ActionSheet 样式参考 ActionSheet 组件规范。
 ## 切图资产
 
 | 文件 | 尺寸 | 用途 |
-|---|---|---|
+|---|---|
 | `portrait-photo.png` | 390×693 | 竖屏照片示例 |
 | `landscape-photo.png` | 390×219 | 横屏照片示例 |
 | `extra-tall-photo.png` | 390×1366 | 超长图片示例 |
@@ -117,8 +117,8 @@ ActionSheet 样式参考 ActionSheet 组件规范。
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | 预览背景 | `black` | 全屏预览底色 |
 | 导航栏背景 | `translucent-light` | 多张模式顶部栏 |
 | 页码文字 | `white1` | 导航栏页码 |

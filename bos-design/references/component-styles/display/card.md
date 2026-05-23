@@ -37,7 +37,7 @@ This file records the component style spec for mobile.
 ## 卡片类型
 
 | 类型 | 说明 | 适用场景 |
-|---|---|---|
+|---|---|
 | 基础卡片 | 标题 + 内容 | 信息模块、功能入口 |
 | 简洁卡片 | 仅内容区，无标题 | 轻量信息展示 |
 | 封面卡片 | 封面图 + Meta 信息 | 商品、文章、活动 |
@@ -58,7 +58,7 @@ This file records the component style spec for mobile.
 卡片圆角不是固定值，需遵循 `references/design.md` 的圆角梯度体系：
 
 | 梯度 | 圆角 | 卡片场景 |
-|---|---|---|
+|---|---|
 | 第一梯度 | 12px | 页面级容器 — 底部浮层内的卡片、弹窗面板 |
 | 第二梯度 | 8px | 模块级容器 — **常规卡片（默认值）** |
 | 第三梯度 | 4px | 模块内子元素 — 卡片内嵌的子卡片、小区块 |
@@ -194,7 +194,7 @@ This file records the component style spec for mobile.
 ## 自定义能力
 
 | 属性 | 类型 | 默认值 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | `bordered` | boolean | true | 是否有边框 |
 | `pressable` | boolean | false | 是否有按压态（可点击的卡片） |
 | `loading` | boolean | false | 是否显示骨架屏 |

@@ -28,8 +28,8 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 | Border | 1px solid `gray5` (normal) / `gray6` (disabled) |
 | Border radius | `radius-md` left corners only (top-left, bottom-left) |
 | Icon | `ic_remove_line`, horizontal line, centered |
-| Icon color (normal) | `gray1` `gray1` |
-| Icon color (disabled) | `gray4` `gray4` |
+| Icon color (normal) | `gray1` |
+| Icon color (disabled) | `gray4` |
 
 ### Value Display
 
@@ -39,10 +39,10 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 | Padding | 3px 4px |
 | Border | Top and bottom 1px solid `gray5` (no left/right border) |
 | Text font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Text color (normal) | `gray1` `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (normal) | `gray1` |
+| Text color (disabled) | `gray4` |
 | Text alignment | Center |
-| Editable | When editable, shows input cursor (`Branding-1` `Branding-1`, 1px wide, 16px tall) |
+| Editable | When editable, shows input cursor (`Branding-1`, 1px wide, 16px tall) |
 
 ### Plus Button
 
@@ -52,14 +52,14 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 | Border | 1px solid `gray5` (normal) / `gray6` (disabled) |
 | Border radius | `radius-md` right corners only (top-right, bottom-right) |
 | Icon | `ic_add_line`, plus cross, centered |
-| Icon color (normal) | `gray1` `gray1` |
-| Icon color (disabled) | `gray4` `gray4` |
+| Icon color (normal) | `gray1` |
+| Icon color (disabled) | `gray4` |
 
 ### Container
 
 | Property | Value |
 |---|---|
-| Background | `white` |
+| Background | `anti` |
 | Border radius | `radius-md` (overall) |
 | Layout | Flex row, items center, no gap (buttons share borders with value) |
 
@@ -73,9 +73,9 @@ Circular filled icon buttons with a value display between them.
 |---|---|
 | Size | 24×24px |
 | Icon | `ic_remove_circle_fill`, filled circle with minus line |
-| Icon color (normal) | `Branding-1` `Branding-1` |
-| Icon color (min disabled) | `gray4` `gray4` |
-| Icon color (all disabled) | `gray4` `gray4` |
+| Icon color (normal) | `Branding-1` |
+| Icon color (min disabled) | `gray4` |
+| Icon color (all disabled) | `gray4` |
 
 ### Value Display
 
@@ -87,7 +87,7 @@ Circular filled icon buttons with a value display between them.
 | Background | `gray8` (editable) / transparent (non-editable) |
 | Text font | 16px, weight 400, line-height 22px |
 | Text color (normal) | `gray1` |
-| Text color (disabled) | `gray4` `gray4` |
+| Text color (disabled) | `gray4` |
 | Text alignment | Center |
 
 ### Plus Button
@@ -96,9 +96,9 @@ Circular filled icon buttons with a value display between them.
 |---|---|
 | Size | 24×24px |
 | Icon | `ic_add_circle_fill`, filled circle with plus cross |
-| Icon color (normal) | `Branding-1` `Branding-1` |
-| Icon color (max disabled) | `gray4` `gray4` |
-| Icon color (all disabled) | `gray4` `gray4` |
+| Icon color (normal) | `Branding-1` |
+| Icon color (max disabled) | `gray4` |
+| Icon color (all disabled) | `gray4` |
 
 ### Container
 
@@ -110,7 +110,7 @@ Circular filled icon buttons with a value display between them.
 ## States
 
 | State | Minus | Value | Plus | Description |
-|---|---|---|---|---|
+|---|---|---|---|
 | Min (最小不可减) | Disabled | Shows min value | Normal | Value is at minimum, cannot decrease |
 | Max (最大不可加) | Normal | Shows max value | Disabled | Value is at maximum, cannot increase |
 | Input (键入数字) | Normal | Editable with cursor | Normal | User is typing a value |
@@ -128,12 +128,12 @@ Circular filled icon buttons with a value display between them.
 
 ## Customization Options
 
-1. **Icon color** — The clickable (normal state) icon color can be customized (default is `Branding-1` `Branding-1` for emphasis style)
+1. **Icon color** — The clickable (normal state) icon color can be customized (default is `Branding-1` for emphasis style)
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/brand/branding-1` | | Emphasis style icon (normal), input cursor |
 | `Color/icon&text/gray1-text-icon-color-default` | | Outlined style icon (normal), value text |
 | `Color/icon&text/gray4-text-icon-color-disable` | | Disabled icon, disabled text |
@@ -144,7 +144,7 @@ Circular filled icon buttons with a value display between them.
 ## Typography Summary
 
 | Style Name | Size | Weight | Line Height | Use |
-|---|---|---|---|---|
+|---|---|---|---|
 | `Body/14-regular` | 14px | 400 | 22px | Outlined style value text |
 | 16px regular | 16px | 400 | 22px | Emphasis style value text |
 

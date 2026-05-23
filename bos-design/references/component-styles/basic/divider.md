@@ -26,15 +26,15 @@ Do not use Divider as decorative decoration. It should clarify grouping, hierarc
 ## Types
 
 | Type | Use case | Direction |
-|---|---|---|
+|---|---|
 | Horizontal Divider | Section, paragraph, row, or module separation | Horizontal line |
 | Vertical Divider | Inline text/link/action separation | Vertical line |
 
 ## Color
 
-| Token | Value | Use |
-|---|---|---|
-| `Color/neutral/gray6-component-stroke` | `gray6` | Divider stroke color |
+| Token | Use |
+|---|---|
+| `Color/neutral/gray6-component-stroke` `gray6` | Divider stroke color |
 
 This matches the `gray6` divider token in `design.md`.
 

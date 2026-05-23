@@ -27,7 +27,7 @@ This file records the Figma visual style only.
 ## 尺寸
 
 | 尺寸 | 说明 | 高度 | 字号 |
-|---|---|---|---|
+|---|---|---|
 | Small（默认） | 小尺寸气泡 | 28px | 10px |
 | Large | 大尺寸气泡 | 36px | 12px |
 
@@ -149,7 +149,7 @@ This file records the Figma visual style only.
 气泡支持自定义背景颜色，箭头颜色跟随容器背景色变化。
 
 | 示例 | 背景色 | 文字色 |
-|---|---|---|
+|---|---|
 | 默认深色 | `translucent-heavy` | `anti`（白色） |
 | 品牌色 | `brand` | 白色 |
 | 自定义 | 任意色值 | 根据背景色自动适配 |
@@ -159,7 +159,7 @@ This file records the Figma visual style only.
 ## 组合变体
 
 | 变体 | 关闭按钮 | 操作按钮 | 前置图标 | 说明 |
-|---|---|---|---|---|
+|---|---|---|---|
 | 纯文字 | ✗ | ✗ | ✗ | 最简形态 |
 | 带关闭 | ✓ | ✗ | ✗ | 可手动关闭 |
 | 带关闭 + 操作 | ✓ | ✓ | ✗ | 可关闭且有操作引导 |

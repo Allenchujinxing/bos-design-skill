@@ -36,7 +36,7 @@ Used to notify users that section content has changed.
 |---|---|
 | Size | 8×8px |
 | Shape | Circle |
-| Background | `Error-1` `Error-1` |
+| Background | `Error-1` |
 | Border | none |
 
 ### Placement Variants
@@ -66,7 +66,7 @@ Used to indicate the count of new content or pending items. Max value is 99; val
 | Width | Auto-adapts to content |
 | Padding | 4px horizontal, 1px vertical |
 | Border-radius | `radius-full` |
-| Background | `Error-1` `Error-1` |
+| Background | `Error-1` |
 | Font | `PingFang SC:Semibold`, 10px, weight 600, line-height 14px |
 | Text color | `anti` |
 | Text align | Center |
@@ -104,7 +104,7 @@ Used for new feature alerts or key feature recommendations. Typically displays "
 | Width | Auto-adapts to content, min 24px |
 | Padding | 4px horizontal, 1px vertical |
 | Border-radius | `radius-xl` top-left / `radius-xl` top-right / `radius-xl` bottom-right / **1px bottom-left** |
-| Background | `Error-1` `Error-1` |
+| Background | `Error-1` |
 | Font | `PingFang SC:Semibold`, 10px, weight 600, line-height 14px |
 | Text color | `anti` |
 | Text align | Center |
@@ -148,10 +148,10 @@ Note: the bordered variant uses asymmetric 8/10/10/1 radii (not uniform increase
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `Color/error/error-1` | | Badge background (all types) |
-| `Color/icon&text/text-icon-color-anti` | `white1` | Badge text (number, ribbon) |
+| `Color/icon&text/text-icon-color-anti` `white1` | Badge text (number, ribbon) |
 | `Color/neutral/white1-bg-color-container` | | Ribbon badge white border |
 
 ## Positioning Rules
@@ -159,7 +159,7 @@ Note: the bordered variant uses asymmetric 8/10/10/1 radii (not uniform increase
 Badges are positioned absolutely relative to their anchor element:
 
 | Anchor | Badge Position | Offset |
-|---|---|---|
+|---|---|
 | Icon (24px) | Top-right corner, overlapping | ~8px above and right of icon top-right |
 | Text | Top-right of text baseline | 4–8px above and right |
 | List row | Before right arrow | 4px gap from arrow |
@@ -168,7 +168,7 @@ Badges are positioned absolutely relative to their anchor element:
 
 - Do not override badge styles with default Taroify Badge visual styles.
 - Do not display numbers above 99 as exact values — always use "99+" for overflow.
-- Do not use colors other than `Error-1` `Error-1` for the badge background.
+- Do not use colors other than `Error-1` for the badge background.
 - Do not uppercase ribbon badge text (use "New", not "NEW").
 - Do not change the asymmetric border-radius on ribbon badges — the 1px bottom-left corner is the defining feature.
 - Do not use ribbon badge dimensions smaller than 16px height.
