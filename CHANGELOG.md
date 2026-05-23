@@ -9,6 +9,7 @@
 - 组件体系现在是通用的：更换 `design.md` 即可适配不同视觉系统（HelloCN、HelloRide、HelloSaaS），组件结构和行为不变。
 - 新增 `evals/` 目录，包含 6 个按设计能力维度划分的 eval 用例，用于验证 skill 输出稳定性。
 - 简化 README「工作方式」章节为用户视角的 4 步流程说明。
+- 在 `component-styles/index.md` 全局规则中明确：组件内部间距属于 component anatomy，保持 px；不使用页面级 `space-*` token 替代。
 
 
 ## 2026-05-22
