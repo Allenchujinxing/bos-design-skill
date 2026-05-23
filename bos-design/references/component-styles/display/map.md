@@ -21,7 +21,7 @@ This file records the Figma visual style only.
 | 底图 | 高德地图 JS API 2.0 标准图层 |
 | 地图样式 | `amap://styles/light` |
 | 默认缩放级别 | 15（街道级） |
-| 背景色（加载中） | gray8 `#F5F7FA` |
+| 背景色（加载中） | `gray8` |
 
 ### 容器模式
 
@@ -39,14 +39,14 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 容器宽度 | 36px |
-| 容器背景 | white1 `#FFFFFF` |
+| 容器背景 | `white1` |
 | 容器圆角 | 8px |
-| 容器投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
+| 容器投影 | `shadow-2` |
 | 图标尺寸 | 24×24px |
-| 图标颜色 | gray1 `#111111` |
+| 图标颜色 | `gray1` |
 | 图标线粗 | 1.5px |
 | 单个按钮高度 | 36×36px（点击热区） |
-| 组内分割线 | 0.5px gray6 `#E1E6EB`，左右各留 6px |
+| 组内分割线 | 0.5px `gray6`，左右各留 6px |
 
 ### 控件分组
 
@@ -81,12 +81,12 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 整体尺寸 | 52×52px |
-| 精度圈 | 52px 圆形，填充 `rgba(0,118,255,0.12)`，描边 1px `rgba(0,118,255,0.2)` |
+| 精度圈 | 52px 圆形，填充 `Branding-1` 12% 不透明，描边 1px `Branding-1` 20% 不透明 |
 | 蓝点尺寸 | 20×20px |
-| 蓝点颜色 | Branding-1 `#0076FF` |
-| 蓝点边框 | 4px white1 `#FFFFFF` |
-| 蓝点投影 | `0 2px 6px rgba(0,0,0,0.2)` |
-| 方向三角 | 12×12px，Branding-1 `#0076FF`，右上角，旋转 45°，圆角 2px |
+| 蓝点颜色 | `Branding-1` |
+| 蓝点边框 | 4px `white1` |
+| 蓝点投影 | `shadow-location-dot` |
+| 方向三角 | 12×12px，`Branding-1`，右上角，旋转 45°，圆角 2px |
 | 位置 | 地图中心（跟随用户真实坐标） |
 
 ---
