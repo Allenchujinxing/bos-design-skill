@@ -2,23 +2,13 @@
 
 ## 2026-05-23
 
-- 将组件样式文件中的所有颜色硬编码（hex 值）替换为纯 token 语义名，组件不再绑定具体色值。
-- 将圆角体系从数值命名（radius-2/4/6/8/10/12）改为语义命名（radius-xs/sm/md/lg/xl/2xl/3xl/full），组件文件中的圆角 px 值全部替换为语义 token。
-- 新增页面级间距 token（space-page-margin / space-module-gap / space-card-padding / space-section-gap / space-gutter），组件内部间距保持 px 不变。
-- 为 `card.md` 补充「视觉 Token 声明」，修正旧路径 `DESIGN-HelloCN.md` → `references/design.md`。
-- 组件体系现在是通用的：更换 `design.md` 即可适配不同视觉系统（HelloCN、HelloRide、HelloSaaS），组件结构和行为不变。
-- 新增 `evals/` 目录，包含 6 个按设计能力维度划分的 eval 用例，用于验证 skill 输出稳定性。
-- 简化 README「工作方式」章节为用户视角的 4 步流程说明。
-- 在 `component-styles/index.md` 全局规则中明确：组件内部间距属于 component anatomy，保持 px；不使用页面级 `space-*` token 替代。
-- 修复 token 化回归：button.md Sizes 表的 height/padding 恢复为组件 anatomy px，card.md Color Tokens 表清除残留色值。
-- 为 `icon.md` 补充视觉 Token 声明，标注 iconfont script 与业务图标清单属于项目资产层。
-- 将所有组件文件中的 `rgba()` 遮罩值替换为语义 token（translucent / translucent-heavy / translucent-medium / translucent-light），投影值替换为 shadow token（shadow-1 / shadow-2 / shadow-nav / shadow-thumb）。
-- 在 `design.md` 中补充完整的 translucent 梯度和 shadow token 定义表。
-- 修复 radius token 误替换回归：button height/padding 恢复 px、empty/swiper/textarea/list 中的尺寸值恢复。
-- 清除所有组件文件中的重复 token 名（如 `gray1` `gray1` → `gray1`）。
-- 统一 Token 表为 `Token | Use` 两列格式，移除 Value 列。
-- 修正 `white` 伪 token 为 `anti`，在 design.md 中正式定义 `black` token。
-- 合并 design.md 中重复的 translucent 定义。
+- 组件样式全面 token 化：颜色使用纯语义 token 名（不带色值），圆角改为语义命名（`radius-xs` 到 `radius-full`），遮罩和投影使用 `translucent-*` / `shadow-*` token。
+- 新增页面级间距 token（`space-page-margin` 等），组件内部间距保持 px（属于 component anatomy）。
+- 组件体系现在是通用的：更换 `design.md` 即可适配不同视觉系统，组件结构和行为不变。
+- 统一所有 Token 表为 `Token | Use` 两列格式。
+- 新增 `evals/` 目录，6 个 eval 用例用于验证 skill 输出稳定性。
+- 简化 README「工作方式」章节。
+- 更新 `map.md` 定位蓝点规范，新增 Figma 导出的 `location-dot.svg` 资产。
 
 
 ## 2026-05-22
