@@ -200,13 +200,13 @@ The design spec includes a section on matching title bar style with toolbar styl
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Confirm text, confirm button bg, cancel button text |
-| `Color/brand/branding-2` | | Disabled button bg |
-| `Color/brand/branding-3` | | Cancel button bg |
-| `Color/icon&text/gray1-text-icon-color-default` | | Title text, selected option text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | | Cancel text (header), unselected option text |
-| `Color/neutral/gray7-bg-color-component` | | Selection indicator bg |
-| `Color/neutral/white1-bg-color-container` | | Container bg, mask gradient start |
+| `Color/brand/branding-1` | Confirm text, confirm button bg, cancel button text |
+| `Color/brand/branding-2` | Disabled button bg |
+| `Color/brand/branding-3` | Cancel button bg |
+| `Color/icon&text/gray1-text-icon-color-default` | Title text, selected option text |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | Cancel text (header), unselected option text |
+| `Color/neutral/gray7-bg-color-component` | Selection indicator bg |
+| `Color/neutral/white1-bg-color-container` | Container bg, mask gradient start |
 
 ## Typography Summary
 

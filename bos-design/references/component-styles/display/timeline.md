@@ -284,16 +284,16 @@ Both support text wrapping for long content.
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Selected/current node title, current node dot |
-| `Color/icon&text/gray1-text-icon-color-default` | | Default title, text content, default node dot |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | | Subtitle, time, action entry text, completed title, address text |
-| `Color/neutral/gray5-component-border` | | Inactive node dot stroke |
-| `Color/neutral/gray6-component-stroke` | | Connector line (solid & dashed) |
-| `Color/neutral/gray8-bg-color-page` | | Text content gray background |
-| `Color/neutral/white1-bg-color-container` | | Text content white background |
-| `Color/semantic/success-1` | | Completed node dot, success icon |
-| `Color/semantic/error-1` | | Failure icon |
-| `Color/semantic/warning-1` | | Warning icon |
+| `Color/brand/branding-1` | Selected/current node title, current node dot |
+| `Color/icon&text/gray1-text-icon-color-default` | Default title, text content, default node dot |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | Subtitle, time, action entry text, completed title, address text |
+| `Color/neutral/gray5-component-border` | Inactive node dot stroke |
+| `Color/neutral/gray6-component-stroke` | Connector line (solid & dashed) |
+| `Color/neutral/gray8-bg-color-page` | Text content gray background |
+| `Color/neutral/white1-bg-color-container` | Text content white background |
+| `Color/semantic/success-1` | Completed node dot, success icon |
+| `Color/semantic/error-1` | Failure icon |
+| `Color/semantic/warning-1` | Warning icon |
 
 ## Layout Notes
 

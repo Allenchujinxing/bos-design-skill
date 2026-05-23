@@ -112,11 +112,11 @@ In multi-select mode:
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Active tab text, selected option text, checkmark, "下级" link |
-| `Color/icon&text/gray1-text-icon-color-default` | | Unselected option text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | | Inactive tab text |
-| `Color/neutral/white1-bg-color-container` | | Background |
-| `Color/neutral/gray6-component-stroke` | | List item bottom border |
+| `Color/brand/branding-1` | Active tab text, selected option text, checkmark, "下级" link |
+| `Color/icon&text/gray1-text-icon-color-default` | Unselected option text |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | Inactive tab text |
+| `Color/neutral/white1-bg-color-container` | Background |
+| `Color/neutral/gray6-component-stroke` | List item bottom border |
 
 ## Interaction Flow
 

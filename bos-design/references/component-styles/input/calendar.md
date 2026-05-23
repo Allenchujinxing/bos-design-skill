@@ -155,12 +155,12 @@ Cells can show text above and below the date number:
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Selected date background, range endpoints |
-| `Color/brand/branding-3` | | (Reserved, not used for range middle) |
-| `Color/neutral/gray7-bg-color-component` | | Range middle background |
-| `Color/icon&text/gray1-text-icon-color-default` | | Normal date text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | | Disabled date text |
-| `Color/neutral/white1-bg-color-container` | | Selected date text, cell background |
+| `Color/brand/branding-1` | Selected date background, range endpoints |
+| `Color/brand/branding-3` | (Reserved, not used for range middle) |
+| `Color/neutral/gray7-bg-color-component` | Range middle background |
+| `Color/icon&text/gray1-text-icon-color-default` | Normal date text |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | Disabled date text |
+| `Color/neutral/white1-bg-color-container` | Selected date text, cell background |
 
 ## Selection Modes
 

@@ -138,23 +138,23 @@ Tags support the following states:
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Primary full bg, Primary text |
-| `Color/brand/branding-2` | | Primary line border |
-| `Color/brand/branding-3` | | Primary light bg |
-| `Color/icon&text/gray1-text-icon-color-default` | | Default full bg, Default text |
-| `Color/neutral/gray5-component-border` | | Default line border |
-| `Color/neutral/gray7-bg-color-component` | | Default light bg |
+| `Color/brand/branding-1` | Primary full bg, Primary text |
+| `Color/brand/branding-2` | Primary line border |
+| `Color/brand/branding-3` | Primary light bg |
+| `Color/icon&text/gray1-text-icon-color-default` | Default full bg, Default text |
+| `Color/neutral/gray5-component-border` | Default line border |
+| `Color/neutral/gray7-bg-color-component` | Default light bg |
 | `Color/discount/discount-1` `LowPrice-1` | Discount full bg, Discount text |
 | `Color/discount/discount-2` `LowPrice-2` | Discount line border |
 | `Color/discount/discount-3` `LowPrice-3` | Discount light bg |
-| `Color/error/error-0` | | Danger full bg, Danger text |
-| `Color/error/error-2` | | Danger line border |
-| `Color/error/error-3` | | Danger light bg |
-| `Color/success/success-0` | | Success full bg, Success text |
-| `Color/success/success-2` | | Success line border |
-| `Color/success/success-3` | | Success light bg |
+| `Color/error/error-0` | Danger full bg, Danger text |
+| `Color/error/error-2` | Danger line border |
+| `Color/error/error-3` | Danger light bg |
+| `Color/success/success-0` | Success full bg, Success text |
+| `Color/success/success-2` | Success line border |
+| `Color/success/success-3` | Success light bg |
 | `Color/icon&text/text-icon-color-anti` `white1` | White text on full-color tags |
-| `Color/neutral/white1-bg-color-container` | | White text (alternate token) |
+| `Color/neutral/white1-bg-color-container` | White text (alternate token) |
 
 ## Do Not Infer
 

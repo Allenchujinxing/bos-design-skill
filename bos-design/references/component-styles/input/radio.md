@@ -162,15 +162,15 @@ Multiple Radio Text items arranged horizontally inside a container.
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Checked icon fill |
-| `Color/brand/branding-2` | | Checked + disabled icon fill |
-| `Color/icon&text/gray1-text-icon-color-default` | | Default text color |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | | Subtitle text color |
-| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled text color |
-| `Color/neutral/gray5-component-stroke` | | Unchecked icon stroke |
-| `Color/neutral/gray6-component-stroke` | | List item bottom border |
-| `Color/neutral/gray8-bg-color-page` | | Disabled unchecked icon inner fill |
-| `Color/neutral/white1-bg-color-container` | | Container background |
+| `Color/brand/branding-1` | Checked icon fill |
+| `Color/brand/branding-2` | Checked + disabled icon fill |
+| `Color/icon&text/gray1-text-icon-color-default` | Default text color |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | Subtitle text color |
+| `Color/icon&text/gray4-text-icon-color-disable` | Disabled text color |
+| `Color/neutral/gray5-component-stroke` | Unchecked icon stroke |
+| `Color/neutral/gray6-component-stroke` | List item bottom border |
+| `Color/neutral/gray8-bg-color-page` | Disabled unchecked icon inner fill |
+| `Color/neutral/white1-bg-color-container` | Container background |
 
 ## Interaction
 

@@ -217,12 +217,12 @@
 
 | Token | Use |
 |---|---|
-| `Color/icon&text/gray1-text-icon-color-default` | | 选中文字 |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | | 未选中文字 |
-| `Color/brand/branding-1` | | 指示器 pill |
-| `Color/neutral/gray7-bg-color-component` | | Tag 背景、胶囊容器 |
-| `Color/neutral/white1-bg-color-container` | | 容器背景、胶囊选中项 |
-| `Color/neutral/gray6-component-stroke` | | 底部分割线 |
+| `Color/icon&text/gray1-text-icon-color-default` | 选中文字 |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | 未选中文字 |
+| `Color/brand/branding-1` | 指示器 pill |
+| `Color/neutral/gray7-bg-color-component` | Tag 背景、胶囊容器 |
+| `Color/neutral/white1-bg-color-container` | 容器背景、胶囊选中项 |
+| `Color/neutral/gray6-component-stroke` | 底部分割线 |
 
 ## Typography Summary
 

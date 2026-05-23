@@ -158,16 +158,16 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Input cursor |
-| `Color/error/error-0` | | Required indicator |
-| `Color/error/error-1` | | Over-limit counter |
-| `Color/icon&text/gray1-text-icon-color-default` | | Label text, input text, normal counter |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | | Placeholder, counter max |
-| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled text |
-| `Color/neutral/gray5-component-border` | | Outline theme border |
-| `Color/neutral/gray6-component-stroke` | | Bottom border |
-| `Color/neutral/gray8-bg-color-page` | | Fill theme background |
-| `Color/neutral/white1-bg-color-container` | | Container background |
+| `Color/brand/branding-1` | Input cursor |
+| `Color/error/error-0` | Required indicator |
+| `Color/error/error-1` | Over-limit counter |
+| `Color/icon&text/gray1-text-icon-color-default` | Label text, input text, normal counter |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | Placeholder, counter max |
+| `Color/icon&text/gray4-text-icon-color-disable` | Disabled text |
+| `Color/neutral/gray5-component-border` | Outline theme border |
+| `Color/neutral/gray6-component-stroke` | Bottom border |
+| `Color/neutral/gray8-bg-color-page` | Fill theme background |
+| `Color/neutral/white1-bg-color-container` | Container background |
 
 ## Typography Summary
 

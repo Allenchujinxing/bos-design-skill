@@ -134,12 +134,12 @@ Circular filled icon buttons with a value display between them.
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Emphasis style icon (normal), input cursor |
-| `Color/icon&text/gray1-text-icon-color-default` | | Outlined style icon (normal), value text |
-| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled icon, disabled text |
-| `Color/neutral/gray5-component-border` | | Outlined style border (normal) |
-| `Color/neutral/gray6-component-stroke` | | Outlined style border (disabled) |
-| `Color/neutral/gray8-bg-color-page` | | Emphasis style value background (editable) |
+| `Color/brand/branding-1` | Emphasis style icon (normal), input cursor |
+| `Color/icon&text/gray1-text-icon-color-default` | Outlined style icon (normal), value text |
+| `Color/icon&text/gray4-text-icon-color-disable` | Disabled icon, disabled text |
+| `Color/neutral/gray5-component-border` | Outlined style border (normal) |
+| `Color/neutral/gray6-component-stroke` | Outlined style border (disabled) |
+| `Color/neutral/gray8-bg-color-page` | Emphasis style value background (editable) |
 
 ## Typography Summary
 

@@ -282,19 +282,19 @@ Input fields that trigger a picker/selector instead of keyboard input. The conte
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | Action button background, link text |
-| `Color/icon&text/gray1-text-icon-color-default` | | Label text, filled input text |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | | Secondary text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | | Placeholder text, helper text |
-| `Color/icon&text/gray4-text-icon-color-disable` | | Disabled text |
+| `Color/brand/branding-1` | Action button background, link text |
+| `Color/icon&text/gray1-text-icon-color-default` | Label text, filled input text |
+| `Color/icon&text/gray2-tex-icon-color-secondary` | Secondary text |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | Placeholder text, helper text |
+| `Color/icon&text/gray4-text-icon-color-disable` | Disabled text |
 | `Color/icon&text/text-icon-color-anti` `white1` | Button text on brand background |
-| `Color/error/error-1` | | Required indicator, error helper text |
-| `Color/warning/warning-1` | | Warning helper text |
-| `Color/success/success-1` | | Success helper text |
-| `Color/neutral/gray5-component-border` | | External label input border |
-| `Color/neutral/gray6-component-stroke` | | Standard input bottom border |
-| `Color/neutral/gray7-bg-color-component` | | Filled theme background |
-| `Color/neutral/white1-bg-color-container` | | Container background |
+| `Color/error/error-1` | Required indicator, error helper text |
+| `Color/warning/warning-1` | Warning helper text |
+| `Color/success/success-1` | Success helper text |
+| `Color/neutral/gray5-component-border` | External label input border |
+| `Color/neutral/gray6-component-stroke` | Standard input bottom border |
+| `Color/neutral/gray7-bg-color-component` | Filled theme background |
+| `Color/neutral/white1-bg-color-container` | Container background |
 
 ## Typography Summary
 
