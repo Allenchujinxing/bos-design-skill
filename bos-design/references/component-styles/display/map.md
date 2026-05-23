@@ -78,16 +78,33 @@ This file records the Figma visual style only.
 
 ## 用户定位蓝点
 
+**SVG 资产：** `assets/map/location-dot.svg`（44×48px，含蓝点、白色描边环、方向三角和阴影）
+
 | Property | Value |
 |---|---|
-| 整体尺寸 | 52×52px |
-| 精度圈 | 52px 圆形，填充 `Branding-1` 12% 不透明，描边 1px `Branding-1` 20% 不透明 |
-| 蓝点尺寸 | 20×20px |
-| 蓝点颜色 | `Branding-1` |
-| 蓝点边框 | 4px `white1` |
-| 蓝点投影 | `shadow-1` |
-| 方向三角 | 12×12px，`Branding-1`，右上角，旋转 45°，圆角 2px |
-| 位置 | 地图中心（跟随用户真实坐标） |
+| SVG 尺寸 | 44×48px |
+| 蓝点 | 圆形，半径 7.8px，`Branding-1` 填充 |
+| 白色描边环 | 3.12px 白色描边 |
+| 方向三角 | 右上方，`Branding-1` 填充，跟随陀螺仪旋转 |
+| 阴影 | 向下 4.16px，模糊 5.2px，rgba(23,28,33,0.11) |
+
+### 精度圈（代码动态渲染）
+
+| Property | Value |
+|---|---|
+| 尺寸 | 56×56px（可根据定位精度动态调整） |
+| 填充 | radial-gradient：`Branding-1` 12% 中心 → 6% 中段 → 2% 边缘 |
+| 边框 | 无 |
+| 动画 | pulse 脉冲扩散，2s ease-out 循环 |
+| 位置 | 以蓝点为中心 |
+
+### 方向指示（陀螺仪）
+
+定位蓝点的方向三角支持跟随用户手机朝向旋转（通过 `DeviceOrientationEvent`），旋转中心为蓝点圆心（21.8px, 21.8px）。
+
+- **iOS Safari** — 需要 HTTPS 环境才能请求陀螺仪权限，HTTP 下静默失败
+- **App 内 WebView** — 不受此限制，可正常工作
+- **桌面浏览器** — 无陀螺仪硬件，方向固定朝上
 
 ---
 
@@ -146,14 +163,6 @@ cd component-demo && ./start.sh
 | file:// 协议 | 不可用 | 定位 API 被浏览器拦截 |
 
 Demo 在本地 HTTP 服务下定位偏差属于正常现象，不影响组件展示。
-
-### 方向指示（陀螺仪）
-
-定位蓝点的方向三角支持跟随用户手机朝向旋转（通过 `DeviceOrientationEvent`），但有环境限制：
-
-- **iOS Safari** — 需要 HTTPS 环境才能请求陀螺仪权限，HTTP 下静默失败
-- **App 内 WebView** — 不受此限制，可正常工作
-- **桌面浏览器** — 无陀螺仪硬件，方向固定朝上
 
 ---
 
