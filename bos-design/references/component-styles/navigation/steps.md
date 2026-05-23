@@ -76,14 +76,14 @@ Supports 2, 3, 4+ steps. Items use equal flex distribution (`flex: 1 0 0`).
 |---|---|
 | Font | `Title/16-semibold` | `Body/16-regular` |
 | Size | 16px, weight 600, line-height 24px | 16px, weight 400, line-height 24px |
-| Color | `Branding-1` | `gray2` |
+| Color | `Branding-1` | `text-secondary` |
 
 ### Connector Line
 
 | Property | Value |
 |---|---|
 | Height | 2px (visible) or 0px (hidden at start/end) |
-| Color | `gray5` |
+| Color | `border-default` |
 | Border-radius | `radius-xs` on inner end |
 | Layout | `flex: 1 0 0`, fills space between items |
 
@@ -109,7 +109,7 @@ Supports 2, 3, 4+ steps. Items use equal flex distribution (`flex: 1 0 0`).
 | Property | Value |
 |---|---|
 | Height | 2px (visible) or 0px (hidden at start/end) |
-| Color | `gray6` |
+| Color | `border-divider` |
 | Gap from icon | 12px |
 | Border-radius | `radius-xs` on inner end |
 
@@ -119,7 +119,7 @@ Supports 2, 3, 4+ steps. Items use equal flex distribution (`flex: 1 0 0`).
 |---|---|
 | Font | `Title/14-semibold` | `Body/14-regular` |
 | Size | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
-| Color | `Branding-1` | `gray2` |
+| Color | `Branding-1` | `text-secondary` |
 | Alignment | Center | Center |
 
 ### Subtitle
@@ -127,7 +127,7 @@ Supports 2, 3, 4+ steps. Items use equal flex distribution (`flex: 1 0 0`).
 | Property | Value |
 |---|---|
 | Font | `Body/12-regular` — 12px, weight 400, line-height 18px |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Gap from title | 2px |
 | Alignment | Center |
 
@@ -153,7 +153,7 @@ Icons are customizable — the 32×32 area is a transparent safe zone, the 28px 
 
 ### Connector Line
 
-Same as Layout 2: 2px height, `gray6`, hidden at start/end.
+Same as Layout 2: 2px height, `border-divider`, hidden at start/end.
 
 ### Title & Subtitle
 
@@ -182,7 +182,7 @@ Same as Layout 2.
 | Property | Value |
 |---|---|
 | Width | 2px |
-| Color | `gray5` |
+| Color | `border-default` |
 | Border-radius | `radius-xs` |
 | Layout | `flex: 1 0 0`, fills vertical space between icons |
 | Hidden | On last item (no line below) |
@@ -193,7 +193,7 @@ Same as Layout 2.
 |---|---|
 | Font | `Title/14-semibold` | `Body/14-regular` |
 | Size | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
-| Color | `Branding-1` | `gray2` |
+| Color | `Branding-1` | `text-secondary` |
 | Alignment | Left | Left |
 
 ### Subtitle (Vertical)
@@ -201,7 +201,7 @@ Same as Layout 2.
 | Property | Value |
 |---|---|
 | Font | `Body/12-regular` — 12px, weight 400, line-height 18px |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Gap from title | 4px |
 | Text wrap | Supported (multi-line) |
 
@@ -221,10 +221,10 @@ Same as Layout 2.
 |---|---|
 | `Color/brand/branding-1` | Active step icon, title |
 | `Color/brand/branding-2` | Disabled button background |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | Default step title |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Subtitle text |
-| `Color/neutral/gray5-component-border` | Connector line (Layout 1, Vertical) |
-| `Color/neutral/gray6-component-stroke` | Connector line (Layout 2, 3) |
+| `Color/icon&text/text-secondary-tex-icon-color-secondary` | Default step title |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Subtitle text |
+| `Color/neutral/border-default-component-border` | Connector line (Layout 1, Vertical) |
+| `Color/neutral/border-divider-component-stroke` | Connector line (Layout 2, 3) |
 
 ## Customization Notes
 

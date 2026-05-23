@@ -30,10 +30,10 @@ A Textarea consists of:
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 0 12px |
 | Width | 100% (390px) |
-| Bottom border | 0.5px solid `gray6` |
+| Bottom border | 0.5px solid `border-divider` |
 
 ### Inner Row — Horizontal Layout (左右)
 
@@ -55,8 +55,8 @@ A Textarea consists of:
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Width | 86px (fixed) |
-| Icon (optional) | 20×20px iconfont icon, `gray1` |
-| Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `gray1` |
+| Icon (optional) | 20×20px iconfont icon, `text-primary` |
+| Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `text-primary` |
 | Required indicator | `*`, 16px, `error-0` `Error-0` |
 
 ### Label — Vertical
@@ -65,8 +65,8 @@ A Textarea consists of:
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Width | 100% |
-| Icon (optional) | 16×16px iconfont icon, `gray1` |
-| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` |
+| Icon (optional) | 16×16px iconfont icon, `text-primary` |
+| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `text-primary` |
 | Required indicator | `*`, 14px, `error-0` `Error-0` |
 
 ### Content Area (placeholder)
@@ -76,9 +76,9 @@ A Textarea consists of:
 | Layout | Flex column, 8px gap |
 | Flex | 1 (horizontal) / full width (vertical) |
 | Text font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Placeholder color | `gray3` |
-| Input text color | `gray1` |
-| Disabled text color | `gray4` (both text and placeholder) |
+| Placeholder color | `text-placeholder` |
+| Input text color | `text-primary` |
+| Disabled text color | `text-disabled` (both text and placeholder) |
 | Min height | 3 lines (72px text area) |
 | Cursor | `Branding-1`, 1px wide |
 
@@ -89,8 +89,8 @@ A Textarea consists of:
 | Font | `Body/12-regular` 12px, weight 400, line-height 18px |
 | Alignment | Right (`text-align: right`) |
 | Width | 100% |
-| Normal color | Current count `gray1`, separator+max `gray3` (e.g., **28**/30) |
-| Placeholder color | `gray3` (e.g., 0/30) |
+| Normal color | Current count `text-primary`, separator+max `text-placeholder` (e.g., **28**/30) |
+| Placeholder color | `text-placeholder` (e.g., 0/30) |
 | Over limit color | Count `Error-1` (e.g., **31**/30) |
 
 ## External Label Textarea
@@ -111,15 +111,15 @@ Label is outside and above a bordered or filled input box.
 | Layout | Flex row, 4px gap, items center |
 | Padding left | 4px (outline) / 0 (fill) |
 | Icon (optional) | 16×16px iconfont icon |
-| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` |
+| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `text-primary` |
 | Required indicator | `*`, 14px, `error-0` `Error-0` |
 
 ### Input Box — Outline Theme
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
-| Border | 1px solid `gray5` |
+| Background | `surface-primary` |
+| Border | 1px solid `border-default` |
 | Border radius | `radius-xl` |
 | Padding | 16px 12px |
 
@@ -127,7 +127,7 @@ Label is outside and above a bordered or filled input box.
 
 | Property | Value |
 |---|---|
-| Background | `gray8` |
+| Background | `surface-page` |
 | Border | None |
 | Border radius | `radius-xl` |
 | Padding | 16px 12px |
@@ -140,10 +140,10 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 
 | State | Text color | Counter color | Description |
 |---|---|---|
-| Default | `gray3` (placeholder) | `gray3` | Empty, showing placeholder |
-| Input | `gray1` + cursor `Branding-1` | Count `gray1`, max `gray3` | User is typing |
-| Over limit | `gray1` + cursor `Branding-1` | Count `Error-1`, max `Error-1` | Exceeded max characters, input is NOT blocked — user can continue typing, counter turns red as warning |
-| Disabled | `gray4` `gray3` | Non-editable |
+| Default | `text-placeholder` (placeholder) | `text-placeholder` | Empty, showing placeholder |
+| Input | `text-primary` + cursor `Branding-1` | Count `text-primary`, max `text-placeholder` | User is typing |
+| Over limit | `text-primary` + cursor `Branding-1` | Count `Error-1`, max `Error-1` | Exceeded max characters, input is NOT blocked — user can continue typing, counter turns red as warning |
+| Disabled | `text-disabled` `text-placeholder` | Non-editable |
 
 ## Layout Variants
 
@@ -161,13 +161,13 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 | `Color/brand/branding-1` | Input cursor |
 | `Color/error/error-0` | Required indicator |
 | `Color/error/error-1` | Over-limit counter |
-| `Color/icon&text/gray1-text-icon-color-default` | Label text, input text, normal counter |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Placeholder, counter max |
-| `Color/icon&text/gray4-text-icon-color-disable` | Disabled text |
-| `Color/neutral/gray5-component-border` | Outline theme border |
-| `Color/neutral/gray6-component-stroke` | Bottom border |
-| `Color/neutral/gray8-bg-color-page` | Fill theme background |
-| `Color/neutral/white1-bg-color-container` | Container background |
+| `Color/icon&text/text-primary-text-icon-color-default` | Label text, input text, normal counter |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Placeholder, counter max |
+| `Color/icon&text/text-disabled-text-icon-color-disable` | Disabled text |
+| `Color/neutral/border-default-component-border` | Outline theme border |
+| `Color/neutral/border-divider-component-stroke` | Bottom border |
+| `Color/neutral/surface-page-bg-color-page` | Fill theme background |
+| `Color/neutral/surface-primary-bg-color-container` | Container background |
 
 ## Typography Summary
 
@@ -190,4 +190,4 @@ Same as standard content area — 16px text, 12px counter, 8px gap between them.
 - Do not change the min display height of 3 lines for the text area.
 - Do not use `error-1` `Error-1` for the required indicator — it uses `error-0` `Error-0`.
 - Do not use `maxlength` to block input when exceeding the character limit — the counter turns red but input must remain allowed.
-- Do not use `gray3` for disabled placeholder — disabled state uses `gray4` for both text and placeholder.
+- Do not use `text-placeholder` for disabled placeholder — disabled state uses `text-disabled` for both text and placeholder.

@@ -9,6 +9,7 @@
 - 新增 `evals/` 目录，6 个 eval 用例用于验证 skill 输出稳定性。
 - 简化 README「工作方式」章节。
 - 更新 `map.md` 定位蓝点规范，新增 Figma 导出的 `location-dot.svg` 资产。
+- 将颜色 token 名从颜色描述改为语义角色命名：`white1` → `surface-primary`、`gray1-8` → `text-primary/secondary/placeholder/disabled` + `surface-page/component` + `border-divider/default`、`anti` → `text-inverse`。组件文件全量同步。
 
 
 ## 2026-05-22

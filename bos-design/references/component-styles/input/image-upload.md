@@ -50,7 +50,7 @@ ImagePicker 由以下部分组成：
 |---|---|
 | 布局 | Flex row, space-between, items center |
 | 标题字体 | `Title/16-semibold` 16px, weight 600, line-height 24px |
-| 标题颜色 | `gray1` |
+| 标题颜色 | `text-primary` |
 | 标题最大宽度 | 96px |
 | 必填标记 | `*`，`Body/16-regular` 16px, weight 400, color `error-1` `Error-1` |
 | 标题与必填标记间距 | 紧邻（无额外间距） |
@@ -61,9 +61,9 @@ ImagePicker 由以下部分组成：
 |---|---|
 | 布局 | Inline grid, items start |
 | 图标 | `ic_info_circle_line` 14×14px, margin-top 2px |
-| 图标颜色 | `gray3` |
+| 图标颜色 | `text-placeholder` |
 | 文字 | "说明入口"，12px Regular, line-height 18px |
-| 文字颜色 | `gray3` |
+| 文字颜色 | `text-placeholder` |
 | 图标与文字间距 | 16px（margin-left） |
 
 #### 副标题
@@ -71,7 +71,7 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 字体 | `Body/12-regular` 12px, weight 400, line-height 18px |
-| 颜色 | `gray3` |
+| 颜色 | `text-placeholder` |
 | 宽度 | 100% |
 | 与标题行间距 | 4px（flex column gap） |
 
@@ -87,16 +87,16 @@ ImagePicker 由以下部分组成：
 | 标题前图标 | 16×16px，可选 |
 | 图标与标题间距 | 4px |
 | 标题字体 | `Body/14-regular` 14px, weight 400, line-height 22px |
-| 标题颜色 | `gray1` |
+| 标题颜色 | `text-primary` |
 | 必填标记 | `*`，14px Regular, color `error-1` `Error-1` |
 
 #### 说明入口（右侧）
 
-与独立模块相同：`ic_info_circle_line` 14px + "说明入口" 12px，颜色 `gray3`。
+与独立模块相同：`ic_info_circle_line` 14px + "说明入口" 12px，颜色 `text-placeholder`。
 
 #### 副标题
 
-与独立模块相同：12px Regular, line-height 18px, 颜色 `gray3`，与标题行间距 4px。
+与独立模块相同：12px Regular, line-height 18px, 颜色 `text-placeholder`，与标题行间距 4px。
 
 ### 间距总结
 
@@ -126,7 +126,7 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 宽度 | 100%（设计稿 390px） |
-| 背景色 | `anti` |
+| 背景色 | `text-inverse` |
 | 内边距 | 上下 `space-card-padding`，左右 `space-page-margin` |
 | 布局 | Flex column, 8px gap |
 | 每行布局 | Flex row, 8px gap, items start-aligned |
@@ -150,11 +150,11 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 尺寸 | 与图片项相同，按动态宽度保持正方形 |
-| 背景色 | `gray8` |
+| 背景色 | `surface-page` |
 | 圆角 | `radius-xl` |
 | 图标 | `ic_add_line` 加号 |
 | 图标尺寸 | 32×32px |
-| 图标颜色 | `gray3`（推断自视觉） |
+| 图标颜色 | `text-placeholder`（推断自视觉） |
 | 图标位置 | 居中 |
 
 ### 上传按钮 — 拍照类型（type=camera）
@@ -164,7 +164,7 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 尺寸 | 与图片项相同，按动态宽度保持正方形 |
-| 背景色 | `gray8` |
+| 背景色 | `surface-page` |
 | 圆角 | `radius-xl` |
 | 图标 | `ic_camera_fill` 相机 |
 | 图标尺寸 | 32×32px |
@@ -218,7 +218,7 @@ ImagePicker 由以下部分组成：
 | 圆角 | 左下 `radius-md`，右上 `radius-xl`（与图片圆角对齐），其余 0 |
 | 图标 | `ic_close_line` 关闭 |
 | 图标尺寸 | 16×16px |
-| 图标颜色 | `anti` |
+| 图标颜色 | `text-inverse` |
 
 ## Status 上传状态
 
@@ -232,7 +232,7 @@ ImagePicker 由以下部分组成：
 | 蒙层圆角 | `radius-xl` |
 | 加载图标 | `ic_loading_line` |
 | 加载图标尺寸 | 20×20px |
-| 加载图标颜色 | `anti` |
+| 加载图标颜色 | `text-inverse` |
 | 加载图标位置 | 居中 |
 | 删除按钮 | 显示（右上角） |
 
@@ -247,11 +247,11 @@ ImagePicker 由以下部分组成：
 | 图标 | `ic_refresh_line` 刷新 |
 | 图标形状 | 使用 iconfont `ic_refresh_line` 原图标，不自行调整图标内部形状 |
 | 图标尺寸 | 20×20px |
-| 图标颜色 | `anti` |
+| 图标颜色 | `text-inverse` |
 | 图标位置 | 垂直居中偏上（top 24.39%） |
 | 文字 | "重新上传" |
 | 文字字体 | `Body/12-regular` 12px, weight 400, line-height 18px |
-| 文字颜色 | `anti` |
+| 文字颜色 | `text-inverse` |
 | 文字位置 | 图标下方，水平居中 |
 | 文字宽度 | 62px |
 | 文字对齐 | center |
@@ -267,11 +267,11 @@ ImagePicker 由以下部分组成：
 | 蒙层圆角 | `radius-xl` |
 | 图标 | `ic_clear_circle_line` 错误圆圈 |
 | 图标尺寸 | 20×20px |
-| 图标颜色 | `anti` |
+| 图标颜色 | `text-inverse` |
 | 图标位置 | 垂直居中偏上（top 24.39%） |
 | 文字 | "上传失败" |
 | 文字字体 | `Body/12-regular` 12px, weight 400, line-height 18px |
-| 文字颜色 | `anti` |
+| 文字颜色 | `text-inverse` |
 | 文字位置 | 图标下方，水平居中 |
 | 文字宽度 | 62px |
 | 文字对齐 | center |
@@ -297,11 +297,11 @@ ImagePicker 由以下部分组成：
 
 | Token | Use |
 |---|---|
-| `Color/neutral/white1-bg-color-container` | 容器背景 |
-| `Color/neutral/gray8-bg-color-page` | 上传按钮背景 |
+| `Color/neutral/surface-primary-bg-color-container` | 容器背景 |
+| `Color/neutral/surface-page-bg-color-page` | 上传按钮背景 |
 | `Color/neutral/translucent-bg-color` `translucent` | 删除按钮背景 |
-| `Color/icon&text/gray1-text-icon-color-default` | 标题文字颜色 |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | 副标题、说明入口颜色 |
+| `Color/icon&text/text-primary-text-icon-color-default` | 标题文字颜色 |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | 副标题、说明入口颜色 |
 | `Color/error/error-1` | 必填标记 `*` 颜色 |
 | 蒙层色 | `translucent-medium` | 上传中/重新上传/失败蒙层 |
 

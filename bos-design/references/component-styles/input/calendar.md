@@ -31,7 +31,7 @@ The most common mode. Calendar appears in a bottom popup triggered by a form fie
 | Home indicator | 34px safe area |
 | Background overlay | Semi-transparent mask behind popup |
 | Corner radius | `radius-3xl` top-left and top-right, 0px bottom |
-| Background | `white1` |
+| Background | `surface-primary` |
 
 ### 2. Inline Page Calendar (页面日历模式)
 
@@ -67,7 +67,7 @@ A form input field that opens the Calendar popup when tapped.
 | Cell width | ~48px per column |
 | Cell padding | 12px horizontal from container edge |
 | Font | `Body/14-regular` — 14px, weight 400, line-height 22px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Alignment | Center |
 | Labels | 日/一/二/三/四/五/六 (Chinese) or SUN/MON/TUE/WED/THU/FRI/SAT (International) |
 
@@ -78,7 +78,7 @@ A form input field that opens the Calendar popup when tapped.
 | Height | 24px text |
 | Font | `Body/16-regular` — 16px, weight 400, line-height 24px (popup) |
 | Font (inline) | `Title/18-semibold` — 18px, weight 600, line-height 26px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Left padding | 12px |
 | Format | "2025年 8月" or "August 2025" (international) |
 
@@ -101,19 +101,19 @@ A form input field that opens the Calendar popup when tapped.
 
 | State | Date font | Date color | Background | Description text |
 |---|---|---|---|
-| Normal | 16px regular | `gray1` | None | — |
-| Today | 16px regular | `gray1` | None | Shows "今天" or "今" instead of number |
-| Selected (single) | 16px semibold | `anti` | 48×60 full cell, `Branding-1`, radius `radius-xl` | — |
-| Disabled | 16px regular | `gray3` | None | — |
-| Today disabled | 16px regular | `gray3` | None | Shows "今天" grayed out |
+| Normal | 16px regular | `text-primary` | None | — |
+| Today | 16px regular | `text-primary` | None | Shows "今天" or "今" instead of number |
+| Selected (single) | 16px semibold | `text-inverse` | 48×60 full cell, `Branding-1`, radius `radius-xl` | — |
+| Disabled | 16px regular | `text-placeholder` | None | — |
+| Today disabled | 16px regular | `text-placeholder` | None | Shows "今天" grayed out |
 
 ### Range Selection States
 
 | State | Date color | Background | Shape |
 |---|---|---|
-| Range start | `anti` | 48×60 full cell, `Branding-1`, radius `radius-xl` | Only left side has `radius-xl` radius; right side is square (0px) to connect seamlessly with range middle fill |
-| Range end | `anti` | 48×60 full cell, `Branding-1`, radius `radius-xl` | Only right side has `radius-xl` radius; left side is square (0px) to connect seamlessly with range middle fill |
-| Range middle | `gray1` | Full cell 48×60px rectangle, `gray7` | No rounding, fills full cell width and height edge-to-edge; adjacent middle cells connect without gaps |
+| Range start | `text-inverse` | 48×60 full cell, `Branding-1`, radius `radius-xl` | Only left side has `radius-xl` radius; right side is square (0px) to connect seamlessly with range middle fill |
+| Range end | `text-inverse` | 48×60 full cell, `Branding-1`, radius `radius-xl` | Only right side has `radius-xl` radius; left side is square (0px) to connect seamlessly with range middle fill |
+| Range middle | `text-primary` | Full cell 48×60px rectangle, `surface-component` | No rounding, fills full cell width and height edge-to-edge; adjacent middle cells connect without gaps |
 
 ### Special Style 1 — Status Tag + Description
 
@@ -122,7 +122,7 @@ Used in task/scheduling calendars. Each cell can show a colored status tag at th
 | Element | Font | Color | Position |
 |---|---|---|
 | Status tag | 10px semibold | White on colored background | Top of cell, full width, 12px height |
-| Date number | 16px regular/semibold | `gray1` | Center, y=18px |
+| Date number | 16px regular/semibold | `text-primary` | Center, y=18px |
 | Description | 10px regular | Customizable | Bottom, y=42px, 14px height |
 
 Tag colors are customizable per business (e.g. green for "已达成", red for "未达成", blue for "进行中").
@@ -157,17 +157,17 @@ Cells can show text above and below the date number:
 |---|---|
 | `Color/brand/branding-1` | Selected date background, range endpoints |
 | `Color/brand/branding-3` | (Reserved, not used for range middle) |
-| `Color/neutral/gray7-bg-color-component` | Range middle background |
-| `Color/icon&text/gray1-text-icon-color-default` | Normal date text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Disabled date text |
-| `Color/neutral/white1-bg-color-container` | Selected date text, cell background |
+| `Color/neutral/surface-component-bg-color-component` | Range middle background |
+| `Color/icon&text/text-primary-text-icon-color-default` | Normal date text |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Disabled date text |
+| `Color/neutral/surface-primary-bg-color-container` | Selected date text, cell background |
 
 ## Selection Modes
 
 | Mode | Description | Visual |
 |---|---|
 | Single select | Tap one date, full cell highlight | Blue 8px rounded rect on selected cell |
-| Range select | Tap start + end, fill range between | Blue rounded rects on endpoints, `gray7` gray fill between |
+| Range select | Tap start + end, fill range between | Blue rounded rects on endpoints, `surface-component` gray fill between |
 | Same-day range | Tap same date twice = full day range | Single blue rounded rect |
 
 ## Popup Structure (Bottom Sheet)

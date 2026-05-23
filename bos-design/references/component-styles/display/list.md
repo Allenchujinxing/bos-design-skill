@@ -29,7 +29,7 @@ Use List for rendering items in a vertical sequence, commonly for settings entri
 ## Anatomy
 
 ```
-[container (bg white1)]
+[container (bg surface-primary)]
   [row (py 16, px 12; divider inset 12px; gap 8)]
     [front icon?] [title + (subtitle?)] [tips? / operation?]
 ```
@@ -40,7 +40,7 @@ Each list item is a row inside a container. Row horizontal padding (12px) create
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
+| Background | `surface-primary` |
 | Width | Full parent (390px in spec) |
 | Layout | Flex column, items start-aligned |
 | Overflow | Clip |
@@ -78,7 +78,7 @@ In vertical layout, the icon sits in a 20×24 area to vertically align with the 
 | Property | Value |
 |---|---|
 | Font | `Body/16-regular` — PingFang SC, 16px, weight 400, line-height 24px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Text overflow | Ellipsis, single line |
 | Layout | Flex grow `1 0 0`, min-width 0 |
 
@@ -87,7 +87,7 @@ In vertical layout, the icon sits in a 20×24 area to vertically align with the 
 | Property | Value |
 |---|---|
 | Font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Gap from title | 2px |
 | Text overflow | Ellipsis, single line (`white-space: nowrap; overflow: hidden; text-overflow: ellipsis`) |
 | Copy guideline | 文本内容建议不超过 2 行（Content guideline, not component behavior） |
@@ -102,7 +102,7 @@ Trailing helper text shown on the right side of the row.
 | Property | Value |
 |---|---|
 | Font | `Body/16-regular` — PingFang SC, 16px, weight 400, line-height 24px |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Text align | Right |
 | Text overflow | Ellipsis, single line |
 
@@ -147,7 +147,7 @@ Each variant replaces the default tips text or is combined with the arrow based 
 | Property | Value |
 |---|---|
 | Width | 366px (`space-page-margin` from 390px screen) |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Border-radius | `radius-3xl` |
 | Last row divider | Hidden (card edge replaces it) |
 
@@ -160,14 +160,14 @@ The `fronticon` prop toggles the leading icon on or off. When `fronticon=false`,
 ## Click Interaction State (点击交互状态)
 
 From the Figma annotation:
-- On tap, the list row background inverts to `gray8`
-- Background reverts to `white1` on release
+- On tap, the list row background inverts to `surface-page`
+- Background reverts to `surface-primary` on release
 - The active background fills the **entire row width** (edge-to-edge), not inset by the 12px content padding
 
 | State | Background |
 |---|---|
-| Default | `white1` |
-| Pressed/Active | `gray8` (full row width) |
+| Default | `surface-primary` |
+| Pressed/Active | `surface-page` (full row width) |
 
 Note: the divider line is inset by 12px on each side (centered within the row's content area), while the active background spans the full row — these two rules are independent.
 
@@ -175,11 +175,11 @@ Note: the divider line is inset by 12px on each side (centered within the row's 
 
 | Token | Use |
 |---|---|
-| `Color/neutral/white1-bg-color-container` | List background (default) |
-| `Color/neutral/gray8-bg-color-page` | List row active/pressed background |
-| `Color/neutral/gray6-component-stroke` | Row bottom border |
-| `Color/icon&text/gray1-text-icon-color-default` | Title text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Subtitle, tips text |
+| `Color/neutral/surface-primary-bg-color-container` | List background (default) |
+| `Color/neutral/surface-page-bg-color-page` | List row active/pressed background |
+| `Color/neutral/border-divider-component-stroke` | Row bottom border |
+| `Color/icon&text/text-primary-text-icon-color-default` | Title text |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Subtitle, tips text |
 
 ## Do Not Infer
 

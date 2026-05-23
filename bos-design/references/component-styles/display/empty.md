@@ -89,7 +89,7 @@ empty-<scene>-<size>.png
 |---|---|
 | Illustration | 180×180px, 水平居中 |
 | Gap (illustration → title) | 20px |
-| Title | 18px / semibold 600 / `gray1` / line-height 26px / center |
+| Title | 18px / semibold 600 / `text-primary` / line-height 26px / center |
 | Max title width | 366px (即 `space-page-margin` 左右边距) |
 
 ### Variant 2: 标题 + 正文 (Title + body)
@@ -98,9 +98,9 @@ empty-<scene>-<size>.png
 |---|---|
 | Illustration | 180×180px, 水平居中 |
 | Gap (illustration → title) | 20px |
-| Title | 18px / semibold 600 / `gray1` / line-height 26px / center |
+| Title | 18px / semibold 600 / `text-primary` / line-height 26px / center |
 | Gap (title → body) | 8px |
-| Body | 14px / regular 400 / `gray3` / line-height 22px / center |
+| Body | 14px / regular 400 / `text-placeholder` / line-height 22px / center |
 | Max body width | 366px |
 
 ### Variant 3: 标题 + 正文 + 按钮 (Title + body + button)
@@ -109,9 +109,9 @@ empty-<scene>-<size>.png
 |---|---|
 | Illustration | 180×180px, 水平居中 |
 | Gap (illustration → title) | 20px |
-| Title | 18px / semibold 600 / `gray1` / line-height 26px / center |
+| Title | 18px / semibold 600 / `text-primary` / line-height 26px / center |
 | Gap (title → body) | 8px |
-| Body | 14px / regular 400 / `gray3` / line-height 22px / center |
+| Body | 14px / regular 400 / `text-placeholder` / line-height 22px / center |
 | Gap (body → button) | 12px |
 | Button | **Primary / Large**: min-width 156px, height 48px, border-radius `radius-2xl` |
 
@@ -127,7 +127,7 @@ empty-<scene>-<size>.png
 | Border-radius | `radius-2xl` |
 | Background | `Branding-1` |
 | Background (pressed) | `Branding-0` |
-| Font | 16px / semibold 600 / `anti` / line-height 24px |
+| Font | 16px / semibold 600 / `text-inverse` / line-height 24px |
 
 ## Local/Partial Empty State (局部级空状态)
 
@@ -158,7 +158,7 @@ empty-<scene>-<size>.png
 |---|---|
 | Illustration | 120×120px, 水平居中 |
 | Gap (illustration → title) | 12px |
-| Title | 16px / regular 400 / `gray1` / line-height 24px / center |
+| Title | 16px / regular 400 / `text-primary` / line-height 24px / center |
 | Container | 垂直居中于所属模块内容区 |
 
 ### Variant 2: 局部空态 + 按钮 (Local empty with button)
@@ -167,7 +167,7 @@ empty-<scene>-<size>.png
 |---|---|
 | Illustration | 120×120px, 水平居中 |
 | Gap (illustration → title) | 12px |
-| Title | 16px / regular 400 / `gray1` / line-height 24px / center |
+| Title | 16px / regular 400 / `text-primary` / line-height 24px / center |
 | Gap (title → button) | 12px |
 | Button | **Primary / Small**: min-width 88px, height 32px, border-radius `radius-lg` |
 
@@ -183,26 +183,26 @@ empty-<scene>-<size>.png
 | Border-radius | `radius-lg` |
 | Background | `Branding-1` |
 | Background (pressed) | `Branding-0` |
-| Font | 14px / semibold 600 / `anti` / line-height 22px |
+| Font | 14px / semibold 600 / `text-inverse` / line-height 22px |
 
 ## Text Styles
 
 | Style | Font | Size | Line-height | Weight | Color | Use |
 |---|---|---|---|---|
-| Page title | PingFang SC | 18px | 26px | Semibold 600 | `gray1` | 页面级标题 |
-| Page body | PingFang SC | 14px | 22px | Regular 400 | `gray3` | 页面级正文 |
-| Local title | PingFang SC | 16px | 24px | Regular 400 | `gray1` | 局部级标题 |
+| Page title | PingFang SC | 18px | 26px | Semibold 600 | `text-primary` | 页面级标题 |
+| Page body | PingFang SC | 14px | 22px | Regular 400 | `text-placeholder` | 页面级正文 |
+| Local title | PingFang SC | 16px | 24px | Regular 400 | `text-primary` | 局部级标题 |
 
 ## Color Tokens
 
 | Token | Use |
 |---|---|
-| `gray1` | 标题文字 |
-| `gray3` | 正文/描述文字 |
+| `text-primary` | 标题文字 |
+| `text-placeholder` | 正文/描述文字 |
 | `Branding-1` | 按钮背景 |
 | `Branding-0` | 按钮按压态 |
-| `anti` `white1` | 按钮文字 |
-| `white1` | 页面/模块背景 |
+| `text-inverse` `surface-primary` | 按钮文字 |
+| `surface-primary` | 页面/模块背景 |
 
 ## State Semantics And Copy
 

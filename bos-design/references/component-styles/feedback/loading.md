@@ -43,8 +43,8 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 主文字 | 16px / regular 400 / gray1 / line-height 24px / 居中 |
-| 副文字 | 14px / regular 400 / gray3 / line-height 22px / 居中 |
+| 主文字 | 16px / regular 400 / text-primary / line-height 24px / 居中 |
+| 副文字 | 14px / regular 400 / text-placeholder / line-height 22px / 居中 |
 | 图标与主文字间距 | 12px |
 | 主文字与副文字间距 | 8px |
 
@@ -59,7 +59,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 尺寸 | 自适应内容（最小 80×80px） |
-| 背景 | white1 |
+| 背景 | surface-primary |
 | 圆角 | `radius-xl` |
 | 位置 | 页面水平居中，垂直居中 |
 
@@ -96,10 +96,10 @@ This file records the Figma visual style only.
 |---|---|
 | 图标 | `ic_loading_line` |
 | 尺寸 | 24×24px 或 20×20px（根据模块大小） |
-| 颜色 | gray3 |
+| 颜色 | text-placeholder |
 | 动画 | 360° 持续旋转，1s 一圈，linear |
 | 位置 | 模块区域水平居中 |
-| 文字（可选） | 12px / regular 400 / gray3 / 图标下方 4px |
+| 文字（可选） | 12px / regular 400 / text-placeholder / 图标下方 4px |
 
 ---
 
@@ -113,7 +113,7 @@ This file records the Figma visual style only.
 |---|---|
 | 图标 | `ic_loading_line` |
 | 尺寸 | 与按钮内文字等高（16px / 14px / 12px，跟随按钮尺寸） |
-| 颜色 | 跟随按钮文字颜色（primary 按钮为 anti 白色） |
+| 颜色 | 跟随按钮文字颜色（primary 按钮为 text-inverse 白色） |
 | 动画 | 360° 持续旋转，1s 一圈，linear |
 | 位置 | 替换按钮文字，或在文字左侧（gap 4px） |
 

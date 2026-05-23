@@ -27,7 +27,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景 | white1 |
+| 背景 | surface-primary |
 | 圆角 | `radius-xl` |
 | 投影 | 二级投影 `shadow-2` |
 | 内边距 | 12px |
@@ -44,7 +44,7 @@ This file records the Figma visual style only.
 |---|---|
 | 布局 | flex 水平，gap 8px，items-center |
 | 图标 | 20×20px，可从 iconfont 选择图标并自定义颜色 |
-| 文字 | 14px / line-height 22px / gray1 |
+| 文字 | 14px / line-height 22px / text-primary |
 | 字重 | 可 regular 400 或 semibold 600，根据业务场景决定 |
 
 ---
@@ -54,7 +54,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 图标 | `ic_close_line` 16×16px |
-| 颜色 | gray3 |
+| 颜色 | text-placeholder |
 | 可选 | 支持不展示关闭按钮 |
 
 ---

@@ -28,7 +28,7 @@ The Picker is a bottom sheet panel consisting of:
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
+| Background | `surface-primary` |
 | Border radius | `radius-3xl` top-left, `radius-3xl` top-right (bottom sheet style) |
 | Width | 390px (full screen width) |
 | Layout | Flex column, items center |
@@ -46,13 +46,13 @@ Actions are inline with the title in the header row.
 | Height | Auto (padding-based) |
 | Padding | 16px vertical, 12px horizontal |
 | Layout | Flex row, 4px gap, justify center |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Border radius | `radius-3xl` top-left, `radius-3xl` top-right |
 
 | Element | Font | Color | Width |
 |---|---|---|
-| Cancel text | `Body/14-regular` 14px, weight 400, line-height 22px | `gray3` | 56px, center |
-| Title text | `Title/18-semibold` 18px, weight 600, line-height 26px | `gray1` | Flex, max-width 216px, center, truncate |
+| Cancel text | `Body/14-regular` 14px, weight 400, line-height 22px | `text-placeholder` | 56px, center |
+| Title text | `Title/18-semibold` 18px, weight 600, line-height 26px | `text-primary` | Flex, max-width 216px, center, truncate |
 | Confirm text | `Body/14-regular` 14px, weight 400, line-height 22px | `Branding-1` | 56px, center |
 
 ### Bottom Layout (操作位置-底部)
@@ -63,7 +63,7 @@ Title is centered in the header, actions are in a bottom toolbar.
 |---|---|
 | Header padding | 16px vertical, 12px horizontal |
 | Header layout | Flex row, justify space-between |
-| Title | `Title/18-semibold` 18px, weight 600, line-height 26px, `gray1`, center, max-width 216px |
+| Title | `Title/18-semibold` 18px, weight 600, line-height 26px, `text-primary`, center, max-width 216px |
 
 ### Special Combination (底部大按钮 + 右上关闭)
 
@@ -98,7 +98,7 @@ The highlighted band showing the currently selected row.
 | Property | Value |
 |---|---|
 | Height | 40px |
-| Background | `gray7` |
+| Background | `surface-component` |
 | Border radius | `radius-lg` |
 | Position | Absolute, horizontally stretched (left 16px, right 16px) |
 | Vertical position | Centered vertically in the roller area |
@@ -125,8 +125,8 @@ Each column is a vertical list of options.
 
 | State | Font | Color |
 |---|---|
-| Unselected | `Body/16-regular` 16px, weight 400, line-height 24px | `gray3` |
-| Selected | `Mark/16-semibold` 16px, weight 600, line-height 24px | `gray1` |
+| Unselected | `Body/16-regular` 16px, weight 400, line-height 24px | `text-placeholder` |
+| Selected | `Mark/16-semibold` 16px, weight 600, line-height 24px | `text-primary` |
 | Empty (spacer) | — | — (24px height placeholder, no text) |
 
 ### Fade Masks
@@ -135,8 +135,8 @@ Gradient masks at top and bottom of the roller area to create the drum-roller fa
 
 | Mask | Property |
 |---|---|
-| Top mask | Height 40px, gradient from `anti` to `transparent`, positioned at top |
-| Bottom mask | Height 40px, gradient from `anti` to `transparent`, rotated 180° (fade from bottom) |
+| Top mask | Height 40px, gradient from `text-inverse` to `transparent`, positioned at top |
+| Bottom mask | Height 40px, gradient from `text-inverse` to `transparent`, rotated 180° (fade from bottom) |
 | Position | Absolute, left 16px, right 16px |
 
 ## Bottom Toolbar
@@ -149,13 +149,13 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 |---|---|
 | Container padding | 12px |
 | Layout | Flex row, 12px gap |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Overflow | Clip |
 
 | Button | Background | Text Color | Font | Border Radius | Min Width | Padding |
 |---|---|---|---|---|
 | Cancel (取消) | `Branding-3` `Branding-1` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
-| Confirm (确认) | `Branding-1` `anti` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
+| Confirm (确认) | `Branding-1` `text-inverse` | `Title/18-semibold` 18px, weight 600, line-height 26px | 10px | 112px | 11px 20px |
 | Both | Flex 1 (equal width) | | | | | |
 
 ### Single-Button Layout (确认 only)
@@ -164,7 +164,7 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 |---|---|
 | Button width | 100% |
 | Background | `Branding-1` |
-| Text | `Title/18-semibold` 18px, weight 600, `anti` |
+| Text | `Title/18-semibold` 18px, weight 600, `text-inverse` |
 | Border radius | `radius-2xl` |
 | Padding | 11px 20px |
 
@@ -173,7 +173,7 @@ Used when `buttonLayout = "Bottom"` or in the special combination layout.
 | Property | Value |
 |---|---|
 | Background | `Branding-2` |
-| Text color | `anti` |
+| Text color | `text-inverse` |
 | Cursor | Not allowed |
 
 ## Column Count Variants
@@ -203,10 +203,10 @@ The design spec includes a section on matching title bar style with toolbar styl
 | `Color/brand/branding-1` | Confirm text, confirm button bg, cancel button text |
 | `Color/brand/branding-2` | Disabled button bg |
 | `Color/brand/branding-3` | Cancel button bg |
-| `Color/icon&text/gray1-text-icon-color-default` | Title text, selected option text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Cancel text (header), unselected option text |
-| `Color/neutral/gray7-bg-color-component` | Selection indicator bg |
-| `Color/neutral/white1-bg-color-container` | Container bg, mask gradient start |
+| `Color/icon&text/text-primary-text-icon-color-default` | Title text, selected option text |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Cancel text (header), unselected option text |
+| `Color/neutral/surface-component-bg-color-component` | Selection indicator bg |
+| `Color/neutral/surface-primary-bg-color-container` | Container bg, mask gradient start |
 
 ## Typography Summary
 
@@ -238,7 +238,7 @@ The roller columns are **touch/drag scrollable**, not click-to-select. Implement
 
 ### Selected Item Styling
 
-Only the item aligned with the indicator band (the snapped item) gets the selected style (`font-weight: 600`, `color: gray1`). All other items use the unselected style (`font-weight: 400`, `color: gray3`). Update styles after each snap.
+Only the item aligned with the indicator band (the snapped item) gets the selected style (`font-weight: 600`, `color: text-primary`). All other items use the unselected style (`font-weight: 400`, `color: text-placeholder`). Update styles after each snap.
 
 ## Do Not Infer
 

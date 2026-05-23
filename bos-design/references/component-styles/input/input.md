@@ -32,10 +32,10 @@ The primary input pattern. Label and input content are on the same row.
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 0 12px (horizontal) |
 | Width | 100% (390px design width) |
-| Bottom border | 0.5px solid `gray6` |
+| Bottom border | 0.5px solid `border-divider` |
 | Bottom border inset | 12px left and 12px right, aligned with the content gutter |
 
 Implementation note: use a pseudo-element or inner divider for the bottom border so the divider is inset by 12px on both sides. In H5/CSS, render the 0.5px divider as `height: 1px; transform: scaleY(0.5); transform-origin: bottom;` and keep it above the row background so it is not covered by the next row. Do not use `height: 0.5px` together with `scaleY(0.5)`, because that renders thinner than the spec. Do not use a full-width `border-bottom` on the outer container.
@@ -54,8 +54,8 @@ Implementation note: use a pseudo-element or inner divider for the bottom border
 |---|---|
 | Layout | Flex row, 4px gap, items start |
 | Min width | 140px |
-| Icon (optional) | 20×20px iconfont icon, `gray1` |
-| Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `gray1` |
+| Icon (optional) | 20×20px iconfont icon, `text-primary` |
+| Label text | `Body/16-regular` 16px, weight 400, line-height 24px, `text-primary` |
 | Label max width | 96px, `white-space: nowrap` |
 | Required indicator | `*`, 16px regular, `error-1` `Error-1`, after label text |
 
@@ -66,8 +66,8 @@ Used in the vertical (上下) layout variant. Label is above the input content.
 | Property | Value |
 |---|---|
 | Layout | Flex row, 4px gap, items center |
-| Icon (optional) | 16×16px iconfont icon, `gray1` |
-| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` |
+| Icon (optional) | 16×16px iconfont icon, `text-primary` |
+| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `text-primary` |
 | Required indicator | `*`, 14px regular, `error-1` `Error-1` |
 
 ### Content Area (item/content area)
@@ -110,7 +110,7 @@ Optional right-side element. Shrink 0, does not flex.
 | Background | `Branding-1` |
 | Border radius | `radius-md` |
 | Padding | 4px 8px |
-| Text | `Mark/12-semibold` 12px, weight 600, line-height 18px, `anti` |
+| Text | `Mark/12-semibold` 12px, weight 600, line-height 18px, `text-inverse` |
 | Note | Row alignment changes to `items-center` when button is present |
 
 #### Unit Text
@@ -118,7 +118,7 @@ Optional right-side element. Shrink 0, does not flex.
 | Property | Value |
 |---|---|
 | Font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Position | Right of content area |
 
 #### Icon Suffix
@@ -126,7 +126,7 @@ Optional right-side element. Shrink 0, does not flex.
 | Property | Value |
 |---|---|
 | Size | 20×20px iconfont icon |
-| Color | `gray3` (default) |
+| Color | `text-placeholder` (default) |
 
 #### Clear Icon (输入清空)
 
@@ -136,7 +136,7 @@ When the input has content and is focused, a clear icon appears on the right to 
 |---|---|
 | Size | 20×20px iconfont icon |
 | Icon | iconfont `ic_clear_fill` |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Behavior | Tap to clear input value |
 
 #### Link Text
@@ -152,18 +152,18 @@ When the input has content and is focused, a clear icon appears on the right to 
 
 | State | Input text color | Helper text color | Label color |
 |---|---|---|
-| Default (placeholder) | `gray3` | `gray1` |
-| Active (focused) | `gray1` `gray3` | `gray1` |
-| Filled (has value) | `gray1` `gray3` | `gray1` |
-| Disabled | `gray4` | — | `gray1` |
-| Display (read-only) | `gray1` | — | `gray1` |
-| Error | `gray1` | `error-1` `Error-1` | `gray1` |
-| Warning | `gray1` | `warning-1` `Warning-1` | `gray1` |
-| Success | `gray1` | `success-1` `Success-1` | `gray1` |
+| Default (placeholder) | `text-placeholder` | `text-primary` |
+| Active (focused) | `text-primary` `text-placeholder` | `text-primary` |
+| Filled (has value) | `text-primary` `text-placeholder` | `text-primary` |
+| Disabled | `text-disabled` | — | `text-primary` |
+| Display (read-only) | `text-primary` | — | `text-primary` |
+| Error | `text-primary` | `error-1` `Error-1` | `text-primary` |
+| Warning | `text-primary` | `warning-1` `Warning-1` | `text-primary` |
+| Success | `text-primary` | `success-1` `Success-1` | `text-primary` |
 
 ### Feedback States
 
-When a validation state is active, the helper text below the input value changes color to match the semantic color. The input value text itself remains `gray1`.
+When a validation state is active, the helper text below the input value changes color to match the semantic color. The input value text itself remains `text-primary`.
 
 | Feedback | Helper text color | Helper text example |
 |---|---|
@@ -188,7 +188,7 @@ A separate input style where the label is outside and above a bordered input box
 |---|---|
 | Layout | Flex row, 4px gap, items center |
 | Icon (optional) | 16×16px iconfont icon |
-| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `gray1` |
+| Label text | `Body/14-regular` 14px, weight 400, line-height 22px, `text-primary` |
 | Required indicator | `*`, 14px regular, `error-1` `Error-1` |
 
 ### Input Box
@@ -196,27 +196,27 @@ A separate input style where the label is outside and above a bordered input box
 | Property | Value |
 |---|---|
 | Height | 48px |
-| Background | `white1` |
-| Border | 1px solid `gray5` |
+| Background | `surface-primary` |
+| Border | 1px solid `border-default` |
 | Border radius | `radius-xl` |
 | Padding | 12px |
 | Gap | 12px (between input text and suffix) |
 | Input text | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Placeholder color | `gray3` |
+| Placeholder color | `text-placeholder` |
 
 ### Themes
 
 | Theme | Background | Border |
 |---|---|
-| Outline (描边) | `white1` | 1px solid `gray5` |
-| Filled (填充) | `gray7` | None |
+| Outline (描边) | `surface-primary` | 1px solid `border-default` |
+| Filled (填充) | `surface-component` | None |
 
 ### Tips (below input box)
 
 | Property | Value |
 |---|---|
 | Font | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Color | `gray3` (default) / semantic color for feedback states |
+| Color | `text-placeholder` (default) / semantic color for feedback states |
 | Padding left | 4px |
 
 ## Layout Variants
@@ -246,7 +246,7 @@ Same as full-width vertical but wrapped in a card container.
 | Property | Value |
 |---|---|
 | Card padding | 12px |
-| Card background | `white1` |
+| Card background | `surface-primary` |
 | Card border radius | `radius-xl` (follows design system radius-8) |
 | Inner rows | Same as full-width vertical but width = card width - 24px |
 
@@ -283,18 +283,18 @@ Input fields that trigger a picker/selector instead of keyboard input. The conte
 | Token | Use |
 |---|---|
 | `Color/brand/branding-1` | Action button background, link text |
-| `Color/icon&text/gray1-text-icon-color-default` | Label text, filled input text |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | Secondary text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Placeholder text, helper text |
-| `Color/icon&text/gray4-text-icon-color-disable` | Disabled text |
-| `Color/icon&text/text-icon-color-anti` `white1` | Button text on brand background |
+| `Color/icon&text/text-primary-text-icon-color-default` | Label text, filled input text |
+| `Color/icon&text/text-secondary-tex-icon-color-secondary` | Secondary text |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Placeholder text, helper text |
+| `Color/icon&text/text-disabled-text-icon-color-disable` | Disabled text |
+| `Color/icon&text/text-icon-color-text-inverse` `surface-primary` | Button text on brand background |
 | `Color/error/error-1` | Required indicator, error helper text |
 | `Color/warning/warning-1` | Warning helper text |
 | `Color/success/success-1` | Success helper text |
-| `Color/neutral/gray5-component-border` | External label input border |
-| `Color/neutral/gray6-component-stroke` | Standard input bottom border |
-| `Color/neutral/gray7-bg-color-component` | Filled theme background |
-| `Color/neutral/white1-bg-color-container` | Container background |
+| `Color/neutral/border-default-component-border` | External label input border |
+| `Color/neutral/border-divider-component-stroke` | Standard input bottom border |
+| `Color/neutral/surface-component-bg-color-component` | Filled theme background |
+| `Color/neutral/surface-primary-bg-color-container` | Container background |
 
 ## Typography Summary
 
@@ -312,7 +312,7 @@ Input fields that trigger a picker/selector instead of keyboard input. The conte
 - Do not use bold/semibold for label text; labels are always regular weight (400).
 - Do not change the 8px gap between label and content area.
 - Do not change the 4px gap between input text and helper text in the content area.
-- Do not change the bottom border from 0.5px solid `gray6`.
+- Do not change the bottom border from 0.5px solid `border-divider`.
 - Do not extend the bottom border to the row edge — it must be inset 12px on both sides.
 - Do not use the external label input style for standard inline forms — they are separate patterns.
 - Do not change the external label input box height from 48px.

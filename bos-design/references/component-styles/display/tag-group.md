@@ -68,8 +68,8 @@ From the Figma spec notes:
 
 | Property | Value |
 |---|---|
-| Background (default) | `gray8` |
-| Text color (default) | `gray1` |
+| Background (default) | `surface-page` |
+| Text color (default) | `text-primary` |
 | Font weight (default) | Regular 400 |
 | Font family | PingFang SC |
 | Layout | Flex row, wrap, gap between items |
@@ -79,9 +79,9 @@ From the Figma spec notes:
 
 | State | Background | Border | Text color | Font weight |
 |---|---|---|---|
-| 默认 (Default) | `gray8` | none | `gray1` | Regular 400 |
+| 默认 (Default) | `surface-page` | none | `text-primary` | Regular 400 |
 | 选中 (Selected) | `Branding-3` | 1px solid `Branding-1` | `Branding-1` | Semibold 600 |
-| 不可点 (Disabled) | `gray8` | none | `gray4` | Regular 400 |
+| 不可点 (Disabled) | `surface-page` | none | `text-disabled` | Regular 400 |
 
 ## Icon Support
 
@@ -109,11 +109,11 @@ Tags in the group support optional icons:
 
 | Token | Use |
 |---|---|
-| `Color/neutral/gray8-bg-color-page` | Default tag background |
-| `Color/icon&text/gray1-text-icon-color-default` | Default text color |
+| `Color/neutral/surface-page-bg-color-page` | Default tag background |
+| `Color/icon&text/text-primary-text-icon-color-default` | Default text color |
 | `Color/brand/branding-1` | Selected border, selected text |
 | `Color/brand/branding-3` | Selected background |
-| `Color/icon&text/gray4-text-icon-color-disable` | Disabled text color |
+| `Color/icon&text/text-disabled-text-icon-color-disable` | Disabled text color |
 
 ## Do Not Infer
 

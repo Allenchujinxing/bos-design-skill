@@ -44,7 +44,7 @@ Use ToolBar for page-level action bars fixed at the bottom of the screen. It pro
 | Property | Value |
 |---|---|
 | Width | Full parent width (390px in 390pt design) |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 12px all sides |
 | Item gap | 12px |
 | Overflow | Clip |
@@ -67,7 +67,7 @@ Buttons inside ToolBar use the standard Button component at `large` size. See `b
 | Property | Value |
 |---|---|
 | Background | `Branding-1` |
-| Text color | `anti` |
+| Text color | `text-inverse` |
 | Font | `Title/18-semibold` — PingFang SC, 18px, weight 600, line-height 26px |
 | Height | 48px (padding 11px top/bottom + 26px line-height) |
 | Horizontal padding | 20px |
@@ -114,7 +114,7 @@ Functional category adds icon shortcut entries to the left of the button area.
 | Property | Value |
 |---|---|
 | Width | 48–53px (varies by text width) |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 6px horizontal, 5px vertical |
 | Layout | Flex column, centered |
 | Icon-to-text gap | 4px |
@@ -125,14 +125,14 @@ Functional category adds icon shortcut entries to the left of the button area.
 |---|---|
 | Icon size | 20×20px |
 | Icon container padding | 14px horizontal (centering within item) |
-| Icon color | `gray1` |
+| Icon color | `text-primary` |
 
 ### Icon label
 
 | Property | Value |
 |---|---|
 | Font | `Body/10-regular` — PingFang SC, 10px, weight 400, line-height 14px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Alignment | Center |
 
 ### Functional variants

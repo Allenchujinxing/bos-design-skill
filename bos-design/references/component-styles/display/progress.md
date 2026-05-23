@@ -57,7 +57,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `gray6` |
+| Background | `border-divider` |
 | Height | 6px |
 | Border-radius | `radius-full` |
 
@@ -79,7 +79,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Font | 14px / regular 400 / `gray1` / line-height 22px |
+| Font | 14px / regular 400 / `text-primary` / line-height 22px |
 | Alignment | 右对齐 |
 | Width | 36px |
 
@@ -100,7 +100,7 @@ This file records the Figma visual style only.
 | `Success-1` | complete 填充 + 图标 |
 | `Warning-1` | warning 填充 + 图标 |
 | `Error-1` | error 填充 + 图标 |
-| `gray1` | 百分比文字 |
+| `text-primary` | 百分比文字 |
 
 ### 状态图标选择
 
@@ -130,7 +130,7 @@ Progress 组件支持以下维度的自定义：
 |---|---|
 | 内容 | 百分比 | 任意文字，如"完成"、"失败" |
 | 字号 | 14px | 支持自定义 |
-| 颜色 | `gray1` | 支持自定义，建议跟随进度条颜色 |
+| 颜色 | `text-primary` | 支持自定义，建议跟随进度条颜色 |
 | 字重 | regular 400 | 支持自定义 |
 
 #### 图标模式
@@ -165,7 +165,7 @@ Progress 组件支持以下维度的自定义：
 | Property | 默认值 | 可自定义 | 说明 |
 |---|---|---|
 | `activeColor` | 按状态取色（见上方状态表） | 任意颜色值 | 填充条颜色 |
-| `trackColor` `gray6` | 任意颜色值 | 轨道背景色 |
+| `trackColor` `border-divider` | 任意颜色值 | 轨道背景色 |
 
 自定义颜色时的约束：
 - 填充色与轨道色需有足够对比度，建议对比度 ≥ 3:1
@@ -180,11 +180,11 @@ Progress 组件支持以下维度的自定义：
 | `type` | enum | `process` | 状态：process / complete / warning / error |
 | `strokeWidth` | number | 6 | 轨道 + 填充高度 (px) |
 | `activeColor` | string | 按 type 取色 | 填充条颜色 |
-| `trackColor` | string | `gray6` | 轨道背景色 |
+| `trackColor` | string | `border-divider` | 轨道背景色 |
 | `tailMode` | enum | `percent` | 尾部模式：percent / text / icon |
 | `tailText` | string | — | tailMode=text 时的文字内容 |
 | `tailIcon` | string/node | — | tailMode=icon 时的 iconfont 图标 |
-| `tailColor` | string | `gray1` | 尾部文字/图标颜色 |
+| `tailColor` | string | `text-primary` | 尾部文字/图标颜色 |
 
 ## Do Not Infer
 

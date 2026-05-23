@@ -28,7 +28,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 高度 | 自适应（下拉距离决定，最大 80px） |
-| 背景 | 跟随页面背景色（gray8） |
+| 背景 | 跟随页面背景色（surface-page） |
 | 位置 | 页面内容区顶部上方（负空间，下拉时露出） |
 | 布局 | flex 垂直居中，水平居中 |
 
@@ -50,7 +50,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 12px / regular 400 / gray3 / line-height 18px |
+| 字体 | 12px / regular 400 / text-placeholder / line-height 18px |
 | 与图标间距 | 8px（图标在上，文字在下） |
 | 对齐 | 居中 |
 

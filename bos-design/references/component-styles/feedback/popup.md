@@ -82,10 +82,10 @@ Title Bar 是 Popup 唯一由设计规范定义样式的区域，有两种布局
 | 高度 | 50px |
 | Padding | 12px 左右 |
 | 布局 | flex，三栏（左操作 / 标题 / 右操作） |
-| 标题 | 18px / semibold 600 / `gray1` / line-height 26px / center |
+| 标题 | 18px / semibold 600 / `text-primary` / line-height 26px / center |
 | 标题最大宽度 | 216px，超出截断（text-overflow: ellipsis） |
 | 标题最大字数 | 12 个字符 |
-| 左操作文字 | 14px / regular 400 / `gray3` / line-height 22px |
+| 左操作文字 | 14px / regular 400 / `text-placeholder` / line-height 22px |
 | 右操作文字 | 14px / regular 400 / `Branding-1` / line-height 22px |
 | 操作按钮最大字数 | 4 个字 |
 | 操作按钮颜色 | 支持自定义 |
@@ -97,8 +97,8 @@ Title Bar 是 Popup 唯一由设计规范定义样式的区域，有两种布局
 | 高度 | 自适应（padding 12px） |
 | Padding | 12px |
 | 布局 | flex，三栏（左占位 / 标题 / 右关闭图标） |
-| 标题 | 18px / semibold 600 / `gray1` / line-height 26px / center |
-| 关闭图标 | 24×24px，`gray1` |
+| 标题 | 18px / semibold 600 / `text-primary` / line-height 26px / center |
+| 关闭图标 | 24×24px，`text-primary` |
 | 左侧 | 等宽占位（保持标题居中），opacity: 0 |
 
 ### 模式 C：仅标题（无关闭按钮）
@@ -108,13 +108,13 @@ Title Bar 是 Popup 唯一由设计规范定义样式的区域，有两种布局
 | 高度 | 自适应（padding 12px） |
 | Padding | 12px |
 | 布局 | flex，居中 |
-| 标题 | 18px / semibold 600 / `gray1` / line-height 26px / center |
+| 标题 | 18px / semibold 600 / `text-primary` / line-height 26px / center |
 
 ### 副标题（可选）
 
 | Property | Value |
 |---|---|
-| 字体 | 14px / regular 400 / `gray2` / line-height 22px / center |
+| 字体 | 14px / regular 400 / `text-secondary` / line-height 22px / center |
 | 与标题间距 | 8px |
 | 最大行数 | 2 行，超出截断 |
 
@@ -124,7 +124,7 @@ Title Bar 以下的区域由业务需求定义，常见内容类型：
 
 | 类型 | 说明 |
 |---|---|
-| 纯文本 | 正文说明，14px / `gray1` / line-height 22px |
+| 纯文本 | 正文说明，14px / `text-primary` / line-height 22px |
 | 图片 | 16:9 比例图片区域，圆角 `radius-xl` |
 | 文字 + 图片 | 混合内容 |
 | 列表 | 选项列表、设置项等 |
@@ -152,7 +152,7 @@ Title Bar 以下的区域由业务需求定义，常见内容类型：
 
 | 平台 | 规则 |
 |---|---|
-| iOS (iPhone X+) | 底部预留 34px 安全区，背景色与弹层一致（`white1`） |
+| iOS (iPhone X+) | 底部预留 34px 安全区，背景色与弹层一致（`surface-primary`） |
 | Android | 安全区高度为 0 或跟随系统虚拟导航栏 |
 
 **正确做法：** 安全区包含在弹层内部，Toolbar 按钮在安全区上方。

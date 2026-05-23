@@ -34,7 +34,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景色 | `gray7` |
+| 背景色 | `surface-component` |
 | 圆角 | 与实际内容元素保持一致（文字行用 2–`radius-md`，图片/头像用对应圆角） |
 | 高度 | 与待加载元素视觉高度保持一致，优先根据栅格定义，或选取 4 的倍数 |
 | 位置 | 与待加载元素保持上下居中对齐 |
@@ -77,8 +77,8 @@ This file records the Figma visual style only.
 
 | Token | Use |
 |---|---|
-| 占位块背景 | `gray7` | 所有骨架占位块 |
-| 页面背景 | `white1` 或页面实际背景色 | 骨架屏容器背景 |
+| 占位块背景 | `surface-component` | 所有骨架占位块 |
+| 页面背景 | `surface-primary` 或页面实际背景色 | 骨架屏容器背景 |
 
 ## CSS 动画参考
 
@@ -89,7 +89,7 @@ This file records the Figma visual style only.
 }
 
 .skeleton-block {
-  background: var(--color-bg-component); /* gray7 */
+  background: var(--color-bg-component); /* surface-component */
   animation: skeleton-breath 1.6s ease-in-out infinite;
 }
 ```
@@ -97,7 +97,7 @@ This file records the Figma visual style only.
 ## Do Not Infer
 
 - 不要使用 shimmer/光泽滑动动画 — 设计规范定义的是 opacity 呼吸闪烁。
-- 不要使用任意灰色近似值 — 使用 design 规范中的 `gray7` token。
+- 不要使用任意灰色近似值 — 使用 design 规范中的 `surface-component` token。
 - 不要让占位块布局与实际内容差距过大 — 应尽可能还原。
 - 不要给占位块加边框或阴影。
 - 不要在加载完成时让骨架屏渐隐 — 直接消失，内容渐现 200ms。

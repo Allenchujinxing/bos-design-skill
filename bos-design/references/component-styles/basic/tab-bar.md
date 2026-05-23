@@ -47,10 +47,10 @@ Items use equal flex distribution within the container.
 |---|---|
 | Height | 56px |
 | Width | Full parent width (390px in 390pt design) |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 8px all sides |
 | Item gap | 8px |
-| Top divider | 0.5px line, `gray6` |
+| Top divider | 0.5px line, `border-divider` |
 | Layout | Flex row, items centered, overflow clip |
 
 ### Capsule Style
@@ -59,7 +59,7 @@ Items use equal flex distribution within the container.
 |---|---|
 | Height | 56px (content area), 64px (with selected indicator) |
 | Width | Narrower than full width (366px observed, with side margins) |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Border-radius | `radius-full` (text/icon) or `radius-full` (icon with indicator) |
 | Padding | 12px horizontal, 8px vertical |
 | Item gap | 8px |
@@ -105,23 +105,23 @@ Items use equal flex distribution within the container.
 | State | Token | Font | Size | Weight | Line-height | Color |
 |---|---|---|---|---|
 | Selected | `Title/16-semibold` | PingFang SC | 16px | 600 | 24px | `Branding-1` |
-| Unselected | `Body/16-regular` | PingFang SC | 16px | 400 | 24px | `gray1` |
+| Unselected | `Body/16-regular` | PingFang SC | 16px | 400 | 24px | `text-primary` |
 
 ### Text label (Icon & Text type)
 
 | State | Token | Font | Size | Weight | Line-height | Color |
 |---|---|---|---|---|
 | Selected | `Special/11-semibold` | PingFang SC | 11px | 600 | 16px | `Branding-1` |
-| Unselected | `Special/11-regular` | PingFang SC | 11px | 400 | 16px | `gray1` |
+| Unselected | `Special/11-regular` | PingFang SC | 11px | 400 | 16px | `text-primary` |
 
 ## Icon Color Tokens
 
 | State | Color | Token |
 |---|---|
 | Selected | `Branding-1` | `Color/brand/branding-1` |
-| Unselected | `gray3` | `Color/icon&text/gray3-text-icon-color-placeholder` |
+| Unselected | `text-placeholder` | `Color/icon&text/text-placeholder-text-icon-color-placeholder` |
 
-In the icon placeholder, the selected icon uses `Branding-1` blue and the unselected icons use `gray3`.
+In the icon placeholder, the selected icon uses `Branding-1` blue and the unselected icons use `text-placeholder`.
 
 ## Item Style Variants
 
@@ -159,7 +159,7 @@ In the icon placeholder, the selected icon uses `Branding-1` blue and the unsele
 - Same as Capsule but taller (64px) to accommodate a circular selection indicator.
 - Selected item shows a 52×52px circle behind the icon.
 - The circle uses a brand or dark fill to highlight the active tab.
-- Icon inside the selected circle uses `white1` color.
+- Icon inside the selected circle uses `surface-primary` color.
 
 ## Customization Notes
 

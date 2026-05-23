@@ -30,7 +30,7 @@ The breadcrumb bar showing the hierarchy path.
 | Property | Value |
 |---|---|
 | Height | 44px |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 12px horizontal, 10px vertical |
 | Layout | Flex row, items centered |
 | Tab gap | 8px |
@@ -41,7 +41,7 @@ The breadcrumb bar showing the hierarchy path.
 |---|---|
 | Font | `Title/16-semibold` | `Body/16-regular` |
 | Size | 16px, weight 600, line-height 24px | 16px, weight 400, line-height 24px |
-| Color | `Branding-1` | `gray3` |
+| Color | `Branding-1` | `text-placeholder` |
 
 ### Level Separator
 
@@ -68,9 +68,9 @@ The scrollable list of options for the current level.
 | Property | Value |
 |---|---|
 | Height | 56px |
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 12px horizontal (container), 16px vertical (inner row) |
-| Bottom border | 0.5px solid `gray6` |
+| Bottom border | 0.5px solid `border-divider` |
 | Layout | Flex row, items centered, space-between |
 
 ### Selection Types
@@ -79,7 +79,7 @@ The scrollable list of options for the current level.
 
 | State | Text font | Text color | Right icon |
 |---|---|---|
-| Unselected | `Body/16-regular` 16px, weight 400 | `gray1` | None |
+| Unselected | `Body/16-regular` 16px, weight 400 | `text-primary` | None |
 | Selected | `Body/16-regular` 16px, weight 400 | `Branding-1` | Checkmark icon (`ic_check_line`), 20×20px, `Branding-1` |
 
 In single-select mode, tapping an option selects it and automatically advances to the next level. The selected option's text turns blue with a checkmark on the right.
@@ -88,8 +88,8 @@ In single-select mode, tapping an option selects it and automatically advances t
 
 | State | Left icon | Text font | Text color | Right action |
 |---|---|---|---|
-| Unselected | Radio circle outline, 20×20px, gray | `Body/16-regular` 16px | `gray1` | "下级" link with tree icon, `Branding-1` |
-| Selected | Radio filled circle with check, 20×20px, `Branding-1` | `Body/16-regular` 16px | `gray1` | "下级" link **disabled** (grayed out, not clickable) |
+| Unselected | Radio circle outline, 20×20px, gray | `Body/16-regular` 16px | `text-primary` | "下级" link with tree icon, `Branding-1` |
+| Selected | Radio filled circle with check, 20×20px, `Branding-1` | `Body/16-regular` 16px | `text-primary` | "下级" link **disabled** (grayed out, not clickable) |
 
 In multi-select mode:
 - Every level (not just leaf) has a radio icon on the left + option text (4px gap)
@@ -113,10 +113,10 @@ In multi-select mode:
 | Token | Use |
 |---|---|
 | `Color/brand/branding-1` | Active tab text, selected option text, checkmark, "下级" link |
-| `Color/icon&text/gray1-text-icon-color-default` | Unselected option text |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Inactive tab text |
-| `Color/neutral/white1-bg-color-container` | Background |
-| `Color/neutral/gray6-component-stroke` | List item bottom border |
+| `Color/icon&text/text-primary-text-icon-color-default` | Unselected option text |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Inactive tab text |
+| `Color/neutral/surface-primary-bg-color-container` | Background |
+| `Color/neutral/border-divider-component-stroke` | List item bottom border |
 
 ## Interaction Flow
 

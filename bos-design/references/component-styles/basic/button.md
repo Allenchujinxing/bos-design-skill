@@ -80,9 +80,9 @@ Do not use regular-weight body text for Button labels unless a future Figma comp
 
 Other tokens:
 
-- Anti text/icon: `anti`.
-- Default text/icon: `gray1`.
-- Container background: `white1`.
+- Anti text/icon: `text-inverse`.
+- Default text/icon: `text-primary`.
+- Container background: `surface-primary`.
 - Icon/text gap fallback: `Space/4` = 4px.
 
 ## Variants
@@ -92,7 +92,7 @@ Other tokens:
 - Solid theme-color background.
 - Pressed uses the theme pressed token.
 - Disabled uses the theme disabled token.
-- Label and icons use anti text/icon color.
+- Label and icons use text-inverse text/icon color.
 - Use for the strongest action in a page area.
 
 ### Secondary

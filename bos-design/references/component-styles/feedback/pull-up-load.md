@@ -37,21 +37,21 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 图标 | iconfont `ic_loading_line`（同 `feedback/loading.md`），16px，持续旋转 |
-| 颜色 | gray3 |
-| 文字 | 12px / regular 400 / gray3 / "加载中..." |
+| 颜色 | text-placeholder |
+| 文字 | 12px / regular 400 / text-placeholder / "加载中..." |
 
 ### 没有更多
 
 | Property | Value |
 |---|---|
-| 文字 | 12px / regular 400 / gray3 / "没有更多了" |
-| 分割线（可选） | 左右各一条 40px 线，0.5px gray6，与文字间距 8px |
+| 文字 | 12px / regular 400 / text-placeholder / "没有更多了" |
+| 分割线（可选） | 左右各一条 40px 线，0.5px border-divider，与文字间距 8px |
 
 ### 加载失败
 
 | Property | Value |
 |---|---|
-| 文字 | 12px / regular 400 / gray3 / "加载失败，点击重试" |
+| 文字 | 12px / regular 400 / text-placeholder / "加载失败，点击重试" |
 | 交互 | 点击后重新触发加载 |
 
 ---

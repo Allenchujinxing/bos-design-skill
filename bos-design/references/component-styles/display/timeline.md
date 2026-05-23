@@ -46,7 +46,7 @@ All node icons are 20×20px, wrapped in a container with 2px padding (total touc
 |---|---|---|
 | 当前节点 (Current) | 20×20px | Solid filled circle (r=4 inner dot) | `Branding-1` |
 | 已完成节点 (Completed) | 20×20px | Solid filled circle (r=4 inner dot) | `Success-1` |
-| 未开始/失效节点 (Inactive) | 20×20px | Hollow ring circle (r=3.25, stroke 1.5) | `gray5` |
+| 未开始/失效节点 (Inactive) | 20×20px | Hollow ring circle (r=3.25, stroke 1.5) | `border-default` |
 | 成功 (Success) | 20×20px | Filled circle (r=8) + checkmark icon | `Success-1` + white stroke |
 | 失败 (Failure) | 20×20px | Filled circle (r=8) + cross icon | `Error-1` + white stroke |
 | 警示 (Warning) | 20×20px | Filled circle (r=8) + exclamation icon | `Warning-1` + white stroke |
@@ -67,13 +67,13 @@ Two line styles available, chosen per business requirement:
 
 | Style | Stroke Weight | Color | Dash |
 |---|---|---|
-| 实线 (Solid) | 1px | `gray6` | none |
-| 虚线 (Dashed) | 1px | `gray6` | 4 |
+| 实线 (Solid) | 1px | `border-divider` | none |
+| 虚线 (Dashed) | 1px | `border-divider` | 4 |
 
 | Property | Value |
 |---|---|
 | Width | 1px (stroke weight) |
-| Color | `gray6` |
+| Color | `border-divider` |
 | Position | Centered under the node icon dot |
 | Layout | Flex grow, fills vertical space between icons |
 | Hidden | On last item (no line below last node) |
@@ -105,9 +105,9 @@ Two font size options:
 |---|---|
 | Layout | Flex row, 12px gap, align center |
 | Font | `Title/16-semibold` — PingFang SC, 16px, weight 600, line-height 24px |
-| Color (基础) | `gray1` |
+| Color (基础) | `text-primary` |
 | Color (选中/当前) | `Branding-1` |
-| Color (已完成) | `gray2` |
+| Color (已完成) | `text-secondary` |
 | Text | Flex grow, min-width 0 |
 
 #### Font Size 18
@@ -116,9 +116,9 @@ Two font size options:
 |---|---|
 | Layout | Flex row, 12px gap, align center |
 | Font | `Title/18-semibold` — PingFang SC, 18px, weight 600, line-height 26px |
-| Color (基础) | `gray1` |
+| Color (基础) | `text-primary` |
 | Color (选中/当前) | `Branding-1` |
-| Color (已完成) | `gray2` |
+| Color (已完成) | `text-secondary` |
 | Text | Flex grow, min-width 0 |
 
 ### Action Entry (操作入口, Optional)
@@ -128,7 +128,7 @@ Two font size options:
 | Position | Right side of title row, flex shrink 0 |
 | Layout | Flex row, 4px gap, align center, justify end |
 | Text font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Text color | `gray2` |
+| Text color | `text-secondary` |
 | Icon | `ic_right_line`, 16×16px |
 | Text align | Right |
 
@@ -137,7 +137,7 @@ Two font size options:
 | Property | Value |
 |---|---|
 | Font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Color | `gray2` |
+| Color | `text-secondary` |
 | Text wrap | Supported (multi-line, min-width full) |
 
 ### Time (时间)
@@ -145,7 +145,7 @@ Two font size options:
 | Property | Value |
 |---|---|
 | Font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Color | `gray2` |
+| Color | `text-secondary` |
 | Gap from subtitle | 4px |
 
 ### Subtitle + Time Container
@@ -194,15 +194,15 @@ Two background options:
 
 | Background | Value | Border-radius |
 |---|---|
-| 灰色背景 (Gray) | `gray8` | 8px |
-| 白色背景 (White) | `white1` | 8px |
+| 灰色背景 (Gray) | `surface-page` | 8px |
+| 白色背景 (White) | `surface-primary` | 8px |
 
 | Property | Value |
 |---|---|
 | Padding | 12px |
 | Layout | Flex row, align center, justify center |
 | Font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Text color | `gray1` |
+| Text color | `text-primary` |
 | Text wrap | Supported |
 | Width | Full parent |
 
@@ -225,7 +225,7 @@ Two background options:
 | Layout | Flex row, 2px gap, align start |
 | Icon | `ic_location_line`, 16×16px, with 3px vertical padding |
 | Text font | `Body/14-regular` — PingFang SC, 14px, weight 400, line-height 22px |
-| Text color | `gray2` |
+| Text color | `text-secondary` |
 | Arrow icon | `ic_right_line`, 16×16px, with 3px vertical padding |
 | Click action | Navigate to Amap (跳转高德导航) |
 | Height | 22px |
@@ -251,7 +251,7 @@ Two background options:
 | Element | Style |
 |---|---|
 | Node icon | Default variant per status |
-| Title color | `gray1` |
+| Title color | `text-primary` |
 | Title font | `Title/16-semibold` or `Title/18-semibold` |
 
 ### 选中样式 (Selected/Current)
@@ -269,7 +269,7 @@ Standard component configuration, used by design as needed.
 | Element | Style |
 |---|---|
 | Node icon | 已完成节点 variant (green dot) or custom completed icon |
-| Title color | `gray2` (主标题置灰) |
+| Title color | `text-secondary` (主标题置灰) |
 | Title font | `Title/16-semibold` or `Title/18-semibold` |
 
 ## Extreme Cases (极端情况)
@@ -285,12 +285,12 @@ Both support text wrapping for long content.
 | Token | Use |
 |---|---|
 | `Color/brand/branding-1` | Selected/current node title, current node dot |
-| `Color/icon&text/gray1-text-icon-color-default` | Default title, text content, default node dot |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | Subtitle, time, action entry text, completed title, address text |
-| `Color/neutral/gray5-component-border` | Inactive node dot stroke |
-| `Color/neutral/gray6-component-stroke` | Connector line (solid & dashed) |
-| `Color/neutral/gray8-bg-color-page` | Text content gray background |
-| `Color/neutral/white1-bg-color-container` | Text content white background |
+| `Color/icon&text/text-primary-text-icon-color-default` | Default title, text content, default node dot |
+| `Color/icon&text/text-secondary-tex-icon-color-secondary` | Subtitle, time, action entry text, completed title, address text |
+| `Color/neutral/border-default-component-border` | Inactive node dot stroke |
+| `Color/neutral/border-divider-component-stroke` | Connector line (solid & dashed) |
+| `Color/neutral/surface-page-bg-color-page` | Text content gray background |
+| `Color/neutral/surface-primary-bg-color-container` | Text content white background |
 | `Color/semantic/success-1` | Completed node dot, success icon |
 | `Color/semantic/error-1` | Failure icon |
 | `Color/semantic/warning-1` | Warning icon |

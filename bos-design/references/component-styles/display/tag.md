@@ -76,7 +76,7 @@ From the Figma spec notes:
 
 | Style | Background | Border | Text color | Icon color |
 |---|---|---|---|
-| Primary_full | `Branding-1` | none | `anti` | `anti` |
+| Primary_full | `Branding-1` | none | `text-inverse` | `text-inverse` |
 | Primary_light | `Branding-3` | none | `Branding-1` | `Branding-1` |
 | Primary_line | none | 1px solid `Branding-2` | `Branding-1` | `Branding-1` |
 
@@ -84,15 +84,15 @@ From the Figma spec notes:
 
 | Style | Background | Border | Text color | Icon color |
 |---|---|---|---|
-| Default_full | `gray1` | none | `anti` | `anti` |
-| Default_light | `gray7` | none | `gray1` | `gray1` |
-| Default_line | none | 1px solid `gray5` | `gray1` | `gray1` |
+| Default_full | `text-primary` | none | `text-inverse` | `text-inverse` |
+| Default_light | `surface-component` | none | `text-primary` | `text-primary` |
+| Default_line | none | 1px solid `border-default` | `text-primary` | `text-primary` |
 
 ### Discount
 
 | Style | Background | Border | Text color | Icon color |
 |---|---|---|---|
-| Discount_full | `Discount-1` `LowPrice-1` | none | `anti` | `anti` |
+| Discount_full | `Discount-1` `LowPrice-1` | none | `text-inverse` | `text-inverse` |
 | Discount_light | `Discount-3` `LowPrice-3` | none | `Discount-1` `LowPrice-1` | `LowPrice-1` |
 | Discount_line | none | 1px solid `Discount-2` `LowPrice-2` | `Discount-1` `LowPrice-1` | `LowPrice-1` |
 
@@ -100,7 +100,7 @@ From the Figma spec notes:
 
 | Style | Background | Border | Text color | Icon color |
 |---|---|---|---|
-| Danger_full | `Error-0` | none | `anti` | `anti` |
+| Danger_full | `Error-0` | none | `text-inverse` | `text-inverse` |
 | Danger_light | `Error-3` | none | `Error-0` | `Error-0` |
 | Danger_line | none | 1px solid `Error-2` | `Error-0` | `Error-0` |
 
@@ -108,7 +108,7 @@ From the Figma spec notes:
 
 | Style | Background | Border | Text color | Icon color |
 |---|---|---|---|
-| Success_full | `Success-0` | none | `anti` | `anti` |
+| Success_full | `Success-0` | none | `text-inverse` | `text-inverse` |
 | Success_light | `Success-3` | none | `Success-0` |
 | Success_line | none | 1px solid `Success-2` | `Success-0` |
 
@@ -141,9 +141,9 @@ Tags support the following states:
 | `Color/brand/branding-1` | Primary full bg, Primary text |
 | `Color/brand/branding-2` | Primary line border |
 | `Color/brand/branding-3` | Primary light bg |
-| `Color/icon&text/gray1-text-icon-color-default` | Default full bg, Default text |
-| `Color/neutral/gray5-component-border` | Default line border |
-| `Color/neutral/gray7-bg-color-component` | Default light bg |
+| `Color/icon&text/text-primary-text-icon-color-default` | Default full bg, Default text |
+| `Color/neutral/border-default-component-border` | Default line border |
+| `Color/neutral/surface-component-bg-color-component` | Default light bg |
 | `Color/discount/discount-1` `LowPrice-1` | Discount full bg, Discount text |
 | `Color/discount/discount-2` `LowPrice-2` | Discount line border |
 | `Color/discount/discount-3` `LowPrice-3` | Discount light bg |
@@ -153,8 +153,8 @@ Tags support the following states:
 | `Color/success/success-0` | Success full bg, Success text |
 | `Color/success/success-2` | Success line border |
 | `Color/success/success-3` | Success light bg |
-| `Color/icon&text/text-icon-color-anti` `white1` | White text on full-color tags |
-| `Color/neutral/white1-bg-color-container` | White text (alternate token) |
+| `Color/icon&text/text-icon-color-text-inverse` `surface-primary` | White text on full-color tags |
+| `Color/neutral/surface-primary-bg-color-container` | White text (alternate token) |
 
 ## Do Not Infer
 

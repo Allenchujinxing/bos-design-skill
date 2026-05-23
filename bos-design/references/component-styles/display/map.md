@@ -21,7 +21,7 @@ This file records the Figma visual style only.
 | 底图 | 高德地图 JS API 2.0 标准图层 |
 | 地图样式 | `amap://styles/light` |
 | 默认缩放级别 | 15（街道级） |
-| 背景色（加载中） | `gray8` |
+| 背景色（加载中） | `surface-page` |
 
 ### 容器模式
 
@@ -39,14 +39,14 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 容器宽度 | 36px |
-| 容器背景 | `white1` |
+| 容器背景 | `surface-primary` |
 | 容器圆角 | 8px |
 | 容器投影 | `shadow-2` |
 | 图标尺寸 | 24×24px |
-| 图标颜色 | `gray1` |
+| 图标颜色 | `text-primary` |
 | 图标线粗 | 1.5px |
 | 单个按钮高度 | 36×36px（点击热区） |
-| 组内分割线 | 0.5px `gray6`，左右各留 6px |
+| 组内分割线 | 0.5px `border-divider`，左右各留 6px |
 
 ### 控件分组
 

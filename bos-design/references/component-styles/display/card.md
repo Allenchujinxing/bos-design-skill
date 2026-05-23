@@ -75,8 +75,8 @@ This file records the component style spec for mobile.
 
 | Property | Value |
 |---|---|
-| Background | `anti` |
-| Border | 0.5px solid `gray6` |
+| Background | `text-inverse` |
+| Border | 0.5px solid `border-divider` |
 | Border-radius | `radius-xl`（默认，遵循圆角体系） |
 | Shadow | none |
 
@@ -84,15 +84,15 @@ This file records the component style spec for mobile.
 
 | Property | Value |
 |---|---|
-| Background | `anti` |
+| Background | `text-inverse` |
 | Border | none |
 | Border-radius | `radius-xl`（默认，遵循圆角体系） |
 | Shadow | none |
-| 使用场景 | 页面背景为 `gray8` 时，卡片自然浮起，无需边框 |
+| 使用场景 | 页面背景为 `surface-page` 时，卡片自然浮起，无需边框 |
 
 边框是可选的，根据场景选择：
 - **灰色背景页面** → 无边框，白色卡片靠背景色差自然浮起
-- **白色背景页面** → 有边框，用 `gray6` 区分卡片边界
+- **白色背景页面** → 有边框，用 `border-divider` 区分卡片边界
 
 ### 按压态 (pressed)
 
@@ -100,7 +100,7 @@ This file records the component style spec for mobile.
 
 | Property | Value |
 |---|---|
-| Background | `gray8` |
+| Background | `surface-page` |
 | 过渡 | background 0.15s ease |
 | 触发 | `:active` 伪类 |
 
@@ -110,9 +110,9 @@ This file records the component style spec for mobile.
 |---|---|
 | 高度 | 自适应，最小 44px |
 | Padding | 12px |
-| 标题字体 | 16px / semibold 600 / gray1 / line-height 24px |
+| 标题字体 | 16px / semibold 600 / text-primary / line-height 24px |
 | Extra 字体 | 14px / regular 400 / Branding-1 / line-height 22px |
-| 分割线 | 底部 0.5px solid `gray6`（可选） |
+| 分割线 | 底部 0.5px solid `border-divider`（可选） |
 | 布局 | flex，标题左对齐，extra 右对齐 |
 
 ## Body 区域
@@ -120,7 +120,7 @@ This file records the component style spec for mobile.
 | Property | Value |
 |---|---|
 | Padding | 12px |
-| 字体 | 14px / regular 400 / gray2 / line-height 22px |
+| 字体 | 14px / regular 400 / text-secondary / line-height 22px |
 
 ## Cover 封面
 
@@ -139,8 +139,8 @@ This file records the component style spec for mobile.
 | Property | Value |
 |---|---|
 | Avatar | 24×24px 圆形 |
-| Title | 16px / semibold 600 / `gray1` / line-height 24px |
-| Description | 14px / regular 400 / `gray3` / line-height 22px |
+| Title | 16px / semibold 600 / `text-primary` / line-height 24px |
+| Description | 14px / regular 400 / `text-placeholder` / line-height 22px |
 | Gap (avatar → text) | 8px |
 | Gap (title → description) | 4px |
 
@@ -149,11 +149,11 @@ This file records the component style spec for mobile.
 | Property | Value |
 |---|---|
 | 高度 | 44px |
-| 分割线 | 顶部 0.5px solid `gray6` |
+| 分割线 | 顶部 0.5px solid `border-divider` |
 | 布局 | flex，等分排列 |
-| 操作项字体 | 14px / regular 400 / `gray2` |
-| 操作项按压色 | `gray8` |
-| 操作项间分割 | 0.5px solid `gray6` 竖线 |
+| 操作项字体 | 14px / regular 400 / `text-secondary` |
+| 操作项按压色 | `surface-page` |
+| 操作项间分割 | 0.5px solid `border-divider` 竖线 |
 | 图标尺寸 | 20×20px（可选，在文字上方或左侧） |
 
 ## 预加载（骨架屏）
@@ -171,12 +171,12 @@ This file records the component style spec for mobile.
 
 | Token | Use |
 |---|---|
-| `white1` | 卡片背景 |
-| `gray6` | 边框、分割线 |
-| `gray8` | 按压态背景 |
-| `gray1` | 标题文字 |
-| `gray2` | 正文文字 |
-| `gray3` | 描述文字 |
+| `surface-primary` | 卡片背景 |
+| `border-divider` | 边框、分割线 |
+| `surface-page` | 按压态背景 |
+| `text-primary` | 标题文字 |
+| `text-secondary` | 正文文字 |
+| `text-placeholder` | 描述文字 |
 | `Branding-1` | Extra 链接色 |
 
 ## 移动端适配说明

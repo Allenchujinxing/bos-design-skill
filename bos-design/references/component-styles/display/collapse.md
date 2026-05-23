@@ -48,19 +48,19 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 54px |
 | Padding | 0 16px（左右） |
-| 标题字体 | 14px / regular 400 / `gray1` / line-height 22px |
+| 标题字体 | 14px / regular 400 / `text-primary` / line-height 22px |
 | 标题对齐 | 左对齐，垂直居中 |
-| 箭头图标 | 16×16px，`gray3` |
+| 箭头图标 | 16×16px，`text-placeholder` |
 | 箭头位置 | 右侧，垂直居中 |
-| 分割线 | 底部 0.5px solid `gray6`（面板之间） |
-| 背景 | `white1` |
+| 分割线 | 底部 0.5px solid `border-divider`（面板之间） |
+| 背景 | `surface-primary` |
 
 ### 带前置图标
 
 | Property | Value |
 |---|---|
 | 图标尺寸 | 20×20px |
-| 图标颜色 | `gray1` |
+| 图标颜色 | `text-primary` |
 | 图标与标题间距 | 8px |
 
 ## Content 区域（展开态）
@@ -68,8 +68,8 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Padding | 12px 16px |
-| 背景 | `white1` |
-| 字体 | 14px / regular 400 / `gray2` / line-height 22px |
+| 背景 | `surface-primary` |
+| 字体 | 14px / regular 400 / `text-secondary` / line-height 22px |
 | 分割线 | 顶部无（紧跟 Header 底部分割线） |
 
 ## 箭头图标
@@ -100,24 +100,24 @@ This file records the Figma visual style only.
 | 箭头旋转 | 同步旋转 90° 或 180°，duration 300ms |
 | 手风琴模式 | 同一组内同时只能展开一个面板，展开新面板时自动收起其他 |
 | 默认展开 | 支持配置初始展开的面板 |
-| 禁用 | 支持禁用某个面板，禁用时标题和箭头变为 `gray4` |
+| 禁用 | 支持禁用某个面板，禁用时标题和箭头变为 `text-disabled` |
 
 ## 分组容器
 
 | Property | Value |
 |---|---|
-| 背景 | `white1` |
+| 背景 | `surface-primary` |
 | 圆角 | 遵循圆角体系（模块级 `radius-card`，默认 `radius-xl`） |
-| 边框 | 可选，0.5px solid `gray6` |
-| 面板间分割 | 0.5px solid `gray6`，左侧缩进 16px |
+| 边框 | 可选，0.5px solid `border-divider` |
+| 面板间分割 | 0.5px solid `border-divider`，左侧缩进 16px |
 
 ## 状态
 
 | 状态 | Header 样式 | Content |
 |---|---|
-| 收起（默认） | 标题 `gray1`，箭头 `gray3` 向右 | 隐藏 |
-| 展开 | 标题 `gray1`，箭头 `gray3` 向下 | 显示 |
-| 禁用 | 标题 `gray4`，箭头 `gray4` | 不可操作 |
+| 收起（默认） | 标题 `text-primary`，箭头 `text-placeholder` 向右 | 隐藏 |
+| 展开 | 标题 `text-primary`，箭头 `text-placeholder` 向下 | 显示 |
+| 禁用 | 标题 `text-disabled`，箭头 `text-disabled` | 不可操作 |
 
 ## 自定义能力
 

@@ -25,11 +25,11 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 | Property | Value |
 |---|---|
 | Size | 28×28px |
-| Border | 1px solid `gray5` (normal) / `gray6` (disabled) |
+| Border | 1px solid `border-default` (normal) / `border-divider` (disabled) |
 | Border radius | `radius-md` left corners only (top-left, bottom-left) |
 | Icon | `ic_remove_line`, horizontal line, centered |
-| Icon color (normal) | `gray1` |
-| Icon color (disabled) | `gray4` |
+| Icon color (normal) | `text-primary` |
+| Icon color (disabled) | `text-disabled` |
 
 ### Value Display
 
@@ -37,10 +37,10 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 |---|---|
 | Min width | 48px |
 | Padding | 3px 4px |
-| Border | Top and bottom 1px solid `gray5` (no left/right border) |
+| Border | Top and bottom 1px solid `border-default` (no left/right border) |
 | Text font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Text color (normal) | `gray1` |
-| Text color (disabled) | `gray4` |
+| Text color (normal) | `text-primary` |
+| Text color (disabled) | `text-disabled` |
 | Text alignment | Center |
 | Editable | When editable, shows input cursor (`Branding-1`, 1px wide, 16px tall) |
 
@@ -49,17 +49,17 @@ Three-part horizontal layout: minus button | value display | plus button, connec
 | Property | Value |
 |---|---|
 | Size | 28×28px |
-| Border | 1px solid `gray5` (normal) / `gray6` (disabled) |
+| Border | 1px solid `border-default` (normal) / `border-divider` (disabled) |
 | Border radius | `radius-md` right corners only (top-right, bottom-right) |
 | Icon | `ic_add_line`, plus cross, centered |
-| Icon color (normal) | `gray1` |
-| Icon color (disabled) | `gray4` |
+| Icon color (normal) | `text-primary` |
+| Icon color (disabled) | `text-disabled` |
 
 ### Container
 
 | Property | Value |
 |---|---|
-| Background | `anti` |
+| Background | `text-inverse` |
 | Border radius | `radius-md` (overall) |
 | Layout | Flex row, items center, no gap (buttons share borders with value) |
 
@@ -74,8 +74,8 @@ Circular filled icon buttons with a value display between them.
 | Size | 24×24px |
 | Icon | `ic_remove_circle_fill`, filled circle with minus line |
 | Icon color (normal) | `Branding-1` |
-| Icon color (min disabled) | `gray4` |
-| Icon color (all disabled) | `gray4` |
+| Icon color (min disabled) | `text-disabled` |
+| Icon color (all disabled) | `text-disabled` |
 
 ### Value Display
 
@@ -84,10 +84,10 @@ Circular filled icon buttons with a value display between them.
 | Min width | 36px |
 | Padding | 4px |
 | Border radius | `radius-md` |
-| Background | `gray8` (editable) / transparent (non-editable) |
+| Background | `surface-page` (editable) / transparent (non-editable) |
 | Text font | 16px, weight 400, line-height 22px |
-| Text color (normal) | `gray1` |
-| Text color (disabled) | `gray4` |
+| Text color (normal) | `text-primary` |
+| Text color (disabled) | `text-disabled` |
 | Text alignment | Center |
 
 ### Plus Button
@@ -97,8 +97,8 @@ Circular filled icon buttons with a value display between them.
 | Size | 24×24px |
 | Icon | `ic_add_circle_fill`, filled circle with plus cross |
 | Icon color (normal) | `Branding-1` |
-| Icon color (max disabled) | `gray4` |
-| Icon color (all disabled) | `gray4` |
+| Icon color (max disabled) | `text-disabled` |
+| Icon color (all disabled) | `text-disabled` |
 
 ### Container
 
@@ -135,11 +135,11 @@ Circular filled icon buttons with a value display between them.
 | Token | Use |
 |---|---|
 | `Color/brand/branding-1` | Emphasis style icon (normal), input cursor |
-| `Color/icon&text/gray1-text-icon-color-default` | Outlined style icon (normal), value text |
-| `Color/icon&text/gray4-text-icon-color-disable` | Disabled icon, disabled text |
-| `Color/neutral/gray5-component-border` | Outlined style border (normal) |
-| `Color/neutral/gray6-component-stroke` | Outlined style border (disabled) |
-| `Color/neutral/gray8-bg-color-page` | Emphasis style value background (editable) |
+| `Color/icon&text/text-primary-text-icon-color-default` | Outlined style icon (normal), value text |
+| `Color/icon&text/text-disabled-text-icon-color-disable` | Disabled icon, disabled text |
+| `Color/neutral/border-default-component-border` | Outlined style border (normal) |
+| `Color/neutral/border-divider-component-stroke` | Outlined style border (disabled) |
+| `Color/neutral/surface-page-bg-color-page` | Emphasis style value background (editable) |
 
 ## Typography Summary
 

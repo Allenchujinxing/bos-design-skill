@@ -34,10 +34,10 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 
 | Property | Value |
 |---|---|
-| Background | `gray8` |
+| Background | `surface-page` |
 | Padding | 16px horizontal, 4px vertical |
 | Font | `Mark/14-semibold` — PingFang SC, 14px, weight 600, line-height 22px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Width | Full parent width |
 | Height | 30px (4 + 22 + 4) |
 
@@ -45,12 +45,12 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
+| Background | `surface-primary` |
 | Padding | 12px horizontal (container), 16px vertical (item row) |
 | Font | `Body/16-regular` — PingFang SC, 16px, weight 400, line-height 24px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Text overflow | Ellipsis, single line |
-| Bottom border | 0.5px solid `gray6` |
+| Bottom border | 0.5px solid `border-divider` |
 | Row height | 56px (16 + 24 + 16) |
 
 ## Index Bar (indexes-bar)
@@ -61,7 +61,7 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 | Width | 20px |
 | Layout | Flex column, centered, 2px gap |
 | Font (default) | `Body/12-regular` — PingFang SC, 12px, weight 400, line-height 18px |
-| Color (default) | `gray1` |
+| Color (default) | `text-primary` |
 | Alignment | Center |
 
 ### Active Index Item
@@ -73,18 +73,18 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 | Border-radius | 40px (full round) |
 | Padding | 1px vertical |
 | Font | `Mark/12-semibold` — PingFang SC, 12px, weight 600, line-height 18px |
-| Color | `white1` |
+| Color | `surface-primary` |
 
 ### Sliding Tooltip (onclick)
 
 | Property | Value |
 |---|---|
 | Size | 48×48px |
-| Background | `gray5` |
+| Background | `border-default` |
 | Border-radius | 40px (full round) |
 | Position | Right 28px from the index bar (to the left of the active item) |
 | Font | `Headline/20-semibold` — PingFang SC, 20px, weight 600, line-height 28px |
-| Color | `anti` |
+| Color | `text-inverse` |
 | Padding | 15px horizontal, 7px vertical |
 
 The tooltip appears when the user touches and drags on the index bar, showing the current index value in a large circular indicator.
@@ -113,13 +113,13 @@ The tooltip appears when the user touches and drags on the index bar, showing th
 
 | Token | Use |
 |---|---|
-| `Color/neutral/gray8-bg-color-page` | Section title background |
-| `Color/neutral/white1-bg-color-container` | List item background |
-| `Color/neutral/gray6-component-stroke` | List item bottom border |
-| `Color/icon&text/gray1-text-icon-color-default` | Section title, list item text, index bar text |
+| `Color/neutral/surface-page-bg-color-page` | Section title background |
+| `Color/neutral/surface-primary-bg-color-container` | List item background |
+| `Color/neutral/border-divider-component-stroke` | List item bottom border |
+| `Color/icon&text/text-primary-text-icon-color-default` | Section title, list item text, index bar text |
 | `Color/brand/branding-1` | Active index item background |
-| `Color/neutral/gray5-component-border` | Sliding tooltip background |
-| `Color/icon&text/text-icon-color-anti` | Active index text, tooltip text |
+| `Color/neutral/border-default-component-border` | Sliding tooltip background |
+| `Color/icon&text/text-icon-color-text-inverse` | Active index text, tooltip text |
 
 ## Layout Usage
 

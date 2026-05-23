@@ -47,8 +47,8 @@
 |---|---|
 | 高度 | 44px |
 | 宽度 | 100%（设计稿 390px） |
-| 背景色 | `white1` |
-| 底部分割线 | 0.5px solid `gray6`（可选） |
+| 背景色 | `surface-primary` |
+| 底部分割线 | 0.5px solid `border-divider`（可选） |
 
 ### Tag（一级）
 
@@ -56,9 +56,9 @@
 |---|---|
 | 高度 | 44px |
 | 宽度 | 100%（设计稿 390px） |
-| 背景色 | `white1` |
+| 背景色 | `surface-primary` |
 | 左内边距 | 12px |
-| 底部分割线 | 0.5px solid `gray6`（可选） |
+| 底部分割线 | 0.5px solid `border-divider`（可选） |
 
 ### 胶囊（一级）
 
@@ -66,7 +66,7 @@
 |---|---|
 | 高度 | 36px |
 | 宽度 | 366px（两侧 `space-page-margin`，全宽） |
-| 背景色 | `gray7` |
+| 背景色 | `surface-component` |
 | 圆角 | `radius-xl` |
 | 内边距 | 2px |
 | 布局 | Flex row, 均分 |
@@ -77,7 +77,7 @@
 |---|---|
 | 高度 | 28px |
 | 宽度 | 内容自适应（非全宽） |
-| 背景色 | `gray7` |
+| 背景色 | `surface-component` |
 | 圆角 | `radius-md` |
 | 内边距 | 2px |
 | 间距 | 2px（items 之间） |
@@ -91,7 +91,7 @@
 |---|---|
 | 字体 | `Title/18-semibold` | `Title/18-regular` |
 | 字号 | 18px, weight 600, line-height 26px | 18px, weight 400, line-height 26px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 指示器 | 20×`radius-sm` pill, `Branding-1`, radius 11px | 无 |
 | 指示器间距 | 文字下方 6px | — |
 
@@ -103,7 +103,7 @@
 |---|---|
 | 字体 | `Title/16-semibold` | `Body/16-regular` |
 | 字号 | 16px, weight 600, line-height 24px | 16px, weight 400, line-height 24px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 指示器 | 20×`radius-sm` pill, `Branding-1`, radius 11px | 无 |
 | 指示器间距 | 文字下方 5px | — |
 | 布局 | 等宽，居中 | 等宽，居中 |
@@ -118,7 +118,7 @@
 |---|---|
 | 字体 | `Title/14-semibold` | `Body/14-regular` |
 | 字号 | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 指示器 | 无 | 无 |
 | 间距 | 16px | 16px |
 | 布局 | 左对齐, inline flex | 左对齐 |
@@ -127,10 +127,10 @@
 
 | Property | 选中 | 未选中 |
 |---|---|
-| 背景色 | `gray7` | `gray7` |
+| 背景色 | `surface-component` | `surface-component` |
 | 字体 | `Mark/14-semibold` | `Body/14-regular` |
 | 字号 | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 内边距 | 8px horizontal, 3px vertical | 8px horizontal, 3px vertical |
 | 圆角 | `radius-md` | `radius-md` |
 | 间距 | 8px | 8px |
@@ -139,10 +139,10 @@
 
 | Property | 选中 | 未选中 |
 |---|---|
-| 背景色 | `gray7` | `gray7` |
+| 背景色 | `surface-component` | `surface-component` |
 | 字体 | `Mark/12-semibold` | `Body/12-regular` |
 | 字号 | 12px, weight 600, line-height 18px | 12px, weight 400, line-height 18px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 高度 | 24px | 24px |
 | 内边距 | 8px horizontal, 3px vertical | 8px horizontal, 3px vertical |
 | 圆角 | `radius-md` | `radius-md` |
@@ -152,10 +152,10 @@
 
 | Property | 选中 | 未选中 |
 |---|---|
-| 背景色 | `white1` | 透明 |
+| 背景色 | `surface-primary` | 透明 |
 | 字体 | `Mark/14-semibold` | `Body/14-regular` |
 | 字号 | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 圆角 | `radius-lg` | `radius-lg` |
 | 阴影 | `shadow-nav` | 无 |
 | 内边距 | 12px horizontal, 5px vertical | 12px horizontal, 5px vertical |
@@ -165,10 +165,10 @@
 
 | Property | 选中 | 未选中 |
 |---|---|
-| 背景色 | `white1` | 透明 |
+| 背景色 | `surface-primary` | 透明 |
 | 字体 | `Mark/12-semibold` | `Body/12-regular` |
 | 字号 | 12px, weight 600, line-height 18px | 12px, weight 400, line-height 18px |
-| 颜色 | `gray1` | `gray2` |
+| 颜色 | `text-primary` | `text-secondary` |
 | 圆角 | `radius-xs` | `radius-xs` |
 | 阴影 | 无 | 无 |
 | 内边距 | 8px horizontal | 8px horizontal |
@@ -217,12 +217,12 @@
 
 | Token | Use |
 |---|---|
-| `Color/icon&text/gray1-text-icon-color-default` | 选中文字 |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | 未选中文字 |
+| `Color/icon&text/text-primary-text-icon-color-default` | 选中文字 |
+| `Color/icon&text/text-secondary-tex-icon-color-secondary` | 未选中文字 |
 | `Color/brand/branding-1` | 指示器 pill |
-| `Color/neutral/gray7-bg-color-component` | Tag 背景、胶囊容器 |
-| `Color/neutral/white1-bg-color-container` | 容器背景、胶囊选中项 |
-| `Color/neutral/gray6-component-stroke` | 底部分割线 |
+| `Color/neutral/surface-component-bg-color-component` | Tag 背景、胶囊容器 |
+| `Color/neutral/surface-primary-bg-color-container` | 容器背景、胶囊选中项 |
+| `Color/neutral/border-divider-component-stroke` | 底部分割线 |
 
 ## Typography Summary
 
@@ -270,7 +270,7 @@
 - 不要用 Taroify 默认的 Tab 视觉样式覆盖本文件定义的样式。
 - 不要在同一个 Tab 栏中混用不同风格（所有 item 必须使用相同风格）。
 - 不要在 Tag 或胶囊风格上使用指示器 pill，它们用背景色/阴影区分选中态。
-- 不要给 Tag 背景使用自定义颜色，统一使用 `gray7`。
+- 不要给 Tag 背景使用自定义颜色，统一使用 `surface-component`。
 - 不要在没有返回箭头的场景使用导航 Tab，应使用通用 Tab。
 - 不要将胶囊一级的容器圆角 `radius-xl` 与二级的 `radius-md` 混用。
 - 不要在胶囊二级上添加选中项阴影，二级无阴影。

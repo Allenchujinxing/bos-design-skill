@@ -50,7 +50,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 14px / regular 400 / `anti`（白色）/ line-height 22px / center |
+| 字体 | 14px / regular 400 / `text-inverse`（白色）/ line-height 22px / center |
 | 最大行数 | 2 行 |
 | 单行最多 | 10 个字 |
 
@@ -74,7 +74,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 尺寸 | 20×20px |
-| 颜色 | `anti`（白色） |
+| 颜色 | `text-inverse`（白色） |
 | 与文字间距 | 4px |
 
 ### 图标类型
@@ -90,7 +90,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 14px / regular 400 / `anti` / line-height 22px |
+| 字体 | 14px / regular 400 / `text-inverse` / line-height 22px |
 | 对齐 | 左对齐（跟随图标） |
 | 最大行数 | 1 行，超出截断 |
 
@@ -113,7 +113,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 尺寸 | 36×36px |
-| 颜色 | `anti`（白色） |
+| 颜色 | `text-inverse`（白色） |
 | 位置 | 容器上半部分居中 |
 
 ### 图标类型
@@ -128,7 +128,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 14px / regular 400 / `anti` / line-height 22px / center |
+| 字体 | 14px / regular 400 / `text-inverse` / line-height 22px / center |
 | 位置 | 图标下方 |
 | 最大行数 | 1 行 |
 
@@ -156,5 +156,5 @@ This file records the Figma visual style only.
 - 不要让纯文字超过 2 行。
 - 不要让横向图标模式超过 175px 宽。
 - 不要让竖向图标模式改变 90×90px 的固定尺寸。
-- 不要硬编码颜色 — 容器背景 `translucent-heavy` 为通用值，文字/图标用 `anti`。
+- 不要硬编码颜色 — 容器背景 `translucent-heavy` 为通用值，文字/图标用 `text-inverse`。
 - 不要省略 loading 旋转动画 — 必须代码实现持续旋转。

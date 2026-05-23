@@ -57,7 +57,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 10px / regular 400 / `anti`（白色）/ line-height 14px |
+| 字体 | 10px / regular 400 / `text-inverse`（白色）/ line-height 14px |
 | 对齐 | 左对齐 |
 | 最大行数 | 1 行 |
 
@@ -67,7 +67,7 @@ This file records the Figma visual style only.
 |---|---|
 | 图标 | `ic_close_line` |
 | 尺寸 | 12×12px |
-| 颜色 | `anti`（白色） |
+| 颜色 | `text-inverse`（白色） |
 | 位置 | 文字右侧，间距 4px |
 
 ### 操作按钮（可选）
@@ -103,7 +103,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 12px / regular 400 / `gray1`/ line-height 18px |
+| 字体 | 12px / regular 400 / `text-primary`/ line-height 18px |
 | 对齐 | 居中 |
 | 最大行数 | 1 行 |
 
@@ -113,7 +113,7 @@ This file records the Figma visual style only.
 |---|---|
 | 图标 | `ic_close_line` |
 | 尺寸 | 16×16px |
-| 颜色 | `anti`（白色） |
+| 颜色 | `text-inverse`（白色） |
 | 位置 | 最右侧，间距 6px |
 
 ### 操作按钮（可选）
@@ -150,7 +150,7 @@ This file records the Figma visual style only.
 
 | 示例 | 背景色 | 文字色 |
 |---|---|
-| 默认深色 | `translucent-heavy` | `anti`（白色） |
+| 默认深色 | `translucent-heavy` | `text-inverse`（白色） |
 | 品牌色 | `brand` | 白色 |
 | 自定义 | 任意色值 | 根据背景色自动适配 |
 

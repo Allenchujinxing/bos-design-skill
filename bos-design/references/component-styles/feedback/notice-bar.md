@@ -68,7 +68,7 @@ This file records the Figma visual style only.
 |---|---|
 | 布局 | flex 水平，gap 8px，items-center，flex: 1 |
 | 图标 | 20×20px，颜色跟随状态（见上表），可从 iconfont 选择图标 |
-| 文字 | 14px / regular 400 / gray1 / line-height 22px |
+| 文字 | 14px / regular 400 / text-primary / line-height 22px |
 | 文字换行 | 支持多行（word-break: break-word），容器高度自适应 |
 
 ---
@@ -82,7 +82,7 @@ This file records the Figma visual style only.
 | 操作按钮 | 文字按钮 | 自适应 | 如"查看详情"、"去处理" |
 | 无 | — | — | 纯展示，无操作 |
 
-右侧操作区图标颜色：gray3。
+右侧操作区图标颜色：text-placeholder。
 
 ---
 

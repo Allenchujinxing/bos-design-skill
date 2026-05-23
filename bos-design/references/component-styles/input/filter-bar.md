@@ -40,7 +40,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 背景 | white1 |
+| 背景 | surface-primary |
 | 高度 | 32px |
 | 宽度 | 100%（通栏） |
 | 布局 | flex，子项等分宽度（flex: 1） |
@@ -61,8 +61,8 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 文字 | 14px / regular 400 / gray1 / line-height 22px |
-| 图标 | `ic_caret_down_fill` 16×16px，gray3 |
+| 文字 | 14px / regular 400 / text-primary / line-height 22px |
+| 图标 | `ic_caret_down_fill` 16×16px，text-placeholder |
 
 **选中态（有已选项）**
 
@@ -99,7 +99,7 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 32px |
 | 内边距 | 1px 8px |
-| 背景 | white1 |
+| 背景 | surface-primary |
 | 圆角 | `radius-xl` |
 | 投影 | 一级投影 `shadow-1` |
 | 布局 | flex 水平居中，gap 2px |

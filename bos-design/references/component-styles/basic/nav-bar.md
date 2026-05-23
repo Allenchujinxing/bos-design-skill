@@ -20,7 +20,7 @@ Use NavBar for page-level navigation at the top of the screen. It sits below the
 
 | Axis | Values |
 |---|---|
-| `theme` | `anti`, `color`, `dark` |
+| `theme` | `text-inverse`, `color`, `dark` |
 | `leftarrow` | `true`, `false` |
 | `rightArea` | `empty`, `icon`, `icon+text`, `text` |
 | `icon` | `true`, `false` (second icon slot when rightArea is `icon`) |
@@ -77,18 +77,18 @@ Use NavBar for page-level navigation at the top of the screen. It sits below the
 
 | Theme | Background | Title color | Icon color |
 |---|---|---|
-| `anti` `white1` | `gray1` | `gray1` |
-| `color` `Branding-1` | `anti` | `anti` |
-| `dark` | Dark background | `anti` | `anti` |
+| `text-inverse` `surface-primary` | `text-primary` | `text-primary` |
+| `color` `Branding-1` | `text-inverse` | `text-inverse` |
+| `dark` | Dark background | `text-inverse` | `text-inverse` |
 
 ### Token mapping
 
 | Token | Use |
 |---|---|
-| `Color/neutral/white1-bg-color-container` `anti` | White theme background |
+| `Color/neutral/surface-primary-bg-color-container` `text-inverse` | White theme background |
 | `Color/brand/branding-1` `Branding-1` | Color theme background |
-| `Color/icon&text/gray1-text-icon-color-default` `gray1` | White theme title and icons |
-| `Color/icon&text/text-icon-color-anti` `anti` | Color/dark theme title and icons |
+| `Color/icon&text/text-primary-text-icon-color-default` `text-primary` | White theme title and icons |
+| `Color/icon&text/text-icon-color-text-inverse` `text-inverse` | Color/dark theme title and icons |
 
 ## Stroke (Bottom Divider)
 
@@ -96,7 +96,7 @@ Use NavBar for page-level navigation at the top of the screen. It sits below the
 - Position: absolute bottom of the NavBar container.
 - Width: full NavBar width.
 - Height: 0.5px visual weight (rendered as a line asset).
-- Color: follows the `gray6` divider token.
+- Color: follows the `border-divider` divider token.
 - Use case: white NavBar on white background when content scrolls behind it, to provide visual separation.
 
 ## Right Area Variants
@@ -122,7 +122,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 |---|---|
 | Width | 210px (same as title max width) |
 | Height | 36px |
-| Background | `gray7` |
+| Background | `surface-component` |
 | Border-radius | `radius-xl` |
 | Horizontal padding | 2px |
 | Vertical alignment | Centered in 44px NavBar height |
@@ -132,14 +132,14 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 
 | Property | Selected | Unselected |
 |---|---|
-| Background | `white1` | Transparent |
+| Background | `surface-primary` | Transparent |
 | Border-radius | `radius-lg` | `radius-lg` |
 | Shadow | `shadow-nav` | None |
 | Horizontal padding | 12px | 12px |
 | Vertical padding | 5px | 5px |
 | Font token | `Mark/14-semibold` | `Body/14-regular` |
 | Font | PingFang SC, 14px, weight 600, line-height 22px | PingFang SC, 14px, weight 400, line-height 22px |
-| Text color | `gray1` | `gray2` |
+| Text color | `text-primary` | `text-secondary` |
 | Text alignment | Center | Center |
 
 ### Tabs Layout Rules

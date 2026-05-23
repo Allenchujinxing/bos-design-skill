@@ -18,7 +18,7 @@ Design BOS experiences by continuously defining the problem, breaking it down, a
 5. **Express hierarchy visually.** Read `references/visual-quality.md` so color, type, spacing, contrast, icon use, and whitespace reinforce the converged information and action priority.
 6. **Apply state guidance.** Use icon rules from matching component style files first and `design.md` only as fallback. Read `references/component-styles/display/empty.md` and matching feedback files for empty, permission, offline, loading, toast, dialog, notice, or related states when needed.
 7. **Stress-test and generate.** Read `references/design-correctness.md`, check BOS scenario fit and reachability of the primary action, then generate the artifact and a concrete rationale that preserves the problem definition, interaction strategy, and structure.
-8. **Review the result.** Check `references/review-checklist.md` and use `references/anti-generic-ai.md` as a final guardrail against generic AI-looking mobile UI patterns.
+8. **Review the result.** Check `references/review-checklist.md` and use `references/text-inverse-generic-ai.md` as a final guardrail against generic AI-looking mobile UI patterns.
 
 ## Output Modes
 
@@ -70,7 +70,7 @@ When references conflict, resolve decisions in this order:
 8. Component-defined icon rules and `design.md` Icon fallback
 9. General mobile UX best practices
 
-Use `references/anti-generic-ai.md` as a review guardrail, not as a source for page structure or visual style.
+Use `references/text-inverse-generic-ai.md` as a review guardrail, not as a source for page structure or visual style.
 
 ## Component And Token Rules
 
@@ -100,7 +100,7 @@ Use `references/anti-generic-ai.md` as a review guardrail, not as a source for p
 - `references/design-correctness.md`: Correctness criteria for scenario fit, design rationale, stakeholder-readable proposal structure, and BOS-specific stress checks.
 - `references/BOS-page-style/index.md`: Intent index for selecting the closest BOS page style before page composition.
 - `references/BOS-page-style/`: BOS page-level design strategies, including page types and reusable business-object card patterns.
-- `references/anti-generic-ai.md`: Final review guardrail for avoiding generic AI-generated UI aesthetics and empty template composition.
+- `references/text-inverse-generic-ai.md`: Final review guardrail for avoiding generic AI-generated UI aesthetics and empty template composition.
 - `references/component-index.md`: Bridge between recorded component visual styles and behavior families. Use it to decide when a style component can borrow Taroify interaction semantics, and when a style-only component should stand on its own.
 - `references/component-library/taroify.md`: Baseline Taroify interaction and mobile component semantics reference for H5 generation. Do not use it as a visual source.
 - `references/review-checklist.md`: Final self-review criteria.

@@ -34,9 +34,9 @@ Do not use Divider as decorative decoration. It should clarify grouping, hierarc
 
 | Token | Use |
 |---|---|
-| `Color/neutral/gray6-component-stroke` `gray6` | Divider stroke color |
+| `Color/neutral/border-divider-component-stroke` `border-divider` | Divider stroke color |
 
-This matches the `gray6` divider token in `design.md`.
+This matches the `border-divider` divider token in `design.md`.
 
 ## Stroke
 
@@ -50,7 +50,7 @@ This matches the `gray6` divider token in `design.md`.
 ## Horizontal Divider
 
 - Width follows the parent container or row content area.
-- Default color is `gray6`.
+- Default color is `border-divider`.
 - Use 0.5px as the default visual weight.
 - In list rows, align the divider indentation with the row content/text when the row has leading content.
 - In module separation, full-width within the module is allowed.
@@ -61,7 +61,7 @@ This matches the `gray6` divider token in `design.md`.
 - Height follows adjacent text size:
   - With 16px text, observed divider height is about 16px.
   - With 14px text, observed divider height is about 14px.
-- Default color is `gray6`.
+- Default color is `border-divider`.
 - Keep enough horizontal spacing so the divider separates actions without feeling like punctuation.
 
 ## Typography Context

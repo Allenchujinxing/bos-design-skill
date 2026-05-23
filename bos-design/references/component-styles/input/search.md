@@ -51,15 +51,15 @@ The input field area.
 
 | Theme | Container background | Input background |
 |---|---|
-| White | `white1` | `gray7` |
-| Custom color | `Branding-1` (or any custom) | `white1` |
+| White | `surface-primary` | `surface-component` |
+| Custom color | `Branding-1` (or any custom) | `surface-primary` |
 
 ### Search Icon
 
 | Property | Value |
 |---|---|
 | Icon | iconfont `ic_search_line`, 16×16px |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Position | Left side of input, 12px from left edge, vertically centered |
 
 ### Placeholder Text
@@ -67,7 +67,7 @@ The input field area.
 | Property | Value |
 |---|---|
 | Font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Color | `gray3` |
+| Color | `text-placeholder` |
 | Position | 4px gap after search icon |
 | Text | "请输入关键词" (default) |
 
@@ -76,8 +76,8 @@ The input field area.
 | Property | Value |
 |---|---|
 | Icon | iconfont `ic_clear_fill`, 16×16px |
-| Color (gray input bg) | `gray3` |
-| Color (white input bg) | `gray4` |
+| Color (gray input bg) | `text-placeholder` |
+| Color (white input bg) | `text-disabled` |
 | Position | Right side of input, 12px from right edge, vertically centered |
 | Visibility | Only shown when input has text content |
 
@@ -86,7 +86,7 @@ The input field area.
 | Property | Value |
 |---|---|
 | Font | `Body/14-regular` 14px, weight 400, line-height 22px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Cursor indicator | `Branding-1` |
 
 ## Left Arrow (navigation bar scene)
@@ -94,7 +94,7 @@ The input field area.
 | Property | Value |
 |---|---|
 | Icon | iconfont `ic_left_line`, 24×24px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Position | Left of search input |
 | Visibility | Only in navigation bar scene (`leftarrow=on`) |
 
@@ -103,7 +103,7 @@ The input field area.
 | Property | Value |
 |---|---|
 | Font | `Body/16-regular` 16px, weight 400, line-height 24px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Position | Right of search input |
 | Visibility | Only when `rightarea=on` |
 
@@ -150,8 +150,8 @@ Search bar with back arrow on left and action text on right.
 
 | Theme | Container bg | Input bg | Input border radius |
 |---|---|---|
-| White | `white1` `gray7` | 8px (rect) / 48px (capsule) |
-| Custom color | `Branding-1` `white1` | 8px (rect) / 48px (capsule) |
+| White | `surface-primary` `surface-component` | 8px (rect) / 48px (capsule) |
+| Custom color | `Branding-1` `surface-primary` | 8px (rect) / 48px (capsule) |
 
 ## Shapes
 
@@ -171,10 +171,10 @@ Search bar with back arrow on left and action text on right.
 | Token | Use |
 |---|---|
 | `Color/brand/branding-1` | Custom theme container bg, cursor color |
-| `Color/icon&text/gray1-text-icon-color-default` | Input text, right area text, back arrow |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | Placeholder text, search icon, clear icon |
-| `Color/neutral/gray7-bg-color-component` | White theme input bg |
-| `Color/neutral/white1-bg-color-container` | White theme container bg, custom theme input bg |
+| `Color/icon&text/text-primary-text-icon-color-default` | Input text, right area text, back arrow |
+| `Color/icon&text/text-placeholder-text-icon-color-placeholder` | Placeholder text, search icon, clear icon |
+| `Color/neutral/surface-component-bg-color-component` | White theme input bg |
+| `Color/neutral/surface-primary-bg-color-container` | White theme container bg, custom theme input bg |
 
 ## Typography Summary
 

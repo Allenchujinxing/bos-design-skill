@@ -60,7 +60,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 宽度 | 304px（固定） |
-| Background | `white1` |
+| Background | `surface-primary` |
 | 圆角 | `radius-3xl`（第一梯度，面板级） |
 | 位置 | 屏幕垂直居中，水平居中 |
 | 阴影 | 无（通过遮罩区分层级） |
@@ -71,7 +71,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 18px / semibold 600 / `gray1` / line-height 26px |
+| 字体 | 18px / semibold 600 / `text-primary` / line-height 26px |
 | Padding | 20px 左右，20px 顶部 |
 | 对齐 | 居中对齐 |
 | 最大行数 | 建议 1 行，无标题时可省略 |
@@ -80,7 +80,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 16px / regular 400 / `gray2` / line-height 24px |
+| 字体 | 16px / regular 400 / `text-secondary` / line-height 24px |
 | Padding | 20px 左右 |
 | 与标题间距 | 8px |
 | 最大行数 | 建议 3 行以内 |
@@ -101,10 +101,10 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 48px |
 | 宽度 | 264px（容器宽 304 - 左右 20px padding） |
-| Background | `gray8` |
+| Background | `surface-page` |
 | 圆角 | `radius-xl`（模块内圆角） |
-| 字体 | 16px / regular 400 / `gray1` / line-height 24px |
-| Placeholder | 16px / regular 400 / `gray3` |
+| 字体 | 16px / regular 400 / `text-primary` / line-height 24px |
+| Placeholder | 16px / regular 400 / `text-placeholder` |
 | Padding | 12px 内边距 |
 | 与描述间距 | 16px |
 
@@ -174,7 +174,7 @@ This file records the Figma visual style only.
 | 高度 | 56px |
 | 布局 | 居中 |
 | 字体 | 16px / regular 400 / `Branding-1` / line-height 24px / center |
-| 分割线 | 顶部 0.5px solid `gray6` |
+| 分割线 | 顶部 0.5px solid `border-divider` |
 
 #### 双文字按钮（确认类）
 
@@ -182,10 +182,10 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 56px |
 | 布局 | 等分两栏，垂直居中 |
-| 取消文字 | 16px / regular 400 / `gray1` / center |
+| 取消文字 | 16px / regular 400 / `text-primary` / center |
 | 确认文字 | 16px / regular 400 / `Branding-1` / center |
-| 分割线 | 顶部 0.5px solid `gray6` |
-| 竖分割线 | 中间 0.5px solid `gray6` |
+| 分割线 | 顶部 0.5px solid `border-divider` |
+| 竖分割线 | 中间 0.5px solid `border-divider` |
 
 ## 弱化关闭（类型6）
 
@@ -193,7 +193,7 @@ This file records the Figma visual style only.
 |---|---|
 | 关闭图标 | 28×28px 圆形关闭按钮 |
 | 位置 | 对话框下方居中，间距 24px |
-| 颜色 | `anti`（白色） |
+| 颜色 | `text-inverse`（白色） |
 | 说明 | 用于不需要强制操作的场景，用户可直接关闭 |
 
 ## 交互行为

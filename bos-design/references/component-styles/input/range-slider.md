@@ -34,8 +34,8 @@ Values are displayed as static labels at the left and right ends of the slider. 
 | Property | Value |
 |---|---|
 | Layout | Flex row, items centered, 8px gap |
-| Min label | Left of track, 14px regular, `gray1`, right-aligned |
-| Max label | Right of track, 14px regular, `gray1`, right-aligned |
+| Min label | Left of track, 14px regular, `text-primary`, right-aligned |
+| Max label | Right of track, 14px regular, `text-primary`, right-aligned |
 | Track width | Flex 1 (fills available space) |
 
 #### Value Bubble (above thumb)
@@ -44,7 +44,7 @@ Values are displayed as static labels at the left and right ends of the slider. 
 |---|---|
 | Position | Centered above thumb, bottom offset ~6px above thumb top |
 | Font | `14/CN-Regular` 14px, weight 400, line-height 22px |
-| Color | `gray1` |
+| Color | `text-primary` |
 | Alignment | Center, `white-space: nowrap` |
 
 ### Variant 2: 数值在滑杆下面的模式 (Values Below Track)
@@ -56,7 +56,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Property | Value |
 |---|---|
 | Layout | Flex row, space-between, items baseline |
-| Hint text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `gray2` |
+| Hint text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `text-secondary` |
 | Value text | `Mark/14-semibold` 14px, weight 600, line-height 22px, `Branding-1` |
 | Margin bottom | 8px |
 
@@ -66,7 +66,7 @@ A header row above the track shows a hint label and the current selected value. 
 |---|---|
 | Layout | Flex row, space-between |
 | Font | `Body/12-regular` 12px, weight 400, line-height 18px |
-| Color | `gray2` |
+| Color | `text-secondary` |
 | Margin top | 4px |
 
 ## Track
@@ -76,7 +76,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Property | Value |
 |---|---|
 | Height | 4px |
-| Background | `gray6` |
+| Background | `border-divider` |
 | Border radius | `radius-full` (Variant 1) / `radius-xs` (Variant 2) |
 | Width | 100% of container |
 
@@ -97,7 +97,7 @@ A header row above the track shows a hint label and the current selected value. 
 |---|---|
 | Size | 24×24px (Variant 1) / 28×28px (Variant 2) |
 | Shape | Circle (`border-radius: 50%` / `radius-full`) |
-| Background | `anti` |
+| Background | `text-inverse` |
 | Border | 2px solid `Branding-1` |
 | Shadow | `Shadow/Shadow-1`（见 `references/design.md` Shadow 体系） |
 | Position | Absolute, centered vertically on track, `transform: translate(-50%, -50%)` |
@@ -135,10 +135,10 @@ A header row above the track shows a hint label and the current selected value. 
 |---|---|
 | `Color/brand/branding-1` | Active track, thumb border, selected value text |
 | `Color/brand/branding-2` | Thumb grip lines |
-| `Color/icon&text/gray1-text-icon-color-default` | End labels, value bubble text |
-| `Color/icon&text/gray2-tex-icon-color-secondary` | Header hint text, below-track labels |
-| `Color/neutral/gray6-component-stroke` | Inactive track |
-| `Color/neutral/white1-bg-color-container` | Thumb background |
+| `Color/icon&text/text-primary-text-icon-color-default` | End labels, value bubble text |
+| `Color/icon&text/text-secondary-tex-icon-color-secondary` | Header hint text, below-track labels |
+| `Color/neutral/border-divider-component-stroke` | Inactive track |
+| `Color/neutral/surface-primary-bg-color-container` | Thumb background |
 
 ## Interaction
 

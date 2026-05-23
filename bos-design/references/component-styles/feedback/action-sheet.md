@@ -32,7 +32,7 @@ This file records the Figma visual style only.
 │  ├─────────────────────────────────┤    │
 │  │  操作三                          │    │
 │  ├─────────────────────────────────┤    │
-│  │  ██████ 8px 间隔 ██████         │    │  ← gray7 分隔条
+│  │  ██████ 8px 间隔 ██████         │    │  ← surface-component 分隔条
 │  ├─────────────────────────────────┤    │
 │  │  取消                            │    │  ← 取消按钮
 │  ├─────────────────────────────────┤    │
@@ -50,7 +50,7 @@ This file records the Figma visual style only.
 | 描述很长 | 描述文案最多 20 字，超出截断 |
 | 特殊选项 | 某些操作项可自定义颜色（如危险操作用 `Error-1`，品牌操作用 `Branding-1`） |
 | 选项中辅助文案 | 操作项下方有辅助描述文字 |
-| 禁用选项 | 某些操作项不可点击，文字变为 `gray4` |
+| 禁用选项 | 某些操作项不可点击，文字变为 `text-disabled` |
 
 ## 遮罩层
 
@@ -63,7 +63,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `white1` |
+| Background | `surface-primary` |
 | 圆角 | 顶部 `radius-3xl`（第一梯度，面板级），底部 0 |
 | 位置 | 屏幕底部，贴底 |
 | 宽度 | 100%（390px） |
@@ -73,9 +73,9 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | Padding | 12px 10px |
-| 字体 | 14px / regular 400 / `gray3` / line-height 22px / center |
+| 字体 | 14px / regular 400 / `text-placeholder` / line-height 22px / center |
 | 最大字数 | 20 字，超出截断（...） |
-| 分割线 | 底部 0.5px solid `gray6` |
+| 分割线 | 底部 0.5px solid `border-divider` |
 | 宽度 | 366px（10px 左右 padding） |
 
 ## 操作项
@@ -84,24 +84,24 @@ This file records the Figma visual style only.
 |---|---|
 | 高度 | 56px（padding 16px 上下） |
 | Padding | 16px 10px |
-| 字体 | 16px / regular 400 / `gray1` / line-height 24px / center |
-| 背景 | `white1` |
-| 按压态 | 背景变为 `gray8` |
+| 字体 | 16px / regular 400 / `text-primary` / line-height 24px / center |
+| 背景 | `surface-primary` |
+| 按压态 | 背景变为 `surface-page` |
 
 ### 操作项颜色变体
 
 | 变体 | 文字颜色 | 说明 |
 |---|---|
-| 默认 | `gray1` | 普通操作 |
+| 默认 | `text-primary` | 普通操作 |
 | 危险 | `Error-1` | 退出登录、注销账号等破坏性操作 |
 | 品牌 | `Branding-1` | 强调操作 |
-| 禁用 | `gray4` | 不可操作，无按压态 |
+| 禁用 | `text-disabled` | 不可操作，无按压态 |
 
 ### 操作项辅助文案
 
 | Property | Value |
 |---|---|
-| 字体 | 12px / regular 400 / `gray3` / line-height 18px / center |
+| 字体 | 12px / regular 400 / `text-placeholder` / line-height 18px / center |
 | 与主文字间距 | 4px |
 | 位置 | 主文字下方 |
 
@@ -110,7 +110,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 高度 | 8px |
-| Background | `gray7` |
+| Background | `surface-component` |
 | 宽度 | 100% |
 
 ## 取消按钮
@@ -118,16 +118,16 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 高度 | 56px |
-| 字体 | 16px / regular 400 / `gray1` / line-height 24px / center |
-| 背景 | `white1` |
-| 按压态 | 背景变为 `gray8` |
+| 字体 | 16px / regular 400 / `text-primary` / line-height 24px / center |
+| 背景 | `surface-primary` |
+| 按压态 | 背景变为 `surface-page` |
 
 ## 底部安全区
 
 | Property | Value |
 |---|---|
 | 高度 | 34px（iPhone X 及以上） |
-| Background | `white1` |
+| Background | `surface-primary` |
 | 说明 | 取消按钮下方，叠在底部导航安全区上 |
 
 ## 交互行为

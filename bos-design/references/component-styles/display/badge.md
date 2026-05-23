@@ -68,7 +68,7 @@ Used to indicate the count of new content or pending items. Max value is 99; val
 | Border-radius | `radius-full` |
 | Background | `Error-1` |
 | Font | `PingFang SC:Semibold`, 10px, weight 600, line-height 14px |
-| Text color | `anti` |
+| Text color | `text-inverse` |
 | Text align | Center |
 
 ### Number Formatting
@@ -106,7 +106,7 @@ Used for new feature alerts or key feature recommendations. Typically displays "
 | Border-radius | `radius-xl` top-left / `radius-xl` top-right / `radius-xl` bottom-right / **1px bottom-left** |
 | Background | `Error-1` |
 | Font | `PingFang SC:Semibold`, 10px, weight 600, line-height 14px |
-| Text color | `anti` |
+| Text color | `text-inverse` |
 | Text align | Center |
 
 The distinctive 1px bottom-left corner creates the asymmetric "ribbon tail" look. The other three corners are rounded.
@@ -117,7 +117,7 @@ Some ribbon badges (e.g. overlaid on background images) add a 1px white border f
 
 | Property | Value |
 |---|---|
-| Border | 1px solid `anti` |
+| Border | 1px solid `text-inverse` |
 | Border-radius | `radius-xl` TL / `radius-2xl` TR / `radius-2xl` BR / 1px BL |
 
 Note: the bordered variant uses asymmetric 8/10/10/1 radii (not uniform increase).
@@ -151,8 +151,8 @@ Note: the bordered variant uses asymmetric 8/10/10/1 radii (not uniform increase
 | Token | Use |
 |---|---|
 | `Color/error/error-1` | Badge background (all types) |
-| `Color/icon&text/text-icon-color-anti` `white1` | Badge text (number, ribbon) |
-| `Color/neutral/white1-bg-color-container` | Ribbon badge white border |
+| `Color/icon&text/text-icon-color-text-inverse` `surface-primary` | Badge text (number, ribbon) |
+| `Color/neutral/surface-primary-bg-color-container` | Ribbon badge white border |
 
 ## Positioning Rules
 

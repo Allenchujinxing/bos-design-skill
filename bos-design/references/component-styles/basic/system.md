@@ -42,8 +42,8 @@ This file records the Figma visual style only.
 
 | 主题 | 时间颜色 | 图标颜色 | 背景 |
 |---|---|---|
-| Light | gray1 | gray1 | 透明或白色 |
-| Dark | white1 | white1 | 透明或深色 |
+| Light | text-primary | text-primary | 透明或白色 |
+| Dark | surface-primary | surface-primary | 透明或深色 |
 
 ### 使用规则
 
@@ -69,8 +69,8 @@ This file records the Figma visual style only.
 | 元素 | 样式 |
 |---|---|
 | 小横条 | 宽 140px（36%屏宽），高 5px，圆角 2.5px，水平居中 |
-| 小横条颜色（Light） | gray1 |
-| 小横条颜色（Dark） | white1 |
+| 小横条颜色（Light） | text-primary |
+| 小横条颜色（Dark） | surface-primary |
 | 小横条垂直位置 | 距顶部 38.24%（约 13px） |
 
 ### 使用规则
@@ -153,7 +153,7 @@ This file records the Figma visual style only.
   align-items: flex-end;
   justify-content: space-between;
   padding: 0 16px 10px;
-  background: var(--white1); /* white1 */
+  background: var(--surface-primary); /* surface-primary */
 }
 .status-bar .time {
   font-size: 16px;
@@ -184,7 +184,7 @@ This file records the Figma visual style only.
   content: '';
   width: 140px;
   height: 5px;
-  background: var(--gray1); /* gray1 */
+  background: var(--text-primary); /* text-primary */
   border-radius: 2.5px;
   opacity: 0.2;
 }
