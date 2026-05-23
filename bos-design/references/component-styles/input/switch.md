@@ -149,14 +149,14 @@ Switch 由以下部分组成：
 
 | Token | Use |
 |---|---|
-| `Color/brand/branding-1` | | 开启状态轨道背景（默认） |
-| `Color/brand/branding-2` | | 开启+禁用状态轨道背景 |
-| `Color/neutral/gray5-component-border` | | 关闭状态轨道背景 |
-| `Color/neutral/gray8-bg-color-page` | | 关闭+禁用状态轨道背景 |
-| `Color/neutral/white1-bg-color-container` | | 滑块颜色、开启文字颜色 |
-| `Color/icon&text/gray3-text-icon-color-placeholder` | | 关闭状态内嵌文字颜色 |
-| `Color/warning/warning-1` | | 自定义颜色：警告橙 |
-| `Color/success/success-color` `Success-1` | 自定义颜色：成功绿 |
+| `Color/brand/branding-1` | 开启状态轨道背景（默认） |
+| `Color/brand/branding-2` | 开启+禁用状态轨道背景 |
+| `Color/neutral/gray5-component-border` | 关闭状态轨道背景 |
+| `Color/neutral/gray8-bg-color-page` | 关闭+禁用状态轨道背景 |
+| `Color/neutral/white1-bg-color-container` | 滑块颜色、开启文字颜色 |
+| `Color/icon&text/gray3-text-icon-color-placeholder` | 关闭状态内嵌文字颜色 |
+| `Color/warning/warning-1` | 自定义颜色：警告橙 |
+| `Color/success/success-color` | 自定义颜色：成功绿 |
 
 ## States
 
@@ -171,7 +171,7 @@ Switch 由以下部分组成：
 
 | Token | Use |
 |---|---|
-| 一级阴影（灰色背景） | `shadow-thumb` | 滑块投影（双层阴影，主阴影 + 微边缘） |
+| `shadow-thumb` | 滑块投影（双层阴影，主阴影 + 微边缘） |
 
 ## Transition 过渡动效
 
