@@ -135,11 +135,11 @@ Switch 由以下部分组成：
 
 开启状态的轨道背景色可自定义，常见预设：
 
-| 颜色名称 | Token | Value | 示例场景 |
+| 颜色名称 | Token | 示例场景 |
 |---|---|---|
-| 品牌蓝（默认） | `Color/brand/branding-1` `Branding-1` | 通用开关 |
-| 警告橙 | `Color/warning/warning-1` `Warning-1` | 警告/提醒类开关 |
-| 成功绿 | `Color/success/success-color` `Success-1` | 成功/确认类开关 |
+| 品牌蓝（默认） | `Branding-1` | 通用开关 |
+| 警告橙 | `Warning-1` | 警告/提醒类开关 |
+| 成功绿 | `Success-1` | 成功/确认类开关 |
 
 自定义颜色仅影响开启状态的轨道背景色，关闭状态始终使用 `gray5`。禁用状态下自定义颜色不生效，统一使用 `Branding-2`（开启禁用）或 `gray8`（关闭禁用）。
 

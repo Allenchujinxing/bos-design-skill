@@ -34,10 +34,10 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 
 | Property | Value |
 |---|---|
-| Background | `gray8` `gray8` |
+| Background | `gray8` |
 | Padding | 16px horizontal, 4px vertical |
 | Font | `Mark/14-semibold` — PingFang SC, 14px, weight 600, line-height 22px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Width | Full parent width |
 | Height | 30px (4 + 22 + 4) |
 
@@ -48,9 +48,9 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 | Background | `white1` |
 | Padding | 12px horizontal (container), 16px vertical (item row) |
 | Font | `Body/16-regular` — PingFang SC, 16px, weight 400, line-height 24px |
-| Color | `gray1` `gray1` |
+| Color | `gray1` |
 | Text overflow | Ellipsis, single line |
-| Bottom border | 0.5px solid `gray6` `gray6` |
+| Bottom border | 0.5px solid `gray6` |
 | Row height | 56px (16 + 24 + 16) |
 
 ## Index Bar (indexes-bar)
@@ -61,14 +61,14 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 | Width | 20px |
 | Layout | Flex column, centered, 2px gap |
 | Font (default) | `Body/12-regular` — PingFang SC, 12px, weight 400, line-height 18px |
-| Color (default) | `gray1` `gray1` |
+| Color (default) | `gray1` |
 | Alignment | Center |
 
 ### Active Index Item
 
 | Property | Value |
 |---|---|
-| Background | `Branding-1` `Branding-1` |
+| Background | `Branding-1` |
 | Width | 20px |
 | Border-radius | 40px (full round) |
 | Padding | 1px vertical |
@@ -80,7 +80,7 @@ Use Index for long scrollable lists that need quick jump-to-section navigation v
 | Property | Value |
 |---|---|
 | Size | 48×48px |
-| Background | `gray5` `gray5` |
+| Background | `gray5` |
 | Border-radius | 40px (full round) |
 | Position | Right 28px from the index bar (to the left of the active item) |
 | Font | `Headline/20-semibold` — PingFang SC, 20px, weight 600, line-height 28px |

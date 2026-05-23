@@ -80,13 +80,15 @@ This file records the Figma visual style only.
 
 **SVG 资产：** `assets/map/location-dot.svg`（44×48px，含蓝点、白色描边环、方向三角和阴影）
 
+> 注：此 SVG 为 Figma 固定导出资产，内部色值 `#0076FF` 不随 design.md token 动态替换。如需换主题色，需重新从 Figma 导出或改用 `currentColor` 方案。
+
 | Property | Value |
 |---|---|
 | SVG 尺寸 | 44×48px |
 | 蓝点 | 圆形，半径 7.8px，`Branding-1` 填充 |
 | 白色描边环 | 3.12px 白色描边 |
 | 方向三角 | 右上方，`Branding-1` 填充，跟随陀螺仪旋转 |
-| 阴影 | 向下 4.16px，模糊 5.2px，rgba(23,28,33,0.11) |
+| 阴影 | `shadow-1`（来自固定 SVG 资产，不随 design token 替换） |
 
 ### 精度圈（代码动态渲染）
 
