@@ -1,5 +1,22 @@
 # 更新记录
 
+## 2026-05-23（第二次更新）
+
+- SKILL.md 从 180 行瘦身到 75 行：删掉重复的 Reference Map（移到 `references/README.md`），合并三个 Output 段为一个，去掉和其他段说同一件事的条目。
+- 修了一个文件名引用错误：`text-inverse-generic-ai.md` 改成实际存在的 `anti-generic-ai.md`。
+- 加了组件优先链一句话总结：`component-styles/ > design.md > Taroify 行为语义`。
+- H5 硬规则集中到一处：390×844 基准、状态栏、Home Indicator、安全区、iconfont、轻量 JS。
+- Execution Principle 从"必须一次对齐"改成"尽量确认再生成，缺什么标出来"。
+- design.md 从 570 行压到 281 行：
+  - 第1章大段叙述砍成几行关键场景词。
+  - 修了 Gutter 矛盾（第6章写 8px，第7章写 16px，统一为 8px）。
+  - Layout 和 Grid 合并为一章。
+  - Shadow 去掉重复表格。
+  - Do & Don't 从 120 行压成 30 行速查。
+  - 删掉 motion 规则（只有一句话，对原型没实质约束）。
+- 新建 `references/README.md` 作为文件索引，SKILL.md 不再重复列文件清单。
+
+
 ## 2026-05-23
 
 - 组件样式全面 token 化：颜色使用纯语义 token 名（不带色值），圆角改为语义命名（`radius-xs` 到 `radius-full`），遮罩和投影使用 `translucent-*` / `shadow-*` token。
