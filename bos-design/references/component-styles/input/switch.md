@@ -156,7 +156,7 @@ Switch 由以下部分组成：
 | `Color/neutral/white1-bg-color-container` | `#ffffff` | 滑块颜色、开启文字颜色 |
 | `Color/icon&text/gray3-text-icon-color-placeholder` | `#879099` | 关闭状态内嵌文字颜色 |
 | `Color/warning/warning-1` | `#fb990f` | 自定义颜色：警告橙 |
-| `Color/success/success-color` | `#07c160` | 自定义颜色：成功绿 |
+| `Color/success/success-color` | `Success-1` `#07c160` | 自定义颜色：成功绿 |
 
 ## States
 

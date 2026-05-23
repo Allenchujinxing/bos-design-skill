@@ -53,7 +53,7 @@ This file records the Figma visual style only.
 | 按钮 | 背景 | 文字 | 圆角 | 高度 |
 |---|---|---|---|---|
 | 重置 | Branding-3 `#EBF4FF` | 16px / semibold 600 / Branding-1 `#0076FF` | 8px | 40px |
-| 确认 | Branding-1 `#0076FF` | 16px / semibold 600 / anti `#FFFFFF` | 8px | 40px |
+| 确认 | Branding-1 `#0076FF` | 16px / semibold 600 / anti `white1` `#FFFFFF` | 8px | 40px |
 
 **按钮支持展示已选数量或不显示**，如"确认(3)"，根据业务需求决定。
 

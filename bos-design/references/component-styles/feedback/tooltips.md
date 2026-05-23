@@ -74,7 +74,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 10px / semibold 600 / `warning`（#FB990F）/ line-height 14px |
+| 字体 | 10px / semibold 600 / `warning`（`Warning-1` `#FB990F`）/ line-height 14px |
 | 位置 | 文字左侧（紧邻文字） |
 
 ---

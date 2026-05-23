@@ -201,7 +201,7 @@ empty-<scene>-<size>.png
 | `gray3` | `#879099` | 正文/描述文字 |
 | `Branding-1` | `#0076ff` | 按钮背景 |
 | `Branding-0` | `#0061d1` | 按钮按压态 |
-| `anti` | `#ffffff` | 按钮文字 |
+| `anti` | `white1` `#ffffff` | 按钮文字 |
 | `white1` | `#ffffff` | 页面/模块背景 |
 
 ## State Semantics And Copy

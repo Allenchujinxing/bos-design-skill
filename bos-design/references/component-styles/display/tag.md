@@ -92,9 +92,9 @@ From the Figma spec notes:
 
 | Style | Background | Border | Text color | Icon color |
 |---|---|---|---|---|
-| Discount_full | `Discount-1` `#ff5526` | none | `white` | `white` |
-| Discount_light | `Discount-3` `#fff1ee` | none | `Discount-1` `#ff5526` | `#ff5526` |
-| Discount_line | none | 1px solid `Discount-2` `#ffd6cb` | `Discount-1` `#ff5526` | `#ff5526` |
+| Discount_full | `Discount-1` `LowPrice-1` `#ff5526` | none | `white` | `white` |
+| Discount_light | `Discount-3` `LowPrice-3` `#fff1ee` | none | `Discount-1` `LowPrice-1` `#ff5526` | `#ff5526` |
+| Discount_line | none | 1px solid `Discount-2` `LowPrice-2` `#ffd6cb` | `Discount-1` `LowPrice-1` `#ff5526` | `#ff5526` |
 
 ### Danger
 
@@ -144,16 +144,16 @@ Tags support the following states:
 | `Color/icon&text/gray1-text-icon-color-default` | `#111111` | Default full bg, Default text |
 | `Color/neutral/gray5-component-border` | `#d3dae0` | Default line border |
 | `Color/neutral/gray7-bg-color-component` | `#f0f3f5` | Default light bg |
-| `Color/discount/discount-1` | `#ff5526` | Discount full bg, Discount text |
-| `Color/discount/discount-2` | `#ffd6cb` | Discount line border |
-| `Color/discount/discount-3` | `#fff1ee` | Discount light bg |
+| `Color/discount/discount-1` | `LowPrice-1` `#ff5526` | Discount full bg, Discount text |
+| `Color/discount/discount-2` | `LowPrice-2` `#ffd6cb` | Discount line border |
+| `Color/discount/discount-3` | `LowPrice-3` `#fff1ee` | Discount light bg |
 | `Color/error/error-0` | `#cb1f1f` | Danger full bg, Danger text |
 | `Color/error/error-2` | `#fdcbcb` | Danger line border |
 | `Color/error/error-3` | `#feeeee` | Danger light bg |
 | `Color/success/success-0` | `#069e4f` | Success full bg, Success text |
 | `Color/success/success-2` | `#c3f0d9` | Success line border |
 | `Color/success/success-3` | `#ebfaf2` | Success light bg |
-| `Color/icon&text/text-icon-color-anti` | `#ffffff` | White text on full-color tags |
+| `Color/icon&text/text-icon-color-anti` | `white1` `#ffffff` | White text on full-color tags |
 | `Color/neutral/white1-bg-color-container` | `#ffffff` | White text (alternate token) |
 
 ## Do Not Infer
