@@ -65,7 +65,7 @@
 | Property | Value |
 |---|---|
 | 高度 | 36px |
-| 宽度 | 366px（两侧 12px margin，全宽） |
+| 宽度 | 366px（两侧 `space-page-margin`，全宽） |
 | 背景色 | `gray7` `gray7` |
 | 圆角 | `radius-xl` |
 | 内边距 | 2px |

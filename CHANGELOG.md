@@ -4,6 +4,7 @@
 
 - 将组件样式文件中的所有颜色硬编码（hex 值）替换为纯 token 语义名，组件不再绑定具体色值。
 - 将圆角体系从数值命名（radius-2/4/6/8/10/12）改为语义命名（radius-xs/sm/md/lg/xl/2xl/3xl/full），组件文件中的圆角 px 值全部替换为语义 token。
+- 新增页面级间距 token（space-page-margin / space-module-gap / space-card-padding / space-section-gap / space-gutter），组件内部间距保持 px 不变。
 - 为 `card.md` 补充「视觉 Token 声明」，修正旧路径 `DESIGN-HelloCN.md` → `references/design.md`。
 - 组件体系现在是通用的：更换 `design.md` 即可适配不同视觉系统（HelloCN、HelloRide、HelloSaaS），组件结构和行为不变。
 - 新增 `evals/` 目录，包含 6 个按设计能力维度划分的 eval 用例，用于验证 skill 输出稳定性。

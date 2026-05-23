@@ -146,7 +146,7 @@ Each variant replaces the default tips text or is combined with the arrow based 
 
 | Property | Value |
 |---|---|
-| Width | 366px (12px side margins from 390px screen) |
+| Width | 366px (`space-page-margin` from 390px screen) |
 | Background | `white1` |
 | Border-radius | `radius-3xl` |
 | Last row divider | Hidden (card edge replaces it) |

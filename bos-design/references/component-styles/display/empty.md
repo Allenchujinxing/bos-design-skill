@@ -90,7 +90,7 @@ empty-<scene>-<size>.png
 | Illustration | 180×180px, 水平居中 |
 | Gap (illustration → title) | 20px |
 | Title | 18px / semibold 600 / `gray1` / line-height 26px / center |
-| Max title width | 366px (即 12px 左右边距) |
+| Max title width | 366px (即 `space-page-margin` 左右边距) |
 
 ### Variant 2: 标题 + 正文 (Title + body)
 
@@ -248,7 +248,7 @@ Empty is not decoration. It should explain what happened, why it matters, and wh
 | Illustration → Title (local) | 12px | 局部级 |
 | Title → Body | 8px | 页面级有正文时 |
 | Body/Title → Button | 12px | 有按钮时 |
-| 页面左右边距 | 12px | max-width = 366px |
+| 页面左右边距 | `space-page-margin` | max-width = 366px |
 
 ## Do Not Infer
 

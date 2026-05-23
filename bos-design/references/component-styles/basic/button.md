@@ -58,7 +58,7 @@ Observed examples:
 - Label with one icon: `large` 104px.
 - Label with leading and trailing icons: `large` 132px.
 - Icon-only button is square: 48, 40, 32, or 28px by size.
-- Full-width mobile button: 366px wide in a 390px page with 12px side margins.
+- Full-width mobile button: 366px wide in a 390px page with `space-page-margin`.
 - Two-button group: two 177px buttons with an 8px gap in a 390px page.
 
 ## Typography
@@ -139,7 +139,7 @@ The Figma spec notes that when customizing a button theme color, the pressed and
 
 ## Layout Usage
 
-- Full-width actions in a mobile page use 12px side margins.
+- Full-width actions in a mobile page use `space-page-margin`.
 - Button groups use equal widths and an 8px gap.
 - Keep only one primary filled action in the same immediate decision area.
 - Pair destructive or high-risk `error` actions with confirmation patterns from Taroify/Dialog when needed.

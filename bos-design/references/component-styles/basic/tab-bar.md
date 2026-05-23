@@ -148,7 +148,7 @@ In the icon placeholder, the selected icon uses `Branding-1` blue and the unsele
 
 ### Capsule (floating)
 
-- Narrower than viewport (366px in 390px design, ~12px side margins).
+- Narrower than viewport (366px in 390px design, ~`space-page-margin`).
 - White background with full-round corners (`radius-full`).
 - Shadow: `0px 2px 8px rgba(17,17,17,0.04)`.
 - No top divider line.
