@@ -157,7 +157,7 @@
 | 字号 | 14px, weight 600, line-height 22px | 14px, weight 400, line-height 22px |
 | 颜色 | `gray1` `gray1` | `gray2` `gray2` |
 | 圆角 | `radius-lg` | `radius-lg` |
-| 阴影 | `0 3px 4px rgba(0,0,0,0.12)` | 无 |
+| 阴影 | `shadow-nav` | 无 |
 | 内边距 | 12px horizontal, 5px vertical | 12px horizontal, 5px vertical |
 | 布局 | `flex: 1 0 0`, 均分 | `flex: 1 0 0`, 均分 |
 
@@ -186,7 +186,7 @@
 | 容器 padding | 2px | 2px |
 | 容器 gap | 0（滑块定位） | 2px |
 | 选中项圆角 | `radius-lg` | `radius-xs` |
-| 选中项阴影 | `0 3px 4px rgba(0,0,0,0.12)` | 无 |
+| 选中项阴影 | `shadow-nav` | 无 |
 | 字号 | 14px | 12px |
 | Item 内边距 | 12px horizontal | 8px horizontal |
 

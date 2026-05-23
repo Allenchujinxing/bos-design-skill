@@ -32,7 +32,7 @@ This file records the Figma visual style only.
 | 圆角 | 顶部 0px，底部 `radius-3xl` |
 | 宽度 | 100%（390px） |
 | 高度 | 自适应内容，最大不超过 70vh |
-| 遮罩 | `rgba(0,0,0,0.7)` 覆盖面板以下区域 |
+| 遮罩 | `translucent` 覆盖面板以下区域 |
 | 溢出 | 内容超出时面板内部可滚动 |
 
 ---
@@ -329,7 +329,7 @@ This file records the Figma visual style only.
 |---|---|
 | 背景 | white1 |
 | 圆角 | `radius-xl` |
-| 投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
+| 投影 | 二级投影（见 `references/design.md` Shadow 体系） |
 | 宽度 | 自适应内容（最小 104px） |
 | 箭头 | 顶部三角形，6×8px，白色，指向触发元素 |
 | 位置 | 浮在触发元素下方 |

@@ -99,7 +99,7 @@ A header row above the track shows a hint label and the current selected value. 
 | Shape | Circle (`border-radius: 50%` / `radius-full`) |
 | Background | `anti` |
 | Border | 2px solid `Branding-1` `Branding-1` |
-| Shadow | `Shadow/Shadow-1`: `0 2px 4px -1px rgba(0,0,0,0.12)`, `0 4px 5px 0 rgba(0,0,0,0.08)`, `0 1px 10px 0 rgba(0,0,0,0.05)` |
+| Shadow | `Shadow/Shadow-1`（见 `references/design.md` Shadow 体系） |
 | Position | Absolute, centered vertically on track, `transform: translate(-50%, -50%)` |
 | Cursor | `grab` (default), `grabbing` (while dragging) |
 | Z-index | 2 (above track) |

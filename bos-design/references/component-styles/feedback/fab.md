@@ -25,7 +25,7 @@ This file records the Figma visual style only.
 | 形状 | 圆形 |
 | 尺寸 | 40×40px |
 | 背景 | Branding-1 |
-| 投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
+| 投影 | 二级投影 `shadow-2` |
 | 图标 | 20×20px，anti `white1` |
 | 位置 | 固定定位，默认右下角 |
 | 距右 | 12px |

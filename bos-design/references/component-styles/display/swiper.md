@@ -90,7 +90,7 @@ This file records the Figma visual style only.
 | 背景 | `black` 40% 不透明 |
 | 尺寸 | 高 24px，宽自适应（min-width 37px） |
 | 圆角 | `radius-3xl` (全圆角胶囊) |
-| 文字 | 12px / regular 400 / `#fff` / line-height 20px / center |
+| 文字 | 12px / regular 400 / `anti` / line-height 20px / center |
 | 格式 | `当前/总数`，如 `1/9` |
 
 ### 数字指示器位置变体
@@ -139,7 +139,7 @@ This file records the Figma visual style only.
 | `indicatorType` | enum | 按样式 | `dots` 圆点 / `number` 数字胶囊 |
 | `indicatorPosition` | enum | `center` | `center` / `left` / `right`（仅数字指示器） |
 | `indicatorColor` | string | `anti` | 圆点颜色（active 100%，inactive 40%） |
-| `indicatorBg` | string | `rgba(0,0,0,0.4)` | 数字胶囊背景色 |
+| `indicatorBg` | string | `translucent-light` | 数字胶囊背景色 |
 | `borderRadius` | number | 12 | 容器圆角 (px)，全屏场景可设为 0 |
 | `height` | number/string | 按图片比例 | 容器高度 |
 
@@ -151,7 +151,7 @@ This file records the Figma visual style only.
 |---|---|---|
 | 圆点 (active) | `white1` 100% | 当前页圆点 |
 | 圆点 (inactive) | `white1` 40% | 非当前页圆点 |
-| 数字指示器背景 | `rgba(0,0,0,0.4)` | 数字胶囊底色 |
+| 数字指示器背景 | `translucent-light` | 数字胶囊底色 |
 | 数字指示器文字 | `white1` | 页码文字 |
 
 ## 切图资产

@@ -63,7 +63,7 @@ Items use equal flex distribution within the container.
 | Border-radius | `radius-full` (text/icon) or `radius-full` (icon with indicator) |
 | Padding | 12px horizontal, 8px vertical |
 | Item gap | 8px |
-| Shadow | `0px 2px 8px rgba(17,17,17,0.04)` (一级阴影-用于灰色背景) |
+| Shadow | `shadow-1` (一级阴影-用于灰色背景) |
 | Layout | Flex row, items centered, no top divider |
 
 ## Item Dimensions
@@ -150,7 +150,7 @@ In the icon placeholder, the selected icon uses `Branding-1` blue and the unsele
 
 - Narrower than viewport (366px in 390px design, ~`space-page-margin`).
 - White background with full-round corners (`radius-full`).
-- Shadow: `0px 2px 8px rgba(17,17,17,0.04)`.
+- Shadow: `shadow-1`.
 - No top divider line.
 - Floats above the page content with spacing from bottom edge.
 

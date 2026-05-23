@@ -39,7 +39,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.8)` |
+| Background | `translucent-heavy` |
 | 圆角 | `radius-md` |
 | 高度 | 28px |
 | Padding | 5px 上下，4px 左右（有关闭按钮时左侧 4px） |
@@ -85,7 +85,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.8)` |
+| Background | `translucent-heavy` |
 | 圆角 | `radius-md` |
 | 高度 | 36px |
 | Padding | 6px 上下，6px 左右 |
@@ -103,7 +103,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 字体 | 12px / regular 400 / 黑色（#000）/ line-height 18px |
+| 字体 | 12px / regular 400 / `gray1`/ line-height 18px |
 | 对齐 | 居中 |
 | 最大行数 | 1 行 |
 
@@ -150,7 +150,7 @@ This file records the Figma visual style only.
 
 | 示例 | 背景色 | 文字色 |
 |---|---|---|
-| 默认深色 | `rgba(0,0,0,0.8)` | `anti`（白色） |
+| 默认深色 | `translucent-heavy` | `anti`（白色） |
 | 品牌色 | `brand` | 白色 |
 | 自定义 | 任意色值 | 根据背景色自动适配 |
 
@@ -181,6 +181,6 @@ This file records the Figma visual style only.
 - 不要让小尺寸气泡超过 28px 高度。
 - 不要让大尺寸气泡超过 36px 高度。
 - 不要省略箭头 — 箭头是气泡与触发元素的视觉关联。
-- 不要硬编码颜色 — 默认背景 `rgba(0,0,0,0.8)` 为通用值，支持自定义。
+- 不要硬编码颜色 — 默认背景 `translucent-heavy` 为通用值，支持自定义。
 - 不要让文字换行 — 气泡内文字始终单行展示。
 - 不要在小尺寸气泡中使用 16px 图标 — 小尺寸固定 12px。

@@ -153,7 +153,7 @@ This file records the Figma visual style only.
   align-items: flex-end;
   justify-content: space-between;
   padding: 0 16px 10px;
-  background: #fff;
+  background: var(--white1); /* white1 */
 }
 .status-bar .time {
   font-size: 16px;
@@ -184,7 +184,7 @@ This file records the Figma visual style only.
   content: '';
   width: 140px;
   height: 5px;
-  background: #111;
+  background: var(--gray1); /* gray1 */
   border-radius: 2.5px;
   opacity: 0.2;
 }

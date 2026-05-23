@@ -97,7 +97,7 @@ This file records the Figma visual style only.
 ## Do Not Infer
 
 - 不要使用 shimmer/光泽滑动动画 — 设计规范定义的是 opacity 呼吸闪烁。
-- 不要使用纯灰色 `#ccc` 或 `#eee` — 使用 design 规范中的 `gray7` token。
+- 不要使用任意灰色近似值 — 使用 design 规范中的 `gray7` token。
 - 不要让占位块布局与实际内容差距过大 — 应尽可能还原。
 - 不要给占位块加边框或阴影。
 - 不要在加载完成时让骨架屏渐隐 — 直接消失，内容渐现 200ms。

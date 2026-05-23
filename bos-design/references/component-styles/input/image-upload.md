@@ -213,7 +213,7 @@ ImagePicker 由以下部分组成：
 | Property | Value |
 |---|---|
 | 位置 | 右上角，与图片边缘对齐 |
-| 背景色 | `translucent-bg-color` `rgba(0,0,0,0.7)` |
+| 背景色 | `translucent` |
 | 内边距 | 2px |
 | 圆角 | 左下 `radius-md`，右上 `radius-xl`（与图片圆角对齐），其余 0 |
 | 图标 | `ic_close_line` 关闭 |
@@ -228,7 +228,7 @@ ImagePicker 由以下部分组成：
 
 | Property | Value |
 |---|---|
-| 蒙层背景 | `rgba(0,0,0,0.6)` |
+| 蒙层背景 | `translucent-medium` |
 | 蒙层圆角 | `radius-xl` |
 | 加载图标 | `ic_loading_line` |
 | 加载图标尺寸 | 20×20px |
@@ -242,7 +242,7 @@ ImagePicker 由以下部分组成：
 
 | Property | Value |
 |---|---|
-| 蒙层背景 | `rgba(0,0,0,0.6)` |
+| 蒙层背景 | `translucent-medium` |
 | 蒙层圆角 | `radius-xl` |
 | 图标 | `ic_refresh_line` 刷新 |
 | 图标形状 | 使用 iconfont `ic_refresh_line` 原图标，不自行调整图标内部形状 |
@@ -263,7 +263,7 @@ ImagePicker 由以下部分组成：
 
 | Property | Value |
 |---|---|
-| 蒙层背景 | `rgba(0,0,0,0.6)` |
+| 蒙层背景 | `translucent-medium` |
 | 蒙层圆角 | `radius-xl` |
 | 图标 | `ic_clear_circle_line` 错误圆圈 |
 | 图标尺寸 | 20×20px |
@@ -299,11 +299,11 @@ ImagePicker 由以下部分组成：
 |---|---|---|
 | `Color/neutral/white1-bg-color-container` | | 容器背景 |
 | `Color/neutral/gray8-bg-color-page` | | 上传按钮背景 |
-| `Color/neutral/translucent-bg-color` | `rgba(0,0,0,0.7)` | 删除按钮背景 |
+| `Color/neutral/translucent-bg-color` | `translucent` | 删除按钮背景 |
 | `Color/icon&text/gray1-text-icon-color-default` | | 标题文字颜色 |
 | `Color/icon&text/gray3-text-icon-color-placeholder` | | 副标题、说明入口颜色 |
 | `Color/error/error-1` | | 必填标记 `*` 颜色 |
-| 蒙层色 | `rgba(0,0,0,0.6)` | 上传中/重新上传/失败蒙层 |
+| 蒙层色 | `translucent-medium` | 上传中/重新上传/失败蒙层 |
 
 ## Typography Summary
 
@@ -319,7 +319,7 @@ ImagePicker 由以下部分组成：
 - 不要改变图片项的正方形比例，宽高始终相等。
 - 不要改变图片间距 8px。
 - 不要改变删除按钮的圆角规则：左下 `radius-md`，右上 `radius-xl`，其余 0。
-- 不要省略蒙层效果，上传中/重新上传/失败状态必须有 `rgba(0,0,0,0.6)` 蒙层。
+- 不要省略蒙层效果，上传中/重新上传/失败状态必须有 `translucent-medium` 蒙层。
 - 不要改变上传按钮的图标尺寸 32×32px。
 - 不要改变状态图标尺寸 20×20px（加载/刷新/错误）。
 - 不要在单选上传模式下同时显示已上传图片和上传按钮。

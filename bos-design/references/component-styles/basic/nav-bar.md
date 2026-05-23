@@ -134,7 +134,7 @@ The center area can replace the text title with a capsule-style tab switcher (`T
 |---|---|---|
 | Background | `white1` | Transparent |
 | Border-radius | `radius-lg` | `radius-lg` |
-| Shadow | `0px 3px 4px rgba(0,0,0,0.12)` | None |
+| Shadow | `shadow-nav` | None |
 | Horizontal padding | 12px | 12px |
 | Vertical padding | 5px | 5px |
 | Font token | `Mark/14-semibold` | `Body/14-regular` |

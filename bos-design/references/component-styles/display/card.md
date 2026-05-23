@@ -112,7 +112,7 @@ This file records the component style spec for mobile.
 | Padding | 12px |
 | 标题字体 | 16px / semibold 600 / gray1 / line-height 24px |
 | Extra 字体 | 14px / regular 400 / Branding-1 / line-height 22px |
-| 分割线 | 底部 0.5px solid Gray6（可选） |
+| 分割线 | 底部 0.5px solid `gray6`（可选） |
 | 布局 | flex，标题左对齐，extra 右对齐 |
 
 ## Body 区域
@@ -169,12 +169,12 @@ This file records the component style spec for mobile.
 
 ## Color Tokens
 
-| Token | Value | Use |
-|---|---|---|
+| Token | Use |
+|---|---|
 | `white1` | 卡片背景 |
-| `Gray6` | 边框、分割线 |
-| `gray8` | `gray8` | 按压态背景 |
-| `gray1` | `#111` | 标题文字 |
+| `gray6` | 边框、分割线 |
+| `gray8` | 按压态背景 |
+| `gray1` | 标题文字 |
 | `gray2` | 正文文字 |
 | `gray3` | 描述文字 |
 | `Branding-1` | Extra 链接色 |

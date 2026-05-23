@@ -10,6 +10,10 @@
 - 新增 `evals/` 目录，包含 6 个按设计能力维度划分的 eval 用例，用于验证 skill 输出稳定性。
 - 简化 README「工作方式」章节为用户视角的 4 步流程说明。
 - 在 `component-styles/index.md` 全局规则中明确：组件内部间距属于 component anatomy，保持 px；不使用页面级 `space-*` token 替代。
+- 修复 token 化回归：button.md Sizes 表的 height/padding 恢复为组件 anatomy px，card.md Color Tokens 表清除残留色值。
+- 为 `icon.md` 补充视觉 Token 声明，标注 iconfont script 与业务图标清单属于项目资产层。
+- 将所有组件文件中的 `rgba()` 遮罩值替换为语义 token（translucent / translucent-heavy / translucent-medium / translucent-light），投影值替换为 shadow token（shadow-1 / shadow-2 / shadow-nav / shadow-thumb）。
+- 在 `design.md` 中补充完整的 translucent 梯度和 shadow token 定义表。
 
 
 ## 2026-05-22

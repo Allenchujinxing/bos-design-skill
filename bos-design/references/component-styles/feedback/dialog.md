@@ -52,7 +52,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.7)`（translucent） |
+| Background | `translucent` |
 | 点击遮罩 | 默认不关闭（需主动操作按钮） |
 
 ## 对话框容器

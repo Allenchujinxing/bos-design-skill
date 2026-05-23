@@ -100,7 +100,7 @@ This file records the Figma visual style only.
 | `Success-1` | complete 填充 + 图标 |
 | `Warning-1` | warning 填充 + 图标 |
 | `Error-1` | error 填充 + 图标 |
-| `gray1` | `#111` | 百分比文字 |
+| `gray1` | 百分比文字 |
 
 ### 状态图标选择
 

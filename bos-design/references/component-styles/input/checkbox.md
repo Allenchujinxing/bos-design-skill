@@ -174,13 +174,13 @@ Multiple Checkbox List items stacked vertically. Used inside popups or full-page
 #### 通栏样式 (Full-width)
 
 - Checkbox Group fills the full screen width (390px)
-- Placed on a dark overlay background `rgba(0,0,0,0.7)`
+- Placed on a dark overlay background `translucent`
 - Items have standard 12px horizontal padding
 
 #### 卡片样式 (Card)
 
 - Checkbox Group is inset from screen edges
-- Placed on a dark overlay background `rgba(0,0,0,0.7)`
+- Placed on a dark overlay background `translucent`
 - Container has reduced width with card-like appearance
 
 ## Color Tokens

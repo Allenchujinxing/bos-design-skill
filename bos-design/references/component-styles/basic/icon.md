@@ -4,6 +4,10 @@
 
 项目统一业务组件图标库，基于 iconfont Symbol 方式接入。业务组件中的图标必须使用本库中的图标，不得使用外部图标库或自行绘制 SVG。`basic/system.md` 中的系统状态栏资产除外。
 
+## 视觉 Token 声明
+
+图标颜色和尺寸引用自 `references/design.md` 的 Icon 规范章节。iconfont Symbol 脚本链接和业务图标清单属于项目资产层，不同项目可替换为各自的 iconfont 库，组件引用方式不变。
+
 ## 接入方式
 
 在 HTML 的 `<head>` 中引入：

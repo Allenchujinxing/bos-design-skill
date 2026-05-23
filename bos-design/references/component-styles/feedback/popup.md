@@ -162,7 +162,7 @@ Title Bar 以下的区域由业务需求定义，常见内容类型：
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.7)` |
+| Background | `translucent` |
 | 点击遮罩 | 关闭弹层 |
 
 ## 自定义能力

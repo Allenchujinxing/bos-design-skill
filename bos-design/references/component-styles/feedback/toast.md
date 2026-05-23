@@ -39,7 +39,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.8)` |
+| Background | `translucent-heavy` |
 | 圆角 | `radius-xl` |
 | 最小宽度 | 124px |
 | 最大宽度 | 无限制（按文字撑开） |
@@ -62,7 +62,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.8)` |
+| Background | `translucent-heavy` |
 | 圆角 | `radius-xl` |
 | 最小宽度 | 124px |
 | 最大宽度 | 175px |
@@ -102,7 +102,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| Background | `rgba(0,0,0,0.8)` |
+| Background | `translucent-heavy` |
 | 圆角 | `radius-xl` |
 | 尺寸 | 90×90px（固定正方形） |
 | 位置 | 页面垂直居中，水平居中 |
@@ -156,5 +156,5 @@ This file records the Figma visual style only.
 - 不要让纯文字超过 2 行。
 - 不要让横向图标模式超过 175px 宽。
 - 不要让竖向图标模式改变 90×90px 的固定尺寸。
-- 不要硬编码颜色 — 容器背景 `rgba(0,0,0,0.8)` 为通用值，文字/图标用 `anti`。
+- 不要硬编码颜色 — 容器背景 `translucent-heavy` 为通用值，文字/图标用 `anti`。
 - 不要省略 loading 旋转动画 — 必须代码实现持续旋转。

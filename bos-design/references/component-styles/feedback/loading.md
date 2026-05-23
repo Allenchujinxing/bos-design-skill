@@ -67,7 +67,7 @@ This file records the Figma visual style only.
 
 | Property | Value |
 |---|---|
-| 遮罩 | `rgba(0,0,0,0.7)` 全屏覆盖 |
+| 遮罩 | `translucent` 全屏覆盖 |
 | 容器投影 | 无（遮罩已提供层级区分） |
 
 ### 无遮罩
@@ -75,7 +75,7 @@ This file records the Figma visual style only.
 | Property | Value |
 |---|---|
 | 遮罩 | 无 |
-| 容器投影 | 二级投影 `0 4px 8px 0 rgba(17,17,17,0.08)` |
+| 容器投影 | 二级投影 `shadow-2` |
 
 ### 加载过程类型
 
